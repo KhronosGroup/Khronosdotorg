@@ -1,3 +1,7 @@
+# OpenCL Resources
+
+We believe the true usefulness of OpenCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/Khronosdotorg)!
+
 ## Open Source OpenCL Implementations
 
 
@@ -263,6 +267,3 @@ This tutorial series from Rob Farber and The Code Project focuses on bringing kn
 *   [NVIDIA OpenCL SDK](https://developer.nvidia.com/opencl) - In addition to OpenCL, NVIDIA supports a variety of GPU-accelerated libraries and high-level programming solutions that enable developers to get started quickly with GPU Computing.
 *   [OpenCL supported Android Devices](https://docs.google.com/spreadsheets/d/1Mpzfl2NmLUVSAjIph77-FOsJeuyD9Xjha89r5iHw1hI/edit#gid=0) -  A collection of OpenCL supported Android Devices.
 
-
-
-We believe the true usefulness of OpenCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/Khronosdotorg)!

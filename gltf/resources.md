@@ -1,3 +1,8 @@
+# glTF Resources
+
+We believe the true usefulness of glTF goes beyond the spec itself; it is an ecosystem of tools, documentation, and extensions contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/Khronosdotorg)!
+
+
 ## glTF Tools
 
 ### Converters
@@ -39,6 +44,4 @@
 *   [Building a WebGL Santa with Cesium and glTF](http://cesiumjs.org/2013/12/23/Building-A-WebGL-Santa-with-Cesium-and-glTF/). Patrick Cozzi. December 2013
 *   [glTF update](http://www.slideshare.net/auradeluxe/gltf-update-with-tony-parisi). Tony Parisi. August 2013
 *   [How I got involved in glTF and Khronos](http://blog.virtualglobebook.com/2013/03/how-i-got-involved-in-gltf-and-khronos.html). Patrick Cozzi, WebGL Meetup. March 2013
-
-We believe the true usefulness of glTF goes beyond the spec itself; it is an ecosystem of tools, documentation, and extensions contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/Khronosdotorg)!
 

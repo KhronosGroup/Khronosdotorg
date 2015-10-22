@@ -8,4 +8,4 @@ We believe the true usefulness of Khronos Technology goes beyond the spec itself
 
 ### glTF
 * **[Khronos resources](https://www.khronos.org/gltf)** [[Contribute]](https://github.com/KhronosGroup/Khronosdotorg/blob/master/gltf/BlueBox.md)
-* **[Community contributed resources](https://www.khronos.org/gltf/resources)** [[Contribute]](https://github.com/KhronosGroup/Khronosdotorg/blob/master/gltf/BlueBox.md)
+* **[Community contributed resources](https://www.khronos.org/gltf/resources)** [[Contribute]](https://github.com/KhronosGroup/Khronosdotorg/blob/master/gltf/Resources.md)

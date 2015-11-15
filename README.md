@@ -7,4 +7,4 @@ The pages under API include partials from the API landing pages on Khronos.org. 
 
 If you find a mistake, or would like to contribute a resource to any of the resource.md pages, Please submit a pull request with your update.
 
-Feel free to use the Issues tracker if you are unsure of something, or find a mistake that you are unable to fix in a pull request. 
+Feel free to use the Issues tracker if you are unsure of something, or find a mistake that you are unable to fix in a pull request. I made a change!

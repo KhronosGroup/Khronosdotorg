@@ -4,6 +4,8 @@
 *   The [SPIR feedback forum](https://forums.khronos.org/showthread.php/12919-Feedback-SPIR-V) – good for questions and feedback
 *   SPIR-V Whitepaper [An Introduction to SPIR-V](https://www.khronos.org/registry/spir-v/papers/WhitePaper.pdf)
 *   For [SPIR bug reporting](https://www.khronos.org/bugzilla/enter_bug.cgi?product=SPIR-V) use the Khronos Bugzilla system under SPIR-V
+*   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) providing an API and commands for processing SPIR-V modules
+*   [LLVM framework](https://github.com/KhronosGroup/SPIRV-LLVM) with SPIR-V support
 
 ### SPIR 1.2/2.0 Resources
 

@@ -2,7 +2,7 @@
 
 *   The SPIR V 1.0 Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir-v)
 *   The [SPIR feedback forum](https://forums.khronos.org/showthread.php/12919-Feedback-SPIR-V) – good for questions and feedback
-*   SPIR-V Whitepaper [An Introduction to SPIR-V](https://www.khronos.org/registry/spir-v/papers/WhitePaper.pdf)
+*   SPIR-V Whitepaper [An Introduction to SPIR-V](https://www.khronos.org/registry/spir-v/papers/WhitePaper.html)
 *   For [SPIR bug reporting](https://www.khronos.org/bugzilla/enter_bug.cgi?product=SPIR-V) use the Khronos Bugzilla system under SPIR-V
 *   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) providing an API and commands for processing SPIR-V modules
 *   [LLVM framework](https://github.com/KhronosGroup/SPIRV-LLVM) with SPIR-V support

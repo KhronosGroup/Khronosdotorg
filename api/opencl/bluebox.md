@@ -4,8 +4,8 @@
 *   Post a comment on the OpenCL 2.1 feedback thread on the [Khronos forums](https://www.khronos.org/opencl/opencl_feedback_forum)
 *   The OpenCL 2.1 [Reference guide](https://www.khronos.org/developers/reference-cards/ "Download the OpenCL reference guide") ( [View on Slideshare](http://www.slideshare.net/Khronos_Group/opencl-21-reference-guide) )
 *   The OpenCL 2.0 [Online Man pages](https://www.khronos.org/registry/cl/sdk/2.1/docs/man/xhtml/)
-*   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
-*   [LLVM framework with SPIR-V support](https://github.com/KhronosGroup/SPIRV-LLVM) including an LLVM <-> SPIR-V bi-directional converter
+*   [](NEW) [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
+*   [](NEW) [LLVM framework with SPIR-V support](https://github.com/KhronosGroup/SPIRV-LLVM) including an LLVM <-> SPIR-V bi-directional converter
 
 
 ### OpenCL 2.0

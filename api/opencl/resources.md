@@ -24,11 +24,9 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [amgcl](https://github.com/ddemidov/amgcl) - Generic algebraic multigrid (AMG) hierarchy builder. C++ library for solution of large sparse linear systems with algebraic multigrid method
 *   [Anjuta Project Wizards](http://gpumodeling.blogspot.com/2011/06/anjuta-project-wizards-for-amd-nvidia.html) - For AMD, NVidia and Intel OpenCL SDK
 *   [Aparapi](https://code.google.com/p/aparapi/) - API for data parallel Java. Allows suitable code to be executed on GPU via OpenCL.
-*   [ArrayFire](https://www.accelereyes.com/products/arrayfire)
 *   [ArrayFire math library](http://arrayfire.com/) - ArrayFire is a fast, hardware-neutral software library for GPU computing with an easy-to-use API.
 *   [Bolt](https://github.com/HSA-Libraries/Bolt/releases/tag/v1.1GA) - Bolt C++ Template Library
 *   [Bolt C++ Template Library](http://developer.amd.com/tools-and-sdks/opencl-zone/bolt-c-template-library/) - Bolt is an STL compatible library of high level constructs for creating accelerated data parallel applications.
-*   [Boost.Compute](http://kylelutz.github.io/compute/) - The Boost Compute library provides a C++ interface to multi-core CPU and GPGPU computing platforms based on OpenCL.
 *   [Bullet Physics](http://bulletphysics.org/wordpress/?p=381) - Bullet Physic OpenCL accelerated Rigid Body Pipeline 
 *   [cf4ocl](http://fakenmc.github.io/cf4ocl/) - The C Framework for OpenCL, cf4ocl, is a cross-platform pure C99 object-oriented framework for developing and benchmarking OpenCL projects in C/C++.
 *   [CHO](http://it302.github.io/cho/) - CHO is a suite of benchmark applications for OpenCL FPGA platforms. We started off by porting CHStone to OpenCL. We will be adding more applications with time. This paper (CHO: A Benchmark Suite for OpenCL-based FPGA Accelerators) is a good introduction/refresher on FPGA, OpenCL or High-level Synthesis.
@@ -39,7 +37,6 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [clMath Library](https://github.com/clMathLibraries/clFFT) - clMath is a software library containing FFT and BLAS functions written in OpenCL.
 *   [CLOGS](http://sourceforge.net/projects/clogs/) - C++ library for sorting and searching in OpenCL applications
 *   [Cloo](http://sourceforge.net/projects/cloo/) - .NET bindings for OpenCL 1.1. Used in OpenTK, which has good integration with OpenGL, OpenGL ES and OpenAL.
-*   [clSpMV](http://www.eecs.berkeley.edu/~subrian/clSpMV.html) - Sparse Matrix Solver 
 *   [CLyther](http://srossross.github.io/Clyther/) - CLyther is a Python tool similar to Cython and PyPy. CLyther is a just-in-time specialization engine for OpenCL. The main entry points for CLyther are its clyther.task and clyther.kernel decorators. Once a function is decorated with one of these the function will be compiled to OpenCL when called.
 *   [Codeplay Math Lib](https://www.codeplay.com/products/math/) - OpenCL 1.2 Math library 
 *   [Concord](https://github.com/IntelLabs/iHRC/) - C++ Hetrogenous Programing Framework ( Support OpenCL 1.2 ) TBB like 

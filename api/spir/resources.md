@@ -4,6 +4,8 @@ We believe the true usefulness of SPIR goes beyond the spec itself; it is an eco
 
 ## SPIR-V Resources
 
+* [SPIR-V Tools](https://github.com/KhronosGroup/SPIRV-Tools) Project including an assembler, binary module parser, disassembler, and validator for SPIR-V
+* [LLVM framework with LLVM Support](https://github.com/KhronosGroup/SPIRV-LLVM/)  including an LLVM <-> SPIR-V bi-directional converter 
 * [spirthon - Python](https://github.com/cheery/spirthon) Python bytecode to SPIR-V conversion; 
 Write shaders or kernels in Python;
 Python assembler/disassembler;

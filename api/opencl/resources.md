@@ -41,6 +41,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [Codeplay Math Lib](https://www.codeplay.com/products/math/) - OpenCL 1.2 Math library 
 *   [Concord](https://github.com/IntelLabs/iHRC/) - C++ Hetrogenous Programing Framework ( Support OpenCL 1.2 ) TBB like 
 *   [COPRTHR](http://www.browndeertechnology.com/coprthr.htm)
+*   [DeepCL](https://github.com/hughperkins/DeepCL) - OpenCL library to train deep convolutional neural networks. A [python wrapper](https://pypi.python.org/pypi/DeepCL/8.1.1) for DeepCL is also available.
 *   [Delphi-OpenCL](http://code.google.com/p/delphi-opencl/) - Delphi/Pascal-bindings for OpenCL. Seems not active.
 *   [DL- Data Layout](http://www.multicorewareinc.com/dl.html) - DL Enables Optimized Data Layout Across Heterogeneous Processors
 *   [EPGPU](http://www.cs.uaf.edu/sw/EPGPU/) - Provides expressions in C++.
@@ -161,7 +162,7 @@ This tutorial series from Rob Farber and The Code Project focuses on bringing kn
 *   [Freescale - Forums](https://community.freescale.com/community/imx) - the i.MX Community, a community of i.MX developers and users transforming i.MX applications processors into display centric applications — tablets, eReaders, smart appliances and medical device, or vehicle infotainment.
 *   [Imagination Technologies - Graphics Forums](http://forum.imgtec.com/categories/powervr-graphics)
 *   [Intel OpenCL Forum](https://software.intel.com/en-us/forums/opencl) - This is a place to get support, ask questions and share information with other customers on OpenCL Code Builder
-*   [Khronos OpenCL Forums](http://www.khronos.org/message_boards/forumdisplay.php/87-OpenCL)
+*   [Khronos OpenCL Forums](https://forums.khronos.org/forumdisplay.php/87-OpenCL)
 *   [NVIDIA - Dev Talk](https://devtalk.nvidia.com/)
 *   [QUALCOMM - Dev Forums](https://developer.qualcomm.com/forum)
 *   [QUALCOMM - Mobile Gaming and Graphics Optimization](https://developer.qualcomm.com/forums/qdevnet-forums/mobile-gaming-graphics-optimization-adreno) - Discuss topics related to graphics optimization on Adreno, such as the Adreno GPU's 3D capabilities, shader performance and optimization, and using the Adreno Profiler to analyze graphic performance.

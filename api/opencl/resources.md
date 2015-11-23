@@ -105,6 +105,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [streamscan](https://code.google.com/p/streamscan/) - StreamScan: Fast Scan Algorithms for GPUs without Global Barrier Synchronization-
 *   [The Open Toolkit library](http://www.opentk.com/) - The Open Toolkit is an advanced, low-level C# library that wraps OpenGL, OpenCL and OpenAL. It is suitable for games, scientific applications and any other project that requires 3d graphics, audio or compute functionality.
 *   [TM-Task Management](http://www.multicorewareinc.com/tm.html) - Heterogeneous Task Scheduling and Management
+*   [Veles](https://github.com/samsung/veles) - Distributed platform for rapid Deep learning application development using OpenCL or CUDA
 *   [VexCL](https://github.com/ddemidov/vexcl) - VexCL is a vector expression template library for OpenCL. It has been created for ease of OpenCL developement with C++.
 *   [ViennaCL](http://viennacl.sourceforge.net/) - open-source linear algebra library for computations on many-core architectures (GPUs, MIC) and multi-core CPUs.
 *   [VirtualCL](http://www.mosix.cs.huji.ac.il/txt_vcl.html) - VirtualCL (VCL) cluster platform is a wrapper for OpenCL

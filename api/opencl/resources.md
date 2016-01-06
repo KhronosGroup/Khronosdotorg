@@ -70,6 +70,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [MainConcept SDKs using OpenCL](http://www.mainconcept.com/products/sdks/) - The MainConcept GPU Acceleration SDK supports several GPU computing standards for parallel processing supported by MainConcept – NVIDIA's CUDA and AMD's OpenCL. In addition, there is the H.264/AVC Encoder for Intel Quick Sync Video that integrates Intel® Media SDK into the MainConcept API providing easy access to dedicated video processing in 3rd Generation Intel Core Processors.
 *   [ManoCL](http://code.google.com/p/manocl/) - Not active project for .NET bindings.
 *   [M_ Platform](http://www.fixstars.com/en/products/m-cubed/) - Parallel Framework and Primitive Libraries
+*   [NOpenCL](https://github.com/tunnelvisionlabs/NOpenCL): Easy-to-use .NET wrapper for OpenCL with abstraction.
 *   [OCL-Library](https://github.com/dmed256/OCL-Library) - Simplified OpenCL in C++
 *   [Open Fortran Parser](http://fortran-parser.sourceforge.net/) - ANTLR-based parsing tools that support the Fortran 2008 standard
 *   [OpenACC to OpenCL Compiler](https://github.com/tristanvdb/OpenACC-to-OpenCL-Compiler) - Rose based  OpenACC to OpenCL Compiler.

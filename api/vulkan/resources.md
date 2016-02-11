@@ -1,8 +1,8 @@
 # Vulkan Resources
 
-We believe the true usefulness of Vulkan goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/
+We believe the true usefulness of Vulkan goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/)
 
-## Learning Vulkan 
+## Learning Vulkan
 
 ### Resources
 * [LunarG Vulkan SDK](http://lunarg.com/vulkan/) - Official Vulkan SDK by LunarG
@@ -18,3 +18,6 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [Khronos Vulkan BoF](https://www.youtube.com/watch?v=quNsdYfWXfM&list=PLYO7XTAX41FOFvZ2beOg8y0tvuVLJLL0G&index=1) - SIGGRAPH 2015 Videos (YouTube)
 * Vulkan on NVIDIA GPUs [slides](http://on-demand.gputechconf.com/siggraph/2015/presentation/SIG1501-Piers-Daniell.pdf) and [videos](http://on-demand.gputechconf.com/siggraph/2015/video/SIG501-Piers-Daniell.html) - SIGGRAPH 2015
 * [Khronos API Standards Update Video](http://on-demand.gputechconf.com/gtc/2015/video/S5734.html) - Vulkan, OpenCL 2.1 and SPIR-V at GTC 2015
+
+### Applications using Vulkan
+* [Vulkan Hardware database](vulkan.gpuinfo.org) - Vulkan hardware database (display and compare features, extensions, limits etc. for Vulkan devices)

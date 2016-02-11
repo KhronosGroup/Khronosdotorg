@@ -20,4 +20,4 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [Khronos API Standards Update Video](http://on-demand.gputechconf.com/gtc/2015/video/S5734.html) - Vulkan, OpenCL 2.1 and SPIR-V at GTC 2015
 
 ### Applications using Vulkan
-* [Vulkan Hardware database](vulkan.gpuinfo.org) - Vulkan hardware database (display and compare features, extensions, limits etc. for Vulkan devices)
+* [Vulkan Hardware database](vulkan.gpuinfo.org) - Submit, display and compare features, extensions, limits etc. for Vulkan implementations

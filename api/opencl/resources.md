@@ -11,7 +11,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ## Language Bindings to OpenCL
 
-
+*   [NOpenCL](https://github.com/tunnelvisionlabs/NOpenCL) - .NET wrapper for OpenCL with abstraction
 *   [OpenCL .Net](http://sourceforge.net/projects/openclnet/) - .Net bindings for OpenCL 1.2
 *   [OpenCL binding for Erlang](https://github.com/tonyrog/cl) - Erlang OpenCL binding
 *   [PyOpenCL](http://mathema.tician.de/software/pyopencl) - PyOpenCL is a complete, object-oriented language binding of OpenCL to Python. It has full documentation available and is licensed under the liberal MIT license.

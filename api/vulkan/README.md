@@ -1,5 +1,3 @@
-# File mapping
-Files in this directory will be displayed on the Khronos.org website according to this mapping:
+# Resources files no longer on Khronos.org
 
-* resources.md --> [khronos.org/vulkan/resources](https://www.khronos.org/vulkan/resources)
-
+The Vuklan resource file will no longer be mirrored on Khronos.org. This is its official home now.

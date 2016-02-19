@@ -12,23 +12,23 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [Qualcomm](https://developer.qualcomm.com/software/adreno-gpu-sdk/gpu)
 
 ### Resources
-* [LunarG Vulkan SDK](https://vulkan.lunarG.com) - Official Vulkan SDK by LunarG
+* [LunarG Vulkan SDK](https://vulkan.lunarG.com) - Official Vulkan SDK by LunarG.
 * [Google Vulkan](https://developer.android.com/go/vulkan) - Android developer website to download the API, samples, and documentation.
-* [Vulkan hardware database](http://vulkan.gpuinfo.org/) - an online tool for developers that want to check out GPU hardware capabilites.
+* [Vulkan hardware database](http://vulkan.gpuinfo.org/) - Online tool to check out hardware capabilities and compare different Vulkan implementations.
+* [MetalVK](https://moltengl.com/metalvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
+* [Mali Graphics Debugger](http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/) - Mali debugger with Vulkan support.
 
-### Tutorials, Demos and examples
-* [Vulkan Demos](http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/) - Mali Graphics Debugger with Vulkan support
-* [Vulkan Examples](https://github.com/LunarG/VulkanSamples) - LunarG Vulkan Samples on Github
-* [Vulkan Demos](https://imgtec.com/vulkan) - Imagination Technologies
-* [Vulkan Demos](https://moltengl.com/metalvk/) - MetalVK
-* [Vulkan Demos](https://developer.nvidia.com/Vulkan) - NVIDIA
-* [Vulkan Tutorial](http://vulkan-tutorial.com/) - Vulkan tutorials by Alexander Overvoorde
-* [Vulkan examples using VulKan ToolS (VKTS)](https://github.com/McNopper/Vulkan) - Open source examples by Norbert Nopper
-* [Vulkan examples and demos (C++)](https://github.com/SaschaWillems/Vulkan) - Open source examples and demos for by Sascha Willems
-* [Cinder Vulkan Samples](https://libcinder.org/notes/vulkan) - Several Vulkan samples are available in Github
+### Tutorials, Demos and Samples
+* [LunarG Vulkan Samples](https://github.com/LunarG/VulkanSamples) - LunarG Vulkan Samples on Github
+* [Imagination Technologies Vulkan Demos](https://imgtec.com/vulkan) - Demos by Imagination Technologies
+* [NVIDIA Vulkan Demos](https://developer.nvidia.com/Vulkan) - Demos and samples by NVIDIA
+* [Vulkan Tutorial](http://vulkan-tutorial.com/) - Open source Vulkan tutorials by Alexander Overvoorde
+* [VKTS Vulkan Samples](https://github.com/McNopper/Vulkan) - Open source Vulkan samples using VulKan ToolS (VKTS) by Norbert Nopper
+* [C++ Vulkan Samples](https://github.com/SaschaWillems/Vulkan) - Open source Vulkan demos and samples in C++ by Sascha Willems
+* [Cinder Vulkan Samples](https://libcinder.org/notes/vulkan) - Open source Vulkan demos and samples using the Cinder library
 
 ### Presentations and Videos
-* [ImgTec PowerVR Webinars](http://blog.imgtec.com/powervr/5-new-webinars-on-the-vulkan-api) - Blog and Videos by Imagination Technologies
+* [Imagination Technologies PowerVR Webinars](http://blog.imgtec.com/powervr/5-new-webinars-on-the-vulkan-api) - Blog and Videos by Imagination Technologies
 * [NVIDIA Vulkan developer page](https://developer.nvidia.com/Vulkan) - NVIDIA Developer landing page
 * [Khronos Vulkan BoF](https://www.youtube.com/watch?v=quNsdYfWXfM&list=PLYO7XTAX41FOFvZ2beOg8y0tvuVLJLL0G&index=1) - SIGGRAPH 2015 Videos (YouTube)
 * Vulkan on NVIDIA GPUs [slides](http://on-demand.gputechconf.com/siggraph/2015/presentation/SIG1501-Piers-Daniell.pdf) and [videos](http://on-demand.gputechconf.com/siggraph/2015/video/SIG501-Piers-Daniell.html) - SIGGRAPH 2015
@@ -39,7 +39,6 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [VIM](http://www.vim.org/scripts/script.php?script_id=5335) - Not an IDE, but still used by the masses
 
 ### Applications using Vulkan
-* [Vulkan Hardware database](http://vulkan.gpuinfo.org) - Submit, display and compare features, extensions, limits etc. for Vulkan implementations
 
 ### Books
 * [Vulkan Programming Guide](http://www.amazon.com/Vulkan-Programming-Guide-Official-Learning/dp/0134464540/khongrou-20) - The Official Guide to Learning Vulkan (OpenGL) 1st Edition

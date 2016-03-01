@@ -234,6 +234,7 @@ This tutorial series from Rob Farber and The Code Project focuses on bringing kn
 *   [Blurate - Custom Image Filtering](http://www.blurate.com) - Blurate uses OpenCL to allow you to easily describe image filters.
 *   [Catalyst Browse](http://www.sonycreativesoftware.com/catalystbrowse) - a powerful clip management tool for the latest portfolio of Sony cameras and decks
 *   [Catalyst Prepare](http://www.sonycreativesoftware.com/catalystprepare) - The fast, simple, reliable path from camera to post
+*   [CompuBench](https://compubench.com/result.jsp) - Cross-platform performance evaluation tool for all major compute APIs including OpenCL and OpenGL ES Compute. 
 *   [EDEM - DEM Solutions](http://www.dem-solutions.com/software/edem-software/) - EDEM is a computer-aided engineering (CAE) software platform powered by state-of-the-art Discrete Element Modeling (DEM) technology. DEM Solutions developed a prototype OpenCL (Open Computing Language) implementation of its EDEM® simulation engine.
 *   [Final Cut Pro X - Apple Inc](https://www.apple.com/ca/final-cut-pro/) - Final Cut Pro X is a video editing app for OS X from Apple Inc. and the successor to Final Cut Pro.
 *   [Houdini - SideFX](http://www.sidefx.com/) - Houdini combines superior performance and dramatic, new ease-of-use functionality to deliver a powerful and accessible 3D animation experience to CG professionals. Houdini can use the GPU to dramatically increase the performance and speed of Pyro FX simulations.

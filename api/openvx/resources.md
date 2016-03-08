@@ -3,7 +3,7 @@
 We believe the true usefulness of OpenVX goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/Khronosdotorg)!
 
 ## Commercial and Open Source Implementations
-* [AMD OpenVX - AMDOVX](http://gpuopen.com/compute-product/amd-openvx/) - a highly optimized open source implementation of the OpenVX computer vision specification.
+* [AMD OpenVX - AMDOVX](http://gpuopen.com/compute-product/amd-openvx/) - a highly optimized open source implementation of the OpenVX computer vision specification. On Github: [code](https://github.com/GPUOpen-ProfessionalCompute-Libraries/amdovx-core) and [modules](https://github.com/GPUOpen-ProfessionalCompute-Libraries/amdovx-modules)
 
 ## Frameworks & Libraries
 

@@ -7,7 +7,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 ### Drivers
 * [AMD](http://gpuopen.com/gaming-product/vulkan/)
 * [Imagination](https://imgtec.com/vulkan)
-* [Intel](http://blogs.intel.com/evangelists/2016/02/16/intel-open-source-graphics-drivers-now-support-vulkan/)
+* Intel: [Open Source](http://blogs.intel.com/evangelists/2016/02/16/intel-open-source-graphics-drivers-now-support-vulkan/) [Windows](https://software.intel.com/en-us/blogs/2016/03/14/new-intel-vulkan-beta-1540204404-graphics-driver-for-windows-78110-1540)
 * [NVIDIA](https://developer.nvidia.com/vulkan-driver)
 * [Qualcomm](https://developer.qualcomm.com/software/adreno-gpu-sdk/gpu)
 

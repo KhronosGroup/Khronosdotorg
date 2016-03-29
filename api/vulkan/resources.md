@@ -29,6 +29,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [VKTS Vulkan Samples](https://github.com/McNopper/Vulkan) - Open source Vulkan samples using VulKan ToolS (VKTS) by Norbert Nopper
 * [C++ Vulkan Samples](https://github.com/SaschaWillems/Vulkan) - Open source Vulkan demos and samples in C++ by Sascha Willems
 * [Cinder Vulkan Samples](https://libcinder.org/notes/vulkan) - Open source Vulkan demos and samples using the Cinder library
+* [API without Secrets: Introduction to Vulkan](https://software.intel.com/en-us/search/site/field_tags/vulkan_api-82364/) - Tutorial with code samples by Intel
 
 ### Presentations and Videos
 * [Imagination Technologies PowerVR Webinars](http://blog.imgtec.com/powervr/5-new-webinars-on-the-vulkan-api) - Blog and Videos by Imagination Technologies

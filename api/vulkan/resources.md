@@ -32,6 +32,10 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [API without Secrets: Introduction to Vulkan](https://software.intel.com/en-us/search/site/field_tags/vulkan_api-82364/) - Tutorial with code samples by Intel
 
 ### Presentations and Videos
+#### 2016 
+* Khronos GDC Sessions - [Video](https://www.youtube.com/playlist?list=PLYO7XTAX41FNGLJZ4BjpTtt70MvNFCrcH) and [Slide](https://www.khronos.org/developers/library/2016-gdc) presentations from GDC 2016
+
+#### 2015
 * [Imagination Technologies PowerVR Webinars](http://blog.imgtec.com/powervr/5-new-webinars-on-the-vulkan-api) - Blog and Videos by Imagination Technologies
 * [NVIDIA Vulkan developer page](https://developer.nvidia.com/Vulkan) - NVIDIA Developer landing page
 * [Khronos Vulkan BoF](https://www.youtube.com/watch?v=quNsdYfWXfM&list=PLYO7XTAX41FOFvZ2beOg8y0tvuVLJLL0G&index=1) - SIGGRAPH 2015 Videos (YouTube)
@@ -43,6 +47,8 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [VIM](http://www.vim.org/scripts/script.php?script_id=5335) - Not an IDE, but still used by the masses
 
 ### Applications using Vulkan
+
+* [Talos Principle](http://www.croteam.com/talosprinciple/) - a philosophical first-person puzzle game from Croteam.
 
 ### Books
 * [Vulkan Programming Guide](http://www.amazon.com/Vulkan-Programming-Guide-Official-Learning/dp/0134464540/khongrou-20) - The Official Guide to Learning Vulkan (OpenGL) 1st Edition

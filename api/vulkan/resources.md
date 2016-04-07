@@ -1,6 +1,6 @@
 # Vulkan Resources
 
-We believe the true usefulness of Vulkan goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/)
+Khronos has placed an unprecedented amount of materials into open source so you can provide feedback, showcase your work, fix bugs, and extend Vulkan capabilities for the future. Get engaged and show the world what you are doing with Vulkan.
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/vulkan/)

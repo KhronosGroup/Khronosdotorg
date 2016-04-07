@@ -31,7 +31,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 
 ## Resources
 * [Vulkan hardware database](http://vulkan.gpuinfo.org/) - Check out hardware capabilities and compare different Vulkan implementations.
-* [MetalVK](https://moltengl.com/metalvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
+* [MoltenVK](https://moltengl.com/moltenvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
 * [Mali Graphics Debugger](http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/) - Mali debugger with Vulkan support.
 * [RenderDoc](https://github.com/baldurk/renderdoc) - Cross platform graphics debugger with Vulkan support.
 * [LWJGL](https://www.lwjgl.org/) - Light Weight Java Graphics Library with Vulkan Bindings.

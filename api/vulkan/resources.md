@@ -51,6 +51,8 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * API without Secrets:
     - [Introduction to Vulkan Part 0](https://software.intel.com/en-us/articles/api-without-secrets-introduction-to-vulkan-preface) - Preface
     - [Introduction to Vulkan Part 1](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-1) - The Beginning
+    - [Introduction to Vulkan Part 2](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-2) - Swap Chain
+    - [Introduction to Vulkan Part 3](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-3) - First Triangle
 
 ## Presentations and Videos
 * 2016 

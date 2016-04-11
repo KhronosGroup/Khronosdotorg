@@ -36,6 +36,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [RenderDoc](https://github.com/baldurk/renderdoc) - Cross platform graphics debugger with Vulkan support.
 * [LWJGL](https://www.lwjgl.org/) - Light Weight Java Graphics Library with Vulkan Bindings.
 * [VulkanSharp](https://github.com/mono/VulkanSharp) - C# / .NET binding for the Vulkan API.
+* [VulkanizeD](https://github.com/Rikarin/VulkanizeD) - D binding for the Vulkan API.
 
 ## Tutorials, Demos and Samples
 * [Vulkan Training Podcasts](http://opengl-trainer.com/podcast.html) - Kai Niklas training podcasts covering Vulkan, OpenGL, OpenGL ES, WebGL and much more

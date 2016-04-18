@@ -1,7 +1,7 @@
 ### SPIR–V 1.1 Resources
 
 *   The SPIR V 1.1 Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir-v)
-*   The [SPIR feedback forum](https://khr.io/spirvfeedback) – good for questions and feedback
+*   The [SPIR feedback forum](https://www.khronos.org/spir_v_feedback_forum) – good for questions and feedback
 *   SPIR-V Whitepaper [An Introduction to SPIR-V](https://www.khronos.org/registry/spir-v/papers/WhitePaper.html)
 *   For [SPIR bug reporting](https://www.khronos.org/bugzilla/enter_bug.cgi?product=SPIR-V) use the Khronos Bugzilla system under SPIR-V
 

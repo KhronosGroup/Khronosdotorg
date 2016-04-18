@@ -1,7 +1,6 @@
 ### OpenCL 2.2
 
 *   The OpenCL 2.2 specification is available in the [Khronos Registry](https://www.khronos.org/registry/cl/)
-*   The OpenCL 2.2 headers on [GitHub](https://www.github.com/KhronosGroup/OpenCL-Headers/)
 *   The OpenCL 2.0 C Language Specification (referred to by OpenCL 2.2) available in the [Khronos Registry](https://www.khronos.org/registry/cl/specs/opencl-2.0-openclc.pdf)
 *   Post a comment on the OpenCL 2.2 feedback thread on the [Khronos forums](https://www.khronos.org/opencl/opencl_feedback_forum)
 

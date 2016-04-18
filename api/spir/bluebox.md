@@ -1,11 +1,18 @@
+### SPIR–V 1.1 Resources
+
+*   The SPIR V 1.1 Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir-v)
+*   The [SPIR feedback forum](https://khr.io/spirvfeedback) – good for questions and feedback
+*   SPIR-V Whitepaper [An Introduction to SPIR-V](https://www.khronos.org/registry/spir-v/papers/WhitePaper.html)
+*   For [SPIR bug reporting](https://www.khronos.org/bugzilla/enter_bug.cgi?product=SPIR-V) use the Khronos Bugzilla system under SPIR-V
+
 ### SPIR–V 1.0 Resources
 
 *   The SPIR V 1.0 Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir-v)
 *   The [SPIR feedback forum](https://forums.khronos.org/showthread.php/12919-Feedback-SPIR-V) – good for questions and feedback
 *   SPIR-V Whitepaper [An Introduction to SPIR-V](https://www.khronos.org/registry/spir-v/papers/WhitePaper.html)
 *   For [SPIR bug reporting](https://www.khronos.org/bugzilla/enter_bug.cgi?product=SPIR-V) use the Khronos Bugzilla system under SPIR-V
-*   [](NEW) [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
-*   [](NEW) [LLVM framework with SPIR-V support](https://github.com/KhronosGroup/SPIRV-LLVM) including an LLVM <-> SPIR-V bi-directional converter
+*   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
+*   [LLVM framework with SPIR-V support](https://github.com/KhronosGroup/SPIRV-LLVM) including an LLVM <-> SPIR-V bi-directional converter
 
 ### SPIR 1.2/2.0 Resources
 
@@ -13,7 +20,7 @@ SPIR 2.0 is a mapping from the OpenCL C programming language into LLVM IR. This 
 
 *   The SPIR 2.0 Provisional Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir)
 *   The SPIR 1.2 Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir)
-*   The [SPIR forum](/message_boards/forumdisplay.php/113-SPIR) – good for questions and feedback
+*   The [SPIR forum](https://www.khronos.org/message_boards/forumdisplay.php/113-SPIR) – good for questions and feedback
 *   For [SPIR bug reporting](https://www.khronos.org/bugzilla/enter_bug.cgi?product=OpenCL%20SPIR) use the Khronos Bugzilla system under OpenCL SPIR
-*   The latest [SPIR 1.2 FAQ](/faq/spir)
-*   The [SPIR 1.2 Verifier](https://github.com/KhronosGroup/SPIR/tree/spir_12) from Khronos Github
+*   The latest [SPIR 1.2 FAQ](https://www.khronos.org/faq/spir)
+*   The [SPIR 1.2 Verifier](https://github.com/KhronosGroup/SPIR/tree/spir_12) from Khronos GitHub

@@ -38,25 +38,37 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [VulkanSharp](https://github.com/mono/VulkanSharp) - C# / .NET binding for the Vulkan API.
 * [VulkanCore.jl](https://github.com/JuliaGPU/VulkanCore.jl) - [Julia](http://julialang.org/) binding for the Vulkan API.
 
-## Tutorials, Demos and Samples
+## Tutorials
+* [Google Vulkan Tutorial](https://github.com/googlesamples/android-vulkan-tutorials) - A set of samples to illustrate Vulkan API on Android
 * [Vulkan Training Podcasts](http://opengl-trainer.com/podcast.html) - Kai Niklas training podcasts covering Vulkan, OpenGL, OpenGL ES, WebGL and much more
 * [Vulkan in 30 minutes](https://renderdoc.org/vulkan-in-30-minutes.html) - RenderDoc tutorial to get you going
 * [Vulkan API Tutorial](https://www.youtube.com/watch?v=wHt5wcxIPcE) - Niko Kauppi Youtube tutorial series 
-* [LunarG Vulkan Samples](https://github.com/LunarG/VulkanSamples) - LunarG Vulkan Samples on Github
 * [Imagination Technologies Vulkan Demos](https://imgtec.com/vulkan) - Demos by Imagination Technologies
 * [NVIDIA Vulkan Demos](https://developer.nvidia.com/Vulkan) - Demos and samples by NVIDIA
 * [Vulkan Tutorial](http://vulkan-tutorial.com/) - Open source Vulkan tutorials by Alexander Overvoorde
-* [VKTS Vulkan Samples](https://github.com/McNopper/Vulkan) - Open source Vulkan samples using VulKan ToolS (VKTS) by Norbert Nopper
-* [C++ Vulkan Samples](https://github.com/SaschaWillems/Vulkan) - Open source Vulkan demos and samples in C++ by Sascha Willems
-* [Cinder Vulkan Samples](https://libcinder.org/notes/vulkan) - Open source Vulkan demos and samples using the Cinder library
 * API without Secrets:
     - [Introduction to Vulkan Part 0](https://software.intel.com/en-us/articles/api-without-secrets-introduction-to-vulkan-preface) - Preface
     - [Introduction to Vulkan Part 1](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-1) - The Beginning
     - [Introduction to Vulkan Part 2](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-2) - Swap Chain
     - [Introduction to Vulkan Part 3](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-3) - First Triangle
+    - [Introduction to Vulkan Part 4]() - Vertex Attributes
+
+## Demos & Samples
+
+* [Official Khronos Vulkan Samples Repository](https://github.com/KhronosGroup/Vulkan-Samples) - Samples for Vulkan developers
+* [LunarG Vulkan Samples](https://github.com/LunarG/VulkanSamples) - LunarG Vulkan Samples on Github
+* [C++ Vulkan Samples](https://github.com/SaschaWillems/Vulkan) - Open source Vulkan demos and samples in C++ by Sascha Willems
+* [Cinder Vulkan Samples](https://libcinder.org/notes/vulkan) - Open source Vulkan demos and samples using the Cinder library
+* [Google Vulkan Samples](https://github.com/googlesamples/vulkan-basic-samples) - an Android port of LunarG [sample kit](https://github.com/LunarG/VulkanSamples)
+* [NVIDIA DesignWorks Samples](https://github.com/nvpro-samples) - Various Vulkan and OpenGL samples
+* [VKTS Vulkan Samples](https://github.com/McNopper/Vulkan) - Open source Vulkan samples using VulKan ToolS (VKTS) by Norbert Nopper
 
 ## Presentations and Videos
 * 2016 
+    - [ARM: SPIRV-Cross](https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/18/spirv-cross), working with Vulkan and SPIR-V in your app
+    - [ARM and Epic Games on Vulkan](https://community.arm.com/external-link.jspa?url=https%3A%2F%2Fyoutu.be%2FsL7B8yA0FVE) - Live stream discussion on Vulkan
+    - [ARM Mali Graphics Blog](https://community.arm.com/groups/arm-mali-graphics/blog/tags#/?tags=vulkan) - Vulkan blog
+    - ARM GDC Presentations - [Get your Engine ready for Vulkan on Mobile](http://malideveloper.arm.com/documentation/tutorials/game-development-tutorials/#v1), [Vulkan’s key features on ARM Architecture](http://malideveloper.arm.com/documentation/tutorials/game-development-tutorials/#v2)
     - Khronos GDC Sessions - [Video](https://www.youtube.com/playlist?list=PLYO7XTAX41FNGLJZ4BjpTtt70MvNFCrcH) and [Slide](https://www.khronos.org/developers/library/2016-gdc) presentations from GDC 2016
 
 * 2015

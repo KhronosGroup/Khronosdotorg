@@ -4,11 +4,12 @@ We believe the true usefulness of SPIR goes beyond the spec itself; it is an eco
 
 ## SPIR-V Resources
 
-* [](NEW) [SPIR-V Tools](https://github.com/KhronosGroup/SPIRV-Tools) Project including an assembler, binary module parser, disassembler, and validator for SPIR-V
-* [](NEW) [Glslang](https://github.com/KhronosGroup/glslang) - GLSL reference
+* [](NEW) [ARM: SPIRV-Cross](https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/18/spirv-cross), working with SPIR-V in your app
+* [SPIR-V Tools](https://github.com/KhronosGroup/SPIRV-Tools) Project including an assembler, binary module parser, disassembler, and validator for SPIR-V
+* [Glslang](https://github.com/KhronosGroup/glslang) - GLSL reference
   compiler.  It can generate SPIR-V.
-* [](NEW) [LLVM framework with LLVM Support](https://github.com/KhronosGroup/SPIRV-LLVM/)  including an LLVM <-> SPIR-V bi-directional converter 
-* [](NEW) [Shaderc](https://github.com/google/shaderc/) - `libshaderc` API and `glslc`
+* [LLVM framework with LLVM Support](https://github.com/KhronosGroup/SPIRV-LLVM/)  including an LLVM <-> SPIR-V bi-directional converter 
+* [Shaderc](https://github.com/google/shaderc/) - `libshaderc` API and `glslc`
   command line wrapper around
   [Glslang](https://github.com/KhronosGroup/glslang).  `glslc` conventions
   mimic GCC and Clang, for ease of integration into build systems.

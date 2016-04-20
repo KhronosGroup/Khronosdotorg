@@ -3,6 +3,7 @@
 The Safety Critical Profile for [OpenGL ES 2.0](https://www.khronos.org/opengles/2_X) is designed to be deterministic and testable to minimize implementation and safety certification costs – while bringing GLSL shader programmability to safety critical graphics for enhanced graphics functionality with increased performance and reduced power.  The OpenGL SC 2.0 API addresses the unique and stringent requirements of high reliability display system markets, including FAA DO-178C and EASA ED-12C Level A for avionics, and ISO 26262 safety standards for automotive systems. Building on the large number of worldwide customer deployments and successful avionics certifications using OpenGL SC 1.0, OpenGL SC 2.0 enables high reliability system manufacturers to take advantage of modern graphics programmable shader engines while still achieving the highest levels of safety certification.
 
 *   The OpenGL SC 2.0 core API specification and header file are in the [OpenGL SC API Registry](http://www.khronos.org/registry/glsc/)
+*   Leave a comment on the OpenGL SC 2.0 feedback thread on the [Khronos forums](https://forums.khronos.org/showthread.php/13049-Official-OpenGL-SC-2-0-feedback)
 
 ## OpenGL SC 1.0
 

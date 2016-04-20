@@ -1,11 +1,29 @@
 # OpenCL Resources
 
-We believe the true usefulness of OpenCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/Khronosdotorg)!
+We believe the true usefulness of OpenCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/resources.md) and help maintain an up-to-date list of OpenCL resources.
+
+## Khronos Resources
+* [Homepage](https://www.khronos.org/opencl)
+* [OpenCL Registry](https://www.khronos.org/registry/cl/)
+* [The OpenCL C++ compiler](https://github.com/KhronosGroup/SPIR/tree/spirv-1.1) reference implementation
+* [The OpenCL C++ standard library](https://github.com/KhronosGroup/libclcxx) reference implementation
+* [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
+* [LLVM framework with SPIR-V support](https://github.com/KhronosGroup/SPIRV-LLVM) including an LLVM <-> SPIR-V bi-directional converter
+* [OpenCL Forums](https://forums.khronos.org/forumdisplay.php/87-OpenCL-parallel-programming-of-heterogeneous-systems)
+* [OpenCL Conformant Companies](https://www.khronos.org/conformance/adopters/conformant-companies#opencl)
+* [OpenCL Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products#opencl)
 
 
+## Commercial Implementations
 
-## Open Source OpenCL Implementations
+*   [Altera SDK for OpenCL](http://www.altera.com/opencl) - The Altera® SDK for Open Computing Language (OpenCLTM) allows a user to abstract away the traditional hardware FPGA development flow for a much faster and higher level software development flow.
+*   [AMD APP SDK](http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/) - The AMD APP SDK is a complete development platform created by AMD to allow you to quickly and easily develop applications accelerated by AMD  Accelerated Parallel Processing technology. The SDK provides samples, documentation, and other materials to quickly get you started leveraging accelerated compute using OpenCL™, Bolt, or C++ AMP in your C/C++ application. 
+*   [ARM Mali OpenCL SDK](http://malideveloper.arm.com/develop-for-mali/sdks/mali-opencl-sdk/) - The Mali OpenCL SDK provides developers a framework and series of samples for developing OpenCL 1.1 application on ARM Mali based platforms such as the Mali-T600 family of GPUs. The samples cover a wide range of uses cases that utilize the Mali GPU to achieve a significant improvement in performance when compared to running on the CPU alone.
+*   [Intel SDK for OpenCL Applications](https://software.intel.com/en-us/intel-opencl) - The development platform for OpenCL: Maximize the performance of the SoC; Optimize tasks for the best available compute engine; Tap into an easy-to-use development environment.
+*   [NVIDIA OpenCL SDK](https://developer.nvidia.com/opencl) - In addition to OpenCL, NVIDIA supports a variety of GPU-accelerated libraries and high-level programming solutions that enable developers to get started quickly with GPU Computing.
+*   [OpenCL supported Android Devices](https://docs.google.com/spreadsheets/d/1Mpzfl2NmLUVSAjIph77-FOsJeuyD9Xjha89r5iHw1hI/edit#gid=0) -  A collection of OpenCL supported Android Devices.
 
+## Open Source Implementations
 
 *   [Beignet: OpenCL Implementation for Ivy Bridge on Linux](http://cgit.freedesktop.org/beignet/tree/README.md) - The Beignet GPGPU System for Intel Ivybridge GPUs
 *   [MCSDK HPC 3.x OpenCL](http://processors.wiki.ti.com/index.php/MCSDK_HPC_3.x_OpenCL) - MCSDK is an OpenCL 1.1 implementation. The OpenCL specification defines a platform model with a Host and Compute Devices. For this implementation the Host is an ARM Cortex-A15 Linux CPU and the Compute Device is a collection of 8 Texas Instruments' C66x DSP cores, exposed as one virtual accelerator device with 8 compute units.
@@ -20,7 +38,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ## Libraries and Frameworks with OpenCL Acceleration
 
-
+* [OpenCL.org Projects](http://opencl.org/) - Projects and porting to OpenCL. All project files are available on [Github](https://github.com/OpenCL)
 *   [Accelerate](http://hackage.haskell.org/package/accelerate) - accelerate: An embedded language for accelerated array processing
 *   [Advanced Simulation Library](http://asl.org.il) - Open source hardware accelerated multiphysics simulation software (C++ API)
 *   [amgcl](https://github.com/ddemidov/amgcl) - Generic algebraic multigrid (AMG) hierarchy builder. C++ library for solution of large sparse linear systems with algebraic multigrid method
@@ -260,13 +278,4 @@ This tutorial series from Rob Farber and The Code Project focuses on bringing kn
 *   [Halide](http://halide-lang.org/) - Halide Programming language for high-performance image processing
 *   [PGI OpenACC 2.0 Compiler](http://www.pgroup.com/resources/accel.htm) - PGI Accelerator™ compilers, programmers can accelerate applications on x64+accelerator platforms by adding OpenACC compiler directives to existing high-level standard-compliant Fortran, C and C++ programs
 
-## Commercial Implementations
-
-
-*   [Altera SDK for OpenCL](http://www.altera.com/opencl) - The Altera® SDK for Open Computing Language (OpenCLTM) allows a user to abstract away the traditional hardware FPGA development flow for a much faster and higher level software development flow.
-*   [AMD APP SDK](http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/) - The AMD APP SDK is a complete development platform created by AMD to allow you to quickly and easily develop applications accelerated by AMD  Accelerated Parallel Processing technology. The SDK provides samples, documentation, and other materials to quickly get you started leveraging accelerated compute using OpenCL™, Bolt, or C++ AMP in your C/C++ application. 
-*   [ARM Mali OpenCL SDK](http://malideveloper.arm.com/develop-for-mali/sdks/mali-opencl-sdk/) - The Mali OpenCL SDK provides developers a framework and series of samples for developing OpenCL 1.1 application on ARM Mali based platforms such as the Mali-T600 family of GPUs. The samples cover a wide range of uses cases that utilize the Mali GPU to achieve a significant improvement in performance when compared to running on the CPU alone.
-*   [Intel SDK for OpenCL Applications](https://software.intel.com/en-us/intel-opencl) - The development platform for OpenCL: Maximize the performance of the SoC; Optimize tasks for the best available compute engine; Tap into an easy-to-use development environment.
-*   [NVIDIA OpenCL SDK](https://developer.nvidia.com/opencl) - In addition to OpenCL, NVIDIA supports a variety of GPU-accelerated libraries and high-level programming solutions that enable developers to get started quickly with GPU Computing.
-*   [OpenCL supported Android Devices](https://docs.google.com/spreadsheets/d/1Mpzfl2NmLUVSAjIph77-FOsJeuyD9Xjha89r5iHw1hI/edit#gid=0) -  A collection of OpenCL supported Android Devices.
 

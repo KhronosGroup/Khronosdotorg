@@ -1,15 +1,13 @@
+## OpenGL SC 2.0
+
+The Safety Critical Profile for [OpenGL ES 2.0](https://www.khronos.org/opengles/2_X) is designed to be deterministic and testable to minimize implementation and safety certification costs – while bringing GLSL shader programmability to safety critical graphics for enhanced graphics functionality with increased performance and reduced power.  The OpenGL SC 2.0 API addresses the unique and stringent requirements of high reliability display system markets, including FAA DO-178C and EASA ED-12C Level A for avionics, and ISO 26262 safety standards for automotive systems. Building on the large number of worldwide customer deployments and successful avionics certifications using OpenGL SC 1.0, OpenGL SC 2.0 enables high reliability system manufacturers to take advantage of modern graphics programmable shader engines while still achieving the highest levels of safety certification.
+
+*   The OpenGL SC 2.0 core API specification and header file are in the [OpenGL SC API Registry](http://www.khronos.org/registry/glsc/)
+
 ## OpenGL SC 1.0
 
-**For Safety Critial applications**: OpenGL SC 1.0 is defined relative to the [OpenGL 1.3 specification](http://www.opengl.org/documentation/specs/version1.3/glspec13.pdf) and is designed to meet the needs of the safety critical market in Avionics, Industrial, Military and Automotive applications including D0178-B certification. [Learn More...](/openglsc/)
+The Safety Critical Profile for OpenGL is defined to meet the unique requirements of the for safety-critical applications such as avionics and automotive instrumentation displays. OpenGL SC 1.0 removes functionality from [OpenGL ES 1.0](https://www.khronos.org/opengles/1_X) to minimize implementation and safety certification costs. It also adds functionality, such as display lists, that are required to support legacy and auto-generated display applications in safety critical markets.
 
-### OpenGL SC 1.0 at a glance
+**For Safety Critical applications**: OpenGL SC 1.0 is defined relative to the [OpenGL 1.3 specification](https://www.opengl.org/documentation/specs/version1.3/glspec13.pdf) and is designed to meet the needs of the safety critical market in Avionics, Industrial, Military and Automotive applications including D0178-B certification.
 
-The Safety Critical Profile for OpenGL is defined to meet the unique requirements of the for safety-critical applications such as avionics and automotive instrumentation displays. OpenGL SC 1.0 removes functionality from [OpenGL ES 1.0](/opengles/1_X) to minimize implementation and safety certification costs. It also adds functionality, such as display lists, that are required to support legacy and auto-generated display applications in safety critical markets.
-
-**For Safety Critical applications**: OpenGL SC 1.0 is defined relative to the [OpenGL 1.3 specification](http://www.opengl.org/documentation/specs/version1.3/glspec13.pdf) and is designed to meet the needs of the safety critical market in Avionics, Industrial, Military and Automotive applications including D0178-B certification.
-
-### OpenGL SC Registry
-
-The OpenGL SC 1.0 core API specification and header file, as well as the guiding philosophy document, are in the [OpenGL SC API Registry](http://www.khronos.org/registry/glsc/)
-
-*   _[OpenGL SC API Registry](http://www.khronos.org/registry/glsc/): Core API Specification and Headers_
+*   The OpenGL SC 1.0 core API specification and header file, as well as the guiding philosophy document, are in the [OpenGL SC API Registry](http://www.khronos.org/registry/glsc/)

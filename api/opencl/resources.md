@@ -35,6 +35,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [OpenCL .Net](http://sourceforge.net/projects/openclnet/) - .Net bindings for OpenCL 1.2
 *   [OpenCL binding for Erlang](https://github.com/tonyrog/cl) - Erlang OpenCL binding
 *   [PyOpenCL](http://mathema.tician.de/software/pyopencl) - PyOpenCL is a complete, object-oriented language binding of OpenCL to Python. It has full documentation available and is licensed under the liberal MIT license.
+*   [OpenCL binding for Ruby](https://github.com/Nanosim-LIG/opencl-ruby) - opencl_ruby_ffi is a complete OpenCL binding of OpenCL to Ruby. It is entirely written in Ruby using FFI.
 
 ## Libraries and Frameworks with OpenCL Acceleration
 

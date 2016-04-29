@@ -1,6 +1,6 @@
 ### OpenCL 2.2
 
-*   The OpenCL 2.2 specification is available in the [Khronos Registry](https://www.khronos.org/registry/cl/)
+*   The OpenCL 2.2 provisional specification is available in the [Khronos Registry](https://www.khronos.org/registry/cl/)
 *   The OpenCL C++ compiler [reference implementation](https://github.com/KhronosGroup/SPIR/tree/spirv-1.1)
 *   The OpenCL C++ standard library [reference implementation](https://github.com/KhronosGroup/libclcxx)
 *   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V

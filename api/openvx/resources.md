@@ -17,4 +17,5 @@ We believe the true usefulness of OpenVX goes beyond the spec itself; it is an e
 * [OpenVX Tutorial](https://github.com/rgiduthuri/openvx_tutorial) (on Github) a series of tutorial exercises.
 
 ## Presentations & Videos
-* [Vision Acceleration](/assets/uploads/developers/library/overview/openvx-overview.pdf) Launch briefing October 2014
+* [Vision Acceleration](https://www.khronos.org/assets/uploads/developers/library/overview/OpenVX-Briefing-Oct14.pdf) Launch briefing October 2014
+* [OpenVX 1.1 Launch](https://www.khronos.org/assets/uploads/developers/library/overview/openvx-overview.pdf) Overview May 2016

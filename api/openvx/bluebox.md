@@ -1,3 +1,7 @@
+### OpenVX 1.1 Specification
+* Specification is available in the [Khronos Registry](/registry/vx/)
+* OpenVX 1.1 [Reference card](https://www.khronos.org/files/openvx-11-reference-card.pdf)
+
 ### OpenVX 1.0.1 Specification
 
 *   Specification is available in the [Khronos Registry](/registry/vx/)

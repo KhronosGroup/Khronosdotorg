@@ -23,7 +23,7 @@ A collection of OpenGL ES related tools, documentation, and resources contribute
 
 
 ## Tutorials
-* [Khronos OpenVX Tutorial](https://www.khronos.org/news/events/2016-embedded-vision-summit) - Khronos hosted a day long OpenVX Tutorial Workshop at EVS 2016. 
+* Khronos OpenVX Tutorial - This course covers both the function-based API and the graph API that enable OpenVX developers to efficiently run computer vision algorithms on heterogeneous computing architectures.  A section explains the tutorial exercises with a VirtualBox VM. Embedded Vision Summit on [khronos event page](https://www.khronos.org/news/events/2016-embedded-vision-summit) and tutorial on [Github](https://github.com/rgiduthuri/openvx_tutorial).
 * [Addressing System-Level Optimization with OpenVX Graphs (PDF)](http://people.csail.mit.edu/kapu/papers/openvx_optimization_2014.pdf)
 * [OpenVX Tutorial](https://github.com/rgiduthuri/openvx_tutorial) (on Github) a series of tutorial exercises.
 

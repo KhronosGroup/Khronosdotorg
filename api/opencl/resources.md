@@ -140,7 +140,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ### Tutorials, White Papers, and How-to Guides
 
-
+* [Box Blur Filter Using Intel Subgroup Extensions in OpenCL](https://software.intel.com/en-us/articles/box-blur-filter-using-intel-subgroup-extensions-in-opencl) - This paper highlights the OpenCL application for Box Blur filter, an image processing and filtering algorithm, and it describes how to optimize and accelerate the performance of a naïve OpenCL application using Intel OpenCL Subgroup extensions.
 *   [AMD -  OpenCL Programming Guide](http://developer.amd.com/wordpress/media/2013/07/AMD_Accelerated_Parallel_Processing_OpenCL_Programming_Guide-rev-2.7.pdf) - AMD Accelerated Parallel Processing OpenCL Programming Guide.
 *   [An Introduction to OpenCL C++](https://www.khronos.org/assets/uploads/developers/resources/Intro-to-OpenCL-C++-Whitepaper-May15.pdf) - The provisional OpenCL 2.1 specification is the first OpenCL version to feature a kernel language based upon C++.
 *   [Anteru’s introduction to OpenCL Part 1](https://anteru.net/2012/11/03/2009/) - A short series on how to get started with OpenCL. I assume that you are a developer, you know what OpenCL is and you want to get up to speed quickly. We’ll be building a small example application with OpenCL which will eventually be able to apply a blur filter on an image. You can find the complete source code at Bitbucket. In this part, we’ll prepare everything so we can actually use OpenCL. You should fetch the corresponding code to follow along easily. The second part covers how to run a simple kernel, and the third part does a slightly more complicated example where an image is processed.

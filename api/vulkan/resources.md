@@ -52,6 +52,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
     - [Introduction to Vulkan Part 2](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-2) - Swap Chain
     - [Introduction to Vulkan Part 3](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-3) - First Triangle
     - [Introduction to Vulkan Part 4]() - Vertex Attributes
+* [Vulkan Tutorial](http://av.dfki.de/~jhenriques/development.html) - Advanced tutorial to get to a complete but minimal C program running a graphical pipeline using Vulkan on windows.
 
 ## Demos & Samples
 

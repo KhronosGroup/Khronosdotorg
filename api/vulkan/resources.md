@@ -66,6 +66,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 ## Presentations and Videos
 * 2016 
+	 - [AMD: The most common Vulkan mistakes](http://gpuopen.com/slides-from-our-the-most-common-vulkan-mistakes-talk/) - slides from a two hours-long talk at University of Lodz in Poland where the most common mistakes made in Vulkan applications was discussed
     - [ARM: SPIRV-Cross](https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/18/spirv-cross), working with Vulkan and SPIR-V in your app
     - [ARM and Epic Games on Vulkan](https://community.arm.com/external-link.jspa?url=https%3A%2F%2Fyoutu.be%2FsL7B8yA0FVE) - Live stream discussion on Vulkan
     - [ARM Mali Graphics Blog](https://community.arm.com/groups/arm-mali-graphics/blog/tags#/?tags=vulkan) - Vulkan blog

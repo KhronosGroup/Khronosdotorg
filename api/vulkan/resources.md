@@ -30,6 +30,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [ARM](http://malideveloper.arm.com/resources/sdks/mali-vulkan-sdk/) - Software Development Kit for ARM Mali Vulkan applications on Android
 
 ## Resources
+* [\##Vulkan IRC](https://webchat.freenode.net) - Vulkan IRC developer channel on [freenode.net](https://freenode.net).
 * [Vulkan hardware database](http://vulkan.gpuinfo.org/) - Check out hardware capabilities and compare different Vulkan implementations.
 * [MoltenVK](https://moltengl.com/moltenvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
 * [Mali Graphics Debugger](http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/) - Mali debugger with Vulkan support.

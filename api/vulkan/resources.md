@@ -40,8 +40,8 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [VulkanCore.jl](https://github.com/JuliaGPU/VulkanCore.jl) - [Julia](http://julialang.org/) binding for the Vulkan API.
 
 ## Tutorials
+* [Vulkan Training](http://www.vulkan-trainer.com/) - Kai Niklas [training podcasts](http://opengl-trainer.com/podcast.html) covering Vulkan, OpenGL, OpenGL ES, WebGL and much more. **A special thanks to Kai for donating the Vulkan.org domain to the Khronos Group**.
 * [Google Vulkan Tutorial](https://github.com/googlesamples/android-vulkan-tutorials) - A set of samples to illustrate Vulkan API on Android
-* [Vulkan Training Podcasts](http://opengl-trainer.com/podcast.html) - Kai Niklas training podcasts covering Vulkan, OpenGL, OpenGL ES, WebGL and much more
 * [Vulkan in 30 minutes](https://renderdoc.org/vulkan-in-30-minutes.html) - RenderDoc tutorial to get you going
 * [Vulkan API Tutorial](https://www.youtube.com/watch?v=wHt5wcxIPcE) - Niko Kauppi Youtube tutorial series 
 * [Imagination Technologies Vulkan Demos](https://imgtec.com/vulkan) - Demos by Imagination Technologies

@@ -138,57 +138,65 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ## Learning OpenCL
 
-### Tutorials, White Papers, and How-to Guides
+### Tutorials
 
-* [Box Blur Filter Using Intel Subgroup Extensions in OpenCL](https://software.intel.com/en-us/articles/box-blur-filter-using-intel-subgroup-extensions-in-opencl) - This paper highlights the OpenCL application for Box Blur filter, an image processing and filtering algorithm, and it describes how to optimize and accelerate the performance of a naïve OpenCL application using Intel OpenCL Subgroup extensions.
+*   [AMD OpenCL Resources](http://developer.amd.com/tools-and-sdks/opencl-zone/opencl-resources/) - A collection of resources to help you get going quickly.
 *   [AMD -  OpenCL Programming Guide](http://developer.amd.com/wordpress/media/2013/07/AMD_Accelerated_Parallel_Processing_OpenCL_Programming_Guide-rev-2.7.pdf) - AMD Accelerated Parallel Processing OpenCL Programming Guide.
+*   [Intel OpenCL Resources](https://software.intel.com/en-us/intel-opencl/) - A collection of resouces to help you get going quickly. 
+*   [NVIDIA OpenCL SDK Code Samples](https://developer.nvidia.com/opencl) - a colletion of OpenCL code samples.
+*   [Professional OpenCL Training Series](https://www.youtube.com/playlist?list=PLhqBhHU0mKh9zeei8cdnEe4I5e6ZMNlqy) - gives you all the knowledge you need to accelerate your own programs using OpenCL.
 *   [An Introduction to OpenCL C++](https://www.khronos.org/assets/uploads/developers/resources/Intro-to-OpenCL-C++-Whitepaper-May15.pdf) - The provisional OpenCL 2.1 specification is the first OpenCL version to feature a kernel language based upon C++.
-*   [Anteru’s introduction to OpenCL Part 1](https://anteru.net/2012/11/03/2009/) - A short series on how to get started with OpenCL. I assume that you are a developer, you know what OpenCL is and you want to get up to speed quickly. We’ll be building a small example application with OpenCL which will eventually be able to apply a blur filter on an image. You can find the complete source code at Bitbucket. In this part, we’ll prepare everything so we can actually use OpenCL. You should fetch the corresponding code to follow along easily. The second part covers how to run a simple kernel, and the third part does a slightly more complicated example where an image is processed.
-*   [Anteru’s introduction to OpenCL Part 2](https://anteru.net/2012/11/04/2016/) - If you have followed along the guide so far, you should have a skeleton application ready which does not yet run any OpenCL code, but prepares everything that is necessary. So let’s get a quick understanding how code is executed using OpenCL, and write our first OpenCL application. Make sure to grab the code before continuing to read.
-*   [Anteru’s introduction to OpenCL Part 3](https://anteru.net/2012/11/05/2022/) - The final part of the short introduction to OpenCL. In this part, we’ll be using images and implement a simple blur filter. You should start with the base application written in the first part of this guide as we won’t need anything from the SAXPY example.
+*   Anteru’s introduction to OpenCL - A short series on how to get started with OpenCL:
+    -   [Getting started with OpenCL Part 1](https://anteru.net/2012/11/03/2009/)
+    -   [Getting started with OpenCL Part 2](https://anteru.net/2012/11/04/2016/)
+    -   [Getting started with OpenCL Part 3](https://anteru.net/2012/11/05/2022/)
 *   [ARM -  MALI T600 Developer Guide](http://infocenter.arm.com/help/topic/com.arm.doc.dui0538e/DUI0538E_mali_t600_opencl_dg.pdf) - This book is for the Mali-T600 Linux OpenCL Software Development Kit (SDK).
 *   [Codeplex - OpenCL Tutorial : Quick Start](http://opencl.codeplex.com/wikipage?title=OpenCL%20Tutorials) - Configuring Visual Studio 2008 for OpenCL; Quickstart - writing a simple Kernel
-*   [Dr.Dobbs - A Gentle Introduction to OpenCL](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854) - Writing and running your first app with code executing on the CPU and the GPU
-*   [Easy OpenCL with Python](http://www.drdobbs.com/open-source/easy-opencl-with-python/240162614) - Use OpenCL with very little code -- and test it from the Python console.
-*   [Enjalot’s adventures in OpenCL Part 3](http://enja.org/2011/03/30/adventures-in-opencl-part-3-constant-memory-structs/) - Examine a technique which has proven useful but not straightforward; passing in a structure as a parameter to an OpenCL
+*   Dr.Dobbs Tutorials:
+    -   [A Gentle Introduction to OpenCL](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854) - Writing and running your first app with code executing on the CPU and the GPU
+    -   [Easy OpenCL with Python](http://www.drdobbs.com/open-source/easy-opencl-with-python/240162614) - Use OpenCL with very little code -- and test it from the Python console.
+*   [Enjalot’s adventures in OpenCL](http://enja.org/category/opencl/) - A collection of OpenCL mini tutorials.
 *   [Hands on OpenCL](http://handsonopencl.github.io) - This set of freely available OpenCL exercises and solutions, together with the HandsOnOpenCL slides have been created by Simon McIntosh-Smith and Tom Deakin from the University of Bristol in the UK, with financial support from the Khronos Initiative for Training and Education (KITE) to promote the use of open standards.
-*   [Intro OpenCL™ Tutorial](http://developer.amd.com/tools-and-sdks/opencl-zone/opencl-resources/introductory-tutorial-to-opencl/) - The following “Hello World” tutorial provides a simple introduction to OpenCL.
 *   [IWOCL Proceedings from 2013-2014](http://dl.acm.org/citation.cfm?id=2664666#) - The proceedings for IWOCL 2013 & 2014 are available via the ACM digital library 
-*   [NVIDIA OpenCL SDK](https://developer.nvidia.com/opencl) - In addition to OpenCL, NVIDIA supports a variety of GPU-accelerated libraries and high-level programming solutions that enable developers to get started quickly with GPU Computing.
-*   [OpenCL / GL Interop Tutorial](http://www.cmsoft.com.br/opencl-tutorial/openclopengl-interoperation/) - This tutorial is about manipulating OpenGL data using OpenCL without the need to transfer data back and forth. This is probably one of the most important OpenCL features when coupled with 3D games or 3D software because data transfers are currently the bottleneck of OpenCL (and CUDA and Stream).
-*   [OpenCL Article from Embedded Vision Summit](http://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/documents/pages/opencl-overview) - OpenCL Eases Development of Computer Vision Software for Heterogeneous Processors
-*   [OpenCL C99 Atomics](http://www.cmsoft.com.br/opencl-tutorial/opencl-c99-atomics/) - This topic is about Atomics operations in the OpenCL C99 code.
-*   [OpenCL Getting Started Tutorial](http://enja.org/opencl/) - A series of OpenCL tutorials using C++
-*   [OpenCL Image2D Variables](http://www.cmsoft.com.br/opencl-tutorial/opencl-image2d-variables/) - The worked example of this section shows a custom 7×7 border filter that runs 285x faster on the GPU than it does on the CPU.
-*   [OpenCL low poly collision detection](http://www.cmsoft.com.br/opencl-tutorial/case-study-low-poly-collision-detection/) - As part of CMSoft OpenCL tutorial, this source code example shows an implementation of low polygon collision detection algorithm suitable for engineering assembly analysis. OpenGL and Lab3D are used to display the 3D models and OpenCL C99 source code is presented and made available for download.
-*   [OpenCL Tutorial Series](http://www.codeproject.com/Articles/110685/Part-1-OpenCL-Portable-Parallelism) - 
-This tutorial series from Rob Farber and The Code Project focuses on bringing knowledgeable C and C++ programmers quickly up to speed so they can work with OpenCL to write efficient portable parallel programs.
-*   [Real time filtering with OpenCL](http://www.cmsoft.com.br/opencl-tutorial/case-study-image-filtering/) - In this tutorial we’re going to implement image filtering with a 7×7 filter. The idea is to present an OpenCL algorithm which will work on all cards compatible with the basic implementation of OpenCL without extensions. Since we received some emails asking about how to implement image filters that don’t use images and do basic stuff liike inverting colors, we also posted a simple image filter in which the user can compile the filter in execution time and choose which device will be used to compile the code:
+*   CMSoft OpenCL Tutorials:
+    -   [OpenCL C99 Atomics](http://www.cmsoft.com.br/opencl-tutorial/opencl-c99-atomics/) - This topic is about Atomics operations in the OpenCL C99 code.
+    -   [OpenCL Image2D Variables](http://www.cmsoft.com.br/opencl-tutorial/opencl-image2d-variables/) - a custom 7×7 border filter
+    -   [OpenCL low poly collision detection](http://www.cmsoft.com.br/opencl-tutorial/case-study-low-poly-collision-detection/) - a low polygon collision detection algorithm suitable for engineering assembly analysis
+    -   [Real time filtering with OpenCL](http://www.cmsoft.com.br/opencl-tutorial/case-study-image-filtering/) - implement image filtering with a 7×7 filter.
+    -   [OpenCL / GL Interop Tutorial](http://www.cmsoft.com.br/opencl-tutorial/openclopengl-interoperation/) - manipulating OpenGL data using OpenCL
  *   [StreamComputing basic concepts](http://streamcomputing.eu/blog/2011-10-18/basic-concepts-convenience-methods/) - OpenCL Convenience Methods for Vector Elements and Type Conversions
- *   [Technical Report: HRF-Relaxed: Adapting HRF to the complexities of industrial heterogeneous memory models](http://www.heterogeneouscompute.org/link/2014-hrfrelaxed-techreport.html) - In this paper, we generalize HRF to allow formalization of and reasoning about more complicated models using OpenCL 2.0 as a point of reference.
- *   [Part 1: Portable Parallelism](http://www.codeproject.com/Articles/110685/Part-1-OpenCL-Portable-Parallelism)
- *   [Part 2: Memory Spaces](http://www.codeproject.com/KB/showcase/Memory-Spaces.aspx)
- *   [Part 3: Work-Groups and Synchronization](http://www.codeproject.com/KB/showcase/Work-Groups-Sync.aspx)
- *   [Part 4: Coordinating Computations with OpenCL Queues](http://www.codeproject.com/KB/showcase/OpenCL-Queues.aspx)
- *   [Part 5: OpenCL Buffers and Memory Affinity](http://www.codeproject.com/KB/showcase/OpenCL-Buffers.aspx)
- *   [Part 6: Primitive Restart and OpenGL Interoperability](http://www.codeproject.com/KB/showcase/Primitive-Restart.aspx)
- *   [Part 7: OpenCL plugins](http://www.codeproject.com/KB/Parallel_Programming/329620.aspx)
- *   [Part 8: Heterogeneous workflows using OpenCL](http://www.codeproject.com/KB/Parallel_Programming/329633.aspx)
- *   [Part 9: OpenCL Extensions and Device Fission](http://www.codeproject.com/Articles/330174/Part-9-OpenCL-Extensions-and-Device-Fission)
+ *   OpenCL Tutorial series from CodeProject on portable multithreaded programming using OpenCL:
+    -   [Part 1: Portable Parallelism](http://www.codeproject.com/Articles/110685/Part-1-OpenCL-Portable-Parallelism)
+    -   [Part 2: Memory Spaces](http://www.codeproject.com/KB/showcase/Memory-Spaces.aspx)
+    -   [Part 3: Work-Groups and Synchronization](http://www.codeproject.com/KB/showcase/Work-Groups-Sync.aspx)
+    -   [Part 4: Coordinating Computations with OpenCL Queues](http://www.codeproject.com/KB/showcase/OpenCL-Queues.aspx)
+    -   [Part 5: OpenCL Buffers and Memory Affinity](http://www.codeproject.com/KB/showcase/OpenCL-Buffers.aspx)
+    -   [Part 6: Primitive Restart and OpenGL Interoperability](http://www.codeproject.com/KB/showcase/Primitive-Restart.aspx)
+    -   [Part 7: OpenCL plugins](http://www.codeproject.com/KB/Parallel_Programming/329620.aspx)
+    -   [Part 8: Heterogeneous workflows using OpenCL](http://www.codeproject.com/KB/Parallel_Programming/329633.aspx)
+    -   [Part 9: OpenCL Extensions and Device Fission](http://www.codeproject.com/Articles/330174/Part-9-OpenCL-Extensions-and-Device-Fission)
+
+### White Papers
+ *   [Technical Report: HRF-Relaxed](http://benedictgaster.org/?page_id=289) - In this paper, we generalize HRF to allow formalization of and reasoning about more complicated models using OpenCL 2.0 as a point of reference.
+*   [OpenCL Article from Embedded Vision Summit](http://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/documents/pages/opencl-overview) - OpenCL Eases Development of Computer Vision Software for Heterogeneous Processors
+* [Box Blur Filter Using Intel Subgroup Extensions in OpenCL](https://software.intel.com/en-us/articles/box-blur-filter-using-intel-subgroup-extensions-in-opencl) - This paper highlights the OpenCL application for Box Blur filter.
+*   [Extraction of color Haar features](http://www.cmsoft.com.br/opencl-tutorial/case-study-extraction-color-haar-features/) - use OpenCL to accelerate the extraction of color Haar-like wavelet features from color images.
+*   [Heat transfer simulation using CLGL interop](http://www.cmsoft.com.br/opencl-tutorial/case-study-heat-transfer-simulation-using-clgl-interop/) - demonstrate how to generate simulations of the heat equation with Dirichlet conditions
+
 
 ### Forums
 
 
-*   [Altera](http://www.alteraforum.com/forum/forumdisplay.php?f=75)
-*   [AMD - Dev Gurus](http://devgurus.amd.com/welcome)
-*   [ARM - Connected Community](http://community.arm.com/welcome)
-*   [Freescale - Forums](https://community.freescale.com/community/imx) - the i.MX Community, a community of i.MX developers and users transforming i.MX applications processors into display centric applications — tablets, eReaders, smart appliances and medical device, or vehicle infotainment.
-*   [Imagination Technologies - Graphics Forums](http://forum.imgtec.com/categories/powervr-graphics)
-*   [Intel OpenCL Forum](https://software.intel.com/en-us/forums/opencl) - This is a place to get support, ask questions and share information with other customers on OpenCL Code Builder
+*   [Altera Forums](http://www.alteraforum.com/forum/forumdisplay.php?f=75)
+*   [AMD Dev Gurus](http://devgurus.amd.com/welcome)
+*   [ARM Connected Community](http://community.arm.com/welcome)
+*   [NXP the i.MX Community](https://community.nxp.com/community/imx)
+*   [Imagination Technologies Graphics Forums](https://community.imgtec.com/forums/cat/powervr-insider-graphics/)
+*   [Intel OpenCL forums](https://software.intel.com/en-us/forums/opencl)
 *   [Khronos OpenCL Forums](https://forums.khronos.org/forumdisplay.php/87-OpenCL)
-*   [NVIDIA - Dev Talk](https://devtalk.nvidia.com/)
-*   [QUALCOMM - Dev Forums](https://developer.qualcomm.com/forum)
-*   [QUALCOMM - Mobile Gaming and Graphics Optimization](https://developer.qualcomm.com/forums/qdevnet-forums/mobile-gaming-graphics-optimization-adreno) - Discuss topics related to graphics optimization on Adreno, such as the Adreno GPU's 3D capabilities, shader performance and optimization, and using the Adreno Profiler to analyze graphic performance.
+*   [NVIDIA Dev Talk](https://devtalk.nvidia.com/)
+*   [QUALCOMM Dev Forums](https://developer.qualcomm.com/forum)
+*   [QUALCOMM Mobile Gaming and Graphics Optimization](https://developer.qualcomm.com/forums/qdevnet-forums/mobile-gaming-graphics-optimization-adreno) - Discuss topics related to graphics optimization on Adreno, such as the Adreno GPU's 3D capabilities, shader performance and optimization, and using the Adreno Profiler to analyze graphic performance.
 
 ### Optimisation guides
 
@@ -200,42 +208,40 @@ This tutorial series from Rob Farber and The Code Project focuses on bringing kn
 ### Courses
 
 
-*   [Acceleware - OpenCL Training](http://www.acceleware.com/opencl-training) - Acceleware offers advanced OpenCL training courses. Clients can access our top rated training on techniques for parallel programming in OpenCL specifically tailored for AMD GPUs and APUs. The courses are taught by experienced OpenCL programmers who have real world experience developing commercial applications using OpenCL.
-*   [Berkely University Computer Architecture and Engineering](http://www-inst.eecs.berkeley.edu/~cs152/sp13/) - Spring 2013 CS152. The course is intended to provide a foundation for students interested in performance programming, compilers, and operating systems, as well as computer architecture and engineering. Our goal is for you to better understand how software interacts with hardware, and to understand how trends in technology, applications, and economics drive continuing changes in the field. The course will cover the different forms of parallelism found in applications (instruction-level, data-level, thread-level, gate-level) and how these can be exploited with various architectural features. We will cover pipelining, superscalar, speculative and out-of-order execution, vector machines, VLIW machines, multithreading, graphics processing units, and parallel microprocessors. We will also explore the design of memory systems including caches, virtual memory, and DRAM.
-*   [Hands on OpenCL](http://handsonopencl.github.io) - This set of freely available OpenCL exercises and solutions, together with the HandsOnOpenCL slides have been created by Simon McIntosh-Smith and Tom Deakin from the University of Bristol in the UK, with financial support from the Khronos Initiative for Training and Education (KITE) to promote the use of open standards.
+*   [Acceleware - OpenCL Training](http://www.acceleware.com/opencl-training) - Acceleware offers advanced OpenCL training courses
+*   [Berkely University Computer Architecture and Engineering](http://www-inst.eecs.berkeley.edu/~cs152/sp13/) - Spring 2013 CS152. The course is intended to provide a foundation for students interested in performance programming, compilers, and operating systems, as well as computer architecture and engineering. 
+*   [Hands on OpenCL](http://handsonopencl.github.io) - This set of freely available OpenCL exercises and solutions, together with the HandsOnOpenCL slides.
 *   [Manchester OpenCL tutorial wiki](http://wiki.rcs.manchester.ac.uk/community/OpenCL) - A page for continued learning, with the aim of supplementing the RAC course on OpenCL.
 *   [StreamComputing - Performance Engineers](http://streamcomputing.eu/training/) - We train your developers in OpenCL. After the training they are able to select the algorithms that can best be tackled by a GPU and to optimise C, C++ or Java-code to get the full potential out of the processors.
-*   [University of Delaware - Advanced Parallel Programming](http://www.eecis.udel.edu/~cavazos/cisc879/) - The first part of the course will consist of discussions about current multicore architecutures (specifically, GPUs) and parallel programming models (specifically, OpenCL with a lecture or two on CUDA and HMPP). The second part of the course will involve discussing several research papers (chosen by students) pertaining to multicores. Each student will be asked to present one paper to the class. The third and last part of the course will consist of presentations by students of programming projects. Students will have a variety of multicore architectures available for their class projects, including several systems accelerated with GPUs.
-*   [University of Waterloo - Programming for Performance](https://eyolfson.ca/teaching/) - ECE 459 (Programming for Performance), Winter 2012, including lectures and assignments.
-*   [University of Waterloo - Programming for Performance](http://patricklam.ca/p4p/) - ECE459: Programming for Performance, W14
+*   [University of Waterloo - Programming for Performance](https://github.com/patricklam/p4p-2015) - ECE459: Programming for Performance, W14
 
-### Presentations and Videos
+### Presentations
 
+**2013**
 
-*   [Cross-Device NBody Simulation Sample](http://software.intel.com/en-us/vcsource/samples/opencl-cross-devices-nbody-simulation-sample) - This sample illustrates the basic principles of how to work simultaneously with OpenCL devices on both CPU and Intel Processor Graphics. Source code is accompanied with graphics visualization of the job distribution between the devices. Running OpenCL code on both CPU and Intel Processor Graphics not only results in the sum of the performance of both devices, but also largely improves application power performance on Ultrabook.
+*   [Software Occlusion Culling](http://software.intel.com/en-us/vcsource/samples/software-occlusion-culling) - Software Occlusion Culling sample
+
+**2012**
+
+*   [2012 Tizen Developer Conference](https://www.khronos.org/developers/library/2012-tizen-developer-conference) 
 *   [Levering GPGPU and OpenCL Technologies for Natural User Interfaces](http://www.slideshare.net/Khronos_Group/levering-gpgpu-and-opencl-technologies-for-natural-user-interfaces) - YOUi Labs, experts in developing Natural User Interfaces (NUI) for embedded platforms, examines in a new white paper how both General Purpose Graphics Processing Units (GPGPU) and The Khronos Group’s OpenCL specification can be used in a NUI engine to best utilize the available hardware for efficiency and improved user experience.
 *   [MacResearch Part 1](https://www.youtube.com/watch?v=0IK271P5o0I) - Introduction to OpenCL
 *   [MacResearch Part 2](https://www.youtube.com/watch?v=2-2d1kYxJy0) - MacResearch : Episode 2 - OpenCL Fundamentals
 *   [MacResearch Part 3](https://www.youtube.com/watch?v=Ydg7YIb7WT4) - MacResearch : Episode 3 - Building an OpenCL Project
 *   [MacResearch Part 4](https://www.youtube.com/watch?v=0yvIiMd3ISo) - MacResearch : Episode Four Questions and Answers
 *   [MacResearch Part 6](https://www.youtube.com/watch?v=xzjkqulXr5Y) - MacResearch : Shared Memory Kernel Optimization
+
+**2011**
+
 *   [OpenCL and Computer Vision Talk at UFMG](http://www.cmsoft.com.br/opencl-computer-vision-talk-ufmg/) - The Department of Computer Science of Federal University of Minas Gerais – DCC/UFMG and Khronos Chapter Brazil have been working together to spread and strengthen industrial and scientific use of Khronos’ standards, most notably OpenCL and OpenGL.
+
+**2010**
+
 *   [OpenCL FFT](http://www.cmsoft.com.br/opencl-fft-2/) - A Transformada Discreta de Fourier possui uma enorme variedade de aplicações, incluindo: análise espectral, compressão de dados, multiplicação de polinômios e cálculo de vida em fadiga remanescente de materiais.
-*   [OpenCL Marching Cubes](http://www.cmsoft.com.br/opencl-marching-cubes/) - Marching Cubes is an algorithm used in a very wide range of applications, including:
- * Medical visualizations such as CT and MRI scan images;
- * Special 3D effects and 3D modelling of metaballs or metasurfaces:
- * Analysis of oil reservoirs in the oil and gas industry;
- * Reconstitution of surfaces whose data has been acquired through seismic methods.
- * CMSoft brings a versatile and useful tool, Marching Cubes, adapted to GPU acceleration using OpenCL. Sample source code is available. OpenCLTemplate Marching Cubes is another resource made available to users who want to have easy access to GPU accelerated mathematical tools.
-*   [Software Occlusion Culling](http://software.intel.com/en-us/vcsource/samples/software-occlusion-culling) - This is an update to the Software Occlusion Culling sample. This update consists of new features and optimizations which have reduced the total cull time and the total frame time by a factor of 4X and 2X respectively. Below is a screen shot of the updated sample.
-*   [Tizen Developer conference](http://www.khronos.org/developers/library/2012-tizen-developer-conference) - Slides from a presentation Tasneem Brutch - Samsung, made at the Tizen Developer Conference
+*   [OpenCL Marching Cubes](http://www.cmsoft.com.br/opencl-marching-cubes/) - Demonstration of Marching Cubes algorithm
 
 ### Case Studies and Example Code
 
-
-*   [Extraction of color Haar features](http://www.cmsoft.com.br/opencl-tutorial/case-study-extraction-color-haar-features/) - Computer vision has become pervasive in our modern society, with applications ranging from robotic vision, measurement of position, face identification and recognition, automatic detection of failures in industry and many more. Haar features are commonly used to describe objects. CMSoft brings a study on how to use OpenCL to accelerate the extraction of color Haar-like wavelet features from color images. This process involves OpenCL acceleration of the computation of the image integral, generation of regions of sliding window in the target picture and preparing data structures to receive all features. A complete color Haar feature extraction software, including source code, is available.
-*   [GPGPU Programming (OpenCL)](http://gpgpu-computing.blogspot.com) - An OpenCL overview, examples, benchmarks and resources
-*   [Heat transfer simulation using CLGL interop](http://www.cmsoft.com.br/opencl-tutorial/case-study-heat-transfer-simulation-using-clgl-interop/) - In this Case Study, CMSoft presents OpenCL implementation using C# to demonstrate how to generate simulations of the heat equation with Dirichlet conditions. In our tests, we achieved 7000 steps per second when simulating a 500×400 temperature grid.
 *   [Intel® SDK for OpenCL* Applications Samples](http://software.intel.com/en-us/articles/intel-sdk-for-opencl-applications-samples-getting-started/) - The samples provide source code examples, accompanied with whitepapers to help you get started with Intel® SDK for OpenCL* Applications
 *   [ODE system solving with OpenCL](http://www.cmsoft.com.br/ode-solver-example/) - As an example of system of differential equation solver using OpenCL and yet another example of OpenCL / OpenGL interoperation, I’ve updated the OpenCLTemplate Runge Kutta solver example.
 *   [OpenCL Color Tracking](http://www.cmsoft.com.br/opencl-tutorial/case-study-color-tracking/) - Tracking a set of colors in a video is a first approximation and initial guess for many applications. In fact, determining what parts of an image belong to skin, for example, is very important to track faces or hands. CMSoft's color tracking case study presents a technique that is robust to motion-blur and that can perform real-time tracking thanks to OpenCL acceleration. Source code is provided showing how to implement a flashlight mouse, i.e., how to use the webcam and a flashlight to perform mouse movement and clicking.
@@ -273,10 +279,7 @@ This tutorial series from Rob Farber and The Code Project focuses on bringing kn
 
 ## SPIR Enabled Tools
 
-
 *   [C++ AMP CLANG/LLVM based](https://bitbucket.org/multicoreware/cppamp-driver-ng/wiki/Home) - C++AMP 1.2 standard and transforms it into either SPIR binary devices
 *   [CLANG SPIR 1.2 Generator](https://github.com/KhronosGroup/SPIR) - CLANG SPIR 1.2 Generator
 *   [Halide](http://halide-lang.org/) - Halide Programming language for high-performance image processing
 *   [PGI OpenACC 2.0 Compiler](http://www.pgroup.com/resources/accel.htm) - PGI Accelerator™ compilers, programmers can accelerate applications on x64+accelerator platforms by adding OpenACC compiler directives to existing high-level standard-compliant Fortran, C and C++ programs
-
-

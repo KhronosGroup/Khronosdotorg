@@ -23,7 +23,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Imagination](https://imgtec.com/vulkan)
 * Intel:
 	- [Open Source](http://blogs.intel.com/evangelists/2016/02/16/intel-open-source-graphics-drivers-now-support-vulkan/)
-	- [Windows](https://software.intel.com/en-us/blogs/2016/03/14/new-intel-vulkan-beta-1540204404-graphics-driver-for-windows-78110-1540)
+	- [Windows](https://downloadcenter.intel.com/download/26098/Intel-Graphics-Test-Driver)
 * [NVIDIA](https://developer.nvidia.com/vulkan-driver)
 * [Qualcomm](https://developer.qualcomm.com/software/adreno-gpu-sdk/gpu)
 

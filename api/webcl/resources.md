@@ -1,12 +1,20 @@
 # WebCL Resources
-We believe the true usefulness of WebCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/Khronosdotorg)!
+We believe the true usefulness of WebCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/webcl/resources.md) and help maintain an up-to-date list of WebCL resources.
+
+## Khronos Resources
+* [Homepage](https://www.khronos.org/webcl/)
+* [WebCL Registry](https://www.khronos.org/registry/webcl/)
+* [WebCL Draft Specification](https://www.khronos.org/registry/webcl/specs/latest/1.0/)
+* WebCL public [mailing List](https://www.khronos.org/webcl/public-mailing-list/) and public mailing list [archives](https://www.khronos.org/webcl/public-mailing-list/archives/)
+* [WebCL Forums](https://forums.khronos.org/forumdisplay.php/105-WebCL-General)
 
 ## Frameworks & Implementations
 * [Crosswalk Project](https://crosswalk-project.org/) If you are a developer working with web technologies, the Crosswalk Project enables you to deploy a web application with its own dedicated runtime. As of Beta 14, the Crosswalk Project now supports WebCL.
 * [Samsung WebCL](https://github.com/SRA-SiliconValley/webkit-webcl) Samsung open sourced prototype for WebKit. Built in WebCL & WebGL interoperability, i.e. no copying WebCL objects to WebGL and vice versa. 
 * [Nokia WebCL](http://webcl.nokiaresearch.com/) The WebCL project exposes OpenCL into JavaScript, allowing web developers to tap into the massive parallel computing resources of modern GPUs, multicore CPUs, and upcoming manycore accelerators. 
 * [AMD Chromium WebCL](https://github.com/amd/Chromium-WebCL) WebCL implementation for Chromium. 
-* [Rivertrail](https://github.com/rivertrail/rivertrail/wiki) JavaScript which supports Data Parallelism via OpenCL
+* [Rivertrail](https://github.com/rivertrail/rivertrail/wiki) JavaScript which supports Data Parallelism via OpenCL.
+* [ETRI Chromium WebCL](https://github.com/highweb-project/highweb-webcl-html5spec)  implementation for Chromium running on Android.
 
 ## Utilities & Debug Helpers
 * [WebCL Translator](https://github.com/wolfviking0/webcl-translator) WebCL-translator is an OpenCL to WebCL converter, it's based on the Emscripten LLVM-to-JavaScript compiler. 

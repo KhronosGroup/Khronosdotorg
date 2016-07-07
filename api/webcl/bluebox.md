@@ -2,9 +2,9 @@
 
 ### The Khronos Group open process to engage the web community
 
-*   [WebCL 1.0 Specification](/registry/webcl/specs/1.0.0/)
+*   [WebCL 1.0 Draft Specification](/registry/webcl/specs/1.0.0/)
 *   [User Contributions](/webcl/resources)
-*   [WebCL Public Forums](/message_boards/forumdisplay.php/63-WebCL)
+*   [WebCL Public Forums](https://forums.khronos.org/forumdisplay.php/105-WebCL-General)
 *   [WebCL Public Mailing List](/webcl/public-mailing-list/) and [Public Mailing List Archives](/webcl/public-mailing-list/archives/)
 *   [Show all WebCL related bugs](https://www.khronos.org/bugzilla/buglist.cgi?query_format=advanced&product=WebCL)
 *   [Report a WebCL related bug](https://www.khronos.org/bugzilla/enter_bug.cgi?product=WebCL)

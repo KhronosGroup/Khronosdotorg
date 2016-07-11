@@ -5,7 +5,7 @@ This repository holds a collection of resources for all of the Khronos Groups AP
 If you notice a missing link, or find a current link that is out-of-date or broken, please let us know. You may either create a pull request, or [contact us](https://www.khronos.org/about/contact) directly. 
 
 ## Khronos Technologies
-* Vulkan - [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md)
+* Vulkan - [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md), [FAQ](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/faq.md)
 * OpenCL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/resources.md)
 * OpenGL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengl/bluebox.md), [Resources Community Wiki](https://www.opengl.org/wiki/)
 * OpenGL ES - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/resources.md), [1.0 Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/1_x/bluebox.md), [2.0 Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/2_x/bluebox.md), [3.0 Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/3_x/bluebox.md)

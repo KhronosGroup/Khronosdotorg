@@ -1,6 +1,6 @@
 # Vulkan Resources
 
-Khronos has placed an unprecedented amount of materials into open source so you can provide feedback, showcase your work, fix bugs, and extend Vulkan capabilities for the future. Get engaged and show the world what you are doing with Vulkan.
+Khronos has placed an unprecedented amount of materials into open source so you can provide feedback, showcase your work, fix bugs, and extend Vulkan capabilities for the future. Get engaged and show the world what you are doing with Vulkan. Something missing from this page? Contribute today!
 
 ## Khronos Resources
 * [Vulkan Homepage](https://www.khronos.org/vulkan/)
@@ -42,6 +42,11 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [VulkanSharp](https://github.com/mono/VulkanSharp) - C# / .NET binding for the Vulkan API.
 * [VulkanCore.jl](https://github.com/JuliaGPU/VulkanCore.jl) - [Julia](http://julialang.org/) binding for the Vulkan API.
 
+## Engines
+* [Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4) - Epic Games Unreal Engine offers a suite of game development tools made by game developers, for game developers.
+* [Xenko Game Engine](http://xenko.com) - cross-platform game engine currently offering Vulkan support in Beta.
+
+
 ## Tutorials
 * [Vulkan Training](http://www.vulkan-trainer.com/) - Kai Niklas [training podcasts](http://opengl-trainer.com/podcast.html) covering Vulkan, OpenGL, OpenGL ES, WebGL and much more. **A special thanks to Kai for donating the Vulkan.org domain to the Khronos Group**.
 * [Offline debugging with Vulkan using VK\_EXT\_debug_marker](http://www.saschawillems.de/?page_id=2017) - demonstrates the new functionality introduced with the VK_EXT_debug_marker extensions
@@ -51,12 +56,15 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Imagination Technologies Vulkan Demos](https://imgtec.com/vulkan) - Demos by Imagination Technologies
 * [NVIDIA Vulkan Demos](https://developer.nvidia.com/Vulkan) - Demos and samples by NVIDIA
 * [Vulkan Tutorial](http://vulkan-tutorial.com/) - Open source Vulkan tutorials by Alexander Overvoorde
-* API without Secrets:
-    - [Introduction to Vulkan Part 0](https://software.intel.com/en-us/articles/api-without-secrets-introduction-to-vulkan-preface) - Preface
-    - [Introduction to Vulkan Part 1](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-1) - The Beginning
-    - [Introduction to Vulkan Part 2](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-2) - Swap Chain
-    - [Introduction to Vulkan Part 3](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-3) - First Triangle
-    - [Introduction to Vulkan Part 4]() - Vertex Attributes
+* API without Secrets: Introduction to Vulkan:
+    - [Part 0](https://software.intel.com/en-us/articles/api-without-secrets-introduction-to-vulkan-preface) - Preface
+    - [Part 1](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-1) - The Beginning
+    - [Part 2](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-2) - Swap Chain
+    - [Part 3](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-3) - First Triangle
+    - [Part 4](https://github.com/GameTechDev/IntroductionToVulkan/blob/master/Project/Tutorial04) - Vertex Attributes
+    - [Part 5](https://github.com/GameTechDev/IntroductionToVulkan/blob/master/Project/Tutorial05) - Staging Resources
+    - [Part 6](https://github.com/GameTechDev/IntroductionToVulkan/blob/master/Project/Tutorial06) - Descriptor Sets
+    - [Part 7](https://github.com/GameTechDev/IntroductionToVulkan/blob/master/Project/Tutorial07) - Uniform Buffers
 * [Vulkan Tutorial](http://av.dfki.de/~jhenriques/development.html) - Advanced tutorial to get to a complete but minimal C program running a graphical pipeline using Vulkan on windows.
 
 ## Demos & Samples
@@ -92,6 +100,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 ## Applications using Vulkan
 
 * [Talos Principle](http://www.croteam.com/talosprinciple/) - a philosophical first-person puzzle game from Croteam.
+* [Doom - id Software](http://doom.com/) - id Software released a patch in July 2016 giving Doom Vulkan support. 
 
 ## Books
 * [Vulkan Programming Guide](http://www.amazon.com/Vulkan-Programming-Guide-Official-Learning/dp/0134464540/khongrou-20) - The Official Guide to Learning Vulkan (OpenGL) 1st Edition

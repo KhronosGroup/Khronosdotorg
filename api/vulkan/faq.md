@@ -30,7 +30,7 @@
 
 ## General
 ### In addition to cross-platform support and being open source, what else sets Vulkan apart from DirectX12?
-From an external point of view, the biggest difference has to do with the platforms and the hardware that they support. DirectX12 has just a few target hardware devices that it was designed for. It only has to run on one operating system, whereas Vulkan supports hardware from 10s of companies, and supports a much broader range of platforms. There is a bit higher level of abstraction in Vulkan that accommodates that increased affordability, but I don't think that there is cost to that abstraction. I think the abstraction is a good thing. It enables affordability, while providing the same performance and usability you get from DX12.
+From an external point of view, the biggest difference has to do with the platforms and the hardware that they support. DirectX12 has just a few target hardware devices that it was designed for. It only has to run on one operating system, whereas Vulkan supports hardware from 10s of companies, and supports a much broader range of platforms. There is a bit higher level of abstraction in Vulkan that accommodates increased portability with negligible cost. The abstraction is a good thing. It enables portability, while providing the same performance and usability you get from DX12.
  
 ### Do you have any benchmark results between Vulkan and DirectX12? (assume that everything is in same conditions except API)
 Not at this point.

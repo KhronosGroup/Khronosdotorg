@@ -48,7 +48,7 @@ OpenGL is also a cross-platform graphics API available on Linux, and it has not 
 likely that the broad acceptance of a platform like the Steam Box would be more of a move in that direction."
 		
 ### What is the current stance of Microsoft, Nintendo, and Sony about using Vulkan on current/future consoles?
-"That is entirely up to the HW vendors when they generate the newest consoles.  It is possible Vulkan could be used as it,
+"That is entirely up to the HW vendors when they generate the newest consoles.  It is possible Vulkan could be used as it
 does provide a thin graphics API which would place more optimization potential on the application itself.  However,
 it is more likely that at least Microsoft would instead choose to use an optimized API based on DirectX 12 instead."
 		

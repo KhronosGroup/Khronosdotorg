@@ -203,7 +203,7 @@ If you look out in the web, you'll see there are people working on a shader debu
 ### Can Vulkan be used for headless rendering? Does Vulkan support stereoscopic rendering?
 Multi view is on the agenda for future work, which would include stereoscopic as an important special case. Headless rendering, definitely. Vulkan natively doesn't even have WSI built into it: that's an extension. We're talking about how the integration with the Window system is much cleaner with Vulkan than OpenGL, it's just that there are these two aspects, the WSI extension incident. Ask the question of us asking, "If you don't need to render anything, then you don't have to concern yourself about getting a display service in your context." It's much better partitioned and if you do use the WSI extension, the swap buffer architecture there is mostly low-level and explicit, just like the rest of Vulkan. It's a cleaner and more flexible Windows system integration. That's common.
 		
-### ow does the Vulkan loader detect vendor drivers in a Linux system?
+### How does the Vulkan loader detect vendor drivers in a Linux system?
 On Linux, the loader detects the drivers via a JSON file that's installed in some system communications. The JSON file indicates where the actual driver library is. There are also some environment variable overrides that you can use to point to a different location rather than a system location.
 		
 ### How much platform-dependent code is needed to write a Vulkan application?

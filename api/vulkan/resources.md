@@ -57,11 +57,11 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [NVIDIA Vulkan Demos](https://developer.nvidia.com/Vulkan) - Demos and samples by NVIDIA
 * [Vulkan Tutorial](http://vulkan-tutorial.com/) - Open source Vulkan tutorials by Alexander Overvoorde
 * API without Secrets: Introduction to Vulkan:
-    - [Part 0](https://software.intel.com/en-us/articles/api-without-secrets-introduction-to-vulkan-preface) - Preface
+    - [Part 0](https://software.intel.com/en-us/articles/api-without-secrets-introduction-to-vulkan-preface)  - Preface
     - [Part 1](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-1) - The Beginning
     - [Part 2](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-2) - Swap Chain
     - [Part 3](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-3) - First Triangle
-    - [Part 4](https://github.com/GameTechDev/IntroductionToVulkan/blob/master/Project/Tutorial04) - Vertex Attributes
+    - [Part 4](https://software.intel.com/en-us/articles/api-without-secrets-introduction-to-vulkan-part-4) - Vertex Attributes
     - [Part 5](https://github.com/GameTechDev/IntroductionToVulkan/blob/master/Project/Tutorial05) - Staging Resources
     - [Part 6](https://github.com/GameTechDev/IntroductionToVulkan/blob/master/Project/Tutorial06) - Descriptor Sets
     - [Part 7](https://github.com/GameTechDev/IntroductionToVulkan/blob/master/Project/Tutorial07) - Uniform Buffers

@@ -17,6 +17,8 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * Social Media
     - [Twitter](https://twitter.com/VulkanAPI)
     - [Facebook](https://facebook.com/VulkanAPI) 
+* Vulkan t-shirts 2016 SIGGRAPH [North America](https://teespring.com/vulkan-1) | [Europe](https://teespring.com/vulkan-future-of-graphics-eu-1) - Get an Official Khronos Vulkan™ The Future of Graphics  limited edition T-Shirt!
+
 
 ## Drivers
 * [AMD](http://gpuopen.com/gaming-product/vulkan/)
@@ -49,6 +51,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 ## Tutorials
 * [Vulkan Training](http://www.vulkan-trainer.com/) - Kai Niklas [training podcasts](http://opengl-trainer.com/podcast.html) covering Vulkan, OpenGL, OpenGL ES, WebGL and much more. **A special thanks to Kai for donating the Vulkan.org domain to the Khronos Group**.
+* [ARM Vulkan Tutorials](http://malideveloper.arm.com/documentation/tutorials/vulkan-tutorials/) - Get started with Vulkan tutorials from ARM.
 * [Offline debugging with Vulkan using VK\_EXT\_debug_marker](http://www.saschawillems.de/?page_id=2017) - demonstrates the new functionality introduced with the VK_EXT_debug_marker extensions
 * [Google Vulkan Tutorial](https://github.com/googlesamples/android-vulkan-tutorials) - A set of samples to illustrate Vulkan API on Android
 * [Vulkan in 30 minutes](https://renderdoc.org/vulkan-in-30-minutes.html) - RenderDoc tutorial to get you going
@@ -79,7 +82,8 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 ## Presentations and Videos
 * 2016 
-	 - [AMD: The most common Vulkan mistakes](http://gpuopen.com/slides-from-our-the-most-common-vulkan-mistakes-talk/) - slides from a two hours-long talk at University of Lodz in Poland where the most common mistakes made in Vulkan applications was discussed
+	- [Khronos SIGGRAPH Sessions](https://www.khronos.org/siggraph) - Upcoming Khronos BOFs at SIGGRAPH.
+    - [AMD: The most common Vulkan mistakes](http://gpuopen.com/slides-from-our-the-most-common-vulkan-mistakes-talk/) - slides from a two hours-long talk at University of Lodz in Poland where the most common mistakes made in Vulkan applications was discussed
     - [ARM: SPIRV-Cross](https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/18/spirv-cross), working with Vulkan and SPIR-V in your app
     - [ARM and Epic Games on Vulkan](https://community.arm.com/external-link.jspa?url=https%3A%2F%2Fyoutu.be%2FsL7B8yA0FVE) - Live stream discussion on Vulkan
     - [ARM Mali Graphics Blog](https://community.arm.com/groups/arm-mali-graphics/blog/tags#/?tags=vulkan) - Vulkan blog

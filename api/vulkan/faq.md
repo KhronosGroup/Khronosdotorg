@@ -1,5 +1,7 @@
 # Vulkan FAQ
 
+This FAQ is on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/faq.md), where we welcome pull requests.
+
 ## ToC
 * [General](#general)
 * [Gaming](#gaming)

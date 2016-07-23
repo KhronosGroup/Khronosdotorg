@@ -111,7 +111,7 @@ That's coming, and Vukan is a much more transparent API. But I wouldn't call the
 
 ## LunarG		
 ### Is Vulkan intended to be used with specific SDKs only ? Can it be used without the Vulkan SDK from LunarG?
-If individuals don't want to use the SDK, they could go find the different elements, which are open source and free from multiple repositories, then build it in and compile it together. Bringing it together in one place, binaries already built, and providing a forum where questions can be asked is the benefit of getting the SDK from vulkan.lunarg.com.
+If individuals don't want to use the SDK, they could go find the different elements, which are open source and free from multiple repositories, then build it in and compile it together. Bringing it together in one place, binaries already built, and providing a forum where questions can be asked is the benefit of getting the SDK from LunarXchange (vulkan.lunarg.com). 
 		
 ### Do any of the current SDKs include a Vulkan emulator?
 Not that we are aware of.
@@ -121,18 +121,15 @@ Yes. The LunarG SDK is for the Vulkan API only.
 		
 ### I noticed out-of-the-box the samples in LunarG SDK do not run (Samples can't find the driver).
 Most likely you did not have a driver installed on your system that supported Vulkan.
-		
+
+### What versions of Linux are supported by the LunarG SDK?
+At the time of public launch, the LunarG SDK supported Ubuntu versions 14.04 and 15.10. As time goes on, future releases of the SDK are validated on the two latest Ubuntu LTS releases. The LunarG Vulkan SDK for Linux is a self-extracting installer. The installer will create a local SDK directory of the form VulkanSDK/<version> in the current working directory. Starting with version 1.0.13.0, the installer will no longer copy the Vulkan development and runtime headers, libraries, and binaries to system locations. See the Linux Getting Started Guide included in the LunarG Linux SDK for more information.
+
 ### I'm using Ubuntu with Intel GPU. Which LunarG SDK or Intel Mesa driver should I use?
-The LunarG SDK supports Ubuntu versions 14.04 and 15.10. There is a curated list with links to drivers on the [Khronos Website][3].
+At the time of public launch, the LunarG SDK supported Ubuntu versions 14.04 and 15.10. As time goes on, future releases of the SDK are validated on the two latest Ubuntu LTS releases. There is a curated list with links to drivers on the [Khronos Website][3].
 		
 ### What is the relationship of LunarG to Khronos?
 LunarG is an independent software company being sponsored by Valve to help build out the Ecosystem for the Vulkan API. Hence LunarG is a Valve representative in the Khronos Vulkan Working Group.
-		
-### Will the LunarG SDK have installable packages for Ubuntu LTS Releases? (Example is Ubuntu 14.04 LTS, and eventually Ubuntu 16.04 LTS releases)
-The LunarG SDK currently supports Ubuntu versions 14.04 and 15.10. This means the SDK has been validated on those distributions. 
-		
-### Will there be a "quick reference" PDF for the LunarG API? I love those things :-)
-LunarG API? Unclear what this means. At [LunarXchange][1] you can get access to getting started with the SDK and related Vulkan documentation.
 		
 ### With OpenGL, we had helper APIs like GLUT, then FREEGLUT, and GLEW. Is the Lunar SDK intended to serve as that common front end for OS dependencies, or what?
 The LunarG SDK provides the critical and canonical Vulkan API Loader and Validation Layers. In addition, it provides sample code as examples, and other tools such as RenderDoc, vktrace/vkreplay. For more information about what is in the SDK, you can download it for free from the [LunarXchange][1]. You can also see an overview in the [LunarG Vulkan SDK][2]

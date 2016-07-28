@@ -45,14 +45,14 @@ No it does not. Our initial goal in Vulkan 1.0 is to address the functionality o
 That would be a question for Epic. They are a member of the working group, but I don't know if they've announced any commercial plans. They did announce support for [Vulkan in UE4 at MWC](http://www.bit-tech.net/news/gaming/2016/02/22/vulkan-unreal-engine-4/1).
 		
 ### Is Vulkan Heralding the Rise of Linux as a gaming platform?
-"This is a broad topic, and it is unlikely that Vulkan, in and of itself, would result in the rise of Linux as a gaming platform.
+This is a broad topic, and it is unlikely that Vulkan, in and of itself, would result in the rise of Linux as a gaming platform.
 OpenGL is also a cross-platform graphics API available on Linux, and it has not yet led Linux to that status.  It is more
-likely that the broad acceptance of a platform like the Steam Box would be more of a move in that direction."
+likely that the broad acceptance of a platform like the Steam Box would be more of a move in that direction.
 		
 ### What is the current stance of Microsoft, Nintendo, and Sony about using Vulkan on current/future consoles?
-"That is entirely up to the HW vendors when they generate the newest consoles.  It is possible Vulkan could be used as it
+That is entirely up to the HW vendors when they generate the newest consoles.  It is possible Vulkan could be used as it
 does provide a thin graphics API which would place more optimization potential on the application itself.  However,
-it is more likely that at least Microsoft would instead choose to use an optimized API based on DirectX 12 instead."
+it is more likely that at least Microsoft would instead choose to use an optimized API based on DirectX 12 instead.
 		
 ## Khronos APIs: EGL		
 

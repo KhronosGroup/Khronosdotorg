@@ -42,7 +42,7 @@ No it does not. Our initial goal in Vulkan 1.0 is to address the functionality o
 		
 ## Gaming		
 ### Can I integrate Vulkan inside of an Unreal Engine game project?
-That would be a question for Epic. They are a member of the working group, but I don't know if they've announced any commercial plans. They did announce support for [Vulkan in UE4 at MWC](http://www.bit-tech.net/news/gaming/2016/02/22/vulkan-unreal-engine-4/1).
+UE4 has experimental support for Vulkan as of 4.12 for its mobile feature set on Android and Windows. It's under active development with the goal of supporting all mobile and desktop rendering features.
 		
 ### Is Vulkan Heralding the Rise of Linux as a gaming platform?
 This is a broad topic, and it is unlikely that Vulkan, in and of itself, would result in the rise of Linux as a gaming platform.

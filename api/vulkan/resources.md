@@ -102,6 +102,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 ## IDE Support
 
 * [VIM](http://www.vim.org/scripts/script.php?script_id=5335) - Not an IDE, but still used by the masses
+* [Visual Studio SPIR-V Extension](https://github.com/SaschaWillems/SPIRV-VSExtension) - Adds context menu entries and error checking for compiling GLSL shaders to SPIR-V
 
 ## Applications using Vulkan
 

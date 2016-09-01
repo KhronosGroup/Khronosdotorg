@@ -103,6 +103,8 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 * [VIM](http://www.vim.org/scripts/script.php?script_id=5335) - Not an IDE, but still used by the masses
 * [Visual Studio SPIR-V Extension](https://github.com/SaschaWillems/SPIRV-VSExtension) - Adds context menu entries and error checking for compiling GLSL shaders to SPIR-V
+* [LunarG Visual Studio Vulkan Project Templates](https://vulkan.lunarG.com) - Create a Vulkan application project without needing to set up include paths and libraries.  Find the templates inside the LunarG SDK.
+
 
 ## Applications using Vulkan
 

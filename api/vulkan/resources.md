@@ -53,6 +53,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 ## Tutorials
 * [Vulkan Training](http://www.vulkan-trainer.com/) - Kai Niklas [training podcasts](http://opengl-trainer.com/podcast.html) covering Vulkan, OpenGL, OpenGL ES, WebGL and much more. **A special thanks to Kai for donating the Vulkan.org domain to the Khronos Group**.
+* [LunarG Samples Tutorial](https://vulkan.lunarg.com/doc/sdk/latest/linux/tutorial.html) -  steps you through the process of creating a simple Vulkan application.
 * [ARM Vulkan Tutorials](http://malideveloper.arm.com/documentation/tutorials/vulkan-tutorials/) - Get started with Vulkan tutorials from ARM.
 * [Offline debugging with Vulkan using VK\_EXT\_debug_marker](http://www.saschawillems.de/?page_id=2017) - demonstrates the new functionality introduced with the VK_EXT_debug_marker extensions
 * [Google Vulkan Tutorial](https://github.com/googlesamples/android-vulkan-tutorials) - A set of samples to illustrate Vulkan API on Android

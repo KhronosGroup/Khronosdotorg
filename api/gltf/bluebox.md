@@ -7,4 +7,5 @@
 *   [glTF 1.0 Briefing Webinar](https://www.youtube.com/watch?v=YXPeh2hy6Tc)
 *   [glTF Validator](https://github.com/KhronosGroup/glTF-Validator)
 *   [An Overview of glTF 1.0](https://www.khronos.org/assets/uploads/developers/library/overview/gltf-overview.pdf) (PDF)
+*   [glTF StackOverflow discussions](http://stackoverflow.com/questions/tagged/gltf)
 

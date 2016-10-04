@@ -14,4 +14,4 @@
 
 ### OpenVX Neural Network Extension
 
-*   [OpenVX Neural Net Extension](/registry/vx) released in provisional form ([Read More](https://www.khronos.org/news/press/khronos-launches-dual-neural-network-standard-initiatives)).
+*   [OpenVX Neural Network Extension](/registry/vx) released in provisional form ([Read More](https://www.khronos.org/news/press/khronos-launches-dual-neural-network-standard-initiatives)).

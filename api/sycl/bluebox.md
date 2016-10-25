@@ -4,6 +4,7 @@
 *   [SYCL Forum](https://www.khronos.org/sycl/sycl_feedback_forum) – the best place for posting your questions and feedback
 *   [An Overview of SYCL 2.2](https://www.khronos.org/assets/uploads/developers/library/2015-iwocl/Khronos-SYCL-May15.pdf) (presentation slides in .pdf format)
 *   [ComputeCpp](https://www.codeplay.com/products/computesuite/computecpp) - SYCL implementation by Codeplay
+*   [triSYCL](https://github.com/Xilinx/triSYCL) - an open-source implementation to experiment with SYCL
 *   [SYCL Ecosystem Website](http://sycl.tech) - SYCL community website maintained by Codeplay
 
 ### SYCL 1.2
@@ -14,7 +15,6 @@
 *   [An Overview of SYCL 1.2](https://www.khronos.org/assets/uploads/developers/library/2015-iwocl/Khronos-SYCL-May15.pdf) (presentation slides in .pdf format)
 *   [Tutorial on using SYCL](http://codeplaysoftware.github.io/iwocl2015/) – at the May 2015 IWOCL OpenCL conference
 *   [Open-source project](https://github.com/KhronosGroup/SyclParallelSTL) to implement the proposed C++ 17 Parallel STL
-*   [triSYCL](https://github.com/amd/triSYCL) - an implementation test-bed to experiment with SYCL
 
 These SYCL 1.2 specification and conformance tests were released on May 11, 2015 and includes the following features:
 

@@ -10,7 +10,7 @@ We believe the true usefulness of SYCL goes beyond the spec itself; it is an eco
 ## Implementations
 * [ComputeCpp](https://www.codeplay.com/products/computesuite/computecpp) - SYCL implementation by Codeplay
 * [Open Source Parallel STL implementation](https://github.com/KhronosGroup/SyclParallelSTL)
-* [triSYCL](https://github.com/amd/triSYCL) - an implementation test-bed to experiment with SYCL
+* [triSYCL](https://github.com/Xilinx/triSYCL) - an open-source implementation to experiment with SYCL
 
 ## Tutorials
 * [Tutorial on using SYCL](http://codeplaysoftware.github.io/iwocl2015/) – at the May 2015 IWOCL OpenCL conference

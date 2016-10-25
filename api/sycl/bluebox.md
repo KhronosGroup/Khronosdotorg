@@ -15,6 +15,7 @@
 *   [Tutorial on using SYCL](http://codeplaysoftware.github.io/iwocl2015/) – at the May 2015 IWOCL OpenCL conference
 *   [Open-source project](https://github.com/KhronosGroup/SyclParallelSTL) to implement the proposed C++ 17 Parallel STL
 *   [triSYCL](https://github.com/amd/triSYCL) - an implementation test-bed to experiment with SYCL
+*   [SYCL 1.2 Reference Guide](https://www.khronos.org/files/sycl/sycl-12-reference-card.pdf)
 
 These SYCL 1.2 specification and conformance tests were released on May 11, 2015 and includes the following features:
 

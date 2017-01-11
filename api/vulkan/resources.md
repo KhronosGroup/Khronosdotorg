@@ -114,3 +114,4 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 ## Books
 * [Vulkan Programming Guide](http://www.amazon.com/Vulkan-Programming-Guide-Official-Learning/dp/0134464540/khongrou-20) - The Official Guide to Learning Vulkan (OpenGL) 1st Edition
+* [Learning Vulkan](https://www.packtpub.com/application-development/learning-vulkan) written by Parminder Singh.

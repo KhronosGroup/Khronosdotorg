@@ -57,6 +57,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [LunarG Vulkan Tutorial](https://vulkan.lunarg.com/doc/sdk/1.0.26.0/linux/tutorial.html) -  steps you through the process of creating a simple Vulkan application.
 * [ARM Vulkan Tutorials](http://malideveloper.arm.com/documentation/tutorials/vulkan-tutorials/) - Get started with Vulkan tutorials from ARM.
 * [Offline debugging with Vulkan using VK\_EXT\_debug_marker](http://www.saschawillems.de/?page_id=2017) - demonstrates the new functionality introduced with the VK_EXT_debug_marker extensions
+* [Vulkan Video Tutorial](https://www.youtube.com/playlist?list=PL58qjcU5nk8uH9mmlASm4SFy1yuPzDAH0) - German Vulkan Tutorial series
 * [Google Vulkan Tutorial](https://github.com/googlesamples/android-vulkan-tutorials) - A set of samples to illustrate Vulkan API on Android
 * [Vulkan in 30 minutes](https://renderdoc.org/vulkan-in-30-minutes.html) - RenderDoc tutorial to get you going
 * [Vulkan API Tutorial](https://www.youtube.com/watch?v=wHt5wcxIPcE) - Niko Kauppi Youtube tutorial series 

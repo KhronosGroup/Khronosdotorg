@@ -8,6 +8,7 @@ We believe the true usefulness of SPIR goes beyond the spec itself; it is an eco
   official headers for SPIR-V, XML registry, and instructions set grammar in JSON form.
 * [](NEW) [ARM: SPIRV-Cross](https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/18/spirv-cross), working with SPIR-V in your app
 * Khronos Group [SPIR-V Tools](https://github.com/KhronosGroup/SPIRV-Tools) Project including an assembler, binary module parser, disassembler, and validator for SPIR-V
+  * Extras include integration with the vim and emacs text editors and the `less` command line tool
 * Khronos Group [Glslang](https://github.com/KhronosGroup/glslang) - GLSL reference
   compiler.  It can generate SPIR-V.
 * [LLVM framework with LLVM Support](https://github.com/KhronosGroup/SPIRV-LLVM/)  including an LLVM <-> SPIR-V bi-directional converter 
@@ -28,6 +29,7 @@ SPIR-V specification in json format
 * [HSPIRV - Haskell EDSL](https://github.com/stevely/hspirv) SPIR-V like language embedded in Haskell; Low level abstraction; Significantly relaxed layout constraints
 * [Lisp Specification](https://github.com/cbaggers/spir-v) Lisp readable SPIR-V specification; Basis for data driven Lisp tools
 * [SPIR-V json specification](https://github.com/Philip-Trettner/SpirvSpecToJson) Conversion of HTML SPIR-V specification to json format; Basis for future data driven tools
+* [vim-spirv](https://github.com/kbenzie/vim-spirv) is a plugin for vim providing automatic (dis)assembly and editing of `.spv` files, syntax highlighting, current ID highlighting and error highlighting
 
 ## SPIR Resources
 

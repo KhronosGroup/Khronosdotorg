@@ -49,6 +49,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [VK9](https://github.com/disks86/VK9) - Runs Direct3D 9 applications on Windows or Linux (/w Wine) over Vulkan.
 
 ## Engines
+* [Cinder](https://libcinder.org) - a free and open source library for professional-quality creative coding in C++.
 * [Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4) - Epic Games Unreal Engine offers a suite of game development tools made by game developers, for game developers.
 * [Xenko Game Engine](http://xenko.com) - cross-platform game engine currently offering Vulkan support in Beta.
 
@@ -87,8 +88,10 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [VKTS Vulkan Samples](https://github.com/McNopper/Vulkan) - Open source Vulkan samples using VulKan ToolS (VKTS) by Norbert Nopper
 
 ## Presentations and Videos
+* 2017
+    - [Khronos Vulkana DevU](https://www.khronos.org/developers/library/2017-vulkan-devu-vancouver) - Presentation and Videos from the 2017 Vulkan DevU in Vancouver.
 * 2016 
-	- [Khronos SIGGRAPH Sessions](https://www.khronos.org/siggraph) - Upcoming Khronos BOFs at SIGGRAPH.
+	- [Khronos SIGGRAPH Sessions](https://www.khronos.org/siggraph) - Video and presentations from SIGGRAPH 2016.
     - [AMD: The most common Vulkan mistakes](http://gpuopen.com/slides-from-our-the-most-common-vulkan-mistakes-talk/) - slides from a two hours-long talk at University of Lodz in Poland where the most common mistakes made in Vulkan applications was discussed
     - [ARM: SPIRV-Cross](https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/18/spirv-cross), working with Vulkan and SPIR-V in your app
     - [ARM and Epic Games on Vulkan](https://community.arm.com/external-link.jspa?url=https%3A%2F%2Fyoutu.be%2FsL7B8yA0FVE) - Live stream discussion on Vulkan
@@ -112,8 +115,9 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 ## Applications using Vulkan
 
-* [Talos Principle](http://www.croteam.com/talosprinciple/) - a philosophical first-person puzzle game from Croteam.
 * [Doom - id Software](http://doom.com/) - id Software released a patch in July 2016 giving Doom Vulkan support. 
+* [DotA](http://www.valvesoftware.com/games/dota2.html) - a free-to-play multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation.
+* [Talos Principle](http://www.croteam.com/talosprinciple/) - a philosophical first-person puzzle game from Croteam.
 
 ## Books
 * [Vulkan Programming Guide](http://www.amazon.com/Vulkan-Programming-Guide-Official-Learning/dp/0134464540/khongrou-20) - The Official Guide to Learning Vulkan (OpenGL) 1st Edition

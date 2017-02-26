@@ -1,5 +1,7 @@
 ## glTF 1.0 Specification and Materials
 
+*   [glTF 2.0 Draft Specification](https://github.com/KhronosGroup/glTF/pull/826)
+*   [glTF RFQ: Blender glTF Exporter](https://www.khronos.org/rfq/staging-area-only/request-for-quote-blender-gltf-exporter) - March 17th, 2017
 *   [glTF 1.0 Specification on GitHub](https://github.com/KhronosGroup/glTF/blob/master/specification/README.md)
 *   [glTF 1.0 Repository on GitHub](https://github.com/KhronosGroup/glTF)
 *   [glTF 1.0 Launch Press Release](https://www.khronos.org/news/press/khronos-finalizes-gltf-1.0-specification)

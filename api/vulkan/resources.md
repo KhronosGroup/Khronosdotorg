@@ -62,7 +62,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Vulkan Video Tutorial](https://www.youtube.com/playlist?list=PL58qjcU5nk8uH9mmlASm4SFy1yuPzDAH0) - German Vulkan Tutorial series
 * [Google Vulkan Tutorial](https://github.com/googlesamples/android-vulkan-tutorials) - A set of samples to illustrate Vulkan API on Android
 * [Vulkan in 30 minutes](https://renderdoc.org/vulkan-in-30-minutes.html) - RenderDoc tutorial to get you going
-* [Vulkan API Tutorial](https://www.youtube.com/watch?v=wHt5wcxIPcE) - Niko Kauppi Youtube tutorial series 
+* [Vulkan API Tutorial](https://www.youtube.com/watch?v=wHt5wcxIPcE) - Niko Kauppi YouTube tutorial series 
 * [Imagination Technologies Vulkan Demos](https://imgtec.com/vulkan) - Demos by Imagination Technologies
 * [NVIDIA Vulkan Demos](https://developer.nvidia.com/Vulkan) - Demos and samples by NVIDIA
 * [Vulkan Tutorial](http://vulkan-tutorial.com/) - Open source Vulkan tutorials by Alexander Overvoorde

@@ -6,7 +6,7 @@
 *   [WebGL Public Wiki](http://khronos.org/webgl/wiki/)
 *   [WebGL Public Mailing List (spec discussion)](http://www.khronos.org/webgl/public-mailing-list/)
     *   [WebGL Public Mailing List Archives](http://www.khronos.org/webgl/public-mailing-list/archives)
- *   [WebGL Reference Card](/developers/reference-cards/)
+*   [WebGL Reference Card](/developers/reference-cards/)
 *   [Google Groups](http://groups.google.com/group/webgl-dev-list) and [StackOverflow](http://stackoverflow.com/questions/tagged/webgl) discussions on developing with WebGL
 *   [Filing bugs about the WebGL spec or conformance tests](https://github.com/KhronosGroup/WebGL/issues)
 *   [WebGL Security white paper](http://www.khronos.org/webgl/security/)

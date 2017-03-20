@@ -102,7 +102,7 @@ GLSlang is what we are all using and are hoping will be the standard, although t
 ### Will there be a SPIR-V layer to allow running DirectX over Vulkan?
 That is certainly a technical possibility. The issue there would be to translate Direct-X shade of code that is post-compiled code into SPIR-V for consumption. The other option of course is to compile direct form the HLSL, if that's how you're generating your binary blobs, which I think would be typical in the more modern Direct-X APIs. Either path will work. Khronos isn't planning to do that work, but if that is the best path for your engine, we hope you've got all the tools, and if not, let us know.
 		
-### Does the SPIR-V specification guarantee that precompiled SPIR-V objecst will run on all Vulkan targets, regardless of the hardware vendor without having to tweak shaders for each HW platform they are targeting?
+### Does the SPIR-V specification guarantee that precompiled SPIR-V objects will run on all Vulkan targets, regardless of the hardware vendor without having to tweak shaders for each HW platform they are targeting?
 That is our most profound hope, for the SPIR-V and Vulkan relationship. We are very aware of the pain that the compiler differences have caused in the OpenGL and OpenGL ES environment. We’ve written the most rigorous specification we know how to write for SPIR-V, and we ask that you report any issues. The one caveat is that Vulkan does not specify error behaviour. If you write a SPIR-V shader which does not follow the SPIR-V specification, we are not responsible for what different implementations may do with it. We do provide a SPIR-V validator and if your SPIR-V passes that validator and behaves differently on different implementations we want to know about it. We will conformance test it and we will fix it. There are capabilities in SPIR-V which are basically feature capability support bits, and so if you have a shader which works on one implementation that supports some capabilities and you run it on an implementation which does not support those capabilities, then obviously, that’s not going to work. But otherwise we do sincerely hope that things are portable and that there are less implementation variation in SPIR-V consumers than there has been in GSL compilers.
 
 ## Khronos APIs: Safety Critical		
@@ -159,7 +159,7 @@ Broadcom is a Khronos member and an active participant in the Vulkan working gro
 		
 ## Support: SLI		
 ### Is SLI supported?
-There’s no direct support for SLI or alternate frame rendering the API currently that we're aware of. Multi-GPU support of many kinds is a very high priority, we’re very aware of the lack in Vulkan 1.0. It will require either a large extensions or a new version to address properly, we are very aware of the need and we are very interested in solving it.
+There’s no direct support for SLI or alternate frame rendering the API currently that we're aware of. Multi-GPU support of many kinds is a very high priority, we’re very aware of the lack in Vulkan 1.0. It will require either a large extension or a new version to address properly, we are very aware of the need and we are very interested in solving it.
 		
 ## Support: Visual Studio		
 ### Are there solution or cmake files for building the source for Visual Studio and/or other compilers?

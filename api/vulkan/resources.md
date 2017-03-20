@@ -17,7 +17,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * Social Media
     - [Twitter](https://twitter.com/VulkanAPI)
     - [Facebook](https://facebook.com/VulkanAPI) 
-* Vulkan t-shirts 2016 SIGGRAPH [North America](https://teespring.com/vulkan-1) | [Europe](https://teespring.com/vulkan-future-of-graphics-eu-1) - Get an Official Khronos Vulkan™ The Future of Graphics  limited edition T-Shirt!
+* Vulkan Merchandise [North America](https://teespring.com/stores/the-khronos-group) - Get an Official Khronos Vulkan™ T-Shirt or Mug
 
 
 ## Drivers
@@ -30,23 +30,25 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Qualcomm](https://developer.qualcomm.com/software/adreno-gpu-sdk/gpu)
 
 ## SDK
-* [LunarG Vulkan SDK](https://vulkan.lunarG.com) - Official Vulkan SDK by LunarG.
-* [Google Vulkan](https://developer.android.com/go/vulkan) - Android developer website to download the API, samples, and documentation.
 * [ARM](http://malideveloper.arm.com/resources/sdks/mali-vulkan-sdk/) - Software Development Kit for ARM Mali Vulkan applications on Android
+* [Google Vulkan](https://developer.android.com/go/vulkan) - Android developer website to download the API, samples, and documentation.
+* [LunarG Vulkan SDK](https://vulkan.lunarG.com) - Official Vulkan SDK by LunarG.
+* [Qualcomm](https://developer.qualcomm.com/download/software) - Adreno GPU SDK
 
 ## Resources
-* [\##Vulkan IRC](https://webchat.freenode.net) - Vulkan IRC developer channel on [freenode.net](https://freenode.net).
-* [Vulkan hardware database](http://vulkan.gpuinfo.org/) - Check out hardware capabilities and compare different Vulkan implementations.
-* [VkHLF](https://github.com/nvpro-pipeline/VkHLF) - Vulkan High Level Framework
-* [MoltenVK](https://moltengl.com/moltenvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
-* [Mali Graphics Debugger](http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/) - Mali debugger with Vulkan support.
-* [RenderDoc](https://github.com/baldurk/renderdoc) - Cross platform graphics debugger with Vulkan support.
+* [AMD Vulkan Resources](http://gpuopen.com/gaming-product/vulkan/) - 
+* [ARM Mali Graphics Debugger](http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/) - Mali debugger with Vulkan support.
+* [Brenwill Workshop MoltenVK](https://moltengl.com/moltenvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
+* [IRC Channel \##Vulkan](https://webchat.freenode.net) - Vulkan IRC developer channel on [freenode.net](https://freenode.net).
 * [LWJGL](https://www.lwjgl.org/) - Light Weight Java Graphics Library with Vulkan Bindings.
-* [VulkanSharp](https://github.com/mono/VulkanSharp) - C# / .NET binding for the Vulkan API.
-* [VulkanCore.jl](https://github.com/JuliaGPU/VulkanCore.jl) - [Julia](http://julialang.org/) binding for the Vulkan API.
+* [RenderDoc](https://github.com/baldurk/renderdoc) - Cross platform graphics debugger with Vulkan support.
 * [SharpVk](https://github.com/FacticiusVir/SharpVk) - C#/.NET Bindings for Vulkan, with NuGet package
-* [vulkan-go](https://github.com/vulkan-go/vulkan) - Go-lang Bindings for Vulkan API.
 * [VK9](https://github.com/disks86/VK9) - Runs Direct3D 9 applications on Windows or Linux (/w Wine) over Vulkan.
+* [VkHLF](https://github.com/nvpro-pipeline/VkHLF) - Vulkan High Level Framework
+* [Vulkan hardware database](http://vulkan.gpuinfo.org/) - Check out hardware capabilities and compare different Vulkan implementations.
+* [vulkan-go](https://github.com/vulkan-go/vulkan) - Go-lang Bindings for Vulkan API.
+* [VulkanCore.jl](https://github.com/JuliaGPU/VulkanCore.jl) - [Julia](http://julialang.org/) binding for the Vulkan API.
+* [VulkanSharp](https://github.com/mono/VulkanSharp) - C# / .NET binding for the Vulkan API.
 
 ## Engines
 * [Cinder](https://libcinder.org) - a free and open source library for professional-quality creative coding in C++.

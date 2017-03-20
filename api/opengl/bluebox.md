@@ -31,16 +31,16 @@ New extensions to OpenGL 4.5 include:
 
 ### API & GLSL specifications
 
-*   [OpenGL 4.5 Core Profile Specification](http://www.opengl.org/registry/doc/glspec45.core.pdf)
-*   [OpenGL 4.5 Compatibility Profile Specification](http://www.opengl.org/registry/doc/glspec45.compatibility.pdf)
-*   [OpenGL Shading Language 4.50 Specification](http://www.opengl.org/registry/doc/GLSLangSpec.4.50.pdf)
+*   [OpenGL 4.5 Core Profile Specification](https://khronos.org/registry/OpenGL/specs/gl/glspec45.core.pdf)
+*   [OpenGL 4.5 Compatibility Profile Specification](https://khronos.org/registry/OpenGL/specs/gl/glspec45.compatibility.pdf)
+*   [OpenGL Shading Language 4.50 Specification](https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.50.pdf)
 
 ### Additional Links
 
-Specifications and documentation for the OpenGL API and OpenGL Shading Language, as well as related APIs such as GLX, are available from [OpenGL.org](http://www.opengl.org/):
+Specifications and documentation for the OpenGL API and OpenGL Shading Language, as well as related APIs such as GLX, are available from [OpenGL.org](https://www.opengl.org/):
 
-*   [OpenGL Registry](http://www.opengl.org/registry/)
-*   [OpenGL SDK](http://www.opengl.org/sdk/)
-*   [OpenGL Reference Pages](http://www.opengl.org/sdk/docs/man/)
-*   [OpenGL Reference Cards](/developers/reference-cards/)
-*   [OpenGL Resources](https://www.opengl.org/wiki/Getting_Started)
+*   [OpenGL Registry](https://khronos.org/registry/OpenGL/index_gl.php)
+*   [OpenGL SDK](https://www.opengl.org/sdk/)
+*   [OpenGL Reference Pages](https://www.opengl.org/sdk/docs/man/)
+*   [OpenGL Reference Cards](https://www.khronos.org/developers/reference-cards/)
+*   [OpenGL Resources](https://www.khronos.org/opengl/wiki)

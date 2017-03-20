@@ -11,3 +11,7 @@
 *   Read the [OpenVX 1.0.1 Announced Release](/news/press/industry-momentum-building-for-openvx-computer-vision-acceleration-api "OpenVX 1.0.1 Press Release")
 *   Read the [OpenVX 1.0 Launch Release](/news/press/khronos-finalizes-and-releases-openvx-1.0-specification-for-computer-vision "OpenVX 1.0 Press Release")
 *   [OpenVX Resources](/openvx/resources)
+
+### OpenVX Neural Network Extension
+
+*   [OpenVX Neural Network Extension](/registry/vx) released in provisional form ([Read More](https://www.khronos.org/news/press/khronos-launches-dual-neural-network-standard-initiatives)).

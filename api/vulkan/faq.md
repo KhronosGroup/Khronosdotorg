@@ -1,5 +1,7 @@
 # Vulkan FAQ
 
+This FAQ is on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/faq.md), where we welcome pull requests.
+
 ## ToC
 * [General](#general)
 * [Gaming](#gaming)
@@ -40,17 +42,17 @@ No it does not. Our initial goal in Vulkan 1.0 is to address the functionality o
 		
 ## Gaming		
 ### Can I integrate Vulkan inside of an Unreal Engine game project?
-That would be a question for Epic. They are a member of the working group, but I don't know if they've announced any commercial plans. They did announce support for [Vulkan in UE4 at MWC](http://www.bit-tech.net/news/gaming/2016/02/22/vulkan-unreal-engine-4/1).
+UE4 has experimental support for Vulkan as of 4.12 for its mobile feature set on Android and Windows. It's under active development with the goal of supporting all mobile and desktop rendering features.
 		
 ### Is Vulkan Heralding the Rise of Linux as a gaming platform?
-"This is a broad topic, and it is unlikely that Vulkan, in and of itself, would result in the rise of Linux as a gaming platform.
+This is a broad topic, and it is unlikely that Vulkan, in and of itself, would result in the rise of Linux as a gaming platform.
 OpenGL is also a cross-platform graphics API available on Linux, and it has not yet led Linux to that status.  It is more
-likely that the broad acceptance of a platform like the Steam Box would be more of a move in that direction."
+likely that the broad acceptance of a platform like the Steam Box would be more of a move in that direction.
 		
 ### What is the current stance of Microsoft, Nintendo, and Sony about using Vulkan on current/future consoles?
-"That is entirely up to the HW vendors when they generate the newest consoles.  It is possible Vulkan could be used as it
+That is entirely up to the HW vendors when they generate the newest consoles.  It is possible Vulkan could be used as it
 does provide a thin graphics API which would place more optimization potential on the application itself.  However,
-it is more likely that at least Microsoft would instead choose to use an optimized API based on DirectX 12 instead."
+it is more likely that at least Microsoft would instead choose to use an optimized API based on DirectX 12 instead.
 		
 ## Khronos APIs: EGL		
 
@@ -76,10 +78,10 @@ It is certainly feasible. There are rumors of projects for running OpenGL on top
 If you're really new to 3D graphics, OpenGL, or one of the traditional APIs, is the best place to start learning and not get totally swamped by all the details that you need to drive Vulkan. The interesting thing is over time, the middleware layer could evolve to potentially provide some interesting learning platforms over time. Right now, if you are starting from scratch, start with OpenGL.
 		
 ### What performance improvements might a well-tuned OpenGL application for games / simulation expect with a switch to Vulkan?
-If your application is well-tuned and is GPU-bound at present, you'll perhaps notice some reduction in CPU power. The CPU may be idle more often, but you're not going to get a graphics difference, because the pipeline is the pipeline. If it's maxed out now, it will be maxed out in Vulkan. But you might expect to get many of your CPU cycles back, so you may have the opportunity to enhance your rendering using some offline sort of CPU techniques. You may get more out of that if you choose to give back some of that. If you are happy that you're using less power and your CPU is idle more of the time, that's great, but you may choose to add some techniques back in outside the rendering pipeline, so that you can still get better results, but you're doing it in a combination of CPU and GPU work.
+If your application is well-tuned and is GPU-bound at present, you'll perhaps notice some reduction in CPU power. The CPU may be idle more often, but you're not going to get a graphics difference, because the pipeline is the pipeline. If it's maxed out now, it will be maxed out in Vulkan. But you might expect to get many of your CPU cycles back, so you may have the opportunity to enhance your rendering using some offline sort of CPU techniques. You may get more out of that if you choose to give back some of that. If you are happy that you're using less power and your CPU is idle more of the time, that's great, but you may choose to add some techniques back in outside the rendering pipeline, so that you can still get better results, but you're doing it in a combination of CPU and GPU work.  Vulkan also supports multi-threaded rendering so this feature will enable an application or game to parallelize across several threads what used to be done on a single rendering thread (command buffer construction and submission).
 		
 ### Are shaders in Vulkan written in the same way as in OpenGL or GLSL?
-In OpenGL, the only choice for writing shaders is to use GLSL, and pass the GLSL into the driver. In Vulkan, you can also write in GLSL, and use an offline tool chain to translate that to SPIR-V. (Standard Vulkan only accepts SPIR-V). There are plenty of other choices, and there will likely be lots of people experimenting with different languages and different kinds of tool chains, middleware, and game engines as a variety of ways of generating the SPIR-V that goes into the driver. So you can do it the way it works for OpenGL, or you can experiment with the new and different ways. Some of those can be linked directly into an application, so you don't have to rely solely on offline support. We usually call it off-driver support, but you could do it online by using a side tool real-time. It just isn't part of the core Vulkan drivers stack.
+In OpenGL, the only choice for writing shaders is to use GLSL, and pass the GLSL into the driver at runtime. In Vulkan, you can also write in GLSL, and use an offline tool chain to translate that to SPIR-V. (Standard Vulkan only accepts SPIR-V). There are plenty of other choices, and there will likely be lots of people experimenting with different languages and different kinds of tool chains, middleware, and game engines as a variety of ways of generating the SPIR-V that goes into the driver. So you can do it the way it works for OpenGL, or you can experiment with the new and different ways. Some of those can be linked directly into an application, so you don't have to rely solely on offline support. We usually call it off-driver support, but you could do it online by using a side tool real-time. It just isn't part of the core Vulkan drivers stack.
 		
 ### Will we be able to mix OpenGL rendering with Vulkan rendering?
 Nvidia at least has mixed OpenGL and Vulkan rendering and has published the extension that allows this. One of our first extensions is a pretty limited form of interop where you can synchronize between an OpenGL context and a Vulkan queue, and additionally copy image content from Vulkan to OpenGL. Interop is certainly a technical possibility, and I expect we'll probably have additional extensions in the future.
@@ -88,7 +90,7 @@ Nvidia at least has mixed OpenGL and Vulkan rendering and has published the exte
 Our initial goal in Vulkan 1.0 is to address the functionality of current GPUs and current drivers. So we have stressed the hardware capabilities as opposed to anything that you could handle through middleware. So high quality text rendering, anything involving fonts, is out of scope for this level of activity. We think it's ideal for layered implementations and layered APIs that would run on top of Vulkan.
 		
 ### Can OpenGL functions be used with the Vulkan API?
-The short answer is no. For all the hidden state that is being carried around by OpenGL implementations to interact with the very explicit exposed ... to Vulkan is a pretty normally technical problem.There is an Nvidia extension to allow that. My guess is that it would have to be fairly hands-off, and UP explicitly passing surfaces between one side and the other, and otherwise maintaining them as pretty independent entities. -- I think the question is could you use GL and Vulkan in the same application and without interrupt you could render to different Windows and those kinds of things, with GL and Vulkan, but you would need the NVIDIA extension to mix rendering. -- In our implementation, we actually package the OpenGL and Vulkan drivers in the same DLL, and so you can certainly use both of them in the same process, and that would be true, even if they weren't in the same DLL. You can use them independently. It's sharing data or sharing state between them, requires an extension to one or both APIs. Although, for multi-window applications, there is no real problem.
+The short answer is no. For all the hidden state that is being carried around by OpenGL implementations to interact with the very explicit exposed ... to Vulkan is a pretty normally technical problem. There are extensions that allow this by explicitly passing surfaces between one side and the other, and otherwise maintaining them as pretty independent entities. You can use GL and Vulkan in the same application and without interop you could render to different surfaces with GL and Vulkan, but you would need an extension to mix rendering. You can certainly use both of them in the same process. You can use them independently. It's sharing data or sharing state between them, that requires an extension to one or both APIs. Although, for multi-window applications, there is no real problem.
 		
 ### Will GLSL be the standard shading language for Vulkan?
 Vulkan contains no normative reference to any high level language specification. The only thing that a Vulkan implementation requires is the ability to accept shaders in the SPIR-V format. We have defined for the convenience of the developers, an extension to GLSL to allow it to generate Vulkan compatible SPIR-V (9:40) but we pose no barrier, we intend to encourage other mechanisms of generating valid SPIR-V. The SDK is a set of tools which you can use to validate whether a SPIR-V program is legal for Vulkan and should be accepted by a Vulkan implementation. We strongly encourage developers to develop their own language ports or their own tools such as graphic tools, graphical tools such as the SDK to generate languages using other high level formalisms.
@@ -100,7 +102,7 @@ GLSlang is what we are all using and are hoping will be the standard, although t
 ### Will there be a SPIR-V layer to allow running DirectX over Vulkan?
 That is certainly a technical possibility. The issue there would be to translate Direct-X shade of code that is post-compiled code into SPIR-V for consumption. The other option of course is to compile direct form the HLSL, if that's how you're generating your binary blobs, which I think would be typical in the more modern Direct-X APIs. Either path will work. Khronos isn't planning to do that work, but if that is the best path for your engine, we hope you've got all the tools, and if not, let us know.
 		
-### Does the SPIR-V specification guarantee that precompiled SPIR-V objecst will run on all Vulkan targets, regardless of the hardware vendor without having to tweak shaders for each HW platform they are targeting?
+### Does the SPIR-V specification guarantee that precompiled SPIR-V objects will run on all Vulkan targets, regardless of the hardware vendor without having to tweak shaders for each HW platform they are targeting?
 That is our most profound hope, for the SPIR-V and Vulkan relationship. We are very aware of the pain that the compiler differences have caused in the OpenGL and OpenGL ES environment. We’ve written the most rigorous specification we know how to write for SPIR-V, and we ask that you report any issues. The one caveat is that Vulkan does not specify error behaviour. If you write a SPIR-V shader which does not follow the SPIR-V specification, we are not responsible for what different implementations may do with it. We do provide a SPIR-V validator and if your SPIR-V passes that validator and behaves differently on different implementations we want to know about it. We will conformance test it and we will fix it. There are capabilities in SPIR-V which are basically feature capability support bits, and so if you have a shader which works on one implementation that supports some capabilities and you run it on an implementation which does not support those capabilities, then obviously, that’s not going to work. But otherwise we do sincerely hope that things are portable and that there are less implementation variation in SPIR-V consumers than there has been in GSL compilers.
 
 ## Khronos APIs: Safety Critical		
@@ -109,7 +111,7 @@ That's coming, and Vukan is a much more transparent API. But I wouldn't call the
 
 ## LunarG		
 ### Is Vulkan intended to be used with specific SDKs only ? Can it be used without the Vulkan SDK from LunarG?
-If individuals don't want to use the SDK, they could go find the different elements, which are open source and free from multiple repositories, then build it in and compile it together. Bringing it together in one place, binaries already built, and providing a forum where questions can be asked is the benefit of getting the SDK from vulkan.lunarg.com.
+If individuals don't want to use the SDK, they could go find the different elements, which are open source and free from multiple repositories, then build it in and compile it together. Bringing it together in one place, binaries already built, and providing a forum where questions can be asked is the benefit of getting the SDK from LunarXchange (vulkan.lunarg.com). 
 		
 ### Do any of the current SDKs include a Vulkan emulator?
 Not that we are aware of.
@@ -119,18 +121,15 @@ Yes. The LunarG SDK is for the Vulkan API only.
 		
 ### I noticed out-of-the-box the samples in LunarG SDK do not run (Samples can't find the driver).
 Most likely you did not have a driver installed on your system that supported Vulkan.
-		
+
+### What versions of Linux are supported by the LunarG SDK?
+At the time of public launch, the LunarG SDK supported Ubuntu versions 14.04 and 15.10. As time goes on, future releases of the SDK are validated on the two latest Ubuntu LTS releases. The LunarG Vulkan SDK for Linux is a self-extracting installer. The installer will create a local SDK directory of the form VulkanSDK/<version> in the current working directory. Starting with version 1.0.13.0, the installer will no longer copy the Vulkan development and runtime headers, libraries, and binaries to system locations. See the Linux Getting Started Guide included in the LunarG Linux SDK for more information.
+
 ### I'm using Ubuntu with Intel GPU. Which LunarG SDK or Intel Mesa driver should I use?
-The LunarG SDK supports Ubuntu versions 14.04 and 15.10. There is a curated list with links to drivers on the [Khronos Website][3].
+At the time of public launch, the LunarG SDK supported Ubuntu versions 14.04 and 15.10. As time goes on, future releases of the SDK are validated on the two latest Ubuntu LTS releases. There is a curated list with links to drivers on the [Khronos Website][3].
 		
 ### What is the relationship of LunarG to Khronos?
 LunarG is an independent software company being sponsored by Valve to help build out the Ecosystem for the Vulkan API. Hence LunarG is a Valve representative in the Khronos Vulkan Working Group.
-		
-### Will the LunarG SDK have installable packages for Ubuntu LTS Releases? (Example is Ubuntu 14.04 LTS, and eventually Ubuntu 16.04 LTS releases)
-The LunarG SDK currently supports Ubuntu versions 14.04 and 15.10. This means the SDK has been validated on those distributions. 
-		
-### Will there be a "quick reference" PDF for the LunarG API? I love those things :-)
-LunarG API? Unclear what this means. At [LunarXchange][1] you can get access to getting started with the SDK and related Vulkan documentation.
 		
 ### With OpenGL, we had helper APIs like GLUT, then FREEGLUT, and GLEW. Is the Lunar SDK intended to serve as that common front end for OS dependencies, or what?
 The LunarG SDK provides the critical and canonical Vulkan API Loader and Validation Layers. In addition, it provides sample code as examples, and other tools such as RenderDoc, vktrace/vkreplay. For more information about what is in the SDK, you can download it for free from the [LunarXchange][1]. You can also see an overview in the [LunarG Vulkan SDK][2]
@@ -149,7 +148,7 @@ The working group does not have any high-level language projects under developme
 		
 ## Support: Java		
 ### Could Vulkan be used with Java in the future?
-There is no barrier to it. We find a C language binding and anyone is welcome to create bindings from that to other languages. That’s happened quite a lot with OpenCL, and so if history is a guide then that is probably likely to happen. Even using Java as a shading language, a kernal language in OpenCL’s case, a Java-to-SPIR-V compiler, there are actually open source examples already. This is the first time that any of the OpenGL family of langues have ever attempted to present specifications or large software components as projects. Vulkan has been available at Github for one week and we have currently received over 60 corrections to the specification and corrections to the conformance test from the community. We are extremely excited about that, we are doing everything we can to be responsive and we encourage developers to use Vulkan to use that opportunity. We pledge that we will give it our full attention and we will address your needs.
+There is no barrier to it. We defined a C language binding and anyone is welcome to create bindings from that to other languages. That’s happened quite a lot with OpenCL, and so if history is a guide then that is probably likely to happen. Even using Java as a shading language, a kernel language in OpenCL’s case, a Java-to-SPIR-V compiler, there are actually open source examples already. This is the first time that any of the OpenGL family of languages have ever attempted to present specifications or large software components as projects.
 		
 ## Support: Microsoft		
 ### I don't see Microsoft involved, does that mean that will oppose it or at least persist with Direct3D? Will it even run on Windows?
@@ -160,7 +159,7 @@ Broadcom is a Khronos member and an active participant in the Vulkan working gro
 		
 ## Support: SLI		
 ### Is SLI supported?
-There’s no direct support for SLI or alternate frame rendering the API currently that we're aware of. Multi-GPU support of many kinds is a very high priority, we’re very aware of the lack in Vulkan 1.0. It will require either a large extensions or a new version to address properly, we are very aware of the need and we are very interested in solving it.
+There’s no direct support for SLI or alternate frame rendering the API currently that we're aware of. Multi-GPU support of many kinds is a very high priority, we’re very aware of the lack in Vulkan 1.0. It will require either a large extension or a new version to address properly, we are very aware of the need and we are very interested in solving it.
 		
 ## Support: Visual Studio		
 ### Are there solution or cmake files for building the source for Visual Studio and/or other compilers?
@@ -219,7 +218,7 @@ The Vulkan header file defines multi-sampling modes. Multi-sampling is the basic
 The Vulkan working group is very interested in your input. If you see an extension that is of intense interest, giving us notice on our public Github platform is a good way to show your interest. Its very early days, the specs have only been out a week. The short answer is yes, the long answer is yes but please give us more input about what you need. We'll prototype a new hardware functionality as extensions and absorb it over time.
 		
 ### Talk about WebGL and Vulkan.
-The WebGL working group is beginning to think what Vulkan impact is going to be. There’s no decisions yet, but the current discussions are heading in a direction that WebGL would begin to absorb some of the Vulkan functionality where it becomes appropriate for the web and that functionality becomes pervasively available. So WebGL has an interesting place in ecosystems because it has to run everywhere and on multiple platforms. So if Vulkan isn't there, we have to be sure that WebGL can still run on that platform. But that's not a totally new problem for WebGL, because there are angles where you can run WebGL, over DirectX as well as OpenGL, so there are similar kinds of solutions that will enable us over time to help WebGL take advantage of Vulkan functionality without losing backwards compatibility. There are no decisions yet, but it is an active discussion inside the WebGL working group.
+The WebGL working group is beginning to think what Vulkan impact is going to be. There’s no decisions yet, but the current discussions are heading in a direction that WebGL would begin to absorb some of the Vulkan functionality where it becomes appropriate for the web and that functionality becomes pervasively available. So WebGL has an interesting place in ecosystems because it has to run everywhere and on multiple platforms. So if Vulkan isn't there, we have to be sure that WebGL can still run on that platform. But that's not a totally new problem for WebGL, because there is the Angle project where you can run WebGL, over DirectX as well as OpenGL, so there are similar kinds of solutions that will enable us over time to help WebGL take advantage of Vulkan functionality without losing backwards compatibility. There are no decisions yet, but it is an active discussion inside the WebGL working group.
 		
 ### Does Vulkan support multiple GPUs? Is there any native Vulkan support for multiple GPU acceleration?
 There is no multi GPU support in version 1.0. That was unfortunately a feature we had to cut in order to preserve our schedule. We do expect it to be near the top of the list for stuff we address in Vulkan 1.1. It is perfectly possible for a Vulkan implementation to expose multiple GPUs. What we cannot currently do is allow resource sharing between them. So from a point of view of, for example, a windows system manager, its perfectly possible to recognise that I have multiple ways to render to a surface and then can use operating system hooks to transfer that to the screen. What we don't have is the ability to share a texture or a render target between multiple GPUs. We expect to add that in the next version, it’s a high priority but we don't have that today.

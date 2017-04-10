@@ -94,6 +94,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [Nengo](https://pypi.python.org/pypi/nengo_ocl/1.2.0) - OpenCL-backed neural simulations using the Neural Engineering Framework
 *   [NOpenCL](https://github.com/tunnelvisionlabs/NOpenCL): Easy-to-use .NET wrapper for OpenCL with abstraction.
 *   [OCL-Library](https://github.com/dmed256/OCL-Library) - Simplified OpenCL in C++
+*   [Oclgrind](https://github.com/jrprice/Oclgrind) - OpenCL device simulator, debugger, and dynamic analysis platform
 *   [Open Fortran Parser](http://fortran-parser.sourceforge.net/) - ANTLR-based parsing tools that support the Fortran 2008 standard
 *   [OpenACC to OpenCL Compiler](https://github.com/tristanvdb/OpenACC-to-OpenCL-Compiler) - Rose based  OpenACC to OpenCL Compiler.
 *   [OpenCL data parallel primitives library](http://code.google.com/p/clpp/) - clpp is an OpenCL Data Parallel Primitives Library.

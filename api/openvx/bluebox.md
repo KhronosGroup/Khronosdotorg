@@ -1,3 +1,8 @@
+### OpenVX 1.2 Specification
+* Specification is available in the [Khronos Registry](/registry/vx/)
+* OpenVX 1.2 [Reference card](https://www.khronos.org/files/openvx-12-reference-card.pdf)
+* OpenVX 1.2 [Press Release](https://www.khronos.org/news/press/openvx-1.2-specification-cross-platform-acceleration-power-efficient-vision)
+
 ### OpenVX 1.1 Specification
 * Specification is available in the [Khronos Registry](/registry/vx/)
 * OpenVX 1.1 [Reference card](https://www.khronos.org/files/openvx-11-reference-card.pdf)

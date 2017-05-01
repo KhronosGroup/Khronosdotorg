@@ -36,7 +36,8 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Qualcomm](https://developer.qualcomm.com/download/software) - Adreno GPU SDK
 
 ## Resources
-* [AMD Vulkan Resources](http://gpuopen.com/gaming-product/vulkan/) - 
+* [AMD Vulkan Resources](http://gpuopen.com/gaming-product/vulkan/)
+* [Anvil Vulkan Framework](http://gpuopen.com/gaming-product/anvil-vulkan-framework/) - a cross-platform, open-source, MIT-licensed wrapper library for Vulkan, developed by AMD engineers.
 * [ARM Mali Graphics Debugger](http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/) - Mali debugger with Vulkan support.
 * [Brenwill Workshop MoltenVK](https://moltengl.com/moltenvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
 * [IRC Channel \##Vulkan](https://webchat.freenode.net) - Vulkan IRC developer channel on [freenode.net](https://freenode.net).
@@ -45,11 +46,11 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [SharpVk](https://github.com/FacticiusVir/SharpVk) - C#/.NET Bindings for Vulkan, with NuGet package
 * [VK9](https://github.com/disks86/VK9) - Runs Direct3D 9 applications on Windows or Linux (/w Wine) over Vulkan.
 * [VkHLF](https://github.com/nvpro-pipeline/VkHLF) - Vulkan High Level Framework
+* [Vookoo](https://github.com/andy-thomason/Vookoo) - A header only C++ library for constructing Vulkan data structures.
 * [Vulkan hardware database](http://vulkan.gpuinfo.org/) - Check out hardware capabilities and compare different Vulkan implementations.
 * [vulkan-go](https://github.com/vulkan-go/vulkan) - Go-lang Bindings for Vulkan API.
 * [VulkanCore.jl](https://github.com/JuliaGPU/VulkanCore.jl) - [Julia](http://julialang.org/) binding for the Vulkan API.
 * [VulkanSharp](https://github.com/mono/VulkanSharp) - C# / .NET binding for the Vulkan API.
-* [Vookoo](https://github.com/andy-thomason/Vookoo) - A header only C++ library for constructing Vulkan data structures.
 
 ## Engines
 * [Cinder](https://libcinder.org) - a free and open source library for professional-quality creative coding in C++.

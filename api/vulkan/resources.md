@@ -49,6 +49,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [vulkan-go](https://github.com/vulkan-go/vulkan) - Go-lang Bindings for Vulkan API.
 * [VulkanCore.jl](https://github.com/JuliaGPU/VulkanCore.jl) - [Julia](http://julialang.org/) binding for the Vulkan API.
 * [VulkanSharp](https://github.com/mono/VulkanSharp) - C# / .NET binding for the Vulkan API.
+* [Vookoo](https://github.com/andy-thomason/Vookoo) - A header only C++ library for constructing Vulkan data structures.
 
 ## Engines
 * [Cinder](https://libcinder.org) - a free and open source library for professional-quality creative coding in C++.

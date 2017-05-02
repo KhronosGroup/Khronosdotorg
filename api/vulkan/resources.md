@@ -90,6 +90,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Google Vulkan Samples](https://github.com/googlesamples/vulkan-basic-samples) - an Android port of LunarG [sample kit](https://github.com/LunarG/VulkanSamples)
 * [NVIDIA DesignWorks Samples](https://github.com/nvpro-samples) - Various Vulkan and OpenGL samples
 * [VKTS Vulkan Samples](https://github.com/McNopper/Vulkan) - Open source Vulkan samples using VulKan ToolS (VKTS) by Norbert Nopper
+* [Vulkan Cookbook](https://github.com/PacktPublishing/Vulkan-Cookbook) - repository with code samples described in the "Vulkan Cookbook"
 
 ## Presentations and Videos
 * 2017
@@ -126,3 +127,4 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 ## Books
 * [Vulkan Programming Guide](http://www.amazon.com/Vulkan-Programming-Guide-Official-Learning/dp/0134464540/khongrou-20) - The Official Guide to Learning Vulkan (OpenGL) 1st Edition
 * [Learning Vulkan](https://www.packtpub.com/application-development/learning-vulkan) written by Parminder Singh.
+* [Vulkan Cookbook](https://www.packtpub.com/game-development/vulkan-cookbook) written by Pawel Lapinski

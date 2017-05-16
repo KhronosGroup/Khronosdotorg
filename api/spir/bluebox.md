@@ -1,17 +1,24 @@
+### SPIR–V 1.2 Resources
+
+*   The SPIR V 1.2 Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir-v)
+*   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
+*   [SPIR-V Cross](https://github.com/KhronosGroup/SPIRV-Cross) is a practical tool and library for performing reflection on SPIR-V and disassembling SPIR-V back to high level languages.
+*   [SPIR-V LLVM](https://github.com/KhronosGroup/SPIRV-LLVM) framework is intended to contain LLVM <-> SPIR-V converter and serve as a foundation for LLVM-based front-end compilers targeting SPIR-V.
+*   [SPIR-V issue reporting](https://github.com/KhronosGroup/SPIRV-Headers/issues) on Github
+*   [SPIR-V feedback forum](https://forums.khronos.org/forumdisplay.php/113-SPIR) offers community support for questions and feedback
+
+
 ### SPIR–V 1.1 Resources
 
 *   The SPIR V 1.1 Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir-v)
 *   The [SPIR feedback forum](https://www.khronos.org/spir_v_feedback_forum) – good for questions and feedback
 *   SPIR-V Whitepaper [An Introduction to SPIR-V](https://www.khronos.org/registry/spir-v/papers/WhitePaper.html)
-*   For [SPIR bug reporting](https://www.khronos.org/bugzilla/enter_bug.cgi?product=SPIR-V) use the Khronos Bugzilla system under SPIR-V
 
 ### SPIR–V 1.0 Resources
 
 *   The SPIR V 1.0 Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir-v)
 *   The [SPIR feedback forum](https://forums.khronos.org/showthread.php/12919-Feedback-SPIR-V) – good for questions and feedback
 *   SPIR-V Whitepaper [An Introduction to SPIR-V](https://www.khronos.org/registry/spir-v/papers/WhitePaper.html)
-*   For [SPIR bug reporting](https://www.khronos.org/bugzilla/enter_bug.cgi?product=SPIR-V) use the Khronos Bugzilla system under SPIR-V
-*   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
 *   [LLVM framework with SPIR-V support](https://github.com/KhronosGroup/SPIRV-LLVM) including an LLVM <-> SPIR-V bi-directional converter
 
 ### SPIR 1.2/2.0 Resources

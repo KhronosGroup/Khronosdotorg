@@ -1,13 +1,14 @@
 ### OpenCL 2.2
 
-*   The OpenCL 2.2 provisional specification is available in the [Khronos Registry](https://www.khronos.org/registry/OpenCL/)
-*   The OpenCL C++ compiler [reference implementation](https://github.com/KhronosGroup/SPIR/tree/spirv-1.1)
-*   The OpenCL C++ standard library [reference implementation](https://github.com/KhronosGroup/libclcxx)
+*   The OpenCL 2.2 specification is available in the [Khronos Registry](https://www.khronos.org/registry/OpenCL/)
+*   [The OpenCL Conformance Test Source](https://github.com/KhronosGroup/OpenCL-CTS) contains the full source of the specifications and conformance tests
+*   The [OpenCL C++ compiler reference implementation](https://github.com/KhronosGroup/SPIR/tree/spirv-1.1)
+*   The [OpenCL C++ standard library reference implementation](https://github.com/KhronosGroup/libclcxx)
+*   [OpenCL 2.2 Reference Guide](https://www.khronos.org/files/opencl22-reference-guide.pdf)
+*   [OpenCL issue reporting](https://github.com/KhronosGroup/OpenCL-Registry/issues) on Github
+*   [OpenCL feedback forum](https://forums.khronos.org/forumdisplay.php/87-OpenCL) offers community support for questions and feedback
 *   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
-*   [LLVM framework with SPIR-V support](https://github.com/KhronosGroup/SPIRV-LLVM) including an LLVM <-> SPIR-V bi-directional converter
-*   Post a comment on the OpenCL 2.2 feedback thread on the [Khronos forums](https://forums.khronos.org/showthread.php/9623-Suggestions-for-next-release-of-OpenCL)
-
-The OpenCL 2.2 Quick Reference Guide [Online Reference Pages](https://www.khronos.org/registry/cl/sdk/2.1/docs/man/xhtml/) will be produced when the specification is finalized.
+*   [SPIR-V LLVM](https://github.com/KhronosGroup/SPIRV-LLVM) framework is intended to contain LLVM <-> SPIR-V converter and serve as a foundation for LLVM-based front-end compilers targeting SPIR-V.
 
 ### OpenCL 2.1
 

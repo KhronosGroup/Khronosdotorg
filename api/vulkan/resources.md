@@ -42,6 +42,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Brenwill Workshop MoltenVK](https://moltengl.com/moltenvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
 * [IRC Channel \##Vulkan](https://webchat.freenode.net) - Vulkan IRC developer channel on [freenode.net](https://freenode.net).
 * [LWJGL](https://www.lwjgl.org/) - Light Weight Java Graphics Library with Vulkan Bindings.
+* [PasVulkan](https://github.com/BeRo1985/pasvulkan) - Vulkan header generator and Vulkan OOP-style API wrapper for Object Pascal
 * [RenderDoc](https://github.com/baldurk/renderdoc) - Cross platform graphics debugger with Vulkan support.
 * [SharpVk](https://github.com/FacticiusVir/SharpVk) - C#/.NET Bindings for Vulkan, with NuGet package
 * [VK9](https://github.com/disks86/VK9) - Runs Direct3D 9 applications on Windows or Linux (/w Wine) over Vulkan.

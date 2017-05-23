@@ -124,7 +124,8 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [DotA](http://www.valvesoftware.com/games/dota2.html) - a free-to-play multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation.
 * [Talos Principle](http://www.croteam.com/talosprinciple/) - a philosophical first-person puzzle game from Croteam.
 
-## Books
+## Books and Learning
 * [Vulkan Programming Guide](http://www.amazon.com/Vulkan-Programming-Guide-Official-Learning/dp/0134464540/khongrou-20) - The Official Guide to Learning Vulkan (OpenGL) 1st Edition
 * [Learning Vulkan](https://www.packtpub.com/application-development/learning-vulkan) written by Parminder Singh.
 * [Vulkan Cookbook–Packt Publishing](https://www.packtpub.com/game-development/vulkan-cookbook) ([source code](https://github.com/PacktPublishing/Vulkan-Cookbook), [Amazon USA](https://www.amazon.com/Vulkan-Cookbook-Pawel-Lapinski/dp/1786468158/khongrou-20)) - Vulkan book and repository with code samples
+* [Vulkan Programming](https://www.packtpub.com/application-development/vulkan-programming-video) - Author: Kai Niklas. Create impressive, stunning visuals for cross platform applications using next generation graphics api – Vulkan.

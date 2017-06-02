@@ -2,7 +2,6 @@
 
 *   [SYCL 2.2](https://www.khronos.org/registry/sycl) – in the Khronos registry
 *   [SYCL Forum](https://forums.khronos.org/showthread.php/13046-Official-SYCL-2-2-Provisional-feedback-thread) – the best place for posting your questions and feedback
-*   [An Overview of SYCL 2.2](https://www.khronos.org/assets/uploads/developers/library/2015-iwocl/Khronos-SYCL-May15.pdf) (presentation slides in .pdf format)
 *   [ComputeCpp](https://www.codeplay.com/products/computesuite/computecpp) - SYCL implementation by Codeplay
 *   [triSYCL](https://github.com/Xilinx/triSYCL) - an open-source implementation to experiment with SYCL
 *   [SYCL Ecosystem Website](http://sycl.tech) - SYCL community website maintained by Codeplay

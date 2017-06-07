@@ -86,6 +86,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 * [Official Khronos Vulkan Samples Repository](https://github.com/KhronosGroup/Vulkan-Samples) - Samples for Vulkan developers
 * [LunarG Vulkan Samples](https://github.com/LunarG/VulkanSamples) - LunarG Vulkan Samples on Github
+* [C++ DemoFramework](https://github.com/NXPmicro/gtec-demo-framework) - NXP GTEC C++11 cross-platform demo framework including lots of samples for Vulkan, OpenGL ES, OpenVX, OpenCL, OpenVG and OpenCV.
 * [C++ Vulkan Samples](https://github.com/SaschaWillems/Vulkan) - Open source Vulkan demos and samples in C++ by Sascha Willems
 * [Cinder Vulkan Samples](https://libcinder.org/notes/vulkan) - Open source Vulkan demos and samples using the Cinder library
 * [Google Vulkan Samples](https://github.com/googlesamples/vulkan-basic-samples) - an Android port of LunarG [sample kit](https://github.com/LunarG/VulkanSamples)

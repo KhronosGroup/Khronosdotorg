@@ -92,6 +92,8 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Google Vulkan Samples](https://github.com/googlesamples/vulkan-basic-samples) - an Android port of LunarG [sample kit](https://github.com/LunarG/VulkanSamples)
 * [NVIDIA DesignWorks Samples](https://github.com/nvpro-samples) - Various Vulkan and OpenGL samples
 * [VKTS Vulkan Samples](https://github.com/McNopper/Vulkan) - Open source Vulkan samples using VulKan ToolS (VKTS) by Norbert Nopper
+* [Minimal Vulkan Compute Example](https://github.com/Erkaman/vulkan_minimal_compute) - Minimal example of how to use Vulkan for compute operations.
+
 
 ## Presentations and Videos
 * 2017

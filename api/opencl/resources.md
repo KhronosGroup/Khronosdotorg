@@ -39,6 +39,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ## Libraries and Frameworks with OpenCL Acceleration
 
+* [DCompute](https://dlang.org/blog/2017/07/17/dcompute-gpgpu-with-native-d-for-opencl-and-cuda/) - a framework and compiler extension to support writing native kernels for OpenCL and CUDA in D to utilise GPUs and other accelerators for computationally intensive code.
 * [OpenCL.org Projects](http://opencl.org/) - Projects and porting to OpenCL. All project files are available on [Github](https://github.com/OpenCL)
 *   [Accelerate](http://hackage.haskell.org/package/accelerate) - accelerate: An embedded language for accelerated array processing
 *   [Advanced Simulation Library](http://asl.org.il) - Open source hardware accelerated multiphysics simulation software (C++ API)

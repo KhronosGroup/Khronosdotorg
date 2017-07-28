@@ -47,6 +47,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [SharpVk](https://github.com/FacticiusVir/SharpVk) - C#/.NET Bindings for Vulkan, with NuGet package
 * [VK9](https://github.com/disks86/VK9) - Runs Direct3D 9 applications on Windows or Linux (/w Wine) over Vulkan.
 * [VkHLF](https://github.com/nvpro-pipeline/VkHLF) - Vulkan High Level Framework
+* [vkmark](https://github.com/vkmark/vkmark) - An extensible Vulkan benchmarking suite with targeted, configurable scenes.
 * [Vookoo](https://github.com/andy-thomason/Vookoo) - A header only C++ library for constructing Vulkan data structures.
 * [Vulkan hardware database](http://vulkan.gpuinfo.org/) - Check out hardware capabilities and compare different Vulkan implementations.
 * [vulkan-go](https://github.com/vulkan-go/vulkan) - Go-lang Bindings for Vulkan API.

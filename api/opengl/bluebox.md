@@ -1,39 +1,42 @@
-### OpenGL 4.5 at a glance
+### OpenGL 4.6 at a glance
 
-The OpenGL 4.5 and OpenGL Shading Language 4.50 Specifications were released on August 11, 2014.
+The OpenGL 4.6 and OpenGL Shading Language 4.60 Specifications were released on July 30, 2017.
 
-New features of OpenGL 4.5 include:
+New features of OpenGL 4.6 include:
 
-*   _Direct State Access (DSA)_  
-    object accessors enable state to be queried and modified without binding objects to contexts, for increased application and middleware efficiency and flexibility;
-*   _Flush Control_  
-    applications can control flushing of pending commands before context switching – enabling high-performance multithreaded applications;
-*   _Robustness_  
-    providing a secure platform for applications such as WebGL browsers, including preventing a GPU reset affecting any other running applications;
-*   _OpenGL ES 3.1 API and shader compatibility_  
-    to enable the easy development and execution of the latest OpenGL ES applications on desktop systems;
-*   _DX11 emulation features_  
-    for easier porting of applications between OpenGL and Direct3D.
+*  _GL_ARB_gl_spirv_ and _GL_ARB_spirv_extensions_
+to standardize SPIR-V support for OpenGL
+*  _GL_ARB_indirect_parameters_ and _GL_ARB_shader_draw_parameters_
+for reducing the CPU overhead associated with rendering batches of geometry
+*  _GL_ARB_pipeline_statistics_query_ and _GL_ARB_transform_feedback_overflow_query_
+standardize OpenGL support for features available in Direct3D
+*  _GL_ARB_texture_filter_anisotropic_ 
+(based on GL_EXT_texture_filter_anisotropic) brings previously IP encumbered functionality into OpenGL to improve the visual quality of textured scenes
+*  _GL_ARB_polygon_offset_clamp_
+ (based on GL_EXT_polygon_offset_clamp) suppresses a common visual artifact known as a “light leak” associated with rendering shadows
+*  _GL_ARB_shader_atomic_counter_ops_ and _GL_ARB_shader_group_vote_
+add shader intrinsics supported by all desktop vendors to improve functionality and performance
+*  _GL_KHR_no_error_
+reduces driver overhead by allowing the application to indicate that it expects error-free operation so errors need not be generated
 
-New extensions to OpenGL 4.5 include:
+New extensions to OpenGL 4.6 include:
 
-*   GL_ARB_clip_control
-*   GL_ARB_cull_distance
-*   GL_ARB_ES3_1_compatibility
-*   GL_ARB_conditional_render_inverted
-*   GL_KHR_context_flush_control
-*   GL_ARB_derivative_control
-*   GL_ARB_direct_state_access
-*   GL_ARB_get_texture_sub_image
-*   GL_KHR_robustness
-*   GL_ARB_shader_texture_image_samples
-*   GL_ARB_texture_barrier
+*   GL_KHR_parallel_shader_compile
+*   WGL_ARB_create_context_no_error
+*   GXL_ARB_create_context_no_error
+*   GL_EXT_memory_object
+*   GL_EXT_memory_object_fd
+*   GL_EXT_memory_object_win32
+*   GL_EXT_semaphore
+*   GL_EXT_semaphore_fd
+*   GL_EXT_semaphore_win32
+*   GL_EXT_win32_keyed_mutex
 
 ### API & GLSL specifications
 
-*   [OpenGL 4.5 Core Profile Specification](https://khronos.org/registry/OpenGL/specs/gl/glspec45.core.pdf)
-*   [OpenGL 4.5 Compatibility Profile Specification](https://khronos.org/registry/OpenGL/specs/gl/glspec45.compatibility.pdf)
-*   [OpenGL Shading Language 4.50 Specification](https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.50.pdf)
+*   [OpenGL 4.6 Core Profile Specification](https://khronos.org/registry/OpenGL/specs/gl/glspec46.core.pdf)
+*   [OpenGL 4.6 Compatibility Profile Specification](https://khronos.org/registry/OpenGL/specs/gl/glspec46.compatibility.pdf)
+*   [OpenGL Shading Language 4.60 Specification](https://khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.60.pdf)
 
 ### Additional Links
 
@@ -41,6 +44,6 @@ Specifications and documentation for the OpenGL API and OpenGL Shading Language,
 
 *   [OpenGL Registry](https://khronos.org/registry/OpenGL/index_gl.php)
 *   [OpenGL SDK](https://www.opengl.org/sdk/)
-*   [OpenGL Reference Pages](https://www.opengl.org/sdk/docs/man/)
+*   [OpenGL Reference Pages](https://www.khronos.org/registry/OpenGL-Refpages/gl4/)
 *   [OpenGL Reference Cards](https://www.khronos.org/developers/reference-cards/)
 *   [OpenGL Resources](https://www.khronos.org/opengl/wiki)

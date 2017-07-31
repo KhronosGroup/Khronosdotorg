@@ -85,7 +85,6 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [JavaCL](http://code.google.com/p/javacl/) - Java OpenCL bindings and utilities. JavaCL wraps OpenCL in a nice Java API with goodies
 *   [JoCL.org](http://www.jocl.org/) - Java bindings for OpenCL.
 *   [JuliaGPU](https://github.com/JuliaGPU/OpenCL.jl) - OpenCL 1.2 bindings for Julia.
-*   [libCL](http://www.libcl.org/) - C++ Generic parallel algorithms library
 *   [Libra SDK](http://www.gpusystems.com/libra.aspx) - Cross Platform Acceleration API 
 *   [LWJGL](http://lwjgl.org/) - The Lightweight Java Game Library. Support for OpenCL 1.0-1.2 plus extensions and OpenGL interop.
 *   [MAGMA linear algebra library](http://icl.cs.utk.edu/magma/software/) - MAGMA provides implementations for CUDA, OpenCL, and Intel Xeon Phi. The latest releases are MAGMA 1.5.0, clMAGMA 1.1, and MAGMA MIC 1.2, respectively.
@@ -100,6 +99,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [OpenACC to OpenCL Compiler](https://github.com/tristanvdb/OpenACC-to-OpenCL-Compiler) - Rose based  OpenACC to OpenCL Compiler.
 *   [OpenCL data parallel primitives library](http://code.google.com/p/clpp/) - clpp is an OpenCL Data Parallel Primitives Library.
 *   [OpenCL for PLT Scheme](http://planet.plt-scheme.org/display.ss?package=opencl.plt&owner=jaymccarthy) - OpenCL FFI for PLT Scheme
+*   [OpenCL Studio](http://www.opencldev.com) -  integrates OpenCL and OpenGL into a single development environment for high performance computing and visualization.
 *   [OpenCL Support Vector Machine](http://www.cmsoft.com.br/opencl-support-vector-machine-2/) - Support Vector Machines (SVMs) é uma ferramenta estatística de aprendizagem computacional considerada como o estado da arte para muitas aplicações da atualidade, incluindo pesquisas médicas e classificação de texto.
 *   [OpenCL.NET](http://www.cass-hpc.com/solutions/libraries/opencl-net) - OpenCL.NET is a .NET library, providing full API bindings for the OpenCL™ standard.
 *   [OpenCL/GL Framework](http://www.cmsoft.com.br/opencl-tutorial/openclopengl-interop-framework/) - Interoperation between OpenCL and OpenGL allows programmers to efficiently perform complex manipulation of data directly in the GPU memory. CMSoft brings to developers the new GLRender tool in OpenCLTemplate that automates the creation of an OpenGL scene coupled with a derived OpenCL context.

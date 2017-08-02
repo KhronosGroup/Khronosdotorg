@@ -1,6 +1,6 @@
 ### OpenGL 4.6 at a glance
 
-The OpenGL 4.6 and OpenGL Shading Language 4.60 Specifications were released on July 30, 2017.
+The OpenGL 4.6 and OpenGL Shading Language 4.60 Specifications were released on July 31, 2017.
 
 New features of OpenGL 4.6 include:
 
@@ -21,7 +21,7 @@ reduces driver overhead by allowing the application to indicate that it expects 
 
 New extensions to OpenGL 4.6 include:
 
-*   GL_KHR_parallel_shader_compile
+*   [GL_KHR_parallel_shader_compile](https://www.khronos.org/registry/OpenGL/extensions/KHR/KHR_parallel_shader_compile.txt)
 *   WGL_ARB_create_context_no_error
 *   GXL_ARB_create_context_no_error
 *   GL_EXT_memory_object

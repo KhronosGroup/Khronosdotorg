@@ -22,15 +22,15 @@ reduces driver overhead by allowing the application to indicate that it expects 
 New extensions to OpenGL 4.6 include:
 
 *   [GL_KHR_parallel_shader_compile](https://www.khronos.org/registry/OpenGL/extensions/KHR/KHR_parallel_shader_compile.txt)
-*   WGL_ARB_create_context_no_error
-*   GXL_ARB_create_context_no_error
-*   GL_EXT_memory_object
-*   GL_EXT_memory_object_fd
-*   GL_EXT_memory_object_win32
-*   GL_EXT_semaphore
-*   GL_EXT_semaphore_fd
-*   GL_EXT_semaphore_win32
-*   GL_EXT_win32_keyed_mutex
+*   [WGL_ARB_create_context_no_error](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_create_context_no_error.txt)
+*   [GLX_ARB_create_context_no_error](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_create_context_no_error.txt)
+*   [GL_EXT_memory_object](https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_external_objects.txt)
+*   [GL_EXT_memory_object_fd](https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_external_objects_fd.txt)
+*   [GL_EXT_memory_object_win32](https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_external_objects_win32.txt)
+*   [GL_EXT_semaphore](https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_external_objects.txt)
+*   [GL_EXT_semaphore_fd](https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_external_objects_fd.txt)
+*   [GL_EXT_semaphore_win32](https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_external_objects_win32.txt)
+*   [GL_EXT_win32_keyed_mutex](https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_win32_keyed_mutex.txt)
 
 ### API & GLSL specifications
 

@@ -4,19 +4,19 @@ The OpenGL 4.6 and OpenGL Shading Language 4.60 Specifications were released on 
 
 New features of OpenGL 4.6 include:
 
-*  _GL_ARB_gl_spirv_ and _GL_ARB_spirv_extensions_
+*  [_GL_ARB_gl_spirv_](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_gl_spirv.txt) and [_GL_ARB_spirv_extensions_](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_spirv_extensions.txt)
 to standardize SPIR-V support for OpenGL
-*  _GL_ARB_indirect_parameters_ and _GL_ARB_shader_draw_parameters_
+*  [_GL_ARB_indirect_parameters_](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_indirect_parameters.txt) and [_GL_ARB_shader_draw_parameters_](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_shader_draw_parameters.txt)
 for reducing the CPU overhead associated with rendering batches of geometry
-*  _GL_ARB_pipeline_statistics_query_ and _GL_ARB_transform_feedback_overflow_query_
+*  [_GL_ARB_pipeline_statistics_query_](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_pipeline_statistics_query.txt) and [_GL_ARB_transform_feedback_overflow_query_](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_transform_feedback_overflow_query.txt)
 standardize OpenGL support for features available in Direct3D
-*  _GL_ARB_texture_filter_anisotropic_ 
-(based on GL_EXT_texture_filter_anisotropic) brings previously IP encumbered functionality into OpenGL to improve the visual quality of textured scenes
-*  _GL_ARB_polygon_offset_clamp_
- (based on GL_EXT_polygon_offset_clamp) suppresses a common visual artifact known as a “light leak” associated with rendering shadows
-*  _GL_ARB_shader_atomic_counter_ops_ and _GL_ARB_shader_group_vote_
+*  [_GL_ARB_texture_filter_anisotropic_](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_texture_filter_anisotropic.txt)
+(based on [GL_EXT_texture_filter_anisotropic](https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_texture_filter_anisotropic.txt)) brings previously IP encumbered functionality into OpenGL to improve the visual quality of textured scenes
+*  [_GL_ARB_polygon_offset_clamp_](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_polygon_offset_clamp.txt)
+ (based on [GL_EXT_polygon_offset_clamp](https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_polygon_offset_clamp.txt)) suppresses a common visual artifact known as a “light leak” associated with rendering shadows
+*  [_GL_ARB_shader_atomic_counter_ops_](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_shader_atomic_counter_ops.txt) and [_GL_ARB_shader_group_vote_](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_shader_group_vote.txt)
 add shader intrinsics supported by all desktop vendors to improve functionality and performance
-*  _GL_KHR_no_error_
+*  [_GL_KHR_no_error_](https://www.khronos.org/registry/OpenGL/extensions/KHR/KHR_no_error.txt)
 reduces driver overhead by allowing the application to indicate that it expects error-free operation so errors need not be generated
 
 New extensions to OpenGL 4.6 include:

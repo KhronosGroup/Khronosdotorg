@@ -60,6 +60,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Cinder](https://libcinder.org) - a free and open source library for professional-quality creative coding in C++.
 * [Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4) - Epic Games Unreal Engine offers a suite of game development tools made by game developers, for game developers.
 * [Xenko Game Engine](http://xenko.com) - cross-platform game engine currently offering Vulkan support in Beta.
+* [Granite](https://github.com/Themaister/Granite) - Example engine which notably includes a a Task Graph implementation (http://themaister.net/blog/2017/08/15/render-graphs-and-vulkan-a-deep-dive/) for aiding synchronization.
 
 
 ## Tutorials

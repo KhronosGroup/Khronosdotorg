@@ -19,7 +19,6 @@ Khronos has placed an unprecedented amount of materials into open source so you 
     - [Facebook](https://facebook.com/VulkanAPI) 
 * Vulkan Merchandise [North America](https://teespring.com/stores/the-khronos-group) - Get an Official Khronos Vulkan™ T-Shirt or Mug
 
-
 ## Drivers
 * [AMD](http://gpuopen.com/gaming-product/vulkan/)
 * [Imagination](https://imgtec.com/vulkan)
@@ -54,10 +53,14 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [VulkanCore.jl](https://github.com/JuliaGPU/VulkanCore.jl) - [Julia](http://julialang.org/) binding for the Vulkan API.
 * [VulkanSharp](https://github.com/mono/VulkanSharp) - C# / .NET binding for the Vulkan API.
 
+## Libraries
+* [Simple Vulkan Synchronization](https://github.com/Tobski/simple_vulkan_synchronization) - Single-header, simplified Vulkan usage
+
 ## Engines
 * [Cinder](https://libcinder.org) - a free and open source library for professional-quality creative coding in C++.
 * [Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4) - Epic Games Unreal Engine offers a suite of game development tools made by game developers, for game developers.
 * [Xenko Game Engine](http://xenko.com) - cross-platform game engine currently offering Vulkan support in Beta.
+* [Granite](https://github.com/Themaister/Granite) - Example engine which notably includes a a Task Graph implementation (http://themaister.net/blog/2017/08/15/render-graphs-and-vulkan-a-deep-dive/) for aiding synchronization.
 
 
 ## Tutorials
@@ -94,7 +97,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [NVIDIA DesignWorks Samples](https://github.com/nvpro-samples) - Various Vulkan and OpenGL samples
 * [VKTS Vulkan Samples](https://github.com/McNopper/Vulkan) - Open source Vulkan samples using VulKan ToolS (VKTS) by Norbert Nopper
 * [Minimal Vulkan Compute Example](https://github.com/Erkaman/vulkan_minimal_compute) - Minimal example of how to use Vulkan for compute operations.
-
+* [Vulkan Synchronization Examples](https://github.com/KhronosGroup/Vulkan-Docs/wiki/Synchronization-Examples) - Reference set of common synchronization examples
 
 ## Presentations and Videos
 * 2017

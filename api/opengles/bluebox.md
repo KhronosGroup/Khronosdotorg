@@ -1,22 +1,25 @@
-## OpenGL ES API Profiles and Versions at a Glance
+## OpenGL ES API Versions at a Glance
 
-### OpenGL ES 3.2
+### OpenGL ES 3.2 - Additional OpenGL functionality
 
-*   **The OpenGL ES 3.2 [Specifications](/registry/gles/#specs32)**
-*   **The OpenGL ES 3.2 [Header Files](/registry/gles/#headers32)**
-*   **The OpenGL ES 3.2 [Online Reference Pages](/opengles/sdk/docs/man32/)**
+The latest in the series, OpenGL ES 3.2 added additional functionality based on the [Android Extension Pack](https://www.khronos.org/registry/OpenGL/extensions/ANDROID/ANDROID_extension_pack_es31a.txt) for OpenGL ES 3.1, which brought the mobile API's functionality significantly closer to it's desktop counterpart - OpenGL.
 
-### OpenGL ES 3.1
+### OpenGL ES 3.1 - Bringing Compute to Mobile Graphics
 
-*   **The OpenGL ES 3.1 [Specifications](/registry/gles/#specs31)**
-*   **The OpenGL ES 3.1 [Header Files](/registry/gles/#headers31)**
-*   **The OpenGL ES 3.1 [Online Reference Pages](/opengles/sdk/docs/man3)**
-*   **The OpenGL ES [Reference Cards](/developers/reference-cards/)**
+Despite being only a bump in the minor revision of the API, OpenGL ES 3.1 was an enormous milestone for the API, as it added the ability to do general purpose compute in the API, bringing compute to mobile graphics.
 
-### OpenGL ES 2.X - for Programmable Hardware
+### OpenGL ES 3.0 - Enhanced Graphics
 
-**For programmable hardware**: OpenGL ES 2.0 is defined relative to the [OpenGL 2.0 specification](http://www.opengl.org/documentation/specs/version2.0/glspec20.pdf) and emphasizes a programmable 3D graphics pipeline with the ability to create shader and program objects and the ability to write vertex and fragment shaders in the OpenGL ES Shading Language. OpenGL ES 2.0 does not support the fixed function transformation and fragment pipeline of OpenGL ES 1.x. [Learn More...](/opengles/2_X/)
+OpenGL ES 3.0 was another evolutionary step for OpenGL ES, notably including multiple render targets, additional texturing capabilities, uniform buffers, instancing and transform feedback.
 
-### OpenGL ES 1.X
+### OpenGL ES 2.0 - Programmable Shading
 
-**For fixed function hardware**: OpenGL ES 1.1 is defined relative to the [OpenGL 1.5 specification](http://www.opengl.org/documentation/specs/version1.5/glspec15.pdf) and emphasizes hardware acceleration of the API, but is fully backwards compatible with 1.0\. It provides enhanced functionality, improved image quality and optimizations to increase performance while reducing memory bandwidth usage to save power. The OpenGL ES 1.1 Extension Pack is a collection of optional extensions added to OpenGL ES 1.1 that reduced variability and bring significant improvements in image quality and performance. [Learn More...](/opengles/1_X/)
+OpenGL ES 2.0 was the first portable mobile graphics API to expose programmable shaders in the then latest generation of graphics hardware. It remains a prevalent API today, and still is the most widely available 3D graphics API, and remains a solid choice to target the widest range of devices in the market.
+
+### OpenGL ES 1.X - Fixed Function Graphics
+
+OpenGL ES 1.0 and 1.1 were the first portable mobile graphics APIs, defined relative to the OpenGL 1.5 specification, providing fixed function graphics acceleration
+
+## Specifications and Headers
+
+Full OpenGL ES specifications, headers, and reference pages for all versions of the API can be found in the [OpenGL ES Registry](https://www.khronos.org/registry/OpenGL/index_es.php):

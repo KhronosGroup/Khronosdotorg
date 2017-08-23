@@ -167,7 +167,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 
 ## Demos & Samples
-
+* [Github Vulkan Projects](https://github.com/search?utf8=✓&q=vulkan&type=)
 * [C++ Vulkan Samples](https://github.com/SaschaWillems/Vulkan) - Open source Vulkan demos and samples in C++ by Sascha Willems.
 * [Cinder Vulkan Samples](https://libcinder.org/notes/vulkan) - Open source Vulkan demos and samples using the Cinder library.
 * [Google Vulkan Samples](https://github.com/googlesamples/vulkan-basic-samples) - an Android port of LunarG [sample kit](https://github.com/LunarG/VulkanSamples).

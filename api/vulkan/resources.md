@@ -12,8 +12,8 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products#vulkan)
 * [YouTube Channel](https://www.youtube.com/playlist?list=PLYO7XTAX41FPp1AQbwr6wA-IUy4cAHLNN)
 * Khronos Chapters discussing Vulkan:
-	- [Khronos UK Chapter](http://www.meetup.com/khronos-uk-chapter/)
-	- [Khronos Munchen Chapter](http://www.meetup.com/Khronos-Munchen-Chapter/)
+    - [Khronos UK Chapter](http://www.meetup.com/khronos-uk-chapter/)
+    - [Khronos Munchen Chapter](http://www.meetup.com/Khronos-Munchen-Chapter/)
 * Social Media
     - [Twitter](https://twitter.com/VulkanAPI)
     - [Facebook](https://facebook.com/VulkanAPI) 
@@ -33,6 +33,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [LunarG Vulkan SDK](https://vulkan.lunarG.com) - Official Vulkan SDK by LunarG.
 * [PowerVR - Native_SDK](https://github.com/powervr-graphics/Native_SDK) - C++ cross-platform 3D graphics SDK.
 * [Qualcomm](https://developer.qualcomm.com/download/software) - Adreno GPU SDK.
+* [NVIDIA L4T](https://developer.nvidia.com/embedded/vulkan) - Software Development Kit for Vulkan applications on NVIDIA Tegra.
 
 
 ## Engines
@@ -189,7 +190,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * 2017
     - [Khronos Vulkana DevU](https://www.khronos.org/developers/library/2017-vulkan-devu-vancouver) - Presentation and Videos from the 2017 Vulkan DevU in Vancouver.
 * 2016 
-	- [Khronos SIGGRAPH Sessions](https://www.khronos.org/siggraph) - Video and presentations from SIGGRAPH 2016.
+    - [Khronos SIGGRAPH Sessions](https://www.khronos.org/siggraph) - Video and presentations from SIGGRAPH 2016.
     - [AMD: The most common Vulkan mistakes](http://gpuopen.com/slides-from-our-the-most-common-vulkan-mistakes-talk/) - slides from a two hours-long talk at University of Lodz in Poland where the most common mistakes made in Vulkan applications was discussed
     - [ARM: SPIRV-Cross](https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/18/spirv-cross), working with Vulkan and SPIR-V in your app
     - [ARM and Epic Games on Vulkan](https://community.arm.com/external-link.jspa?url=https%3A%2F%2Fyoutu.be%2FsL7B8yA0FVE) - Live stream discussion on Vulkan
@@ -198,11 +199,11 @@ Khronos has placed an unprecedented amount of materials into open source so you 
     - Khronos GDC Sessions - [Video](https://www.youtube.com/playlist?list=PLYO7XTAX41FNGLJZ4BjpTtt70MvNFCrcH) and [Slide](https://www.khronos.org/developers/library/2016-gdc) presentations from GDC 2016
 
 * 2015
-	- [Imagination Technologies PowerVR Webinars](http://blog.imgtec.com/powervr/5-new-webinars-on-the-vulkan-api) - Blog and Videos by Imagination Technologies
-	- [NVIDIA Vulkan developer page](https://developer.nvidia.com/Vulkan) - NVIDIA Developer landing page
-	- [Khronos Vulkan BoF](https://www.youtube.com/watch?v=quNsdYfWXfM&list=PLYO7XTAX41FOFvZ2beOg8y0tvuVLJLL0G&index=1) - SIGGRAPH 2015 Videos (YouTube)
-	- Vulkan on NVIDIA GPUs [slides](http://on-demand.gputechconf.com/siggraph/2015/presentation/SIG1501-Piers-Daniell.pdf) and [videos](http://on-demand.gputechconf.com/siggraph/2015/video/SIG501-Piers-Daniell.html) - SIGGRAPH 2015
-	- [Khronos API Standards Update Video](http://on-demand.gputechconf.com/gtc/2015/video/S5734.html) - Vulkan, OpenCL 2.1 and SPIR-V at GTC 2015
+    - [Imagination Technologies PowerVR Webinars](http://blog.imgtec.com/powervr/5-new-webinars-on-the-vulkan-api) - Blog and Videos by Imagination Technologies
+    - [NVIDIA Vulkan developer page](https://developer.nvidia.com/Vulkan) - NVIDIA Developer landing page
+    - [Khronos Vulkan BoF](https://www.youtube.com/watch?v=quNsdYfWXfM&list=PLYO7XTAX41FOFvZ2beOg8y0tvuVLJLL0G&index=1) - SIGGRAPH 2015 Videos (YouTube)
+    - Vulkan on NVIDIA GPUs [slides](http://on-demand.gputechconf.com/siggraph/2015/presentation/SIG1501-Piers-Daniell.pdf) and [videos](http://on-demand.gputechconf.com/siggraph/2015/video/SIG501-Piers-Daniell.html) - SIGGRAPH 2015
+    - [Khronos API Standards Update Video](http://on-demand.gputechconf.com/gtc/2015/video/S5734.html) - Vulkan, OpenCL 2.1 and SPIR-V at GTC 2015
 
 ## Applications using Vulkan
 

@@ -154,7 +154,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Vulkan API Tutorial](https://www.youtube.com/watch?v=wHt5wcxIPcE) - Niko Kauppi YouTube tutorial series 
 * [Vulkan in 30 minutes](https://renderdoc.org/vulkan-in-30-minutes.html) - RenderDoc tutorial to get you going
 * [Vulkan Training](http://www.vulkan-trainer.com/) - Kai Niklas [training podcasts](http://opengl-trainer.com/podcast.html) covering Vulkan, OpenGL, OpenGL ES, WebGL and much more. **A special thanks to Kai for donating the Vulkan.org domain to the Khronos Group**.
-* [Vulkan Tutorial](http://av.dfki.de/~jhenriques/development.html) - Advanced tutorial to get to a complete but minimal C program running a graphical pipeline using Vulkan on windows.
+* [Vulkan Tutorial](http://www.jhenriques.net/development.html) - Advanced tutorial to get to a complete but minimal C program running a graphical pipeline using Vulkan on windows.
 * [Vulkan Video Tutorial](https://www.youtube.com/playlist?list=PL58qjcU5nk8uH9mmlASm4SFy1yuPzDAH0) - German Vulkan Tutorial series
 * [Vulkan API Overview - Henri Tuhola](http://boxbase.org/entries/2014/jul/28/about-the-author/):
     - [Vulkan API Overview](http://boxbase.org/entries/2016/feb/22/vulkan-api-overview/)

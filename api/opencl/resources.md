@@ -1,6 +1,6 @@
 # OpenCL Resources
 
-We believe the true usefulness of OpenCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/resources.md) and help maintain an up-to-date list of OpenCL resources.
+We believe the true usefulness of OpenCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to get involved by creating pull requests on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/resources.md) to help keep this list of OpenCL resources up-to-date.
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/opencl)
@@ -17,7 +17,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 ## Commercial Implementations
 
 *   [Altera SDK for OpenCL](http://www.altera.com/opencl) - The Altera® SDK for Open Computing Language (OpenCLTM) allows a user to abstract away the traditional hardware FPGA development flow for a much faster and higher level software development flow.
-*   [AMD APP SDK](http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/) - The AMD APP SDK is a complete development platform created by AMD to allow you to quickly and easily develop applications accelerated by AMD  Accelerated Parallel Processing technology. The SDK provides samples, documentation, and other materials to quickly get you started leveraging accelerated compute using OpenCL™, Bolt, or C++ AMP in your C/C++ application. 
+*   [AMD APP SDK](https://github.com/GPUOpen-LibrariesAndSDKs/OCL-SDK/releases) - The AMD APP SDK is a complete development platform created by AMD to allow you to quickly and easily develop applications accelerated by AMD  Accelerated Parallel Processing technology. The SDK provides samples, documentation, and other materials to quickly get you started leveraging accelerated compute using OpenCL™, Bolt, or C++ AMP in your C/C++ application. 
 *   [ARM Mali OpenCL SDK](http://malideveloper.arm.com/develop-for-mali/sdks/mali-opencl-sdk/) - The Mali OpenCL SDK provides developers a framework and series of samples for developing OpenCL 1.1 application on ARM Mali based platforms such as the Mali-T600 family of GPUs. The samples cover a wide range of uses cases that utilize the Mali GPU to achieve a significant improvement in performance when compared to running on the CPU alone.
 *   [Intel SDK for OpenCL Applications](https://software.intel.com/en-us/intel-opencl) - The development platform for OpenCL: Maximize the performance of the SoC; Optimize tasks for the best available compute engine; Tap into an easy-to-use development environment.
 *   [NVIDIA OpenCL SDK](https://developer.nvidia.com/opencl) - In addition to OpenCL, NVIDIA supports a variety of GPU-accelerated libraries and high-level programming solutions that enable developers to get started quickly with GPU Computing.
@@ -143,8 +143,6 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ### Tutorials
 
-*   [AMD OpenCL Resources](http://developer.amd.com/tools-and-sdks/opencl-zone/opencl-resources/) - A collection of resources to help you get going quickly.
-*   [AMD -  OpenCL Programming Guide](http://developer.amd.com/wordpress/media/2013/07/AMD_Accelerated_Parallel_Processing_OpenCL_Programming_Guide-rev-2.7.pdf) - AMD Accelerated Parallel Processing OpenCL Programming Guide.
 *   [Intel OpenCL Resources](https://software.intel.com/en-us/intel-opencl/) - A collection of resouces to help you get going quickly. 
 *   [NVIDIA OpenCL SDK Code Samples](https://developer.nvidia.com/opencl) - a colletion of OpenCL code samples.
 *   [Professional OpenCL Training Series](https://www.youtube.com/playlist?list=PLhqBhHU0mKh9zeei8cdnEe4I5e6ZMNlqy) - gives you all the knowledge you need to accelerate your own programs using OpenCL.

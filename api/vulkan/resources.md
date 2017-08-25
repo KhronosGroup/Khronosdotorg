@@ -127,11 +127,14 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Vulkan Compute example](http://www.duskborn.com/a-simple-vulkan-compute-example/) - a simple Vulkan compute sample.
 * [Vulkano - Quick Start](http://vulkano.rs/guide/introduction)
 * I am Graphics and so can you:
-    - [Intro](https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-1)
-    - [Intuition](https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-2-intuition)
-    - [The first 1,000](https://www.fasterthan.life/blog/2017/7/12/i-am-graphics-and-so-can-you-part-3-breaking-ground)
-    - [Resources Rush the Stage](https://www.fasterthan.life/blog/2017/7/13/i-am-graphics-and-so-can-you-part-4-)
+    - [Part 1 :: Intro](https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-1)
+    - [Part 2 :: Intuition](https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-2-intuition)
+    - [Part 3 :: The First 1,000](https://www.fasterthan.life/blog/2017/7/12/i-am-graphics-and-so-can-you-part-3-breaking-ground)
+    - [Part 4 :: Resources Rush the Stage](https://www.fasterthan.life/blog/2017/7/13/i-am-graphics-and-so-can-you-part-4-)
     - [Motivation and Effort](https://www.fasterthan.life/blog/2017/7/15/i-am-graphics-and-so-can-you-effort)
+    - [Part 4.5 :: idTech](https://www.fasterthan.life/blog/2017/7/16/i-am-graphics-and-so-can-you-idtech)
+    - [Part 5 :: Your Pixels Are Served](https://www.fasterthan.life/blog/2017/7/22/i-am-graphics-and-so-can-you-part-5-your-pixels-are-served)
+    - [Part 6 :: Pipelines](https://www.fasterthan.life/blog/2017/7/24/i-am-graphics-and-so-can-you-part-6-pipelines)
 * API without Secrets: Introduction to Vulkan:
     - [Part 0](https://software.intel.com/en-us/articles/api-without-secrets-introduction-to-vulkan-preface)  - Preface
     - [Part 1](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-1) - The Beginning
@@ -209,7 +212,8 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 ## Applications using Vulkan
 
 * [3DMark](https://www.futuremark.com/pressreleases/compare-vulkan-and-directx-12-performance-with-3dmark) - Vulkan support added to 3DMark API.
-* [Doom - id Software](http://doom.com/) - id Software released a patch in July 2016 giving Doom Vulkan support. 
+* [DOOM - id Software](http://doom.com/) - id Software released a patch in July 2016 giving Doom Vulkan support. 
+* [DOOM 3 BFG](https://github.com/DustinHLand/vkDOOM3) - GPL DOOM 3 BFG ported to Vulkan.
 * [DotA](http://www.valvesoftware.com/games/dota2.html) - a free-to-play .multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation.
 * [Kishonti GFXBench](https://kishonti.net/news_single.jsp?id=31133884) - GFXBench 5 Aztec Ruins scene debuts at GDC for Vulkan API.
 * [Quake](https://github.com/Novum/vkQuake) - a Quake 1 port using Vulkan.

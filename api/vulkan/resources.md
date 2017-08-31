@@ -47,6 +47,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Serious Engine - CroTeam](http://www.croteam.com/technology/) - multi-platform engine with support for next-gen and mobile platforms.
 * [Unity Game Engine - Unity](https://unity3d.com) - a cross-platform game engine.
 * [Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4) - Epic Games Unreal Engine offers a suite of game development tools made by game developers, for game developers.
+* [UX3D Engine](http://www.ux3d.io/ux3d-engine/) - cross-platform multi-threaded 3D rendering engine optimized for non-gaming industry.
 * [Xenko Game Engine](http://xenko.com) - cross-platform game engine currently offering Vulkan support in Beta.
 
 ## Resources
@@ -184,7 +185,6 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [PowerVR Early Access Program - Imagination Technologies](https://www.imgtec.com/tools/powervr-early-access-program/) - PowerVR Early Access Program was created in order to allow developers early access to Vulkan.
 * [Shabi's Vulkan Tutorials](https://github.com/ShabbyX/vktut) - a repository of tutorials on Vulkan.
 * [Stardust Samples](https://github.com/GameTechDev/stardust_vulkan) - Stardust sample application using Vulkan.
-* [VKTS Vulkan Samples](https://github.com/McNopper/Vulkan) - Open source Vulkan samples using VulKan ToolS (VKTS) by Norbert Nopper.
 * [Vulkan Demos and Tutorials - Z80Fan](https://github.com/Z80Fan/VulkanDemos) - a collection of simple applications using the Vulkan API.
 * [Vulkan Library for SDL2 Windows](https://github.com/corngood/SDL_vulkan) - A library for creating Vulkan surfaces for SDL2 windows.
 * [Vulkan Samples - Kristian Høgsberg Kristensen](https://github.com/krh/vkcube) - Github.

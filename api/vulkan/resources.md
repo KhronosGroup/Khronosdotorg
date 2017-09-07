@@ -64,6 +64,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 ## Tools
 
+* [AMD Radeon GPU Profiler](https://github.com/GPUOpen-Tools/Radeon-GPUProfiler) - Low-level performance analysis tool for AMD Radeon GPUs
 * [ARM Mali Graphics Debugger](http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/) - Mali debugger with Vulkan support.
 * [CodeXL](https://github.com/GPUOpen-Tools/CodeXL) - tool suite that enables developers to harness the benefits of CPUs, GPUs and APUs.
 * [GAPID - Graphics API Debugger](https://github.com/google/gapid)

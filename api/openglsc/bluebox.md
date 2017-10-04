@@ -5,6 +5,8 @@ The Safety Critical Profile for [OpenGL ES 2.0](https://www.khronos.org/opengles
 *   The OpenGL SC 2.0 core API specification and header file are in the [OpenGL SC API Registry](http://www.khronos.org/registry/glsc/)
 *   Leave a comment on the OpenGL SC 2.0 feedback thread on the [Khronos forums](https://forums.khronos.org/showthread.php/13049-Official-OpenGL-SC-2-0-feedback)
 
+NOTE: The current API definition and header are **not** MISRA-C compliant. This was a deliberate choice in order for code to be compatible with OpenGL ES 2.0, which OpenGL SC 2.0 is based on. If this, or any other safety compliance of the API is an issue for you, please [get in contact with us](https://www.khronos.org/about/technical-support/).
+
 ## OpenGL SC 1.0
 
 The Safety Critical Profile for OpenGL is defined to meet the unique requirements of the for safety-critical applications such as avionics and automotive instrumentation displays. OpenGL SC 1.0 removes functionality from [OpenGL ES 1.0](https://www.khronos.org/opengles/1_X) to minimize implementation and safety certification costs. It also adds functionality, such as display lists, that are required to support legacy and auto-generated display applications in safety critical markets.

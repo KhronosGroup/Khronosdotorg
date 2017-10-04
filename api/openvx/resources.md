@@ -1,6 +1,6 @@
 # OpenVX Resources
 
-A collection of OpenGL ES related tools, documentation, and resources contributed by the community. To contribute, create a pull request to add new resource or update/delete an out of date resource. This resource page lives on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openvx/resources.md).
+A collection of OpenGL ES related tools, documentation, and resources contributed by the community. To contribute, create a pull request to add new resource or update/delete an out of date resource. This resource page lives on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openvx/resources.md) and is open for anyone to issue pull requests to.
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/openvx)
@@ -13,10 +13,11 @@ A collection of OpenGL ES related tools, documentation, and resources contribute
 * [Youtube Channel](https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg)
 
 ## Commercial and Open Source Implementations
-* [VisionWorks](https://developer.nvidia.com/embedded/visionworks) - NVIDIA VisionWorks toolkit is a software development package for computer vision (CV) and image processing. VisionWorks™ implements and extends the Khronos OpenVX standard, and it is optimized for CUDA-capable GPUs and SOCs enabling developers to realize CV applications on a scalable and flexible platform.
 * [AMD OpenVX (AMDOVX)](http://gpuopen.com/compute-product/amd-openvx/) (open-source on GitHub) is a highly optimized implementation of the Khronos OpenVX™ computer vision specification. It is a library that allows for rapid prototyping as well as fast execution on a wide range of computer hardware, including small embedded x86 CPUs and large workstation discrete GPUs. On Github: [core (OpenVX)](https://github.com/GPUOpen-ProfessionalCompute-Libraries/amdovx-core) and [modules (Libraries)](https://github.com/GPUOpen-ProfessionalCompute-Libraries/amdovx-modules)
-* [Synopsys](https://www.synopsys.com/dw/ipdir.php?ds=ev52-ev54) - High-Performance, Energy-Efficient Vision Processors
+* [Cadence](https://ip.cadence.com/vision) -  Tensilica Vision DSPs for Imaging, Computer Vision, and Neural Networks and the Tensilica [OpenVX Application Programming Kit (APK).](https://www.cadence.com/content/cadence-www/global/en_US/home/company/newsroom/press-releases/pr/2017/cadence-tensilica-vision-p-series-dsps-are-industrys-first-imagi.html)
 * [Imagination](https://globenewswire.com/news-release/2016/01/06/799884/0/en/PowerVR-GPUs-From-Imagination-Pass-OpenVX-Conformance-With-Khronos.html) - PowerVR GPUs From Imagination pass OpenVX Conformance
+* [Synopsys](https://www.synopsys.com/dw/ipdir.php?ds=ev52-ev54) - High-Performance, Energy-Efficient Vision Processors
+* [VisionWorks](https://developer.nvidia.com/embedded/visionworks) - NVIDIA VisionWorks toolkit is a software development package for computer vision (CV) and image processing. VisionWorks™ implements and extends the Khronos OpenVX standard, and it is optimized for CUDA-capable GPUs and SOCs enabling developers to realize CV applications on a scalable and flexible platform.
 
 ## Frameworks & Libraries
 * [AMD OpenVX](http://gpuopen.com/compute-product/amd-openvx/) (open-source on GitHub) is a highly optimized implementation of the Khronos OpenVX™ computer vision specification. It is a library that allows for rapid prototyping as well as fast execution on a wide range of computer hardware, including small embedded x86 CPUs and large workstation discrete GPUs. On Github: [core (OpenVX)](https://github.com/GPUOpen-ProfessionalCompute-Libraries/amdovx-core) and [modules (Libraries)](https://github.com/GPUOpen-ProfessionalCompute-Libraries/amdovx-modules)

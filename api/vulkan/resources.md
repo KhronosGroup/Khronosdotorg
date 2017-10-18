@@ -72,6 +72,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [LunarG Vulkan Tools](https://github.com/LunarG/VulkanTools) - Tools to aid in Vulkan development including useful layers, trace and replay, and tests.
 * [NVIDIA Nsight Visual Studio Edition](https://developer.nvidia.com/nvidia-nsight-visual-studio-edition).
 * [OCAT](https://github.com/GPUOpen-Tools/OCAT) - Open Capture and Analytics Tool (OCAT) provides an FPS overlay and performance measurement for D3D11, D3D12, and Vulkan.
+* [PerfDoc](https://github.com/ARM-software/perfdoc) - A cross-platform Vulkan layer which checks Vulkan applications for recommended API usage on Arm Mali devices.
 * [Qualcomm Tools](https://developer.qualcomm.com/software/adreno-gpu-sdk/tools) .
 * [RenderDoc](https://github.com/baldurk/renderdoc) - Cross platform graphics debugger with Vulkan support.
 * [VIM](http://www.vim.org/scripts/script.php?script_id=5335) - Not an IDE, but still used by the masses.

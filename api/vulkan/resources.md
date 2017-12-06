@@ -2,7 +2,7 @@
 
 Khronos has placed an unprecedented amount of materials into open source so you can provide feedback, showcase your work, fix bugs, and extend Vulkan capabilities for the future. Get engaged and show the world what you are doing with Vulkan. Something missing from this page? Contribute today!
 
-## Khronos Resources
+## Khronos Vulkan® Resources
 * [Vulkan Homepage](https://www.khronos.org/vulkan/)
 * [Specification and API Registry](https://www.khronos.org/registry/vulkan)
 * [Vulkan Discussion Forum](https://forums.khronos.org/showthread.php/12960-Khronos-Releases-Vulkan-1-0-Specification)
@@ -17,7 +17,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * Social Media
     - [Twitter](https://twitter.com/VulkanAPI)
     - [Facebook](https://facebook.com/VulkanAPI) 
-* Vulkan Merchandise [North America](https://teespring.com/stores/the-khronos-group) - Get an Official Khronos Vulkan™ T-Shirt or Mug
+* Vulkan Merchandise [North America](https://teespring.com/stores/the-khronos-group) - Get an Official Khronos Vulkan T-Shirt or Mug
 
 ## Drivers
 * [AMD](http://gpuopen.com/gaming-product/vulkan/)

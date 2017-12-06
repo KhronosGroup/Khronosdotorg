@@ -1,7 +1,7 @@
 ### SYCL 1.2.1
 
 *   [SYCL 1.2.1](https://www.khronos.org/registry/SYCL) – in the Khronos registry
-*   [SYCL Forum](https://forums.khronos.org/showthread.php/9733-Official-SYCL-1-2-1-feedback-thread) – the best place for posting your questions and feedback
+*   [SYCL Forum](https://forums.khronos.org/showthread.php/13634-Official-SYCL-1-2-1-feedback-thread) – the best place for posting your questions and feedback
 *   [SYCL Press Release](https://www.khronos.org/news/press/the-khronos-group-releases-finalized-sycl-1.2.1)
 *   [ComputeCpp](https://www.codeplay.com/products/computesuite/computecpp) - SYCL implementation by Codeplay
 *   [triSYCL](https://github.com/Xilinx/triSYCL) - an open-source implementation to experiment with SYCL
@@ -25,7 +25,6 @@ It is also possible for us to move directly towards SYCL NEXT to enable DSP supp
 ### SYCL 1.2
 
 *   [SYCL 1.2](https://www.khronos.org/registry/sycl) – in the Khronos registry
-*   [SYCL Forum](https://forums.khronos.org/showthread.php/9733-Official-SYCL-1-2-feedback-thread?highlight=feedback) – the best place for posting your questions and feedback
 *   [SYCL Press Release](https://www.khronos.org/news/press/khronos-releases-sycl-1.2-final-specification-c-single-source-heterogeneous)
 *   [SYCL 1.2 Overview slide](https://www.khronos.org/assets/uploads/developers/library/2015-iwocl/Khronos-SYCL-May15.pdf) (presentation slides in .pdf format)
 *   [Tutorial on using SYCL](http://codeplaysoftware.github.io/iwocl2015/) – at the May 2015 IWOCL OpenCL conference

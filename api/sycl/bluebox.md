@@ -7,9 +7,9 @@
 *   [triSYCL](https://github.com/Xilinx/triSYCL) - an open-source implementation to experiment with SYCL
 *   [SYCL Ecosystem Website](http://sycl.tech) - SYCL community website maintained by Codeplay
 
-### SYCL 1.2
+### SYCL 1.2.1
 
-*   [SYCL 1.2](https://www.khronos.org/registry/sycl) – in the Khronos registry
+*   [SYCL 1.2.1](https://www.khronos.org/registry/sycl) – in the Khronos registry
 *   [SYCL Forum](https://forums.khronos.org/showthread.php/9733-Official-SYCL-1-2-feedback-thread?highlight=feedback) – the best place for posting your questions and feedback
 *   [SYCL Press Release](https://www.khronos.org/news/press/khronos-releases-sycl-1.2-final-specification-c-single-source-heterogeneous)
 *   [SYCL 1.2 Overview slide](https://www.khronos.org/assets/uploads/developers/library/2015-iwocl/Khronos-SYCL-May15.pdf) (presentation slides in .pdf format)

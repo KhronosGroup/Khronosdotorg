@@ -1,11 +1,7 @@
-### Neural Network Exchange Format
+### NNEF 1.0 Provisional Specification
 
-*   Neural Network Standard Initiatives [Press Release](/news/press/khronos-launches-dual-neural-network-standard-initiatives)
-*   Neural Network Exchange Format [Statement of Work](/assets/uploads/apis/Deep-Learning-SoW.pdf)
-
-Khronos is coordinating its neural network activities, including NNEF and the new OpenVX Neural Network Extension. It is expected that NNEF files will be able to represent all aspects of an OpenVX neural network graph, and that OpenVX will enable import of network topologies via NNEF files through the Import/Export extension, once the NEFF format definition is complete.
-
-More details on the OpenVX Neural Network Extension
-
-*   [OpenVX Neural Network extension](/registry/vx)
-*   [OpenVX Neural Network Extension feedback discussion](https://forums.khronos.org/forumdisplay.php/110-OpenVX-Portable-Power-efficient-Vision-Processing)
+*   Specification is available in the [Khronos Registry](https://www.khronos.org/registry/NNEF)
+*   Specification is available in the [NNEF Tools](https://www.khronos.org/registry/NNEF-Tools)
+*   NNEF [Feedback on Github](https://github.com/KhronosGroup/NNEF-Docs)
+*   NNEF 1.0 [Press Release](https://www.khronos.org/news/press/khronos-group-releases-nnef-1.0-standard-for-neural-network-exchange)
+*   NNEF [Blog post](https://www.khronos.org/blog/nnef-design-philosophy-network-structure-and-target-use-cases)

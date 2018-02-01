@@ -11,7 +11,7 @@
 ### OpenVX 1.0.1 Specification
 
 *   Specification is available in the [Khronos Registry](https://www.khronos.org/registry/OpenVX/)
-*   [OpenVX 1.0.1 Sample Implementation (tar.bz2)](https://www.khronos.org/registry/OpenVX/sample/openvx_sample_1.0.1.tar.bz2 "OpenVX Sample Implementation Tarball")
+*   [OpenVX 1.0.1 Sample Implementation (tar.bz2)](https://www.khronos.org/registry/OpenVX/sample/openvx_sample_1.0.1.tar.bz2)
 *   Read the [OpenVX 1.0.1 Announced Release](https://www.khronos.org/news/press/industry-momentum-building-for-openvx-computer-vision-acceleration-api)
 *   Read the [OpenVX 1.0 Launch Release](https://www.khronos.org/news/press/khronos-finalizes-and-releases-openvx-1.0-specification-for-computer-vision)
 *   [OpenVX Resources](https://www.khronos.org/openvx/resources)

@@ -4,8 +4,8 @@ A collection of OpenGL ES related tools, documentation, and resources contribute
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/openvx)
-* [Registry](https://www.khronos.org/registry/vx/) - The OpenVX registry contains specifications of the core API, headers, extensions, and related documentation.
-* [Discussion Forum](https://forums.khronos.org/forumdisplay.php/110-OpenVX-Portable-Power-efficient-Vision-Processing)
+* [Registry](https://www.khronos.org/registry/OpenVX/) - The OpenVX registry contains specifications of the core API, headers, extensions, and related documentation.
+* [Discussion Forum](https://forums.khronos.org/forumdisplay.php/110-OpenVX)
 * Quick Reference Guide - [1.1](https://www.khronos.org/files/openvx-11-reference-card.pdf), [1.0](https://www.khronos.org/files/openvx-10-reference-card.pdf)
 * [Adopters Process](https://www.khronos.org/openvx/adopters/)
 * [Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products#openvx)

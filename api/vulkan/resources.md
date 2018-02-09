@@ -111,6 +111,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [glo](https://github.com/g-truc/glo) - this project will provide two front-ends: OpenGL and a modernized version OpenGL and multiple back-ends: Vulkan, Metal and DirectX12.
 * [MoltenVK - Brenwill Workshop](https://moltengl.com/moltenvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
 * [openFrameworks](https://github.com/openframeworks-vk/openFrameworks) - Experimental Vulkan Renderer branch.
+* [RendererLib](https://github.com/DragonJoker/RendererLib) - multi-plaform C++14 renderer library, matching closely Vulkan API, and allowing rendering through Vulkan or OpenGL 4.5 (so far).
 * [Simple Vulkan Synchronization](https://github.com/Tobski/simple_vulkan_synchronization) - Single-header, simplified Vulkan usage.
 * [Spectrum](https://github.com/mwalczyk/spectrum_core) - framework and abstraction layer.
 * [Visor](https://github.com/baldurk/visor) - Vulkan Ignoble Software Rasterizer.

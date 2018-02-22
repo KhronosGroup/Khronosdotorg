@@ -8,6 +8,7 @@
 *   [glTF 2.0 Press Release](https://www.khronos.org/news/press/khronos-releases-gltf-2.0-specification)
 *   [glTF 2.0 Launch slide deck](/assets/uploads/apis/glTF-20-Launch_Jun17.pdf)
 *   [glTF 2.0 on Facebook](https://developers.facebook.com/blog/post/2018/02/20/3d-posts-facebook/)
+*   [glTF 2.0 glTF Geometry Compression with Draco](https://www.khronos.org/news/press/khronos-announces-gltf-geometry-compression-extension-google-draco)
 
 ## glTF 1.0 Specification and Materials
 

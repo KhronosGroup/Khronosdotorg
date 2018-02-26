@@ -4,20 +4,18 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 ## Khronos Vulkan® Resources
 * [Vulkan Homepage](https://www.khronos.org/vulkan/)
+* Vulkan Portability Initiative and [Bringing Vulkan Applications to macOS/iOS](https://www.khronos.org/vulkan/portability-initiative)
 * [Specification and API Registry](https://www.khronos.org/registry/vulkan)
-* [Vulkan Discussion Forum](https://forums.khronos.org/showthread.php/12960-Khronos-Releases-Vulkan-1-0-Specification)
+* [Vulkan Discussion Forum](https://forums.khronos.org/forumdisplay.php/114-Vulkan)
 * [Quick Reference (PDF)](https://www.khronos.org/registry/vulkan/specs/1.0/refguide/Vulkan-1.0-web.pdf)
-* [Reference Pages](https://www.khronos.org/registry/vulkan/specs/1.0/apispec.html)
+* Reference Pages - [PDF](https://www.khronos.org/registry/vulkan/specs/1.0/apispec.pdf), [HTML (single page)](https://www.khronos.org/registry/vulkan/specs/1.0/apispec.html), [HTML](https://www.khronos.org/registry/vulkan/specs/1.0/man/html/)
 * [Adopters Process](https://www.khronos.org/vulkan/adopters/)
 * [Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products#vulkan)
-* [YouTube Channel](https://www.youtube.com/playlist?list=PLYO7XTAX41FPp1AQbwr6wA-IUy4cAHLNN)
-* Khronos Chapters discussing Vulkan:
-    - [Khronos UK Chapter](http://www.meetup.com/khronos-uk-chapter/)
-    - [Khronos Munchen Chapter](http://www.meetup.com/Khronos-Munchen-Chapter/)
+* [Vulkan YouTube Playlist](https://www.youtube.com/playlist?list=PLYO7XTAX41FPp1AQbwr6wA-IUy4cAHLNN)
 * Social Media
     - [Twitter](https://twitter.com/VulkanAPI)
     - [Facebook](https://facebook.com/VulkanAPI) 
-* Vulkan Merchandise [North America](https://teespring.com/stores/the-khronos-group) - Get an Official Khronos Vulkan T-Shirt or Mug
+* Vulkan Merchandise [North America](https://www.khronos.org/store) - Get awesome Official Vulkan Merchandise!
 
 ## Drivers
 * [AMD](http://gpuopen.com/gaming-product/vulkan/)
@@ -31,7 +29,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 ## SDK
 * [ARM](https://developer.arm.com/products/software/mali-sdks/vulkan) - Software Development Kit for ARM Mali Vulkan applications on Android.
 * [Google Vulkan](https://developer.android.com/go/vulkan) - Android developer website to download the API, samples, and documentation.
-* [LunarG Vulkan SDK](https://vulkan.lunarG.com) - Official Vulkan SDK by LunarG.
+* [LunarG Vulkan SDK](https://vulkan.lunarG.com) - Official Vulkan SDK by LunarG. for Windows, Linux and macOS.
 * [PowerVR - Native_SDK](https://github.com/powervr-graphics/Native_SDK) - C++ cross-platform 3D graphics SDK.
 * [Qualcomm](https://developer.qualcomm.com/download/software) - Adreno GPU SDK.
 * [NVIDIA L4T](https://developer.nvidia.com/embedded/vulkan) - Software Development Kit for Vulkan applications on NVIDIA Tegra.

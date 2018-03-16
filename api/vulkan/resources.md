@@ -12,18 +12,19 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Adopters Process](https://www.khronos.org/vulkan/adopters/)
 * [Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products#vulkan)
 * [Vulkan YouTube Playlist](https://www.youtube.com/playlist?list=PLYO7XTAX41FPp1AQbwr6wA-IUy4cAHLNN)
-* Social Media
-    - [Twitter](https://twitter.com/VulkanAPI)
-    - [Facebook](https://facebook.com/VulkanAPI) 
-* Vulkan Merchandise [North America](https://www.khronos.org/store) - Get awesome Official Vulkan Merchandise!
+* [Vulkan Tutorials & Blog](https://www.khronos.org/blog/tags/tag/Vulkan) - Learn about Vulkan right from the source.
+* Social Media - [Twitter](https://twitter.com/VulkanAPI), [Facebook](https://facebook.com/VulkanAPI) 
+* Vulkan Merchandise [North America & Europe](https://www.khronos.org/store) - Get awesome Official Vulkan Merchandise!
 
 ## Drivers
 * [AMD](http://gpuopen.com/gaming-product/vulkan/)
 * [ARM](https://developer.arm.com/graphics/vulkan)
+* [Broadcom](https://www.broadcom.com/)
 * [Imagination](https://imgtec.com/vulkan)
 * Intel: [Open Source](https://01.org/linuxgraphics), [Windows](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 * [NVIDIA](https://developer.nvidia.com/vulkan-driver)
 * [Qualcomm](https://developer.qualcomm.com/software/adreno-gpu-sdk/gpu)
+* [Verisilicon](http://www.verisilicon.com/IPPortfolio_2_18_1_VivanteGPUIP.html)
 
 
 ## SDK
@@ -43,6 +44,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Intrinsic Engine](http://www.intrinsic-engine.com) - Vulkan based cross-platform graphics and game engine.
 * [Lugdunum](https://github.com/Lugdunum3D/Lugdunum) - modern cross-platform 3D engine built with Vulkan, glTF 2.0 and modern C++14.
 * [Serious Engine - CroTeam](http://www.croteam.com/technology/) - multi-platform engine with support for next-gen and mobile platforms.
+* [Torque](http://www.garagegames.com/products/torque-3d) - open source solution.
 * [Unity Game Engine - Unity](https://unity3d.com) - a cross-platform game engine.
 * [Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4) - Epic Games Unreal Engine offers a suite of game development tools made by game developers, for game developers.
 * [UX3D Engine](http://www.ux3d.io/ux3d-engine/) - cross-platform multi-threaded 3D rendering engine optimized for non-gaming industry.
@@ -149,6 +151,8 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 ### Less Beginner
 
+* Khronos Tutorials
+    - [Vulkan Subgroup Tutorial](https://www.khronos.org/blog/vulkan-subgroup-tutorial)
 * [A Brief Overview of Vulkan](https://www.toptal.com/api-developers/a-brief-overview-of-vulkan-api)
 * [ARM Vulkan Tutorials](http://malideveloper.arm.com/documentation/tutorials/vulkan-tutorials/) - Get started with Vulkan tutorials from ARM.
 * [Google Vulkan Tutorial](https://github.com/googlesamples/android-vulkan-tutorials) - A set of samples to illustrate Vulkan API on Android

@@ -110,6 +110,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [OpenCLLink - Wolfram](http://reference.wolfram.com/language/OpenCLLink/guide/OpenCLLink.html) - OpenCLLink allows the Wolfram Language to use the OpenCL parallel computing language.
 *   [OpenClooVision](http://opencloovision.codeplex.com/) - Computer vision framework based on OpenCL and C#
 *   [OpenCV-CL](http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2013/07/opencv-cl_instructions-246.pdf) - OpenCL accelerated OpenCV
+*   [OpenMM](https://simtk.org/projects/openmm) - OpenMM is a toolkit for molecular simulation
 *   [OpenHMPP](http://www.caps-entreprise.com/products/caps-compilers/) - Directive-based OpenACC and
 *   [Paralution](http://www.paralution.com/) - C++ sparse iterative solvers and preconditioners library with OpenCL support 
 *   [Pencil](https://github.com/carpproject/pencil) - PENCIL to be a suitable target language for the compilation of

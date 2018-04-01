@@ -114,6 +114,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [RendererLib](https://github.com/DragonJoker/RendererLib) - multi-plaform C++14 renderer library, matching closely Vulkan API, and allowing rendering through Vulkan or OpenGL 4.5 (so far).
 * [Simple Vulkan Synchronization](https://github.com/Tobski/simple_vulkan_synchronization) - Single-header, simplified Vulkan usage.
 * [Spectrum](https://github.com/mwalczyk/spectrum_core) - framework and abstraction layer.
+* [SPIRV-Reflect](https://github.com/chaoticbob/SPIRV-Reflect) - lightweight C/C++ library for extracting descriptions of descriptor bindings, input/output variables, and push constant blocks from SPIR-V shader binaries.
 * [Visor](https://github.com/baldurk/visor) - Vulkan Ignoble Software Rasterizer.
 * [VkHLF](https://github.com/nvpro-pipeline/VkHLF) - Vulkan High Level Framework.
 * [Vookoo](https://github.com/andy-thomason/Vookoo) - A header only C++ library for constructing Vulkan data structures.

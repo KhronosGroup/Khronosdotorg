@@ -54,6 +54,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [cf4ocl](http://fakenmc.github.io/cf4ocl/) - The C Framework for OpenCL, cf4ocl, is a cross-platform pure C99 object-oriented framework for developing and benchmarking OpenCL projects in C/C++.
 *   [CHO](http://it302.github.io/cho/) - CHO is a suite of benchmark applications for OpenCL FPGA platforms. We started off by porting CHStone to OpenCL. We will be adding more applications with time. This paper (CHO: A Benchmark Suite for OpenCL-based FPGA Accelerators) is a good introduction/refresher on FPGA, OpenCL or High-level Synthesis.
 *   [cl-opencl-3b](https://github.com/3b/cl-opencl-3b) - Lisp-bindings for OpenCL. not active.
+*   [CLBlast](https://github.com/CNugteren/CLBlast/) - CLBlast is a performant and tunable OpenCL BLAS library written in C++11.
 *   [clBLAS library](https://github.com/clMathLibraries/clBLAS) - a software library containing FFT and BLAS functions written in OpenCL. clBLAS library is a software library containing BLAS functions written in OpenCL
 *   [CLFORTRAN](http://www.cass-hpc.com/solutions/libraries/clfortran-pure-fortran-interface-to-opencl) - Pure Fortran Interface to OpenCL
 *   [clMAGMA](http://icl.cs.utk.edu/magma/software/view.html?id=190) - clMAGMA 1.1 is an OpenCL port of MAGMA
@@ -204,7 +205,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 *   [Altera SDK for OpenCL Best Practices](http://www.altera.com/literature/hb/opencl-sdk/aocl_optimization_guide.pdf) - Optimisation Guide for OpenCL
 *   [AMD -  OpenCL Programming Guide](http://developer.amd.com/wordpress/media/2013/07/AMD_Accelerated_Parallel_Processing_OpenCL_Programming_Guide-rev-2.7.pdf) - AMD Accelerated Parallel Processing OpenCL Programming Guide.
-*   [OpenCL cookbook](http://dhruba.name/tag/cookbook/) - 10 tips for high performance kernels
+*   [OpenCL cookbook](https://dhruba.wordpress.com/tag/opencl-cookbook/) - 10 tips for high performance kernels
 
 ### Courses
 

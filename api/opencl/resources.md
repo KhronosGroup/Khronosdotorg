@@ -26,6 +26,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 ## Open Source Implementations
 
 *   [Beignet: OpenCL Implementation for Ivy Bridge on Linux](http://cgit.freedesktop.org/beignet/tree/README.md) - The Beignet GPGPU System for Intel Ivybridge GPUs
+*	[Intel(R) Graphics Compute Runtime for OpenCL](https://github.com/intel/compute-runtime) - The Intel(R) Graphics Compute Runtime for OpenCL(TM) is a open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture.
 *   [MCSDK HPC 3.x OpenCL](http://processors.wiki.ti.com/index.php/MCSDK_HPC_3.x_OpenCL) - MCSDK is an OpenCL 1.1 implementation. The OpenCL specification defines a platform model with a Host and Compute Devices. For this implementation the Host is an ARM Cortex-A15 Linux CPU and the Compute Device is a collection of 8 Texas Instruments' C66x DSP cores, exposed as one virtual accelerator device with 8 compute units.
 *   [Portable OpenCL (pocl)](http://pocl.sourceforge.net) - Portable Computing Language (pocl) aims to become a MIT-licensed open source implementation of the OpenCL standard which can be easily adapted for new targets and devices, both for homogeneous CPU and heterogenous GPUs/accelerators.
 
@@ -81,6 +82,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [Harlan](https://github.com/eholk/harlan) - Harlan: A Scheme-Based GPU Programming Language
 *   [HopenCL](https://github.com/bgaster/hopencl) - Haskell-bindings for OpenCL.
 *   [Intel IPP](http://software.intel.com/en-us/intel-ipp-preview) - A Library of Highly Optimized Algorithmic Building Blocks for Media and Data Applications
+*   [Intercept Layer for OpenCL Applications](https://github.com/intel/opencl-intercept-layer) - The Intercept Layer for OpenCL Applications is a tool that can intercept and modify OpenCL calls for debugging and performance analysis.
 *   [Java Bindings to OpenCL](http://jocl.jogamp.org/) - Project JOCL provides an easy to use Java binding for the OpenCL API. JOCL exposes the OpenCL API in two levels: A automatically generated low level JNI based binding and a hand written high level binding on top of the generated interfaces. The high level bindings provide a convenient interface and reduce verbosity to a minimum.
 *   [JavaCL](http://code.google.com/p/javacl/) - Java OpenCL bindings and utilities. JavaCL wraps OpenCL in a nice Java API with goodies
 *   [JoCL.org](http://www.jocl.org/) - Java bindings for OpenCL.

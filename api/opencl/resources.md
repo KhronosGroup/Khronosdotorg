@@ -25,8 +25,8 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ## Open Source Implementations
 
-*   [Beignet: OpenCL Implementation for Ivy Bridge on Linux](http://cgit.freedesktop.org/beignet/tree/README.md) - The Beignet GPGPU System for Intel Ivybridge GPUs
-*	[Intel(R) Graphics Compute Runtime for OpenCL](https://github.com/intel/compute-runtime) - The Intel(R) Graphics Compute Runtime for OpenCL(TM) is a open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture.
+*  	[Beignet: OpenCL Implementation for Ivy Bridge on Linux](http://cgit.freedesktop.org/beignet/tree/README.md) - The Beignet GPGPU System for Intel Ivybridge GPUs
+*   [Intel(R) Graphics Compute Runtime for OpenCL](https://github.com/intel/compute-runtime) - The Intel(R) Graphics Compute Runtime for OpenCL(TM) is a open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture.
 *   [MCSDK HPC 3.x OpenCL](http://processors.wiki.ti.com/index.php/MCSDK_HPC_3.x_OpenCL) - MCSDK is an OpenCL 1.1 implementation. The OpenCL specification defines a platform model with a Host and Compute Devices. For this implementation the Host is an ARM Cortex-A15 Linux CPU and the Compute Device is a collection of 8 Texas Instruments' C66x DSP cores, exposed as one virtual accelerator device with 8 compute units.
 *   [Portable OpenCL (pocl)](http://pocl.sourceforge.net) - Portable Computing Language (pocl) aims to become a MIT-licensed open source implementation of the OpenCL standard which can be easily adapted for new targets and devices, both for homogeneous CPU and heterogenous GPUs/accelerators.
 

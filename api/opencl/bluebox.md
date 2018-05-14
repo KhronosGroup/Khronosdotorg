@@ -7,6 +7,7 @@
 *   The [OpenCL C++ standard library reference implementation](https://github.com/KhronosGroup/libclcxx)
 *   [OpenCL 2.2 Reference Guide](https://www.khronos.org/files/opencl22-reference-guide.pdf)
 *   [OpenCL issue reporting](https://github.com/KhronosGroup/OpenCL-Registry/issues) on Github
+* [Blog: OpenCL 2.2 Maintenance Update Released](https://www.khronos.org/blog/opencl-2.2-maintenance-update-released)
 *   [OpenCL feedback forum](https://forums.khronos.org/forumdisplay.php/87-OpenCL) offers community support for questions and feedback
 *   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
 *   [SPIR-V LLVM](https://github.com/KhronosGroup/SPIRV-LLVM) framework is intended to contain LLVM <-> SPIR-V converter and serve as a foundation for LLVM-based front-end compilers targeting SPIR-V.

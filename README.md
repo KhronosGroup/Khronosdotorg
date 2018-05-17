@@ -19,7 +19,7 @@ We welcome PRs from the community for both bluebox.md and resources.md files. If
 * Safety Critical - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openglsc/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openglsc/resources.md)
 * SPIR - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/spir/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/spir/resources.md)
 * SYCL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/sycl/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/sycl/resources.md)
-* Vulkan - [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md), [FAQ](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/faq.md)
+* Vulkan - [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md)
 * WebGL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/webgl/bluebox.md), [Resources on Community Wiki](https://www.khronos.org/webgl/wiki)
 
 ## Not in active development

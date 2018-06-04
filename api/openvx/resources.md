@@ -1,6 +1,6 @@
 # OpenVX Resources
 
-A collection of OpenGL ES related tools, documentation, and resources contributed by the community. To contribute, create a pull request to add new resource or update/delete an out of date resource. This resource page lives on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openvx/resources.md) and is open for anyone to issue pull requests to.
+A collection of OpenVX related tools, documentation, and resources contributed by the community. To contribute, create a pull request to add new resource or update/delete an out of date resource. This resource page lives on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openvx/resources.md) and is open for anyone to issue pull requests to.
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/openvx)

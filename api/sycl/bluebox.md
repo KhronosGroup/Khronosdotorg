@@ -1,6 +1,6 @@
 ### SYCL 1.2.1
 
-SYCL 1.2.1 is now the latest release as of December 6, 2017, is based on OpenCL 1.2, and is a major update representing two and a half years of work by Khronos members. The new specification incorporates significant experience gained from three separate implementations and feedback from developers of machine learning frameworks such as TensorFlow, which now supports SYCL alongside the original CUDA accelerator back-end.
+SYCL 1.2.1 revision 2 is now the latest release as of June 21, 2018, is based on OpenCL 1.2, and is a major update representing two and a half years of work by Khronos members. The new specification incorporates significant experience gained from three separate implementations and feedback from developers of machine learning frameworks such as TensorFlow, which now supports SYCL alongside the original CUDA accelerator back-end.
 
 *   [SYCL 1.2.1](https://www.khronos.org/registry/SYCL) – in the Khronos registry
 *   [SYCL Forum](https://forums.khronos.org/showthread.php/13634-Official-SYCL-1-2-1-feedback-thread) – the best place for posting your questions and feedback

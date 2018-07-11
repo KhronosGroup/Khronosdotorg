@@ -5,7 +5,6 @@ This repository holds a collection of resources for all of the Khronos Working G
 We welcome PRs from the community for both bluebox.md and resources.md files. If you notice a missing link, or find a current link that is out-of-date or broken, please let us know. You may either create a pull request, or [contact us](https://www.khronos.org/about/contact) directly. 
 
 ## Khronos Technologies
-* COLLADA - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/collada/bluebox.md), [Resources on Community Wiki](https://www.khronos.org/collada/wiki)
 * DataFormat - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/dataformat/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/dataformat/resources.md)
 * EGL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/egl/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/egl/resources.md)
 * glTF - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/gltf/bluebox.md), [Resources](https://github.com/KhronosGroup/glTF#gltf-tools)
@@ -23,6 +22,7 @@ We welcome PRs from the community for both bluebox.md and resources.md files. If
 * WebGL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/webgl/bluebox.md), [Resources on Community Wiki](https://www.khronos.org/webgl/wiki)
 
 ## Not in active development
+* COLLADA - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/collada/bluebox.md), [Resources on Community Wiki](https://www.khronos.org/collada/wiki)
 * OpenKCam - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openkcam/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openkcam/resources.md)
 * OpenKODE - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openkode/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openkode/resources.md)
 * OpenMAX - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openmax/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openmax/resources.md), [AL Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openmax/al/bluebox.md), [IL Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openmax/il/bluebox.md)

@@ -8,6 +8,7 @@ SYCL 1.2.1 revision 2 is now the latest release as of June 21, 2018, is based on
 *   [ComputeCpp](https://www.codeplay.com/products/computesuite/computecpp) - SYCL implementation by Codeplay
 *   [triSYCL](https://github.com/Xilinx/triSYCL) - an open-source implementation to experiment with SYCL
 *   [SYCL Ecosystem Website](http://sycl.tech) - SYCL community website maintained by Codeplay
+* SYCL Adopters Program – [Adopters area](https://www.khronos.org/sycl/adopters) & [Press Release](https://www.khronos.org/news/press/khronos-releases-conformance-test-suite-for-sycl-1.2.1)
 
 SYCL 1.2.1 builds on the features of C++11, with additional support for C++14 and C++17, enabling ISO C++17 Parallel STL programs to be accelerated on OpenCL devices. To support this effort, Khronos is backing an open-source project to support Parallel STL on top of SYCL, running on OpenCL devices. This project is hosted on [Github](https://github.com/KhronosGroup/SyclParallelSTL). So, while SYCL brings the power of single-source modern C++ to the OpenCL and SPIR world, it also prepares the convergence with other standards such as Khronos’ Vulkan, OpenVX and NNEF and ISO C++ (SG1, SG6, SG12, SG14).
 

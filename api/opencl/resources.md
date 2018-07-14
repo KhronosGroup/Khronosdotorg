@@ -94,6 +94,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [MAGMA linear algebra library](http://icl.cs.utk.edu/magma/software/) - MAGMA provides implementations for CUDA, OpenCL, and Intel Xeon Phi. The latest releases are MAGMA 1.5.0, clMAGMA 1.1, and MAGMA MIC 1.2, respectively.
 *   [MainConcept SDKs using OpenCL](http://www.mainconcept.com/products/sdks/) - The MainConcept GPU Acceleration SDK supports several GPU computing standards for parallel processing supported by MainConcept – NVIDIA's CUDA and AMD's OpenCL. In addition, there is the H.264/AVC Encoder for Intel Quick Sync Video that integrates Intel® Media SDK into the MainConcept API providing easy access to dedicated video processing in 3rd Generation Intel Core Processors.
 *   [ManoCL](http://code.google.com/p/manocl/) - Not active project for .NET bindings.
+*   [MatCL](https://github.com/philipheinisch/MatCL) -  MatCL is an OpenCL interface for MathWorks Matlab.
 *   [M_ Platform](http://www.fixstars.com/en/products/m-cubed/) - Parallel Framework and Primitive Libraries
 *   [Nengo](https://pypi.python.org/pypi/nengo_ocl/1.2.0) - OpenCL-backed neural simulations using the Neural Engineering Framework
 *   [NOpenCL](https://github.com/tunnelvisionlabs/NOpenCL): Easy-to-use .NET wrapper for OpenCL with abstraction.

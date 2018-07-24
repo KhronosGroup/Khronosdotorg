@@ -72,6 +72,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [Delphi-OpenCL](http://code.google.com/p/delphi-opencl/) - Delphi/Pascal-bindings for OpenCL. Seems not active.
 *   [DL- Data Layout](http://www.multicorewareinc.com/dl.html) - DL Enables Optimized Data Layout Across Heterogeneous Processors
 *   [EPGPU](http://www.cs.uaf.edu/sw/EPGPU/) - Provides expressions in C++.
+*   [FAST](https://github.com/smistad/FAST/) - Framework for Heterogeneous Medical Image Computing and Visualization.
 *   [floatCL](http://code.google.com/p/float-cl/) - The project consists of a wrapper for the openCL API for the float datatype. Its been hosted to mainly demonstrate parallel sorting and max element search.
 *   [ForOpenCL](http://sourceforge.net/projects/fortran-parser/files/ForOpenCL/) - Fortran to OpenCL tool 
 *   [fortranCL](https://code.google.com/p/fortrancl/) - FortranCL is an OpenCL interface for Fortran 90.
@@ -82,6 +83,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [GoCL](https://github.com/elima/gocl) - GLib/GObject wrapper for OpenCL
 *   [gpumatrix](https://github.com/rudaoshi/gpumatrix) - A matrix and array library on GPU with interface compatible with Eigen.
 *   [GPUVerify](http://multicore.doc.ic.ac.uk/tools/GPUVerify/) - GPUVerify is a tool for formal analysis of GPU kernels written in OpenCL
+*   [GVF](https://github.com/smistad/OpenCL-GVF) - This is an optimized OpenCL implementation of Gradient Vector Flow (GVF).
 *   [Harlan](https://github.com/eholk/harlan) - Harlan: A Scheme-Based GPU Programming Language
 *   [HopenCL](https://github.com/bgaster/hopencl) - Haskell-bindings for OpenCL.
 *   [Intel IPP](http://software.intel.com/en-us/intel-ipp-preview) - A Library of Highly Optimized Algorithmic Building Blocks for Media and Data Applications

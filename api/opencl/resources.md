@@ -104,6 +104,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [OpenACC to OpenCL Compiler](https://github.com/tristanvdb/OpenACC-to-OpenCL-Compiler) - Rose based  OpenACC to OpenCL Compiler.
 *   [OpenCL data parallel primitives library](http://code.google.com/p/clpp/) - clpp is an OpenCL Data Parallel Primitives Library.
 *   [OpenCL for PLT Scheme](http://planet.plt-scheme.org/display.ss?package=opencl.plt&owner=jaymccarthy) - OpenCL FFI for PLT Scheme
+*   [OpenCL for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=galarius.vscode-opencl) - OpenCL for Visual Studio Code.
 *   [OpenCL Studio](http://www.opencldev.com) -  integrates OpenCL and OpenGL into a single development environment for high performance computing and visualization.
 *   [OpenCL Support Vector Machine](http://www.cmsoft.com.br/opencl-support-vector-machine-2/) - Support Vector Machines (SVMs) é uma ferramenta estatística de aprendizagem computacional considerada como o estado da arte para muitas aplicações da atualidade, incluindo pesquisas médicas e classificação de texto.
 *   [OpenCL.NET](http://www.cass-hpc.com/solutions/libraries/opencl-net) - OpenCL.NET is a .NET library, providing full API bindings for the OpenCL™ standard.

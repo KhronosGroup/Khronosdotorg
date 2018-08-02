@@ -14,7 +14,7 @@ We collect Personal Information directly from individuals, from third parties, a
 
 **User Content**: We collect and store the information and content that you post to the Websites, including your questions, answers, comments, forum, wiki, mailing list and various form content and responses to surveys. Please see the section 'Publicly Available Information' to learn how the information you post will be viewed on our websites.
 
-**Communications**: When you communicate with us (via email, phone, through the forms on our Websites or otherwise), we may maintain a record of your communication. Personal Information we may collect from online forms (e.g.: Job board, Training courses, code of conduct help, meetup support request) includes name, email, address, telephone, company name, job title, website urls, physical location, comments and unique identifiers (e.g., social media handles or usernames).
+**Communications**: When you communicate with us (via email, phone, through the forms on our Websites or otherwise), we may maintain a record of your communication. Personal Information we may collect from online forms (e.g.: Job board, Training courses, code of conduct help, meetup support request) includes name, email, address, telephone, company name, job title, website URLs, physical location, comments and unique identifiers (e.g., social media handles or usernames).
 
 ### Information from Members, Adopters and Advisors
 
@@ -30,7 +30,7 @@ In addition to the information under 'Information from users with and without ac
 
 **Certificates**: Khronos Members and Adopters may file certificates (e.g.: IP Disclosure, WG Exclusion) which contain Contact Information.
 
-**Payment Information**: To purchase Services (including registering for events, training), users may be asked to be directed to a third-party site, such as Paypal or Stripe, to pay for their purchases. If applicable, the third-party site may collect payment information directly to facilitate a transaction. Khronos generally only records the result of the transaction and any references to the transaction record provided by the third-party site.  
+**Payment Information**: To purchase Services (including registering for events, training), users may be asked to be directed to a third-party site, such as PayPal or Stripe, to pay for their purchases. If applicable, the third-party site may collect payment information directly to facilitate a transaction. Khronos generally only records the result of the transaction and any references to the transaction record provided by the third-party site.  
 
 **Event Registrations**: When you register for one of our events (e.g., face-to- face meetings) to participate as an attendee, a speaker or a sponsor, we collect Personal Information that includes Contact Information, sessions attending, and other information. We may optionally collect Personal Information such as likes, interests, dietary restrictions, and other background information.  In addition, if you provide it, we may collect Personal Information about disabilities, medical conditions and allergies in order to provide appropriate accommodations for attendees.
 
@@ -54,7 +54,7 @@ We use different methods to collect Personal Information from and about you, inc
 
 **Through automated technologies or interactions:** As you interact with our Websites, we may automatically collect technical and usage data that may be considered personal in nature.
 
-**Third parties or publicly available sources.** We may receive information about you from various third parties and public sources, including from analytics providers, search information providers, third party forums, administrative, technical, payment and delivery service providers, third party websites and repositories, technological systems to help detect and address anomalous activity and to screen content to prevent abuse, and certain data aggregators for spam protection and other purposes.
+**Third parties or publicly available sources.** We may receive information about you from various third parties and public sources, including from analytics providers, search information providers, third-party forums, administrative, technical, payment and delivery service providers, third-party websites and repositories, technological systems to help detect and address anomalous activity and to screen content to prevent abuse, and certain data aggregators for spam protection and other purposes.
 
 ## HOW WE USE YOUR INFORMATION
 
@@ -62,33 +62,33 @@ We will only use your Personal Information as permitted by law. Most commonly, w
 
 **We do not share**, sell, rent, or trade Personal Information with third parties for their commercial purposes, except where you have specifically told us to (such as by purchasing from the Khronos online store, or registering for an event).
 
-**We do not host advertising** on Khronos. We may occasionally embed content from third party sites, such as YouTube, and that content may include ads. While we try to minimize the amount of ads our embedded content contains, we can't always control what third parties show.
+**We do not host advertising** on Khronos. We may occasionally embed content from third-party sites, such as YouTube, and that content may include ads. While we try to minimize the number of ads our embedded content contains, we can't always control what third parties show.
 
 **We do not disclose** Personal Information outside Khronos, except in the situations listed in the section ‘Comply with a legal obligation' or otherwise expressly described in this Privacy Policy.
 
-**We do share** Personal Information with a limited number of third party vendors who process it on our behalf to provide or improve our service, and who have agreed to privacy restrictions similar to our own Privacy Policy. Our vendors perform services such as accounting, data backups, hosting services, analytics, and marketing communications.
+**We do share** Personal Information with a limited number of third-party vendors who process it on our behalf to provide or improve our service, and who have agreed to privacy restrictions similar to our own Privacy Policy. Our vendors perform services such as accounting, data backups, hosting services, analytics, and marketing communications.
 
-**We do share** Personal Information with Khronos members and support staff in order to fulfill legitimate business purposes such as communications between users, Members, Adopters and Advisors,  technical support, mailing list communications, and organizing events and tradeshows.
+**We do share** Personal Information with Khronos members and support staff in order to fulfill legitimate business purposes such as communications between users, Members, Adopters and Advisors, technical support, mailing list communications, and organizing events and tradeshows.
 
-## THIRD PARTY SITES AND SERVICES
+## THIRD-PARTY SITES AND SERVICES
 
-We use various third party services to allow us to improve user, member and adopter experience on our Websites and as part of our legitimate business interests.
+We use various third-party services to allow us to improve user, member and adopter experience on our Websites and as part of our legitimate business interests.
 
 *   **Analytics**: We use internal and third-party analytics tools, including [Google Analytics](https://support.google.com/analytics/answer/6004245), and [New Relic](https://newrelic.com/termsandconditions/privacy).
 *   **Communications**: We use third-party tools for comments on our blog with [Disqus](https://help.disqus.com/terms-and-policies/disqus-privacy-policy), chat rooms with [Gitter](https://gitter.zendesk.com/hc/en-us/articles/200876472-Privacy-policy), sending newsletter with [Mailchimp](https://mailchimp.com/legal/privacy/), and receiving responses in surveys with [SurveyMonkey](https://www.surveymonkey.com/mp/legal/privacy-policy/).
-*   **Financial Transactions**: We use third-party payment processors including [Quickbooks Online](https://security.intuit.com/index.php/privacy), [Paypal](https://www.paypal.com/ca/webapps/mpp/ua/privacy-full) and [Stripe](https://thestripe.com/privacy-policy/).
+*   **Financial Transactions**: We use third-party payment processors including [QuickBooks Online](https://security.intuit.com/index.php/privacy), [PayPal](https://www.PayPal.com/ca/webapps/mpp/ua/privacy-full) and [Stripe](https://thestripe.com/privacy-policy/).
 *   **Hosting and Data Storage**: We use third-party sites for our hosting with [DigitalOcean](https://www.digitalocean.com/legal/privacy/) and [Amazon Web Services (AWS)](https://aws.amazon.com/privacy/), storage and backup needs with [Amazon Web Services (AWS)](https://aws.amazon.com/privacy/) and [Dropbox](https://www.dropbox.com/privacy#privacy), as well as in assisting with collaborative work with users on our Websites with [Google Drive](https://policies.google.com/privacy) and [Google Docs](https://policies.google.com/privacy).
-*   **Legal**: We use a third party tool, [CLA assistant](https://gist.github.com/CLAassistant/3a73e4cd729c9d0a6e30), to track assent to certain legal terms.
+*   **Legal**: We use a third-party tool, [CLA assistant](https://gist.github.com/CLAassistant/3a73e4cd729c9d0a6e30), to track assent to certain legal terms.
 *   **Merchandise:** We use third-party store fronts to allow users of our Websites the ability to purchase our merchandise, including [Teespring](https://teespring.com/policies/privacy) and [Printful](https://www.printful.com/policies/privacy).
 *   **Social Media**: We use third-party social media platforms to help interact with the public and to help disseminate our information and news. Platforms include [Facebook](https://www.facebook.com/about/privacy), [Flickr](https://policies.yahoo.com/privacy/flickr/), [Google+](https://policies.google.com/privacy), [Instagram](https://help.instagram.com/519522125107875), [LinkedIn](https://www.linkedin.com/legal/privacy-policy), [Reddit](https://www.redditinc.com/policies/privacy-policy), [Twitter](https://twitter.com/privacy) and [YouTube](https://support.google.com/youtube/answer/7671399?p=privacy_guidelines&hl=en&visit_id=1-636645956576666982-2567484808&rd=1).
-*   **Spam and Security**: We use third-party tools which help in stopping abuse and keeping our Websites safe and secure, including [StopforumSpam](http://www.stopforumspam.com/privacy), [Akismet](https://automattic.com/privacy/).
-*   **Tools**: We use third-party tools to help in the development process, such as time management with [Doodle](https://doodle.com/privacy-policy), and teleconference calls with [Webex](https://www.webex.com/cisco-privacy_full-text.html). We also use third-party tools to assist in the development of our standards and other code, including [Github](https://github.com/), [Appveyor](https://www.appveyor.com/privacy-policy/), [Coverity](https://www.synopsys.com/company/legal/privacy-policy.html), [GitKraken](https://www.gitkraken.com/privacy), [SourceTreeForMac](https://www.atlassian.com/legal/privacy-policy) and [Travis-CI](https://docs.travis-ci.com/legal/privacy-policy/).
+*   **Spam and Security**: We use third-party tools which help in stopping abuse and keeping our Websites safe and secure, including [Stop Forum Spam](http://www.stopforumspam.com/privacy), [Akismet](https://automattic.com/privacy/).
+*   **Tools**: We use third-party tools to help in the development process, such as time management with [Doodle](https://doodle.com/privacy-policy), and teleconference calls with [WebEx](https://www.webex.com/cisco-privacy_full-text.html). We also use third-party tools to assist in the development of our standards and other code, including [Github](https://github.com/), [AppVeyor](https://www.appveyor.com/privacy-policy/), [Coverity](https://www.synopsys.com/company/legal/privacy-policy.html), [GitKraken](https://www.gitkraken.com/privacy), [SourceTreeForMac](https://www.atlassian.com/legal/privacy-policy) and [Travis-CI](https://docs.travis-ci.com/legal/privacy-policy/).
 
 ## PUBLIC INFORMATION ON KHRONOS
 
 Areas of our Websites are public-facing. If your Personal Information is public-facing, third parties may access and use it, such as by viewing your profile, repositories, forum content or mailing lists. We do not sell that information. However, we do allow third parties, such as research organizations or archives, to compile public-facing information. Other third parties, such as data brokers, have been known to scrape our Websites and compile data as well.
 
-Your Personal Information, associated with your content, could be gathered by third parties in these compilations of Khronos data. If you do not want your Personal Information to appear in third parties' compilations of Khronos data, please do not use the products or services on our Websites which are publicly available and be sure to configure your email address to be private in your user profile where permissible and in your git commit settings.
+Your Personal Information, associated with your content, could be gathered by third parties in these compilations of Khronos data. If you do not want your Personal Information to appear in third-parties' compilations of Khronos data, please do not use the products or services on our Websites which are publicly available and be sure to configure your email address to be private in your user profile where permissible and in your git commit settings.
 
 ## INFORMATION WE DO NOT COLLECT
 
@@ -104,15 +104,15 @@ Khronos uses cookies to make interactions with our service easy and meaningful. 
 
 **Tracking and analytics**
 
-We use a few third party analytics and service providers to help us evaluate our users' use of our Websites; compile statistical reports on activity; and improve our content and website performance. We only use these third party analytics providers on certain areas of our website, and all of them have signed data protection agreements with us that limit the type of Personal Information they can collect and the purpose for which they can process the information. In addition, we use our own internal analytics software to provide features and improve our content and performance.
+We use a few third-party analytics and service providers to help us evaluate our users' use of our Websites; compile statistical reports on activity; and improve our content and website performance. We only use these third-party analytics providers on certain areas of our website, and all of them have signed data protection agreements with us that limit the type of Personal Information they can collect and the purpose for which they can process the information. In addition, we use our own internal analytics software to provide features and improve our content and performance.
 
 We do not currently respond to your browser's Do Not Track signal, and we do not permit third parties other than our analytics and service providers to track Khronos users' activity over time on Khronos. We do not track your online browsing activity on other online services over time.
 
 ## DATA SECURITY  
 
-Khronos takes all measures reasonably necessary to protect users information from unauthorized access, alteration, or destruction; maintain data accuracy; and help ensure the appropriate use of user information.
+Khronos takes all measures reasonably necessary to protect users' information from unauthorized access, alteration, or destruction; maintain data accuracy; and help ensure the appropriate use of user information.
 
-Transmission of data on Khronos websites is encrypted using SSH, HTTPS, and SSL/TLS. While our data is not encrypted at rest, when data is stored for backups with a third party storage provider, it is encrypted.
+Transmission of data on Khronos websites is encrypted using SSH, HTTPS, and SSL/TLS. While our data is not encrypted at rest, when data is stored for backups with a third-party storage provider, it is encrypted.
 
 We have put in place procedures to deal with any suspected data breach and we will act promptly to mitigate the impact of a breach, and we will notify any affected users without undue delay. No method of transmission, or method of electronic storage, is 100% secure. Therefore, we cannot guarantee its absolute security.
 

@@ -22,12 +22,4 @@ We believe the true usefulness of SYCL goes beyond the spec itself; it is an eco
     - [TensorFlow™ for OpenCL™ using SYCL™](https://www.codeplay.com/portal/tensorflow™-for-opencl™-using-sycl™)
 
 ## Technical resources
-* [Investigation of the SYCL for OpenCL Programming Model](https://static.ph.ed.ac.uk/dissertations/hpc-msc/2014-2015/Investigation%20of%20the%20SYCL%20for%20OpenCL%20Programming%20Model.pdf) - PDF
 * [SYCL Ecosystem Website](http://sycl.tech/) - SYCL community website maintained by Codeplay
-
-## Presentations and Videos
-### 2016
-* OpenCL, SYCL, & SPIR V BOF - SIGGRAPH 2016 - [Video](https://www.youtube.com/watch?v=TYp1d6yzHUQ) | [Slides](https://www.khronos.org/assets/uploads/developers/library/2016-siggraph/OpenCL-BOF-SIGGRAPH_Ju16.pdf)
-
-### 2014
-* [SYCL 1.2: Unofficial High-Level Overview](https://www.youtube.com/watch?v=-mEQhf8MeUI) - AJ Guillon - What SYCL means for C++ OpenCL programmers.

@@ -4,6 +4,6 @@ We believe the true usefulness of OpenGL SC goes beyond the spec itself; it is a
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/openglsc)
-* [Registry](https://www/khronos.org/registry/glsc)
-* [Discussion Forum](https://forums.khronos.org/showthread.php/13049-Official-OpenGL-SC-2-0-feedback)
-* [Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products#openglsc)
+* [Registry](https://www.khronos.org/registry/OpenGL/index_sc.php)
+* [Discussion Forum](https://forums.khronos.org/forumdisplay.php/76-OpenGL-SC)
+* [Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products/openglsc)

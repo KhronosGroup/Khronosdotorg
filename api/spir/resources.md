@@ -23,8 +23,6 @@ SPIR-V specification in json format
 * [SpirvNet - C#](https://github.com/Philip-Trettner/SpirvNet) Write shaders or kernels in C#; .NET IL to SPIR-V conversion; SPIR-V interpreter; Debug shaders & kernels in C# (CPU)
 * [otherside - C++](https://github.com/bonus2113/otherside) SPIR-V virtual machine; Produces C like code from SPIR-V binaries; Set through generated C code in debugger; Basis for academic software rasterizer
 * [Shade - Xojo](https://github.com/Zoclee/Shade) SPIR-V virtual machine; Test and debug SPIR-V binaries; Defines human readable format; SPIR-V binary correctness
-* [SPARV - Rust](https://github.com/fkaa/sparv) Process SPIR-V from Rust; (Dis)Assemble SPIR-V binaries
-* [Go SPIR-V Library](https://github.com/jteeuwen/spirv) SPIR-V library for Go; (Dis)Assemble SPIR-V binaries; In memory representation
 * [Python SPIR-V Tools](https://github.com/kristerw/spirv-tools) Encode and decode SPIR-V in Python; High level human readable assembler syntax - similar to LLVM IR
 * [HSPIRV - Haskell EDSL](https://github.com/stevely/hspirv) SPIR-V like language embedded in Haskell; Low level abstraction; Significantly relaxed layout constraints
 * [Lisp Specification](https://github.com/cbaggers/spir-v) Lisp readable SPIR-V specification; Basis for data driven Lisp tools

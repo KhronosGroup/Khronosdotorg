@@ -1,20 +1,19 @@
 # Vulkan Resources
 
-Khronos has placed an unprecedented amount of materials into open source so you can provide feedback, showcase your work, fix bugs, and extend Vulkan capabilities for the future. Get engaged and show the world what you are doing with Vulkan. Something missing from this page? Contribute today!
+Khronos has placed an unprecedented amount of materials into open source so you can provide feedback, showcase your work, fix bugs, and extend Vulkan capabilities for the future. Get engaged and show the world what you are doing with Vulkan. Something missing from this page? [Contribute today](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md)!
 
 ## Khronos Vulkan® Resources
 * [Vulkan Homepage](https://www.khronos.org/vulkan/)
 * Vulkan Portability Initiative and [Bringing Vulkan Applications to macOS/iOS](https://www.khronos.org/vulkan/portability-initiative)
 * [Specification and API Registry](https://www.khronos.org/registry/vulkan)
 * [Vulkan Discussion Forum](https://forums.khronos.org/forumdisplay.php/114-Vulkan)
-* [Quick Reference (PDF)](https://www.khronos.org/registry/vulkan/specs/1.0/refguide/Vulkan-1.0-web.pdf)
-* Reference Pages - [PDF](https://www.khronos.org/registry/vulkan/specs/1.0/apispec.pdf), [HTML (single page)](https://www.khronos.org/registry/vulkan/specs/1.0/apispec.html), [HTML](https://www.khronos.org/registry/vulkan/specs/1.0/man/html/)
+* [Reference Guides (PDF)](https://www.khronos.org/developers/reference-cards/)
 * [Adopters Process](https://www.khronos.org/vulkan/adopters/)
-* [Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products#vulkan)
+* [Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products/vulkan)
 * [Vulkan YouTube Playlist](https://www.youtube.com/playlist?list=PLYO7XTAX41FPp1AQbwr6wA-IUy4cAHLNN)
-* [Vulkan Tutorials & Blog](https://www.khronos.org/blog/tags/tag/Vulkan) - Learn about Vulkan right from the source.
-* Social Media - [Twitter](https://twitter.com/VulkanAPI), [Facebook](https://facebook.com/VulkanAPI) 
-* Vulkan Merchandise [North America & Europe](https://www.khronos.org/store) - Get awesome Official Vulkan Merchandise!
+* [Vulkan Tutorials & Blog](https://www.khronos.org/blog/tags/tag/Vulkan) - Learn about Vulkan right from the source
+* Social Media - [Twitter](https://twitter.com/VulkanAPI)
+* Vulkan Merchandise [North America & Europe](https://www.khronos.org/store) - Get awesome Official Vulkan Merchandise
 
 ## Drivers
 * [AMD](http://gpuopen.com/gaming-product/vulkan/)
@@ -28,34 +27,34 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 
 
 ## SDK
-* [ARM](https://developer.arm.com/products/software/mali-sdks/vulkan) - Software Development Kit for ARM Mali Vulkan applications on Android.
-* [Google Vulkan](https://developer.android.com/go/vulkan) - Android developer website to download the API, samples, and documentation.
-* [LunarG Vulkan SDK](https://vulkan.lunarG.com) - Official Vulkan SDK by LunarG. for Windows, Linux and macOS.
-* [PowerVR - Native_SDK](https://github.com/powervr-graphics/Native_SDK) - C++ cross-platform 3D graphics SDK.
-* [Qualcomm](https://developer.qualcomm.com/download/software) - Adreno GPU SDK.
-* [NVIDIA L4T](https://developer.nvidia.com/embedded/vulkan) - Software Development Kit for Vulkan applications on NVIDIA Tegra.
+* [ARM](https://developer.arm.com/products/software/mali-sdks/vulkan) - Software Development Kit for ARM Mali Vulkan applications on Android
+* [Google Vulkan](https://developer.android.com/go/vulkan) - Android developer website to download the API, samples, and documentation
+* [LunarG Vulkan SDK](https://vulkan.lunarG.com) - Official Vulkan SDK by LunarG. for Windows, Linux and macOS
+* [PowerVR - Native_SDK](https://github.com/powervr-graphics/Native_SDK) - C++ cross-platform 3D graphics SDK
+* [Qualcomm](https://developer.qualcomm.com/download/software) - Adreno GPU SDK
+* [NVIDIA L4T](https://developer.nvidia.com/embedded/vulkan) - Software Development Kit for Vulkan applications on NVIDIA Tegra
 
 
 ## Engines
 
-* [CRYENGINE - Crytek](https://www.cryengine.com) - powerful game development platform. Full engine source code. All features. No royalties. No obligations. No license fee.
-* [Granite](https://github.com/Themaister/Granite) - Example engine which notably includes a [Task Graph implementation](http://themaister.net/blog/2017/08/15/render-graphs-and-vulkan-a-deep-dive/) for aiding synchronization.
+* [CRYENGINE - Crytek](https://www.cryengine.com) - powerful game development platform. Full engine source code. All features. No royalties. No obligations. No license fee
+* [Granite](https://github.com/Themaister/Granite) - Example engine which notably includes a [Task Graph implementation](http://themaister.net/blog/2017/08/15/render-graphs-and-vulkan-a-deep-dive/) for aiding synchronization
 * [idTech engine - id Software](https://www.idsoftware.com/en-us/)
-* [Intrinsic Engine](http://www.intrinsic-engine.com) - Vulkan based cross-platform graphics and game engine.
-* [Lugdunum](https://github.com/Lugdunum3D/Lugdunum) - modern cross-platform 3D engine built with Vulkan, glTF 2.0 and modern C++14.
-* [Serious Engine - CroTeam](http://www.croteam.com/technology/) - multi-platform engine with support for next-gen and mobile platforms.
-* [Torque](http://www.garagegames.com/products/torque-3d) - open source solution.
-* [Unity Game Engine - Unity](https://unity3d.com) - a cross-platform game engine.
-* [Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4) - Epic Games Unreal Engine offers a suite of game development tools made by game developers, for game developers.
-* [UX3D Engine](http://www.ux3d.io/ux3d-engine/) - cross-platform multi-threaded 3D rendering engine optimized for non-gaming industry.
-* [Xenko Game Engine](http://xenko.com) - cross-platform game engine currently offering Vulkan support in Beta.
+* [Intrinsic Engine](https://github.com/begla/Intrinsic) - Vulkan based cross-platform graphics and game engine
+* [Lugdunum](https://github.com/Lugdunum3D/Lugdunum) - modern cross-platform 3D engine built with Vulkan, glTF 2.0 and modern C++14
+* [Serious Engine - CroTeam](http://www.croteam.com/technology/) - multi-platform engine with support for next-gen and mobile platforms
+* [Torque](http://www.garagegames.com/products/torque-3d) - open source solution
+* [Unity Game Engine - Unity](https://unity3d.com) - a cross-platform game engine
+* [Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4) - Epic Games Unreal Engine offers a suite of game development tools made by game developers, for game developers
+* [UX3D Engine](http://www.ux3d.io/ux3d-engine/) - cross-platform multi-threaded 3D rendering engine optimized for non-gaming industry
+* [Xenko Game Engine](http://xenko.com) - cross-platform game engine currently offering Vulkan support in Beta
 
 ## Resources
-* [AMD Vulkan Resources](http://gpuopen.com/gaming-product/vulkan/).
-* [IRC Channel \##Vulkan](https://webchat.freenode.net) - Vulkan IRC developer channel on [freenode.net](https://freenode.net).
-* [Reddit Vulkan Community](https://www.reddit.com/r/vulkan/).
-* [StackOverflow](https://stackoverflow.com/questions/tagged/vulkan).
-* [Vulkan hardware database](http://vulkan.gpuinfo.org/) - hardware capabilities and compare different Vulkan implementations.
+* [AMD Vulkan Resources](http://gpuopen.com/gaming-product/vulkan/)
+* [IRC Channel \##Vulkan](https://webchat.freenode.net) - Vulkan IRC developer channel on [freenode.net](https://freenode.net)
+* [Reddit Vulkan Community](https://www.reddit.com/r/vulkan/)
+* [StackOverflow](https://stackoverflow.com/questions/tagged/vulkan)
+* [Vulkan hardware database](http://vulkan.gpuinfo.org/) - hardware capabilities and compare different Vulkan implementations
 * Vulkan Community Resource Lists:
     - [NVIDIA](https://developer.nvidia.com/Vulkan)
     - [Awesome Vulkan List](https://github.com/vinjn/awesome-vulkan)
@@ -65,19 +64,19 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 ## Tools
 
 * [AMD Radeon GPU Profiler](http://gpuopen.com/gaming-product/radeon-gpu-profiler-rgp/) - Low-level performance analysis tool for AMD Radeon GPUs
-* [ARM Mali Graphics Debugger](http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/) - Mali debugger with Vulkan support.
-* [CodeXL](https://github.com/GPUOpen-Tools/CodeXL) - tool suite that enables developers to harness the benefits of CPUs, GPUs and APUs.
+* [ARM Mali Graphics Debugger](http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/) - Mali debugger with Vulkan support
+* [CodeXL](https://github.com/GPUOpen-Tools/CodeXL) - tool suite that enables developers to harness the benefits of CPUs, GPUs and APUs
 * [GAPID - Graphics API Debugger](https://github.com/google/gapid)
-* [LunarG Visual Studio Vulkan Project Templates](https://vulkan.lunarG.com) - Create a Vulkan application project without needing to set up include paths and libraries.  Find the templates inside the LunarG SDK.
+* [LunarG Visual Studio Vulkan Project Templates](https://vulkan.lunarG.com) - Create a Vulkan application project without needing to set up include paths and libraries.  Find the templates inside the LunarG SDK
 * [LunarG Vulkan Tools](https://github.com/LunarG/VulkanTools) - Tools to aid in Vulkan development including useful layers, trace and replay, and tests.
-* [NVIDIA Nsight Visual Studio Edition](https://developer.nvidia.com/nvidia-nsight-visual-studio-edition).
-* [OCAT](https://github.com/GPUOpen-Tools/OCAT) - Open Capture and Analytics Tool (OCAT) provides an FPS overlay and performance measurement for D3D11, D3D12, and Vulkan.
-* [PerfDoc](https://github.com/ARM-software/perfdoc) - A cross-platform Vulkan layer which checks Vulkan applications for recommended API usage on Arm Mali devices.
-* [Qualcomm Tools](https://developer.qualcomm.com/software/adreno-gpu-sdk/tools) .
-* [RenderDoc](https://github.com/baldurk/renderdoc) - Cross platform graphics debugger with Vulkan support.
-* [VIM](http://www.vim.org/scripts/script.php?script_id=5335) - Not an IDE, but still used by the masses.
-* [Visual Studio SPIR-V Extension](https://github.com/SaschaWillems/SPIRV-VSExtension) - Adds context menu entries and error checking for compiling GLSL shaders to SPIR-V.
-* [vkmark](https://github.com/vkmark/vkmark) - An extensible Vulkan benchmarking suite with targeted, configurable scenes.
+* [NVIDIA Nsight Visual Studio Edition](https://developer.nvidia.com/nvidia-nsight-visual-studio-edition)
+* [OCAT](https://github.com/GPUOpen-Tools/OCAT) - Open Capture and Analytics Tool (OCAT) provides an FPS overlay and performance measurement for D3D11, D3D12, and Vulkan
+* [PerfDoc](https://github.com/ARM-software/perfdoc) - A cross-platform Vulkan layer which checks Vulkan applications for recommended API usage on Arm Mali devices
+* [Qualcomm Tools](https://developer.qualcomm.com/software/adreno-gpu-sdk/tools)
+* [RenderDoc](https://github.com/baldurk/renderdoc) - Cross platform graphics debugger with Vulkan support
+* [VIM](http://www.vim.org/scripts/script.php?script_id=5335) - Not an IDE, but still used by the masses
+* [Visual Studio SPIR-V Extension](https://github.com/SaschaWillems/SPIRV-VSExtension) - Adds context menu entries and error checking for compiling GLSL shaders to SPIR-V
+* [vkmark](https://github.com/vkmark/vkmark) - An extensible Vulkan benchmarking suite with targeted, configurable scenes
 
 
 ## Language Bindings
@@ -87,7 +86,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [D - ErupteD](https://github.com/ParticlePeter/ErupteD) - D bindings for Vulkan.
 * [D-Vulkan](https://github.com/ColonelThirtyTwo/dvulkan) - D bindings for Vulkan.
 * [Direct3D VK9](https://github.com/disks86/VK9) - Runs Direct3D 9 applications on Windows or Linux (/w Wine) over Vulkan.
-* [Go - vulkan-go](https://github.com/vulkan-go/vulkan) - Go-lang Bindings for Vulkan API ([website coming soon](https://vulkango.com)).
+* [Go - vulkan-go](https://github.com/vulkan-go/vulkan) - Go-lang Bindings for Vulkan API
 * [Haskell](https://github.com/expipiplus1/vulkan) - Haskell bindings for Vulkan.
 * [Java - LWJGL](https://www.lwjgl.org/) - Light Weight Java Graphics Library with Vulkan Bindings.
 * [Julia - VulkanCore.jl](https://github.com/JuliaGPU/VulkanCore.jl) - [Julia](http://julialang.org/) binding for the Vulkan API.
@@ -146,9 +145,6 @@ Khronos has placed an unprecedented amount of materials into open source so you 
     - [Part 2](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-2) - Swap Chain
     - [Part 3](https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-3) - First Triangle
     - [Part 4](https://software.intel.com/en-us/articles/api-without-secrets-introduction-to-vulkan-part-4) - Vertex Attributes
-    - [Part 5](https://github.com/GameTechDev/IntroductionToVulkan/blob/master/Project/Tutorial05) - Staging Resources
-    - [Part 6](https://github.com/GameTechDev/IntroductionToVulkan/blob/master/Project/Tutorial06) - Descriptor Sets
-    - [Part 7](https://github.com/GameTechDev/IntroductionToVulkan/blob/master/Project/Tutorial07) - Uniform Buffers
 
 ### Less Beginner
 
@@ -164,7 +160,6 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Raw Vulkan](https://alain.xyz/blog/raw-vulkan) - An overview on how to program a Vulkan application from the ground up.
 * [Vulkan API Tutorial](https://www.youtube.com/watch?v=wHt5wcxIPcE) - Niko Kauppi YouTube tutorial series 
 * [Vulkan in 30 minutes](https://renderdoc.org/vulkan-in-30-minutes.html) - RenderDoc tutorial to get you going
-* [Vulkan Training](http://www.vulkan-trainer.com/) - Kai Niklas [training podcasts](http://opengl-trainer.com/podcast.html) covering Vulkan, OpenGL, OpenGL ES, WebGL and much more. **A special thanks to Kai for donating the Vulkan.org domain to the Khronos Group**.
 * [Vulkan Tutorial](http://www.jhenriques.net/development.html) - Advanced tutorial to get to a complete but minimal C program running a graphical pipeline using Vulkan on windows.
 * [Vulkan Video Tutorial](https://www.youtube.com/playlist?list=PL58qjcU5nk8uH9mmlASm4SFy1yuPzDAH0) - German Vulkan Tutorial series
 * [Vulkan API Overview - Henri Tuhola](http://boxbase.org/entries/2014/jul/28/about-the-author/):
@@ -197,23 +192,20 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Vulkan Synchronization Examples](https://github.com/KhronosGroup/Vulkan-Docs/wiki/Synchronization-Examples) - Reference set of common synchronization examples.
 
 ## Presentations and Videos
+* 2018
+    - [Khronos SIGGRAPH Sessions](https://www.khronos.org/events/2018-siggraph)
+    - [Vulkanised is Back!](https://www.khronos.org/events/vulkanised-is-back-game-developers-vulkan)
+    - [Vulkan Developer Day in Montréal](https://www.khronos.org/events/2018-vulkan-developer-day-in-montreal)
+    - [Khronos GDC Sessions](https://www.khronos.org/events/gdc-2018)
 * 2017
-    - [Khronos Vulkana DevU](https://www.khronos.org/developers/library/2017-vulkan-devu-vancouver) - Presentation and Videos from the 2017 Vulkan DevU in Vancouver.
+    - [Khronos SIGGRAPH Sessions](https://www.khronos.org/events/2017-siggraph)
+    - [Khronos GDC Sessions](https://www.khronos.org/events/gdc-2017)
+    - [Khronos Vulkan DevU in Vancouver](https://www.khronos.org/developers/library/2017-vulkan-devu-vancouver)
 * 2016 
-    - [Khronos SIGGRAPH Sessions](https://www.khronos.org/siggraph) - Video and presentations from SIGGRAPH 2016.
+    - [Khronos SIGGRAPH Sessions](https://www.khronos.org/events/2016-siggraph)
     - [AMD: The most common Vulkan mistakes](http://gpuopen.com/slides-from-our-the-most-common-vulkan-mistakes-talk/) - slides from a two hours-long talk at University of Lodz in Poland where the most common mistakes made in Vulkan applications was discussed
     - [ARM: SPIRV-Cross](https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/18/spirv-cross), working with Vulkan and SPIR-V in your app
-    - [ARM and Epic Games on Vulkan](https://community.arm.com/external-link.jspa?url=https%3A%2F%2Fyoutu.be%2FsL7B8yA0FVE) - Live stream discussion on Vulkan
-    - [ARM Mali Graphics Blog](https://community.arm.com/groups/arm-mali-graphics/blog/tags#/?tags=vulkan) - Vulkan blog
-    - ARM GDC Presentations - [Get your Engine ready for Vulkan on Mobile](http://malideveloper.arm.com/documentation/tutorials/game-development-tutorials/#v1), [Vulkan’s key features on ARM Architecture](http://malideveloper.arm.com/documentation/tutorials/game-development-tutorials/#v2)
     - Khronos GDC Sessions - [Video](https://www.youtube.com/playlist?list=PLYO7XTAX41FNGLJZ4BjpTtt70MvNFCrcH) and [Slide](https://www.khronos.org/developers/library/2016-gdc) presentations from GDC 2016
-
-* 2015
-    - [Imagination Technologies PowerVR Webinars](http://blog.imgtec.com/powervr/5-new-webinars-on-the-vulkan-api) - Blog and Videos by Imagination Technologies
-    - [NVIDIA Vulkan developer page](https://developer.nvidia.com/Vulkan) - NVIDIA Developer landing page
-    - [Khronos Vulkan BoF](https://www.youtube.com/watch?v=quNsdYfWXfM&list=PLYO7XTAX41FOFvZ2beOg8y0tvuVLJLL0G&index=1) - SIGGRAPH 2015 Videos (YouTube)
-    - Vulkan on NVIDIA GPUs [slides](http://on-demand.gputechconf.com/siggraph/2015/presentation/SIG1501-Piers-Daniell.pdf) and [videos](http://on-demand.gputechconf.com/siggraph/2015/video/SIG501-Piers-Daniell.html) - SIGGRAPH 2015
-    - [Khronos API Standards Update Video](http://on-demand.gputechconf.com/gtc/2015/video/S5734.html) - Vulkan, OpenCL 2.1 and SPIR-V at GTC 2015
 
 ## Applications using Vulkan
 
@@ -227,11 +219,7 @@ Khronos has placed an unprecedented amount of materials into open source so you 
 * [Talos Principle](http://www.croteam.com/talosprinciple/) - a philosophical first-person puzzle game from Croteam.
 
 ## Books and Learning
-* [Learning Vulkan](https://www.packtpub.com/application-development/learning-vulkan) written by Parminder Singh.
-* [Vulkan API Book](https://github.com/HarryLovesCode/Vulkan-API-Book) - Technical Vulkan book on Github.
-* [Vulkan Cookbook–Packt Publishing](https://www.packtpub.com/game-development/vulkan-cookbook) ([source code](https://github.com/PacktPublishing/Vulkan-Cookbook), [Amazon USA](https://www.amazon.com/Vulkan-Cookbook-Pawel-Lapinski/dp/1786468158/khongrou-20)) - Vulkan book and repository with code samples.
-* [Vulkan Programming Guide](http://www.amazon.com/Vulkan-Programming-Guide-Official-Learning/dp/0134464540/khongrou-20) - The Official Guide to Learning Vulkan (OpenGL) 1st Edition.
-* [Vulkan Programming](https://www.packtpub.com/application-development/vulkan-programming-video) - Author: Kai Niklas. Create impressive, stunning visuals for cross platform applications using next generation graphics api – Vulkan.
+Books are now listed on the [Khronos website](https://www.khronos.org/developers/books/).
 
 ## Definitions
 The following helpful defintions are taken from this [Reddit Thread](https://www.reddit.com/r/vulkan/comments/4aveyh/tutorial_request_for_newbies_explain_the_things/):

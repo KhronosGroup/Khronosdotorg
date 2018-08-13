@@ -1,6 +1,8 @@
 # OpenGL ES Resources
 
-A collection of OpenGL ES related tools, documentation, and resources contributed by the community. To contribute, create a pull request to add new resource or update/delete an out of date resource. This resource page lives on [Github](https://github.com/KhronosGroup/Khronosdotorg).
+A collection of OpenGL ES related tools, documentation, and resources contributed by the community. 
+
+**Get involved, submit your resources either with a pull requests on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/resources.md)!** or email the webmaster at Khronos.org.
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/opengles)

@@ -98,6 +98,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [OpenACC to OpenCL Compiler](https://github.com/tristanvdb/OpenACC-to-OpenCL-Compiler) - Rose based  OpenACC to OpenCL Compiler.
 *   [OpenCL data parallel primitives library](http://code.google.com/p/clpp/) - clpp is an OpenCL Data Parallel Primitives Library.
 *   [OpenCL for PLT Scheme](http://planet.plt-scheme.org/display.ss?package=opencl.plt&owner=jaymccarthy) - OpenCL FFI for PLT Scheme
+*   [OpenCL for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=galarius.vscode-opencl) - OpenCL for Visual Studio Code.
 *   [OpenCL Studio](http://www.opencldev.com) -  integrates OpenCL and OpenGL into a single development environment for high performance computing and visualization.
 *   [OpenCLHelper](https://github.com/hughperkins/OpenCLHelper) - Easy to run kernels using OpenCL.
 *   [OpenCLIntegration](https://github.com/wimvanderbauwhede/OpenCLIntegration) - An OpenCL wrapper class and a SCons build library to simplify integration of OpenCL code in C++, C, Fortran and Perl

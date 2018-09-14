@@ -21,7 +21,7 @@ A collection of OpenVX related tools, documentation, and resources contributed b
 
 ## Frameworks & Libraries
 * [AMD OpenVX](http://gpuopen.com/compute-product/amd-openvx/) (open-source on GitHub) is a highly optimized implementation of the Khronos OpenVX™ computer vision specification. It is a library that allows for rapid prototyping as well as fast execution on a wide range of computer hardware, including small embedded x86 CPUs and large workstation discrete GPUs. On Github: [core (OpenVX)](https://github.com/GPUOpen-ProfessionalCompute-Libraries/amdovx-core) and [modules (Libraries)](https://github.com/GPUOpen-ProfessionalCompute-Libraries/amdovx-modules)
-
+* [OpenVINO](https://software.intel.com/en-us/openvino-toolkit) (The OpenVINO toolkit was formerly known as the Intel Computer Vision SDK) Develop applications and solutions that emulate human vision with the Open Visual Inference & Neural Network Optimization (OpenVINO) toolkit. Based on convolutional neural networks (CNN), the toolkit extends workloads across Intel® hardware and maximizes performance.
 
 ## Tutorials
 * Khronos OpenVX Tutorial - A course covering both the function-based API and the graph API that enable OpenVX developers to efficiently run computer vision algorithms on heterogeneous computing architectures:

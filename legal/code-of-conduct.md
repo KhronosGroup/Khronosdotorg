@@ -46,8 +46,8 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage], versi
 ## Contacting us
 If you have any questions about this Code of Conduct, the practices of this site, or your dealings with this site, please contact us at:
 
-The Khronos Group, Inc.
-9450 SW Gemini Drive #45043
-Beaverton, OR 97008-6018 USA
-Office: +1 (415) 869-8627
-Email: codeofconduct@khronos.org
+The Khronos Group, Inc.  
+9450 SW Gemini Drive #45043  
+Beaverton, OR 97008-6018 USA  
+Office: +1 (415) 869-8627  
+Email: [codeofconduct@khronos.org](mailto:codeofconduct@khronos.org)

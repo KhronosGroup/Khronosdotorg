@@ -1,6 +1,6 @@
 # Vulkan Resources
 
-We believe the true usefulness of OpenCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. 
+We believe the true usefulness of Vulkan goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. 
 
 **Get involved, submit your resources either with a pull requests on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md)** or email the webmaster at Khronos.org.
 
@@ -76,7 +76,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 * [PerfDoc](https://github.com/ARM-software/perfdoc) - A cross-platform Vulkan layer which checks Vulkan applications for recommended API usage on Arm Mali devices
 * [Qualcomm Tools](https://developer.qualcomm.com/software/adreno-gpu-sdk/tools)
 * [RenderDoc](https://github.com/baldurk/renderdoc) - Cross platform graphics debugger with Vulkan support
-* [VIM](http://www.vim.org/scripts/script.php?script_id=5335) - Not an IDE, but still used by the masses
+* [VIM syntax highlighting for Vulkan](http://www.vim.org/scripts/script.php?script_id=5335) - Adds syntax highlighting for the Vulkan API in C/C++
 * [Visual Studio SPIR-V Extension](https://github.com/SaschaWillems/SPIRV-VSExtension) - Adds context menu entries and error checking for compiling GLSL shaders to SPIR-V
 * [vkmark](https://github.com/vkmark/vkmark) - An extensible Vulkan benchmarking suite with targeted, configurable scenes
 

@@ -112,6 +112,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [glo](https://github.com/g-truc/glo) - this project will provide two front-ends: OpenGL and a modernized version OpenGL and multiple back-ends: Vulkan, Metal and DirectX12.
 * [MoltenVK - Brenwill Workshop](https://moltengl.com/moltenvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
 * [openFrameworks](https://github.com/openframeworks-vk/openFrameworks) - Experimental Vulkan Renderer branch.
+* [Pumex](https://github.com/pumexx/pumex) - Vulkan library oriented on high speed rendering 
 * [RendererLib](https://github.com/DragonJoker/RendererLib) - multi-plaform C++14 renderer library, matching closely Vulkan API, and allowing rendering through Vulkan or OpenGL 4.5 (so far).
 * [Simple Vulkan Synchronization](https://github.com/Tobski/simple_vulkan_synchronization) - Single-header, simplified Vulkan usage.
 * [Spectrum](https://github.com/mwalczyk/spectrum_core) - framework and abstraction layer.

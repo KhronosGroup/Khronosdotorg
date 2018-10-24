@@ -54,6 +54,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 ## Resources
 * [AMD Vulkan Resources](http://gpuopen.com/gaming-product/vulkan/)
 * [IRC Channel \##Vulkan](https://webchat.freenode.net) - Vulkan IRC developer channel on [freenode.net](https://freenode.net)
+* [Vulkan Community Discord Server](https://discord.gg/JyJDbyH)
 * [Reddit Vulkan Community](https://www.reddit.com/r/vulkan/)
 * [StackOverflow](https://stackoverflow.com/questions/tagged/vulkan)
 * [Vulkan hardware database](http://vulkan.gpuinfo.org/) - hardware capabilities and compare different Vulkan implementations

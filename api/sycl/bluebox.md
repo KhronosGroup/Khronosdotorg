@@ -12,19 +12,6 @@ SYCL 1.2.1 revision 3 is now the latest release as of July 19, 2018, is based on
 
 SYCL 1.2.1 builds on the features of C++11, with additional support for C++14 and C++17, enabling ISO C++17 Parallel STL programs to be accelerated on OpenCL devices. To support this effort, Khronos is backing an open-source project to support Parallel STL on top of SYCL, running on OpenCL devices. This project is hosted on [Github](https://github.com/KhronosGroup/SyclParallelSTL). So, while SYCL brings the power of single-source modern C++ to the OpenCL and SPIR world, it also prepares the convergence with other standards such as Khronos’ Vulkan, OpenVX and NNEF and ISO C++ (SG1, SG6, SG12, SG14).
 
-### SYCL 2.2 Provisional
-
-*   [SYCL 2.2](https://www.khronos.org/registry/sycl) – in the Khronos registry
-*   [SYCL 2.2 Overview slide](https://www.khronos.org/assets/uploads/developers/library/2015-iwocl/SYCL_2.2_Provisional_Dec14.pdf) (presentation slides in .pdf format)
-*   [SYCL Forum](https://forums.khronos.org/showthread.php/13046-Official-SYCL-2-2-Provisional-feedback-thread) – the best place for posting your questions and feedback
-*   [ComputeCpp](https://www.codeplay.com/products/computesuite/computecpp) - SYCL implementation by Codeplay
-*   [triSYCL](https://github.com/Xilinx/triSYCL) - an open-source implementation to experiment with SYCL
-*   [SYCL Ecosystem Website](http://sycl.tech) - SYCL community website maintained by Codeplay
-
-SYCL 2.2 was launched in parallel with OpenCL 2.2 and enables the capabilities of OpenCL 2.2 to be leveraged while keeping host and device code in a single source file. SYCL 2.2 will likely align towards C++20 and future ISO C++ Standards and moves towards OpenCL 2.2 features such as shared virtual memory, generic pointers and device-side enqueue. 
-
-It is also possible for us to move directly towards SYCL NEXT to enable DSP support,and Additional backends support for SYCL, as well as Safety Critical SYCL. 
-
 ### SYCL 1.2
 
 *   [SYCL 1.2](https://www.khronos.org/registry/sycl) – in the Khronos registry

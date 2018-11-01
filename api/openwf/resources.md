@@ -4,11 +4,11 @@
 
 We believe the true usefulness of OpenWF goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. You are encouraged to [get involved](https://github.com/KhronosGroup/Khronosdotorg)!
 
-* [OpenWF Sample Implementations](https://www.khronos.org/registry/wf/) Source codes of the OpenWF Composition and Display API sample implementations. The implementations and example applications are compilable and runnable under linux and win32/cygwin.
+* [OpenWF Sample Implementations](https://www.khronos.org/registry/OpenWF/) Source codes of the OpenWF Composition and Display API sample implementations. The implementations and example applications are compilable and runnable under linux and win32/cygwin.
 * [OpenWF Whitepaper](https://www.khronos.org/assets/uploads/apis/OpenWF_Whitepaper_Dec_2011.pdf) Technical whitepaper giving an introduction to the OpenWF Composition and Display APIs.
 
 ## Commercial and Open Source Implementations
-* [OpenWF Sample Implementations](https://www.khronos.org/registry/wf/) Source codes of the OpenWF Composition and Display API sample implementations. The implementations and example applications are compilable and runnable under linux and win32/cygwin.
+* [OpenWF Sample Implementations](https://www.khronos.org/registry/OpenWF/) Source codes of the OpenWF Composition and Display API sample implementations. The implementations and example applications are compilable and runnable under linux and win32/cygwin.
 
 ## Tutorials, Technical Whitepapers and How to Guides
 * [OpenWF Whitepaper](https://www.khronos.org/assets/uploads/apis/OpenWF_Whitepaper_Dec_2011.pdf) Technical whitepaper giving an introduction to the OpenWF Composition and Display APIs.

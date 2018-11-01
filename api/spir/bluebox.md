@@ -1,6 +1,6 @@
 ### SPIR–V 1.3 Resources
 
-*   The SPIR V 1.3 Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir-v)
+*   The SPIR V 1.3 Specification is available in the�[Khronos Registry](https://www.khronos.org/registry/spir-v)
 *   SPIR-V 1.3 in the [Vulkan 1.1 Press Release](https://www.khronos.org/news/press/khronos-group-releases-vulkan-1-1)
 *   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, optimizer, linker, and validator for SPIR-V
 *   [SPIR-V Cross](https://github.com/KhronosGroup/SPIRV-Cross) is a practical tool and library for performing reflection on SPIR-V and disassembling SPIR-V back to high level languages.

@@ -1,13 +1,13 @@
 # Vulkan Resources
 
-We believe the true usefulness of Vulkan goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. 
+We believe the true usefulness of Vulkan goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community.
 
 **Get involved, submit your resources either with a pull requests on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md)** or email the webmaster at Khronos.org.
 
 ## Khronos Vulkan® Resources
 * [Vulkan Homepage](https://www.khronos.org/vulkan/)
 * Vulkan Portability Initiative and [Bringing Vulkan Applications to macOS/iOS](https://www.khronos.org/vulkan/portability-initiative)
-* [Specification and API Registry](https://www.khronos.org/registry/vulkan)
+* [Specification and API Registry](/registry/vulkan)
 * [Vulkan Discussion Forum](https://forums.khronos.org/forumdisplay.php/114-Vulkan)
 * [Reference Guides (PDF)](https://www.khronos.org/developers/reference-cards/)
 * [Adopters Process](https://www.khronos.org/vulkan/adopters/)
@@ -112,7 +112,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [glo](https://github.com/g-truc/glo) - this project will provide two front-ends: OpenGL and a modernized version OpenGL and multiple back-ends: Vulkan, Metal and DirectX12.
 * [MoltenVK - Brenwill Workshop](https://moltengl.com/moltenvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
 * [openFrameworks](https://github.com/openframeworks-vk/openFrameworks) - Experimental Vulkan Renderer branch.
-* [Pumex](https://github.com/pumexx/pumex) - Vulkan library oriented on high speed rendering 
+* [Pumex](https://github.com/pumexx/pumex) - Vulkan library oriented on high speed rendering
 * [RendererLib](https://github.com/DragonJoker/RendererLib) - multi-plaform C++14 renderer library, matching closely Vulkan API, and allowing rendering through Vulkan or OpenGL 4.5 (so far).
 * [Simple Vulkan Synchronization](https://github.com/Tobski/simple_vulkan_synchronization) - Single-header, simplified Vulkan usage.
 * [Spectrum](https://github.com/mwalczyk/spectrum_core) - framework and abstraction layer.
@@ -161,7 +161,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [NVIDIA Blog - Learning Vulkan](https://developer.nvidia.com/taxonomy/term/586) - Various blog entries from NVIDIA on learning Vulkan.
 * [Offline debugging with Vulkan using VK\_EXT\_debug_marker](http://www.saschawillems.de/?page_id=2017) - demonstrates the new functionality introduced with the VK_EXT_debug_marker extensions
 * [Raw Vulkan](https://alain.xyz/blog/raw-vulkan) - An overview on how to program a Vulkan application from the ground up.
-* [Vulkan API Tutorial](https://www.youtube.com/watch?v=wHt5wcxIPcE) - Niko Kauppi YouTube tutorial series 
+* [Vulkan API Tutorial](https://www.youtube.com/watch?v=wHt5wcxIPcE) - Niko Kauppi YouTube tutorial series
 * [Vulkan in 30 minutes](https://renderdoc.org/vulkan-in-30-minutes.html) - RenderDoc tutorial to get you going
 * [Vulkan Tutorial](http://www.jhenriques.net/development.html) - Advanced tutorial to get to a complete but minimal C program running a graphical pipeline using Vulkan on windows.
 * [Vulkan Video Tutorial](https://www.youtube.com/playlist?list=PL58qjcU5nk8uH9mmlASm4SFy1yuPzDAH0) - German Vulkan Tutorial series
@@ -204,7 +204,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
     - [Khronos SIGGRAPH Sessions](https://www.khronos.org/events/2017-siggraph)
     - [Khronos GDC Sessions](https://www.khronos.org/events/gdc-2017)
     - [Khronos Vulkan DevU in Vancouver](https://www.khronos.org/developers/library/2017-vulkan-devu-vancouver)
-* 2016 
+* 2016
     - [Khronos SIGGRAPH Sessions](https://www.khronos.org/events/2016-siggraph)
     - [AMD: The most common Vulkan mistakes](http://gpuopen.com/slides-from-our-the-most-common-vulkan-mistakes-talk/) - slides from a two hours-long talk at University of Lodz in Poland where the most common mistakes made in Vulkan applications was discussed
     - [ARM: SPIRV-Cross](https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/18/spirv-cross), working with Vulkan and SPIR-V in your app
@@ -213,7 +213,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 ## Applications using Vulkan
 
 * [3DMark](https://www.futuremark.com/pressreleases/compare-vulkan-and-directx-12-performance-with-3dmark) - Vulkan support added to 3DMark API.
-* [DOOM - id Software](http://doom.com/) - id Software released a patch in July 2016 giving Doom Vulkan support. 
+* [DOOM - id Software](http://doom.com/) - id Software released a patch in July 2016 giving Doom Vulkan support.
 * [DOOM 3 BFG](https://github.com/DustinHLand/vkDOOM3) - GPL DOOM 3 BFG ported to Vulkan.
 * [DotA](http://www.valvesoftware.com/games/dota2.html) - a free-to-play .multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation.
 * [Kishonti GFXBench](https://kishonti.net/news_single.jsp?id=31133884) - GFXBench 5 Aztec Ruins scene debuts at GDC for Vulkan API.

@@ -32,27 +32,27 @@
 
 *   The OpenCL 2.0 specification and header files are available in the [Khronos Registry](https://www.khronos.org/registry/OpenCL/)
 *   The OpenCL 2.0 C Language Specification available in the [Khronos Registry](https://www.khronos.org/registry/OpenCL/specs/opencl-2.0-openclc.pdf)
-*   The OpenCL 2.0 Quick [Reference guide](https://www.khronos.org/developers/reference-cards/) ( [View on SlideShare](http://www.khronos.org/developers/view_online/24503911) )
+*   The OpenCL 2.0 Quick [Reference guide](https://www.khronos.org/developers/reference-cards/) ( [View on SlideShare](https://www.khronos.org/developers/view_online/24503911) )
 *   The OpenCL 2.0 [Online Reference pages](https://www.khronos.org/registry/OpenCL/sdk/2.0/docs/man/xhtml/)
 *   [OpenCL Open Source Conformance Test Source](https://github.com/KhronosGroup/OpenCL-CTS/tree/cl20_trunk) contains the full source of OpenCL Conformance Tests
 
 ### OpenCL 1.2
 
 *   The OpenCL 1.2 specification and header files are available in the [Khronos Registry](https://www.khronos.org/registry/OpenCL/)
-*   The OpenCL 1.2 Quick [Reference guide](https://www.khronos.org/developers/reference-cards/) ( [View online](http://www.khronos.org/developers/view_online/12577567) )
+*   The OpenCL 1.2 Quick [Reference guide](https://www.khronos.org/developers/reference-cards/) ( [View online](https://www.khronos.org/developers/view_online/12577567) )
 *   The OpenCL 1.2 [Online Reference Pages](https://www.khronos.org/registry/OpenCL/sdk/1.2/docs/man/xhtml/)
-*   The OpenCL C++ Wrapper 1.2 Quick [Reference Card](https://www.khronos.org/files/OpenCLPP12-reference-card.pdf) ( [View Online](http://www.khronos.org/developers/view_online/28369654) )
+*   The OpenCL C++ Wrapper 1.2 Quick [Reference Card](https://www.khronos.org/files/OpenCLPP12-reference-card.pdf) ( [View Online](https://www.khronos.org/developers/view_online/28369654) )
 *   [OpenCL Open Source Conformance Test Source](https://github.com/KhronosGroup/OpenCL-CTS/tree/cl12_trunk) contains the full source of OpenCL Conformance Tests
 
 ### OpenCL 1.1
 
 *   The OpenCL 1.1 specification and header files are available in the [Khronos Registry](https://www.khronos.org/registry/OpenCL/)
-*   The OpenCL 1.1 Quick [Reference Guide](https://www.khronos.org/developers/reference-cards/) ( [View online](http://www.khronos.org/developers/view_online/12577561) )
+*   The OpenCL 1.1 Quick [Reference Guide](https://www.khronos.org/developers/reference-cards/) ( [View online](https://www.khronos.org/developers/view_online/12577561) )
 *   The OpenCL 1.1 [Online Reference Pages](https://www.khronos.org/registry/OpenCL/sdk/1.1/docs/man/xhtml/)
 
 ### OpenCL 1.0
 
 *   The OpenCL 1.0 specification and header files are available in the [Khronos Registry](https://www.khronos.org/registry/OpenCL/)
-*   The OpenCL 1.0 Quick [Reference Guide](https://www.khronos.org/developers/reference-cards/) ( [View online](http://www.khronos.org/developers/view_online/12577534) )
+*   The OpenCL 1.0 Quick [Reference Guide](https://www.khronos.org/developers/reference-cards/) ( [View online](https://www.khronos.org/developers/view_online/12577534) )
 
 The OpenCL 1.0 [Online Reference Pages](https://www.khronos.org/registry/OpenCL/sdk/1.0/docs/man/xhtml/)

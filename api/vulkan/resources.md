@@ -7,7 +7,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 ## Khronos Vulkan® Resources
 * [Vulkan Homepage](https://www.khronos.org/vulkan/)
 * Vulkan Portability Initiative and [Bringing Vulkan Applications to macOS/iOS](https://www.khronos.org/vulkan/portability-initiative)
-* [Specification and API Registry](/registry/vulkan)
+* [Specification and API Registry](https://www.khronos.org/registry/vulkan)
 * [Vulkan Discussion Forum](https://forums.khronos.org/forumdisplay.php/114-Vulkan)
 * [Reference Guides (PDF)](https://www.khronos.org/developers/reference-cards/)
 * [Adopters Process](https://www.khronos.org/vulkan/adopters/)

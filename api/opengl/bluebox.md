@@ -34,16 +34,16 @@ New extensions to OpenGL 4.6 include:
 
 ### API & GLSL specifications
 
-*   [OpenGL 4.6 Core Profile Specification](https://khronos.org/registry/OpenGL/specs/gl/glspec46.core.pdf)
-*   [OpenGL 4.6 Compatibility Profile Specification](https://khronos.org/registry/OpenGL/specs/gl/glspec46.compatibility.pdf)
-*   [OpenGL Shading Language 4.60 Specification](https://khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.60.pdf)
+*   [OpenGL 4.6 Core Profile Specification](https://www.khronos.org/registry/OpenGL/specs/gl/glspec46.core.pdf)
+*   [OpenGL 4.6 Compatibility Profile Specification](https://www.khronos.org/registry/OpenGL/specs/gl/glspec46.compatibility.pdf)
+*   [OpenGL Shading Language 4.60 Specification](https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.60.pdf)
 
 ### Additional Links
 
 Specifications and documentation for the OpenGL API and OpenGL Shading Language, as well as related APIs such as GLX, are available from [OpenGL.org](https://www.opengl.org/):
 
-*   [OpenGL Registry](https://khronos.org/registry/OpenGL/index_gl.php)
-*   [OpenGL SDK](https://www.opengl.org/sdk/)
+*   [OpenGL Registry](https://www.khronos.org/registry/OpenGL/index_gl.php)
+*   [OpenGL Libraries, Tools, etc. (formerly &quot;SDK&quot;)](https://www.khronos.org/registry/OpenGL-Refpages)
 *   [OpenGL Reference Pages](https://www.khronos.org/registry/OpenGL-Refpages/gl4/)
 *   [OpenGL Reference Cards](https://www.khronos.org/developers/reference-cards/)
 *   [OpenGL Resources](https://www.khronos.org/opengl/wiki)

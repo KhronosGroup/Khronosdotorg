@@ -4,5 +4,5 @@ OpenVG is an application programming interface (API) for hardware accelerated tw
 
 OpenVG 1.1, released on December 8th, 2008, adds a Glyph API for hardware accelerated text rendering, full acceleration support for Adobe® Flash® and Flash Lite 3 technologies, and multi-sampled anti-aliasing to the OpenVG 1.0 specification. The OpenVG specification is accompanied by an open source reference implementation and a full suite of conformance tests implemented by the Khronos Group.
 
-*   The OpenVG specification and header files are available in the [Khronos Registry](/registry/vg/)
-*   The OpenVG 1.1 [Reference card](/developers/reference-cards/ "Download the OpenVG quick reference card").
+*   The OpenVG specification and header files are available in the [Khronos Registry](https://www.khronos.org/registry/OpenVG/)
+*   The OpenVG 1.1 [Reference card](https://www.khronos.org/developers/reference-cards/ "Download the OpenVG quick reference card").

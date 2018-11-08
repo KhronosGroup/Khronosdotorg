@@ -1,12 +1,12 @@
 # SYCL Resources
 
-We believe the true usefulness of OpenCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. 
+We believe the true usefulness of OpenCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community.
 
 **Get involved, submit your resources either with a pull requests on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/sycl/resources.md)** or email the webmaster at Khronos.org.
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/sycl)
-* [SYCL Registry](https://www.khronos.org/registry/sycl/)
+* [SYCL Registry](https://www.khronos.org/registry/SYCL/)
 * [SYCL Forums](https://forums.khronos.org/forumdisplay.php/87-OpenCL)
 * [SYCL 1.2 Reference Guide](https://www.khronos.org/files/sycl/sycl-12-reference-card.pdf)
 

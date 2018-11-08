@@ -25,7 +25,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * Intel: [Open Source](https://01.org/linuxgraphics), [Windows](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 * [NVIDIA](https://developer.nvidia.com/vulkan-driver)
 * [Qualcomm](https://developer.qualcomm.com/software/adreno-gpu-sdk/gpu)
-* [Verisilicon](http://www.verisilicon.com/IPPortfolio_2_18_1_VivanteGPUIP.html)
+* [Verisilicon](http://www.verisilicon.com/IPPortfolio.html)
 
 
 ## SDK
@@ -111,7 +111,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [Falcor](https://github.com/NVIDIAGameWorks/Falcor) - Real-Time Rendering Framework.
 * [glfw](https://github.com/glfw/glfw) - multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input. - Immediate Mode Graphical User interface for C++ with minimal dependencies.
 * [glo](https://github.com/g-truc/glo) - this project will provide two front-ends: OpenGL and a modernized version OpenGL and multiple back-ends: Vulkan, Metal and DirectX12.
-* [MoltenVK - Brenwill Workshop](https://moltengl.com/moltenvk/) - Vulkan implementation that uses Metal to run on iOS and OSX.
+* [MoltenVK](https://github.com/KhronosGroup/MoltenVK) - Vulkan implementation that uses Metal to run on iOS and OSX.
 * [openFrameworks](https://github.com/openframeworks-vk/openFrameworks) - Experimental Vulkan Renderer branch.
 * [Pumex](https://github.com/pumexx/pumex) - Vulkan library oriented on high speed rendering
 * [RendererLib](https://github.com/DragonJoker/RendererLib) - multi-plaform C++14 renderer library, matching closely Vulkan API, and allowing rendering through Vulkan or OpenGL 4.5 (so far).
@@ -161,7 +161,6 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [LunarG Vulkan Tutorial](https://vulkan.lunarg.com/doc/sdk/1.0.26.0/linux/tutorial.html) -  steps you through the process of creating a simple Vulkan application.
 * [NVIDIA Blog - Learning Vulkan](https://developer.nvidia.com/taxonomy/term/586) - Various blog entries from NVIDIA on learning Vulkan.
 * [Offline debugging with Vulkan using VK\_EXT\_debug_marker](http://www.saschawillems.de/?page_id=2017) - demonstrates the new functionality introduced with the VK_EXT_debug_marker extensions
-* [Raw Vulkan](https://alain.xyz/blog/raw-vulkan) - An overview on how to program a Vulkan application from the ground up.
 * [Vulkan API Tutorial](https://www.youtube.com/watch?v=wHt5wcxIPcE) - Niko Kauppi YouTube tutorial series
 * [Vulkan in 30 minutes](https://renderdoc.org/vulkan-in-30-minutes.html) - RenderDoc tutorial to get you going
 * [Vulkan Tutorial](http://www.jhenriques.net/development.html) - Advanced tutorial to get to a complete but minimal C program running a graphical pipeline using Vulkan on windows.
@@ -197,16 +196,16 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 
 ## Presentations and Videos
 * 2018
-    - [Khronos SIGGRAPH Sessions](https://www.khronos.org/events/2018-siggraph)
-    - [Vulkanised is Back!](https://www.khronos.org/events/vulkanised-is-back-game-developers-vulkan)
-    - [Vulkan Developer Day in Montréal](https://www.khronos.org/events/2018-vulkan-developer-day-in-montreal)
-    - [Khronos GDC Sessions](https://www.khronos.org/events/gdc-2018)
+    - [Khronos SIGGRAPH Sessions](https://www.khronos.org/developers/library/2018-siggraph)
+    - [Vulkanised is Back!](https://www.khronos.org/developers/library/2018-vulkanised)
+    - [Vulkan Developer Day in Montréal](https://www.khronos.org/developers/library/2018-vulkan-montreal-dev-day)
+    - [Khronos GDC Sessions](https://www.khronos.org/developers/library/2018-gdc)
 * 2017
-    - [Khronos SIGGRAPH Sessions](https://www.khronos.org/events/2017-siggraph)
-    - [Khronos GDC Sessions](https://www.khronos.org/events/gdc-2017)
+    - [Khronos SIGGRAPH Sessions](https://www.khronos.org/developers/library/2017-siggraph)
+    - [Khronos GDC Sessions](https://www.khronos.org/developers/library/2017-gdc-webgl-webvr-gltf-meetup)
     - [Khronos Vulkan DevU in Vancouver](https://www.khronos.org/developers/library/2017-vulkan-devu-vancouver)
 * 2016
-    - [Khronos SIGGRAPH Sessions](https://www.khronos.org/events/2016-siggraph)
+    - [Khronos SIGGRAPH Sessions](hhttps://www.khronos.org/developers/library/2016-siggraph)
     - [AMD: The most common Vulkan mistakes](http://gpuopen.com/slides-from-our-the-most-common-vulkan-mistakes-talk/) - slides from a two hours-long talk at University of Lodz in Poland where the most common mistakes made in Vulkan applications was discussed
     - [ARM: SPIRV-Cross](https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/18/spirv-cross), working with Vulkan and SPIR-V in your app
     - Khronos GDC Sessions - [Video](https://www.youtube.com/playlist?list=PLYO7XTAX41FNGLJZ4BjpTtt70MvNFCrcH) and [Slide](https://www.khronos.org/developers/library/2016-gdc) presentations from GDC 2016

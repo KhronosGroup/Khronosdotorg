@@ -9,7 +9,7 @@ A collection of OpenGL ES related tools, documentation, and resources contribute
 * [Registry](https://www.khronos.org/registry/OpenGL/index_es.php) - contains specifications of the core API and shading language; specifications of Khronos- and vendor-approved OpenGL ES extensions; header files corresponding to the specifications; and other related documentation.
 * [Khronos OpenGL ES SDK](https://www.khronos.org/opengles/sdk/) - Documentation, Sample Code, Libaries and tools for creating OpenGL ES based applications
 * [Discussion forums](https://forums.khronos.org/forumdisplay.php/70-OpenGL-ES)
-* [OpenGL ES Bug tracker](https://www.khronos.org/bugzilla/enter_bug.cgi?product=OpenGL-ES) - report problems or suggest new material for the OpenGL ES SDK
+* [OpenGL ES Issue tracker](https://github.com/KhronosGroup/OpenGL-Registry/issues) - report problems or suggest new material for the OpenGL ES SDK
 * Quick Reference Guides - [3.2](https://www.khronos.org/files/opengles32-quick-reference-card.pdf), [3.1](https://www.khronos.org/files/opengles31-quick-reference-card.pdf), [3.0](https://www.khronos.org/files/opengles3-quick-reference-card.pdf), [2.0](https://www.khronos.org/files/opengles20-reference-card.pdf)
 * Online Reference Pages - [3.2](https://www.khronos.org/opengles/sdk/docs/man32/), [3.1](https://www.khronos.org/opengles/sdk/docs/man31/), [3.0](https://www.khronos.org/opengles/sdk/docs/man3/), [2.0](https://www.khronos.org/opengles/sdk/docs/man/)
 * [Adopters Process](https://www.khronos.org/opengles/adopters/)
@@ -19,8 +19,8 @@ A collection of OpenGL ES related tools, documentation, and resources contribute
 * [Reference Compiler](https://www.khronos.org/opengles/sdk/tools/Reference-Compiler/) - the official reference compiler front end for the OpenGL ES and OpenGL shading languages
 
 ## Commercial and Open Source Implementations
-* [ARM Mali OpenGL ES SDK](hhttps://developer.arm.com/products/software/mali-sdks/opengl-es) - Tutorials and samples on how to get the best out of OpenGL ES on Mali GPUs.
-* [PowerVR SDK](https://community.imgtec.com/developers/powervr/) PowerVR SDK developer tools, documentation, FAQ, technical support, forums and developer blog.
+* [ARM Mali OpenGL ES SDK](https://developer.arm.com/products/software/mali-sdks/opengl-es) - Tutorials and samples on how to get the best out of OpenGL ES on Mali GPUs.
+* [PowerVR SDK](https://www.imgtec.com/developers/powervr-sdk-tools/powervr-sdk/) PowerVR SDK developer tools, documentation, FAQ, technical support, forums and developer blog.
 * [BREW SDK](https://brewx.qualcomm.com/brew/sdk/download.jsp?page=dx/devmisc) - OpenGL ES 1.0 Extension
 
 ## Learning OpenGL ES

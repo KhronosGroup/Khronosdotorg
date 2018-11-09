@@ -27,5 +27,4 @@ SPIR 2.0 is a mapping from the OpenCL C programming language into LLVM IR. This 
 
 *   The SPIR 2.0 Provisional Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir)
 *   The SPIR 1.2 Specification is available in the [Khronos Registry](https://www.khronos.org/registry/spir)
-*   For [SPIR bug reporting](https://www.khronos.org/bugzilla/enter_bug.cgi?product=OpenCL%20SPIR) use the Khronos Bugzilla system under OpenCL SPIR
 *   The [SPIR 1.2 Verifier](https://github.com/KhronosGroup/SPIR/tree/spir_12) from Khronos GitHub

@@ -52,7 +52,7 @@ We use different methods to collect Personal Information from and about you, inc
 
 **Direct interactions:** You may give us your Personal Information by filling in forms or by corresponding with us. This includes Personal Information you provide when you enter into agreements, register on our Websites, subscribe to our mailing lists or newsletter, register for or participate in our events, on rosters, submission documents, records of meeting attendance, and participation lists, request marketing to be sent to you, fill out other forms, provide us with feedback or questions, participate in development tools, participate on our forums or otherwise engage in networking activities.
 
-**Through automated technologies or interactions:** As you interact with our Websites, we may automatically collect technical and usage data that may be considered personal in nature.
+**Through automated technologies or interactions:** As you interact with our Websites and Communications, we may automatically collect technical and usage data that may be considered personal in nature.
 
 **Third parties or publicly available sources.** We may receive information about you from various third parties and public sources, including from analytics providers, search information providers, third-party forums, administrative, technical, payment and delivery service providers, third-party websites and repositories, technological systems to help detect and address anomalous activity and to screen content to prevent abuse, and certain data aggregators for spam protection and other purposes.
 
@@ -106,7 +106,7 @@ Khronos uses cookies to make interactions with our service easy and meaningful. 
 
 We use a few third-party analytics and service providers to help us evaluate our users' use of our Websites; compile statistical reports on activity; and improve our content and website performance. We only use these third-party analytics providers on certain areas of our website, and all of them have signed data protection agreements with us that limit the type of Personal Information they can collect and the purpose for which they can process the information. In addition, we use our own internal analytics software to provide features and improve our content and performance.
 
-We do not currently respond to your browser's Do Not Track signal, and we do not permit third parties other than our analytics and service providers to track Khronos users' activity over time on Khronos. We do not track your online browsing activity on other online services over time.
+We do not currently respond to your browser's Do Not Track signal, and we do not permit third parties other than our analytics and service providers to track users' activity over time on our Websites and Communications. We do not track your online browsing activity on other online services over time.
 
 ## DATA SECURITY  
 

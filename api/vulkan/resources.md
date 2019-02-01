@@ -39,7 +39,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 
 ## Engines
 
-* [CRYENGINE - Crytek](https://www.cryengine.com) - powerful game development platform. Full engine source code. All features. No royalties. No obligations. No license fee
+* [CRYENGINE - Crytek](https://www.cryengine.com) - powerful game development platform. Full engine source code. All features. 5% Royalty – Your First 5K € / $ of Annual Revenue per Project is Royalty Free
 * [Granite](https://github.com/Themaister/Granite) - Example engine which notably includes a [Task Graph implementation](http://themaister.net/blog/2017/08/15/render-graphs-and-vulkan-a-deep-dive/) for aiding synchronization
 * [idTech engine - id Software](https://www.idsoftware.com/en-us/)
 * [Intrinsic Engine](https://github.com/begla/Intrinsic) - Vulkan based cross-platform graphics and game engine
@@ -47,7 +47,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [Serious Engine - CroTeam](http://www.croteam.com/technology/) - multi-platform engine with support for next-gen and mobile platforms
 * [Torque](http://www.garagegames.com/products/torque-3d) - open source solution
 * [Unity Game Engine - Unity](https://unity3d.com) - a cross-platform game engine
-* [Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4) - Epic Games Unreal Engine offers a suite of game development tools made by game developers, for game developers
+* [Unreal Engine](https://www.unrealengine.com/what-is-unreal-engine-4) - Epic Games Unreal Engine offers a suite of game development tools made by game developers, for game developers. 5% royalty on gross revenue after the first $3,000 per game per calendar quarter.
 * [UX3D Engine](http://www.ux3d.io/ux3d-engine/) - cross-platform multi-threaded 3D rendering engine optimized for non-gaming industry
 * [Xenko Game Engine](http://xenko.com) - cross-platform game engine currently offering Vulkan support in Beta
 

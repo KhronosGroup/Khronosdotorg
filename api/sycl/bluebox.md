@@ -6,7 +6,7 @@ SYCL 1.2.1 revision 3 is now the latest release as of July 19, 2018, is based on
 *   [SYCL Forum](https://forums.khronos.org/showthread.php/13634-Official-SYCL-1-2-1-feedback-thread) - the best place for posting your questions and feedback
 *   [SYCL Press Release](https://www.khronos.org/news/press/the-khronos-group-releases-finalized-sycl-1.2.1)
 *   [ComputeCpp](https://www.codeplay.com/products/computesuite/computecpp) - SYCL implementation by Codeplay
-*   [triSYCL](https://github.com/Xilinx/triSYCL) - an open-source implementation to experiment with SYCL
+*   [triSYCL](https://github.com/triSYCL/triSYCL) - an open-source implementation to experiment with SYCL
 *   [SYCL Ecosystem Website](http://sycl.tech) - SYCL community website maintained by Codeplay
 * SYCL Adopters Program - [Adopters area](https://www.khronos.org/sycl/adopters) & [Press Release](https://www.khronos.org/news/press/khronos-releases-conformance-test-suite-for-sycl-1.2.1)
 

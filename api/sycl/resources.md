@@ -7,8 +7,6 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/sycl)
 * [SYCL Registry](https://www.khronos.org/registry/SYCL/)
-* [SYCL Forums](https://forums.khronos.org/forumdisplay.php/87-OpenCL)
-* [SYCL 1.2 Reference Guide](https://www.khronos.org/files/sycl/sycl-12-reference-card.pdf)
 
 ## Implementations
 * [ComputeCpp](https://www.codeplay.com/products/computesuite/computecpp) - SYCL implementation by Codeplay

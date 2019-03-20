@@ -18,16 +18,16 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ## Commercial Implementations
 
-*   [Intel SDK for OpenCL](https://www.intel.com/content/www/us/en/software/programmable/sdk-for-opencl/overview.html) - Intel® FPGA SDK for OpenCL is a world class development environment that enables software developers to accelerate their applications by targeting heterogeneous platforms with Intel CPUs and FPGAs
-*   [AMD APP SDK](https://github.com/GPUOpen-LibrariesAndSDKs/OCL-SDK/releases) - The AMD APP SDK is a complete development platform created by AMD to allow you to quickly and easily develop applications accelerated by AMD  Accelerated Parallel Processing technology. The SDK provides samples, documentation, and other materials to quickly get you started leveraging accelerated compute using OpenCL™, Bolt, or C++ AMP in your C/C++ application. 
 *   [Intel SDK for OpenCL Applications](https://software.intel.com/en-us/intel-opencl) - The development platform for OpenCL: Maximize the performance of the SoC; Optimize tasks for the best available compute engine; Tap into an easy-to-use development environment
+*   [Intel FPGA SDK for OpenCL](https://www.intel.com/content/www/us/en/software/programmable/sdk-for-opencl/overview.html) - Intel FPGA SDK for OpenCL is a world class development environment that enables software developers to accelerate their applications by targeting heterogeneous platforms with Intel CPUs and FPGAs
+*   [AMD APP SDK](https://github.com/GPUOpen-LibrariesAndSDKs/OCL-SDK/releases) - The AMD APP SDK is a complete development platform created by AMD to allow you to quickly and easily develop applications accelerated by AMD  Accelerated Parallel Processing technology. The SDK provides samples, documentation, and other materials to quickly get you started leveraging accelerated compute using OpenCL™, Bolt, or C++ AMP in your C/C++ application
 *   [NVIDIA OpenCL SDK](https://developer.nvidia.com/opencl) - In addition to OpenCL, NVIDIA supports a variety of GPU-accelerated libraries and high-level programming solutions that enable developers to get started quickly with GPU Computing
 *   [OpenCL supported Android Devices](https://docs.google.com/spreadsheets/d/1Mpzfl2NmLUVSAjIph77-FOsJeuyD9Xjha89r5iHw1hI/edit#gid=0) -  A collection of OpenCL supported Android Devices
 
 ## Open Source Implementations
 
+*  	[Intel(R) Graphics Compute Runtime for OpenCL](https://github.com/intel/compute-runtime) - The Intel(R) Graphics Compute Runtime for OpenCL(TM) is a open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture
 *  	[Beignet: OpenCL Implementation for Ivy Bridge on Linux](http://cgit.freedesktop.org/beignet/tree/README.md) - The Beignet GPGPU System for Intel Ivybridge GPUs
-*   [Intel(R) Graphics Compute Runtime for OpenCL](https://github.com/intel/compute-runtime) - The Intel(R) Graphics Compute Runtime for OpenCL(TM) is a open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture
 *   [TI OpenCL-DSP](http://software-dl.ti.com/mctools/esd/docs/opencl/index.html) - TI has an OpenCL 1.1 implementation for SoCs with C66x DSPs such as the AM572x
 *   [Portable OpenCL (pocl)](http://pocl.sourceforge.net) - Portable Computing Language (pocl) aims to become a MIT-licensed open source implementation of the OpenCL standard which can be easily adapted for new targets and devices, both for homogeneous CPU and heterogenous GPUs/accelerators
 
@@ -167,8 +167,8 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ### Forums
 
-
-*   [Intel Forums](https://forums.intel.com/s/topic/0TO0P000000MWKAWA4/fpga-design-tools?language=en_US)
+*   [Intel OpenCL Forums](https://software.intel.com/en-us/forums/opencl)
+*   [Intel OpenCL FPGA Forums](https://forums.intel.com/s/topic/0TO0P000000MWKAWA4/fpga-design-tools?language=en_US)
 *   [AMD Dev Gurus](http://devgurus.amd.com/welcome)
 *   [ARM Connected Community](http://community.arm.com/welcome)
 *   [NXP the i.MX Community](https://community.nxp.com/community/imx)
@@ -181,7 +181,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 ### Optimisation guides
 
 
-*   [Intel SDK for OpenCL Best Practices](https://www.intel.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/opencl-sdk/aocl_optimization_guide.pdf) - Optimisation Guide for OpenCL
+*   [Intel FPGA SDK for OpenCL Best Practices](https://www.intel.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/opencl-sdk/aocl_optimization_guide.pdf) - Optimisation Guide for OpenCL
 *   [AMD -  OpenCL Programming Guide](http://developer.amd.com/wordpress/media/2013/07/AMD_Accelerated_Parallel_Processing_OpenCL_Programming_Guide-rev-2.7.pdf) - AMD Accelerated Parallel Processing OpenCL Programming Guide
 *   [OpenCL cookbook](https://dhruba.wordpress.com/tag/opencl-cookbook/) - 10 tips for high performance kernels
 

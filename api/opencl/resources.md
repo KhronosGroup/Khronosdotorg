@@ -26,8 +26,8 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ## Open Source Implementations
 
-*  	[Intel(R) Graphics Compute Runtime for OpenCL](https://github.com/intel/compute-runtime) - The Intel(R) Graphics Compute Runtime for OpenCL(TM) is a open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture
-*  	[Beignet: OpenCL Implementation for Ivy Bridge on Linux](http://cgit.freedesktop.org/beignet/tree/README.md) - The Beignet GPGPU System for Intel Ivybridge GPUs
+*   [Intel(R) Graphics Compute Runtime for OpenCL](https://github.com/intel/compute-runtime) - The Intel(R) Graphics Compute Runtime for OpenCL(TM) is a open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture
+*   [Beignet: OpenCL Implementation for Ivy Bridge on Linux](http://cgit.freedesktop.org/beignet/tree/README.md) - The Beignet GPGPU System for Intel Ivybridge GPUs
 *   [TI OpenCL-DSP](http://software-dl.ti.com/mctools/esd/docs/opencl/index.html) - TI has an OpenCL 1.1 implementation for SoCs with C66x DSPs such as the AM572x
 *   [Portable OpenCL (pocl)](http://pocl.sourceforge.net) - Portable Computing Language (pocl) aims to become a MIT-licensed open source implementation of the OpenCL standard which can be easily adapted for new targets and devices, both for homogeneous CPU and heterogenous GPUs/accelerators
 

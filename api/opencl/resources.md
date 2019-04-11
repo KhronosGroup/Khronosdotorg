@@ -110,6 +110,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [Pencil](https://github.com/carpproject/pencil) - PENCIL to be a suitable target language for the compilation of
 *   [Perl-OpenCL](http://software.schmorp.de/pkg/OpenCL.html) - Perl bindings for OpenCL
 *   [ProjCL](http://github.com/evanmiller/ProjCL) - ProjCL is a C interface to OpenCL routines that perform various geographic computations, including map projection, geodesic (distance) calculations, and datum conversion
+*   [PyHole](https://gitlab.com/EuropeanSpaceAgency/PyHole) - PyHole is a general relativity ray tracing code written in Python and OpenCL. It includes an easy to use interface for interactive analysis of the dynamics around arbitrary axisymmetric stationary space-times.
 *   [RaijinCL](http://www.raijincl.org) - RaijinCL is a library for matrix operations for OpenCL
 *   [Rivertrail](https://github.com/rivertrail/rivertrail/wiki) - JavaScript which supports Data Parallelism via OpenCL
 *   [Rodinia](https://rodinia.cs.virginia.edu/doku.php) - designed for heterogeneous computing infrastructures with OpenMP, OpenCL and CUDA implementations

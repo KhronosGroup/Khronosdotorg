@@ -9,6 +9,8 @@ TensorFlow, which now supports SYCL alongside the original CUDA
 accelerator back-end.
 
 *   [SYCL 1.2.1](https://www.khronos.org/registry/SYCL)
+*   [Open-source SYCL specification files](https://github.com/KhronosGroup/SYCL-Docs)
+*   [Open-source SYCL conformance test suite](https://github.com/KhronosGroup/SYCL-CTS)
 *   [SYCL Forum](https://forums.khronos.org/showthread.php/13634-Official-SYCL-1-2-1-feedback-thread) - the best place for posting your questions and feedback
 *   [SYCL Press Release](https://www.khronos.org/news/press/the-khronos-group-releases-finalized-sycl-1.2.1)
 *   [ComputeCpp](https://www.codeplay.com/products/computesuite/computecpp) - SYCL implementation by Codeplay
@@ -42,7 +44,7 @@ These SYCL 1.2 specification and conformance tests were released on May 11, 2015
 * Can be implemented to work with a variety of existing and new C++ compilers and layers over OpenCL 1.2 implementations from diverse vendors.
 * Builds on the features of C++11, with additional support for C++14 and also will enable C++17 Parallel STL programs to be accelerated on OpenCL devices in the future.
 * Developers can program at a higher level than OpenCL C, but always have access to existing code through seamless integration with OpenCL programs, C/C++ libraries and frameworks such as OpenMP
-* OpenCL’s interop capability is inherited by SYCL to enable applications to use SYCL in conjunction with OpenGL, DirectX and the upcoming Vulkan API without memory-copy overhead.
+* OpenCL's interop capability is inherited by SYCL to enable applications to use SYCL in conjunction with OpenGL, DirectX and the upcoming Vulkan API without memory-copy overhead.
 * Can be implemented to work with a variety of existing and new C++ compilers and layers over OpenCL 1.2 implementations from diverse vendors.
 
 Builds on the features of C++11, with additional support for C++14 and also will enable C++17 Parallel STL programs to be accelerated on OpenCL devices in the future.

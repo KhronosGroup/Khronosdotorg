@@ -131,7 +131,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 ## Tutorials
 
 ### Beginner
-* [Vulkan Tutorial](http://vulkan-tutorial.com/) - Open source Vulkan tutorials by Alexander Overvoorde
+* [Vulkan Tutorial](https://vulkan-tutorial.com/) - Open source Vulkan tutorials by Alexander Overvoorde
 * [Vulkan Compute example](http://www.duskborn.com/a-simple-vulkan-compute-example/) - a simple Vulkan compute sample.
 * [Vulkano - Quick Start](http://vulkano.rs/guide/introduction)
 * I am Graphics and so can you:

@@ -4,9 +4,6 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 **Get involved, submit your resources either with a pull requests on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/sycl/resources.md)** or email the webmaster at Khronos.org.
 
-## SYCL News and Resources
-* The latest SYCL news, videos and projects can be found on [sycl.tech](https://sycl.tech), the SYCL ecosystem website maintained by Codeplay Software
-
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/sycl)
 * [SYCL Registry](https://www.khronos.org/registry/SYCL/)
@@ -14,17 +11,20 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 * [SYCL Slack Channel](https://khronosdevs.slack.com/messages/CE9UX4CHG)
 * [SYCL 1.2.1 Reference Guide](https://www.khronos.org/registry/SYCL/specs/sycl-1.2.1.pdf)
 
+## SYCL News and Resources
+* The latest SYCL news, videos and projects can be found on [Khronos News](https://www.khronos.org/news/tags/tag/SYCL) and [sycl.tech](https://sycl.tech), the SYCL ecosystem website maintained by Codeplay Software.
+
 ## Implementations
 * [ComputeCpp](http://developer.codeplay.com/) - SYCL v1.2.1 conformant implementation by Codeplay Software
-* [triSYCL](https://github.com/triSYCL/triSYCL) - an open-source implementation led by Xilinx
 * [hipSYCL](https://github.com/illuhad/hipSYCL) - an open source implementation of SYCL over NVIDIA CUDA and AMD HIP
 * [Intel LLVM SYCL](https://github.com/intel/llvm/tree/sycl) - an open source implementation of SYCL that is being contributed to the LLVM project
+* [triSYCL](https://github.com/triSYCL/triSYCL) - an open-source implementation led by Xilinx
 
 ## Libraries and Frameworks Supporting SYCL
-* [SYCL-DNN](https://github.com/codeplaysoftware/SYCL-DNN) - An open source neural network operations library written using the SYCL API
 * [SYCL-BLAS](https://github.com/codeplaysoftware/sycl-blas) - An open source implementation of BLAS using the SYCL open standard for acceleration on OpenCL devices
-* [SYCL-ParallelSTL](https://github.com/KhronosGroup/SyclParallelSTL) - An open source Parallel STL implementation
+* [SYCL-DNN](https://github.com/codeplaysoftware/SYCL-DNN) - An open source neural network operations library written using the SYCL API
 * [SYCL-ML](https://github.com/codeplaysoftware/SYCL-ML) - An open source C++ library implementing classical machine learning algorithms in SYCL
+* [SYCL-ParallelSTL](https://github.com/KhronosGroup/SyclParallelSTL) - An open source Parallel STL implementation
 * [Tensorflow](https://github.com/codeplaysoftware/tensorflow) - An implementation of TensorFlow using SYCL
 
 ## Tutorials

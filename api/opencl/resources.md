@@ -10,7 +10,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 * [The OpenCL C++ compiler](https://github.com/KhronosGroup/SPIR/tree/spirv-1.1) reference implementation
 * [The OpenCL C++ standard library](https://github.com/KhronosGroup/libclcxx) reference implementation
 * [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
-* [LLVM framework with SPIR-V support](https://github.com/KhronosGroup/SPIRV-LLVM) including an LLVM <-> SPIR-V bi-directional converter
+* [SPIR-V LLVM Translator](https://github.com/KhronosGroup/SPIRV-LLVM-Translator) contains a LLVM <-> SPIR-V converter intended to serve as a foundation for LLVM-based front-end compilers targeting SPIR-V.
 * [OpenCL Forums](https://forums.khronos.org/forumdisplay.php/87-OpenCL)
 * [OpenCL Conformant Companies](https://www.khronos.org/conformance/adopters/conformant-companies#opencl)
 * [OpenCL Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products/opencl)

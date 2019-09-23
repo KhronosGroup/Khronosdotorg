@@ -4,7 +4,7 @@
 *   SPIR-V 1.3 in the [Vulkan 1.1 Press Release](https://www.khronos.org/news/press/khronos-group-releases-vulkan-1-1)
 *   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, optimizer, linker, and validator for SPIR-V
 *   [SPIR-V Cross](https://github.com/KhronosGroup/SPIRV-Cross) is a practical tool and library for performing reflection on SPIR-V and disassembling SPIR-V back to high level languages.
-*   [SPIR-V LLVM](https://github.com/KhronosGroup/SPIRV-LLVM) framework is intended to contain LLVM <-> SPIR-V converter and serve as a foundation for LLVM-based front-end compilers targeting SPIR-V.
+*   [SPIR-V LLVM Translator](https://github.com/KhronosGroup/SPIRV-LLVM-Translator) contains a LLVM <-> SPIR-V converter intended to serve as a foundation for LLVM-based front-end compilers targeting SPIR-V.
 *   [SPIR-V issue reporting](https://github.com/KhronosGroup/SPIRV-Headers/issues) on GitHub
 *   [SPIR-V feedback forum](https://forums.khronos.org/forumdisplay.php/113-SPIR) offers community support for questions and feedback
 

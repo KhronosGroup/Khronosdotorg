@@ -13,7 +13,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
   * Extras include integration with the vim and emacs text editors and the `less` command line tool
 * Khronos Group [Glslang](https://github.com/KhronosGroup/glslang) - GLSL reference
   compiler.  It can generate SPIR-V.
-* [LLVM framework with LLVM Support](https://github.com/KhronosGroup/SPIRV-LLVM/)  including an LLVM <-> SPIR-V bi-directional converter 
+* [SPIR-V LLVM Translator](https://github.com/KhronosGroup/SPIRV-LLVM-Translator) contains a LLVM <-> SPIR-V converter intended to serve as a foundation for LLVM-based front-end compilers targeting SPIR-V.
 * [Shaderc](https://github.com/google/shaderc/) - `libshaderc` API and `glslc`
   command line wrapper around
   [Glslang](https://github.com/KhronosGroup/glslang).  `glslc` conventions

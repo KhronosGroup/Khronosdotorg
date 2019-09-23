@@ -10,7 +10,7 @@
 * [Blog: OpenCL 2.2 Maintenance Update Released](https://www.khronos.org/blog/opencl-2.2-maintenance-update-released)
 *   [OpenCL feedback forum](https://forums.khronos.org/forumdisplay.php/87-OpenCL) offers community support for questions and feedback
 *   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
-*   [SPIR-V LLVM](https://github.com/KhronosGroup/SPIRV-LLVM) framework is intended to contain LLVM <-> SPIR-V converter and serve as a foundation for LLVM-based front-end compilers targeting SPIR-V.
+*   [SPIR-V LLVM Translator](https://github.com/KhronosGroup/SPIRV-LLVM-Translator) contains a LLVM <-> SPIR-V converter intended to serve as a foundation for LLVM-based front-end compilers targeting SPIR-V.
 
 ### OpenCL 2.1
 
@@ -21,7 +21,7 @@
 *   The OpenCL 2.1 Quick [Reference Guide](https://www.khronos.org/developers/reference-cards/) ( [View on SlideShare](http://www.slideshare.net/Khronos_Group/opencl-21-reference-guide) )
 *   The OpenCL 2.1 [Online Reference Pages](https://www.khronos.org/registry/OpenCL/sdk/2.1/docs/man/xhtml/)
 *   [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
-*   [LLVM framework with SPIR-V support](https://github.com/KhronosGroup/SPIRV-LLVM) including an LLVM <-> SPIR-V bi-directional converter
+*   [SPIR-V LLVM Translator](https://github.com/KhronosGroup/SPIRV-LLVM-Translator) contains a LLVM <-> SPIR-V converter intended to serve as a foundation for LLVM-based front-end compilers targeting SPIR-V.
 *   [OpenCL Open Source Conformance Test Source](https://github.com/KhronosGroup/OpenCL-CTS/tree/cl21_trunk) contains the full source of OpenCL Conformance Tests
 
 ### OpenCL 2.1 C++

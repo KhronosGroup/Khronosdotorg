@@ -28,6 +28,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 * [Tensorflow](https://github.com/codeplaysoftware/tensorflow) - An implementation of TensorFlow using SYCL
 
 ## Tutorials
+* [SYCL Academy](https://github.com/codeplaysoftware/syclacademy) - a set of learning materials for SYCL heterogeneous programming
 * [SYCL Developer Guide](https://developer.codeplay.com/computecppce/latest/sycl-guide-introduction) – an introductory SYCL guide
 * [Get Started with SYCL and ComputeCpp](https://developer.codeplay.com/computecppce/latest/getting-started-guide)
 * [The anatomy of a ComputeCpp application](https://developer.codeplay.com/computecppce/latest/anatomy-of-a-computecpp-app)

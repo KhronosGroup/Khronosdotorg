@@ -7,6 +7,8 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/opencl)
 * [OpenCL Registry](https://www.khronos.org/registry/OpenCL/)
+* [The OpenCL C Language Extensions Documentation](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/assets/OpenCL_LangExt.pdf)
+* [The C++ for OpenCL Programming Language Documentation](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/assets/CXX_for_OpenCL.pdf)
 * [The OpenCL C++ compiler](https://github.com/KhronosGroup/SPIR/tree/spirv-1.1) reference implementation
 * [The OpenCL C++ standard library](https://github.com/KhronosGroup/libclcxx) reference implementation
 * [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V

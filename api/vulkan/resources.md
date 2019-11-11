@@ -26,6 +26,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [NVIDIA](https://developer.nvidia.com/vulkan-driver)
 * [Qualcomm](https://developer.qualcomm.com/software/adreno-gpu-sdk/gpu)
 * [Verisilicon](http://www.verisilicon.com/IPPortfolio.html)
+* [Swiftshader](https://github.com/google/swiftshader) - SwiftShader is a high-performance CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs. Its goal is to provide hardware independence for advanced 3D graphics
 
 
 ## SDK
@@ -67,9 +68,11 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 ## Tools
 
 * [AMD Radeon GPU Profiler](http://gpuopen.com/gaming-product/radeon-gpu-profiler-rgp/) - Low-level performance analysis tool for AMD Radeon GPUs
+* [Angle](https://github.com/google/angle) - A conformant OpenGL ES implementation for Windows, Mac and Linux. http://angleproject.org
 * [ARM Mali Graphics Debugger](http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/) - Mali debugger with Vulkan support
 * [CodeXL](https://github.com/GPUOpen-Tools/CodeXL) - tool suite that enables developers to harness the benefits of CPUs, GPUs and APUs
 * [GAPID - Graphics API Debugger](https://github.com/google/gapid)
+* [gfx-rs](https://github.com/gfx-rs/gfx) - gfx-rs is a low-level, cross-platform graphics and compute abstraction library in Rust.
 * [LunarG Visual Studio Vulkan Project Templates](https://vulkan.lunarG.com) - Create a Vulkan application project without needing to set up include paths and libraries.  Find the templates inside the LunarG SDK
 * [LunarG Vulkan Tools](https://github.com/LunarG/VulkanTools) - Tools to aid in Vulkan development including useful layers, trace and replay, and tests.
 * [NVIDIA Nsight Visual Studio Edition](https://developer.nvidia.com/nvidia-nsight-visual-studio-edition)
@@ -80,6 +83,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [VIM syntax highlighting for Vulkan](http://www.vim.org/scripts/script.php?script_id=5335) - Adds syntax highlighting for the Vulkan API in C/C++
 * [Visual Studio SPIR-V Extension](https://github.com/SaschaWillems/SPIRV-VSExtension) - Adds context menu entries and error checking for compiling GLSL shaders to SPIR-V
 * [vkmark](https://github.com/vkmark/vkmark) - An extensible Vulkan benchmarking suite with targeted, configurable scenes
+* [Vulkan Configurator](https://vulkan.lunarg.com/doc/sdk/latest/windows/vkconfig.html) - A GUI application that configures your Vulkan layers, provides Vulkan system health, and other features. Included in the [Vulkan SDK](https://vulkan.lunarg.com/sdk/home).
 
 
 ## Language Bindings
@@ -120,6 +124,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [SPIRV-Reflect](https://github.com/chaoticbob/SPIRV-Reflect) - lightweight C/C++ library for extracting descriptions of descriptor bindings, input/output variables, and push constant blocks from SPIR-V shader binaries.
 * [Visor](https://github.com/baldurk/visor) - Vulkan Ignoble Software Rasterizer.
 * [VkHLF](https://github.com/nvpro-pipeline/VkHLF) - Vulkan High Level Framework.
+* [Volk](https://github.com/zeux/volk) - volk is a meta-loader for Vulkan. It allows you to dynamically load entrypoints required to use Vulkan without linking to vulkan-1.dll or statically linking Vulkan loader
 * [Vookoo](https://github.com/andy-thomason/Vookoo) - A header only C++ library for constructing Vulkan data structures.
 * [vpp](https://github.com/nyorain/vpp) - Modern C++ vulkan abstraction.
 * [Vulkan Memory Allocator](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator) - Easy to integrate Vulkan memory allocation library.

@@ -73,6 +73,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [CodeXL](https://github.com/GPUOpen-Tools/CodeXL) - tool suite that enables developers to harness the benefits of CPUs, GPUs and APUs
 * [GAPID - Graphics API Debugger](https://github.com/google/gapid)
 * [gfx-rs](https://github.com/gfx-rs/gfx) - gfx-rs is a low-level, cross-platform graphics and compute abstraction library in Rust.
+* [Intel(R) GPA](https://software.intel.com/en-us/gpa) - Intel's Graphics Performance Analyzers that supports capturing and analyzing multi-frame streams of Vulkan apps.
 * [LunarG Visual Studio Vulkan Project Templates](https://vulkan.lunarG.com) - Create a Vulkan application project without needing to set up include paths and libraries.  Find the templates inside the LunarG SDK
 * [LunarG Vulkan Tools](https://github.com/LunarG/VulkanTools) - Tools to aid in Vulkan development including useful layers, trace and replay, and tests.
 * [NVIDIA Nsight Visual Studio Edition](https://developer.nvidia.com/nvidia-nsight-visual-studio-edition)

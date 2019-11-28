@@ -11,7 +11,7 @@ We welcome PRs from the community for both bluebox.md and resources.md files. If
 * NNEF - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/nnef/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/nnef/resources.md)
 * OpenCL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/resources.md)
 * OpenGL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengl/bluebox.md), [Resources on Community Wiki](https://www.khronos.org/opengl/wiki/)
-* OpenGL ES - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/resources.md), [v1.x Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/1_x/bluebox.md), [v2.x Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/2_x/bluebox.md), [v3.x Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/3_x/bluebox.md)
+* OpenGL ES - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengles/resources.md)
 * OpenVG - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openvg/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openvg/resources.md)
 * OpenVX - [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openvx/resources.md)
 * OpenXR - [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openxr/resources.md)
@@ -19,10 +19,10 @@ We welcome PRs from the community for both bluebox.md and resources.md files. If
 * SPIR - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/spir/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/spir/resources.md)
 * SYCL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/sycl/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/sycl/resources.md)
 * Vulkan - [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md)
-* WebGL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/webgl/bluebox.md), [Resources on Community Wiki](https://www.khronos.org/webgl/wiki)
+* WebGL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/webgl/bluebox.md), [Resources](https://www.khronos.org/webgl/wiki)
 
 ## Not in active development
-* COLLADA - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/collada/bluebox.md), [Resources on Community Wiki](https://www.khronos.org/collada/wiki)
+* COLLADA - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/collada/bluebox.md), [Resources](https://www.khronos.org/collada/wiki)
 * OpenKCam - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openkcam/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openkcam/resources.md)
 * OpenKODE - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openkode/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openkode/resources.md)
 * OpenMAX - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openmax/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openmax/resources.md), [AL Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openmax/al/bluebox.md), [IL Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/openmax/il/bluebox.md)

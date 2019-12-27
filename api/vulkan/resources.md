@@ -89,6 +89,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 
 ## Language Bindings
 
+* [Silk.NET](https://github.com/Ultz/Silk.NET) - a collection of bindings for OpenGL, OpenAL, and Vulkan among many other APIs. Works with C# and F#
 * [.NET VulkanCore](https://github.com/discosultan/VulkanCore) - Vulkan graphics and compute API bindings for .NET Standard.
 * [C# - Tanagra](https://github.com/Mervill/Tanagra) - C# binding generator for Vulkan.
 * [D - ErupteD](https://github.com/ParticlePeter/ErupteD) - D bindings for Vulkan.

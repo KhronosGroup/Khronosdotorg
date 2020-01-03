@@ -10,9 +10,3 @@
 *   [Google Groups](https://groups.google.com/group/webgl-dev-list) and [StackOverflow](https://stackoverflow.com/questions/tagged/webgl) discussions on developing with WebGL
 *   [Filing bugs about the WebGL spec or conformance tests](https://github.com/KhronosGroup/WebGL/issues)
 *   [WebGL Security white paper](https://www.khronos.org/webgl/security/)
-
-### WebGL Next
-
-*   [WebGL Next Proposals](https://github.com/KhronosGroup/WebGLNext-Proposals)
-*   [WebGL Next Public Mailing List (spec discussion)](https://www.khronos.org/webgl/public-mailing-list/)
-    *   [WebGL Next Public Mailing List Archives](https://www.khronos.org/webgl/public-mailing-list/public_webgl_next)

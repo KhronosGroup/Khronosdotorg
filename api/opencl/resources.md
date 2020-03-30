@@ -73,7 +73,6 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [FAST](https://github.com/smistad/FAST/) - Framework for Heterogeneous Medical Image Computing and Visualization
 *   [floatCL](http://code.google.com/p/float-cl/) - The project consists of a wrapper for the openCL API for the float datatype. Its been hosted to mainly demonstrate parallel sorting and max element search
 *   [ForOpenCL](http://sourceforge.net/projects/fortran-parser/files/ForOpenCL/) - Fortran to OpenCL tool 
-*   [fortranCL](https://code.google.com/p/fortrancl/) - FortranCL is an OpenCL interface for Fortran 90
 *   [FSCL.Compiler](https://github.com/GabrieleCocco/FSCL.Compiler) - FSharp OpenCL Compiler
 *   [GATLAS](https://github.com/cjang/GATLAS) - GPU Automatically Tuned Linear Algebra Software ( Project looks stalled) 
 *   [Go-OpenCL](https://github.com/samuel/go-opencl/) - Go OpenCL bindings
@@ -97,7 +96,6 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [NOpenCL](https://github.com/tunnelvisionlabs/NOpenCL): Easy-to-use .NET wrapper for OpenCL with abstraction
 *   [Oclgrind](https://github.com/jrprice/Oclgrind) - OpenCL device simulator, debugger, and dynamic analysis platform
 *   [Open Fortran Parser](http://fortran-parser.sourceforge.net/) - ANTLR-based parsing tools that support the Fortran 2008 standard
-*   [OpenACC to OpenCL Compiler](https://github.com/tristanvdb/OpenACC-to-OpenCL-Compiler) - Rose based  OpenACC to OpenCL Compiler
 *   [OpenCL data parallel primitives library](http://code.google.com/p/clpp/) - clpp is an OpenCL Data Parallel Primitives Library
 *   [OpenCL for PLT Scheme](http://planet.plt-scheme.org/display.ss?package=opencl.plt&owner=jaymccarthy) - OpenCL FFI for PLT Scheme
 *   [OpenCL for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=galarius.vscode-opencl) - OpenCL for Visual Studio Code
@@ -191,7 +189,6 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 ### Courses
 
 
-*   [Acceleware - OpenCL Training](https://training.acceleware.com/training) - Acceleware offers advanced OpenCL training courses
 *   [Hands on OpenCL](http://handsonopencl.github.io) - This set of freely available OpenCL exercises and solutions, together with the HandsOnOpenCL slides
 *   [Manchester OpenCL tutorial wiki](http://wiki.rcs.manchester.ac.uk/community/OpenCL) - A page for continued learning, with the aim of supplementing the RAC course on OpenCL
 *   [StreamComputing - Performance Engineers](https://streamhpc.com/training/) - We train your developers in OpenCL. After the training they are able to select the algorithms that can best be tackled by a GPU and to optimise C, C++ or Java-code to get the full potential out of the processors

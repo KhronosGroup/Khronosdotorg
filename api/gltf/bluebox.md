@@ -4,7 +4,7 @@
 *   [glTF Repository on GitHub](https://github.com/KhronosGroup/glTF)
 *   [glTF Validator](https://github.com/KhronosGroup/glTF-Validator)
 *   [glTF Reference Guide](https://github.com/KhronosGroup/glTF#overview)
-*   [glTF Discussions](https://community.khronos.org/glTF)
+*   [glTF Discussions](https://community.khronos.org/c/gltf-general/)
 *   [glTF Slack](https://khr.io/slack)
 *   [glTF StackOverflow questions](http://stackoverflow.com/questions/tagged/gltf)
 *   [glTF 2.0 Press Release](https://www.khronos.org/news/press/khronos-releases-gltf-2.0-specification)

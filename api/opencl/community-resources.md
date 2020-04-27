@@ -1,39 +1,19 @@
 # OpenCL Resources
 
-We believe the true usefulness of OpenCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community. 
+We believe the value of OpenCL goes far beyond the specification to encompass a vibrant ecosystem of tools, documentation, and resources created by the OpenCL community. Khronos hosts this page so that anyone can submit links to OpenCL resources for the benefit of OpenCL developers everywhere.
 
-**Get involved, submit your resources either with a pull requests on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/resources.md)!** or email the webmaster at Khronos.org
+**Get involved, submit your OpenCL resources either with a pull requests on [GitHub](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/community-resources.md)!** or by emailing the webmaster at Khronos.org.
 
-## Khronos Resources
-* [Homepage](https://www.khronos.org/opencl)
-* [OpenCL Registry](https://www.khronos.org/registry/OpenCL/)
-* [The OpenCL C Language Extensions Documentation](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/assets/OpenCL_LangExt.pdf)
-* [The C++ for OpenCL Programming Language Documentation](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/assets/CXX_for_OpenCL.pdf)
-* [The OpenCL C++ compiler](https://github.com/KhronosGroup/SPIR/tree/spirv-1.1) reference implementation
-* [The OpenCL C++ standard library](https://github.com/KhronosGroup/libclcxx) reference implementation
-* [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
-* [SPIR-V LLVM Translator](https://github.com/KhronosGroup/SPIRV-LLVM-Translator) contains a LLVM <-> SPIR-V converter intended to serve as a foundation for LLVM-based front-end compilers targeting SPIR-V.
-* [OpenCL Forums](https://forums.khronos.org/forumdisplay.php/87-OpenCL)
-* [OpenCL Conformant Companies](https://www.khronos.org/conformance/adopters/conformant-companies#opencl)
-* [OpenCL Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products/opencl)
+The OpenCL Working Group also curates an [OpenCL Resource Guide](https://www.khronos.org/opencl/resources) to assist computing specialists, developers and researchers of all skill levels find documentation and tools to start effectively harnessing the power of OpenCL.
 
-
-## Commercial Implementations
-
-*   [Intel SDK for OpenCL Applications](https://software.intel.com/en-us/intel-opencl) - The development platform for OpenCL: Maximize the performance of the SoC; Optimize tasks for the best available compute engine; Tap into an easy-to-use development environment
-*   [Intel FPGA SDK for OpenCL](https://www.intel.com/content/www/us/en/software/programmable/sdk-for-opencl/overview.html) - Intel FPGA SDK for OpenCL is a world class development environment that enables software developers to accelerate their applications by targeting heterogeneous platforms with Intel CPUs and FPGAs
-*   [AMD APP SDK](https://github.com/GPUOpen-LibrariesAndSDKs/OCL-SDK/releases) - The AMD APP SDK is a complete development platform created by AMD to allow you to quickly and easily develop applications accelerated by AMD  Accelerated Parallel Processing technology. The SDK provides samples, documentation, and other materials to quickly get you started leveraging accelerated compute using OpenCL™, Bolt, or C++ AMP in your C/C++ application
-*   [NVIDIA OpenCL SDK](https://developer.nvidia.com/opencl) - In addition to OpenCL, NVIDIA supports a variety of GPU-accelerated libraries and high-level programming solutions that enable developers to get started quickly with GPU Computing
-*   [OpenCL supported Android Devices](https://docs.google.com/spreadsheets/d/1Mpzfl2NmLUVSAjIph77-FOsJeuyD9Xjha89r5iHw1hI/edit#gid=0) -  A collection of OpenCL supported Android Devices
-
-## Open Source Implementations
+### Open Source Implementations
 
 *   [Intel(R) Graphics Compute Runtime for OpenCL](https://github.com/intel/compute-runtime) - The Intel(R) Graphics Compute Runtime for OpenCL(TM) is a open source project to converge Intel's development efforts on OpenCL(TM) compute stacks supporting the GEN graphics hardware architecture
 *   [Beignet: OpenCL Implementation for Ivy Bridge on Linux](http://cgit.freedesktop.org/beignet/tree/README.md) - The Beignet GPGPU System for Intel Ivybridge GPUs
 *   [TI OpenCL-DSP](http://software-dl.ti.com/mctools/esd/docs/opencl/index.html) - TI has an OpenCL 1.1 implementation for SoCs with C66x DSPs such as the AM572x
 *   [Portable OpenCL (pocl)](http://pocl.sourceforge.net) - Portable Computing Language (pocl) aims to become a MIT-licensed open source implementation of the OpenCL standard which can be easily adapted for new targets and devices, both for homogeneous CPU and heterogenous GPUs/accelerators
 
-## Language Bindings to OpenCL
+### Language Bindings to OpenCL
 
 *   [NOpenCL](https://github.com/tunnelvisionlabs/NOpenCL) - .NET wrapper for OpenCL with abstraction
 *   [OpenCL .Net](http://sourceforge.net/projects/openclnet/) - .Net bindings for OpenCL 1.2
@@ -41,7 +21,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [PyOpenCL](http://mathema.tician.de/software/pyopencl) - PyOpenCL is a complete, object-oriented language binding of OpenCL to Python. It has full documentation available and is licensed under the liberal MIT license
 *   [OpenCL binding for Ruby](https://github.com/Nanosim-LIG/opencl-ruby) - opencl_ruby_ffi is a complete OpenCL binding of OpenCL to Ruby. It is entirely written in Ruby using FFI
 
-## Libraries and Frameworks with OpenCL Acceleration
+### Libraries and Frameworks with OpenCL Acceleration
 
 * [DCompute](https://dlang.org/blog/2017/07/17/dcompute-gpgpu-with-native-d-for-opencl-and-cuda/) - a framework and compiler extension to support writing native kernels for OpenCL and CUDA in D to utilise GPUs and other accelerators for computationally intensive code
 * [OpenCL.org Projects](http://opencl.org/) - Projects and porting to OpenCL. All project files are available on [Github](https://github.com/OpenCL)
@@ -133,9 +113,9 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [VOCL](http://www.mcs.anl.gov/~thakur/papers/xiao-vocl-inpar12.pdf) - Virtualized OpenCL enviornment 
 *   [VSI/Pro](http://www.techsource.com/press/pdfs/Run_Time-TechSource_press_release.pdf) - VSIPL implementation in OpenCL 
 
-## Learning OpenCL
+### Learning OpenCL
 
-### Tutorials
+#### Tutorials
 
 *   [Intel OpenCL Resources](https://software.intel.com/en-us/intel-opencl/) - A collection of resouces to help you get going quickly. 
 *   [NVIDIA OpenCL SDK Code Samples](https://developer.nvidia.com/opencl) - a colletion of OpenCL code samples
@@ -162,11 +142,11 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
     -   [Part 8: Heterogeneous workflows using OpenCL](http://www.codeproject.com/KB/Parallel_Programming/329633.aspx)
     -   [Part 9: OpenCL Extensions and Device Fission](http://www.codeproject.com/Articles/330174/Part-9-OpenCL-Extensions-and-Device-Fission)
 
-### White Papers
+#### White Papers
 *   [OpenCL Article from Embedded Vision Summit](http://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/documents/pages/opencl-overview) - OpenCL Eases Development of Computer Vision Software for Heterogeneous Processors
 
 
-### Forums
+#### Forums
 
 *   [Intel OpenCL Forums](https://software.intel.com/en-us/forums/opencl)
 *   [Intel OpenCL FPGA Forums](https://forums.intel.com/s/topic/0TO0P000000MWKAWA4/fpga-design-tools?language=en_US)
@@ -179,14 +159,14 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [QUALCOMM Dev Forums](https://developer.qualcomm.com/forum)
 *   [QUALCOMM Mobile Gaming and Graphics Optimization](https://developer.qualcomm.com/forums/qdevnet-forums/mobile-gaming-graphics-optimization-adreno) - Discuss topics related to graphics optimization on Adreno, such as the Adreno GPU's 3D capabilities, shader performance and optimization, and using the Adreno Profiler to analyze graphic performance
 
-### Optimisation guides
+#### Optimisation guides
 
 
 *   [Intel FPGA SDK for OpenCL Best Practices](https://www.intel.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/opencl-sdk/aocl_optimization_guide.pdf) - Optimisation Guide for OpenCL
 *   [AMD -  OpenCL Programming Guide](http://developer.amd.com/wordpress/media/2013/07/AMD_Accelerated_Parallel_Processing_OpenCL_Programming_Guide-rev-2.7.pdf) - AMD Accelerated Parallel Processing OpenCL Programming Guide
 *   [OpenCL cookbook](https://dhruba.wordpress.com/tag/opencl-cookbook/) - 10 tips for high performance kernels
 
-### Courses
+#### Courses
 
 
 *   [Hands on OpenCL](http://handsonopencl.github.io) - This set of freely available OpenCL exercises and solutions, together with the HandsOnOpenCL slides
@@ -195,7 +175,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [University of Waterloo - Programming for Performance](https://github.com/patricklam/p4p-2015) - ECE459: Programming for Performance, W14
 
 
-## Applications Using OpenCL
+### Applications Using OpenCL
 
 
 *   [Altair RADIOSS](http://www.altairhyperworks.com/Product,51,RADIOSS.aspx?AspxAutoDetectCookieSupport=1) - Altair®RADIOSS is a structural analysis solver for highly non-linear problems under dynamic loadings
@@ -221,7 +201,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [V-Ray - Chaos Group](http://www.chaosgroup.com/en/2/index.html) - V-Ray optimized interactive rendering using OpenCL
 *   [Vegas Pro - Sony](http://www.sonycreativesoftware.com/vegaspro) - Vegas Pro 13 is a contemporary NLE designed for complete creative control
 
-## SPIR Enabled Tools
+### SPIR Enabled Tools
 
 *   [C++ AMP CLANG/LLVM based](https://bitbucket.org/multicoreware/cppamp-driver-ng/wiki/Home) - C++AMP 1.2 standard and transforms it into either SPIR binary devices
 *   [CLANG SPIR 1.2 Generator](https://github.com/KhronosGroup/SPIR) - CLANG SPIR 1.2 Generator

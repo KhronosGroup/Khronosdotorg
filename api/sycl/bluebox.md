@@ -1,7 +1,7 @@
 ### SYCL 1.2.1
 
-SYCL 1.2.1 revision 6 is now the latest release as of November 14,
-2019, is based on OpenCL 1.2, and is a major update representing 4
+SYCL 1.2.1 revision 7 is now the latest release as of April 27,
+2020, is based on OpenCL 1.2, and is a major update representing 5
 years of work by Khronos members. The new specification incorporates
 significant experience gained from 5 separate implementations and
 feedback from developers of machine learning frameworks such as

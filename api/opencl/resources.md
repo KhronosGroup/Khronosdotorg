@@ -1,6 +1,6 @@
 # OpenCL Resource Guide
 
-<img src="assets/OpenCL_RGB_Apr20.svg" width="350">
+<img src="https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/assets/OpenCL_RGB_Apr20.svg" width="350">
 
 OpenCL™ is being actively evolved to meet the growing demands for the use of parallel processing to deliver higher levels of compute performance. The OpenCL Working Group at Khronos regularly extends OpenCL for enhanced functionality and flexibility, as well as increasing the quality and diversity of tools, libraries, and language compilers.
 

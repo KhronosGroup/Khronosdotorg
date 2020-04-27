@@ -1,5 +1,7 @@
 # OpenCL Community Resources
 
+<img src="assets/OpenCL_RGB_Apr20.svg" width="350">
+
 We believe the value of OpenCL goes far beyond the specification to encompass a vibrant ecosystem of tools, documentation, and resources created by the OpenCL community. Khronos hosts this page so that anyone can submit links to OpenCL resources for the benefit of OpenCL developers everywhere.
 
 **Get involved, submit your OpenCL resources either with a pull requests on [GitHub](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/community-resources.md)!** or by emailing the webmaster at Khronos.org.

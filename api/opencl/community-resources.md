@@ -1,4 +1,4 @@
-# OpenCL Resources
+# OpenCL Community Resources
 
 We believe the value of OpenCL goes far beyond the specification to encompass a vibrant ecosystem of tools, documentation, and resources created by the OpenCL community. Khronos hosts this page so that anyone can submit links to OpenCL resources for the benefit of OpenCL developers everywhere.
 

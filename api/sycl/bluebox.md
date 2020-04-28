@@ -8,15 +8,15 @@ feedback from developers of machine learning frameworks such as
 TensorFlow, which now supports SYCL alongside the original CUDA
 accelerator back-end.
 
-*   [SYCL 1.2.1](https://www.khronos.org/registry/SYCL)
-*   [Open-source SYCL specification files](https://github.com/KhronosGroup/SYCL-Docs)
-*   [Open-source SYCL conformance test suite](https://github.com/KhronosGroup/SYCL-CTS)
+*   [SYCL 1.2.1](https://www.khronos.org/registry/SYCL/)
+*   [Open-source SYCL specification files](https://github.com/KhronosGroup/SYCL-Docs/)
+*   [Open-source SYCL conformance test suite](https://github.com/KhronosGroup/SYCL-CTS/)
 *   [SYCL Forum](https://forums.khronos.org/showthread.php/13634-Official-SYCL-1-2-1-feedback-thread) - the best place for posting your questions and feedback
 *   [SYCL Press Release](https://www.khronos.org/news/press/the-khronos-group-releases-finalized-sycl-1.2.1)
 *   [ComputeCpp](https://www.codeplay.com/products/computesuite/computecpp) - SYCL implementation by Codeplay
 *   [triSYCL](https://github.com/triSYCL/triSYCL) - an open-source implementation to experiment with SYCL
 *   [SYCL Ecosystem Website](http://sycl.tech) - SYCL community website maintained by Codeplay
-* SYCL Adopters Program - [Adopters area](https://www.khronos.org/sycl/adopters) & [Press Release](https://www.khronos.org/news/press/khronos-releases-conformance-test-suite-for-sycl-1.2.1)
+* SYCL Adopters Program - [Adopters area](https://www.khronos.org/sycl/adopters/) & [Press Release](https://www.khronos.org/news/press/khronos-releases-conformance-test-suite-for-sycl-1.2.1)
 
 SYCL 1.2.1 builds on the features of C++11, with additional support
 for C++14 and C++17, enabling ISO C++17 Parallel STL programs to be
@@ -31,7 +31,7 @@ SG19).
 
 ### SYCL 1.2
 
-*   [SYCL 1.2](https://www.khronos.org/registry/SYCL)
+*   [SYCL 1.2](https://www.khronos.org/registry/SYCL/)
 *   [SYCL Press Release](https://www.khronos.org/news/press/khronos-releases-sycl-1.2-final-specification-c-single-source-heterogeneous)
 *   [SYCL 1.2 Overview slide](https://www.khronos.org/assets/uploads/developers/library/2015-iwocl/Khronos-SYCL-May15.pdf) (presentation slides in .pdf format)
 *   [Tutorial on using SYCL](http://codeplaysoftware.github.io/iwocl2015/) - at the May 2015 IWOCL OpenCL conference

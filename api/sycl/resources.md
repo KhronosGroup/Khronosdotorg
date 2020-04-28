@@ -5,8 +5,8 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 **Get involved, submit your resources either with a pull requests on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/sycl/resources.md)** or email the webmaster at Khronos.org.
 
 ## Khronos Resources
-* [Homepage](https://www.khronos.org/sycl)
-* [SYCL Registry](https://www.khronos.org/registry/SYCL)
+* [Homepage](https://www.khronos.org/sycl/)
+* [SYCL Registry](https://www.khronos.org/registry/SYCL/)
 * [SYCL Forums](https://community.khronos.org/c/opencl)
 * [SYCL Slack Channel](https://khronosdevs.slack.com/messages/CE9UX4CHG)
 * [SYCL 1.2.1 Reference Guide](https://www.khronos.org/registry/SYCL/specs/sycl-1.2.1.pdf)

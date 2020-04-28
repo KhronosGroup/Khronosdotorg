@@ -6,7 +6,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/sycl)
-* [SYCL Registry](https://www.khronos.org/registry/SYCL/)
+* [SYCL Registry](https://www.khronos.org/registry/SYCL)
 * [SYCL Forums](https://community.khronos.org/c/opencl)
 * [SYCL Slack Channel](https://khronosdevs.slack.com/messages/CE9UX4CHG)
 * [SYCL 1.2.1 Reference Guide](https://www.khronos.org/registry/SYCL/specs/sycl-1.2.1.pdf)

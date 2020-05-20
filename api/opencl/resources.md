@@ -4,7 +4,7 @@
 
 OpenCL™ is being actively evolved to meet the growing demands for the use of parallel processing to deliver higher levels of compute performance. The OpenCL Working Group at Khronos regularly extends OpenCL for enhanced functionality and flexibility, as well as increasing the quality and diversity of tools, libraries, and language compilers.
 
-This Resource Guide is curated by the OpenCL Working Group to assist computing specialists, developers and researchers of all skill levels find documentation and tools to start effectively harnessing the power of OpenCL>. The OpenCL Working Group will continuously evolve the guide and welcomes any feedback on how it can be improved via [GitHub](https://github.com/KhronosGroup/OpenCL-Docs/issues).
+This Resource Guide is curated by the OpenCL Working Group to assist computing specialists, developers and researchers of all skill levels find documentation and tools to start effectively harnessing the power of OpenCL. The OpenCL Working Group will continuously evolve the guide and welcomes any feedback on how it can be improved via [GitHub](https://github.com/KhronosGroup/OpenCL-Docs/issues).
 
 Khronos also hosts an [OpenCL Community Resource Page](https://www.khronos.org/opencl/community-resources/) where anyone can submit links to OpenCL resources with a pull request on [GitHub](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/resources.md)! or by emailing the webmaster at khronos.org.
 

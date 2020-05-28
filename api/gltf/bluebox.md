@@ -2,14 +2,14 @@
 
 *   [glTF 2.0 Specification and resources on GitHub](https://github.com/KhronosGroup/glTF/blob/master/README.md)
 *   [glTF Repository on GitHub](https://github.com/KhronosGroup/glTF)
-*   [glTF Validator](https://github.com/KhronosGroup/glTF-Validator)
+*   [glTF Drag-and-Drop Validator](https://github.com/KhronosGroup/glTF-Validator)
+*   [glTF Project Explorer](http://github.khronos.org/glTF-Project-Explorer/)
 *   [glTF Reference Guide](https://github.com/KhronosGroup/glTF#overview)
 *   [glTF Discussions](https://community.khronos.org/c/gltf-general/)
 *   [glTF Slack](https://khr.io/slack)
 *   [glTF StackOverflow questions](http://stackoverflow.com/questions/tagged/gltf)
 *   [glTF 2.0 Press Release](https://www.khronos.org/news/press/khronos-releases-gltf-2.0-specification)
 *   [glTF 2.0 Launch slide deck](https://www.khronos.org/assets/uploads/apis/glTF-20-Launch_Jun17.pdf)
-*   [glTF 2.0 on Facebook](https://developers.facebook.com/blog/post/2018/02/20/3d-posts-facebook/)
 *   [glTF 2.0 glTF Geometry Compression with Draco](https://www.khronos.org/news/press/khronos-announces-gltf-geometry-compression-extension-google-draco)
 
 ## glTF 1.0 Specification and Materials

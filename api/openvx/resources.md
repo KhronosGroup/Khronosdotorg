@@ -11,6 +11,7 @@ A collection of OpenVX related tools, documentation, and resources contributed b
 * [Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products/openvx)
 * [Conformant Companies](https://www.khronos.org/conformance/adopters/conformant-companies#openvx)
 * [YouTube Channel](https://www.youtube.com/channel/UC0YbmGeNSGPd-StauM1qajg)
+* [Book: OpenVX Programming Guide](https://www.amazon.com/OpenVX-Programming-Guide-Frank-Brill/dp/0128164255/khongrou-20)
 
 ## Commercial and Open Source Implementations
 * [AMD OpenVX (AMDOVX)](http://gpuopen.com/compute-product/amd-openvx/) (open-source on GitHub) is a highly optimized implementation of the Khronos OpenVX™ computer vision specification. It is a library that allows for rapid prototyping as well as fast execution on a wide range of computer hardware, including small embedded x86 CPUs and large workstation discrete GPUs. On GitHub: [core (OpenVX)](https://github.com/GPUOpen-ProfessionalCompute-Libraries/amdovx-core) and [modules (Libraries)](https://github.com/GPUOpen-ProfessionalCompute-Libraries/amdovx-modules)

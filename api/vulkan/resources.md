@@ -117,6 +117,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [Falcor](https://github.com/NVIDIAGameWorks/Falcor) - Real-Time Rendering Framework.
 * [glfw](https://github.com/glfw/glfw) - multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input. - Immediate Mode Graphical User interface for C++ with minimal dependencies.
 * [glo](https://github.com/g-truc/glo) - this project will provide two front-ends: OpenGL and a modernized version OpenGL and multiple back-ends: Vulkan, Metal and DirectX12.
+* [liblava](https://git.io/liblava) - A modern C++ and easy-to-use framework.
 * [MoltenVK](https://github.com/KhronosGroup/MoltenVK) - Vulkan implementation that uses Metal to run on iOS and OSX.
 * [openFrameworks](https://github.com/openframeworks-vk/openFrameworks) - Experimental Vulkan Renderer branch.
 * [Pumex](https://github.com/pumexx/pumex) - Vulkan library oriented on high speed rendering

@@ -18,8 +18,11 @@ contributed by the community.
 
 ## Implementations
 * [ComputeCpp](http://developer.codeplay.com/) - SYCL v1.2.1 conformant implementation by Codeplay Software
-* [hipSYCL](https://github.com/illuhad/hipSYCL) - an open source implementation of SYCL over NVIDIA CUDA and AMD HIP
-* [Intel LLVM SYCL](https://github.com/intel/llvm/tree/sycl) - an open source implementation of SYCL that is being contributed to the LLVM project
+* [Intel LLVM SYCL oneAPI
+  DPC++](https://github.com/intel/llvm/tree/sycl) - an open source
+  implementation of SYCL that is being contributed to the LLVM project
+* [hipSYCL](https://github.com/illuhad/hipSYCL) - an open source
+  implementation of SYCL over NVIDIA CUDA and AMD HIP
 * [triSYCL](https://github.com/triSYCL/triSYCL) - an open-source implementation led by Xilinx
 
 ## Libraries and Frameworks Supporting SYCL

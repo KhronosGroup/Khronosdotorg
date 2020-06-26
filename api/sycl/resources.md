@@ -1,13 +1,15 @@
 # SYCL Resources
 
-We believe the true usefulness of SYCL goes beyond the spec itself; it is an ecosystem of tools, documentation, and resources contributed by the community.
+We believe the true usefulness of SYCL goes beyond the specification
+itself; it is an ecosystem of tools, documentation, and resources
+contributed by the community.
 
 **Get involved, submit your resources either with a pull requests on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/sycl/resources.md)** or email the webmaster at Khronos.org.
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/sycl/)
 * [SYCL Registry](https://www.khronos.org/registry/SYCL/)
-* [SYCL Forums](https://community.khronos.org/c/opencl)
+* [SYCL Forums](https://community.khronos.org/c/sycl)
 * [SYCL Slack Channel](https://khronosdevs.slack.com/messages/CE9UX4CHG)
 * [SYCL 1.2.1 Reference Guide](https://www.khronos.org/registry/SYCL/specs/sycl-1.2.1.pdf)
 
@@ -16,8 +18,11 @@ We believe the true usefulness of SYCL goes beyond the spec itself; it is an eco
 
 ## Implementations
 * [ComputeCpp](http://developer.codeplay.com/) - SYCL v1.2.1 conformant implementation by Codeplay Software
-* [hipSYCL](https://github.com/illuhad/hipSYCL) - an open source implementation of SYCL over NVIDIA CUDA and AMD HIP
-* [Intel LLVM SYCL](https://github.com/intel/llvm/tree/sycl) - an open source implementation of SYCL that is being contributed to the LLVM project
+* [Intel LLVM SYCL oneAPI
+  DPC++](https://github.com/intel/llvm/tree/sycl) - an open source
+  implementation of SYCL that is being contributed to the LLVM project
+* [hipSYCL](https://github.com/illuhad/hipSYCL) - an open source
+  implementation of SYCL over NVIDIA CUDA and AMD HIP
 * [triSYCL](https://github.com/triSYCL/triSYCL) - an open-source implementation led by Xilinx
 
 ## Libraries and Frameworks Supporting SYCL
@@ -28,7 +33,11 @@ We believe the true usefulness of SYCL goes beyond the spec itself; it is an eco
 * [Tensorflow](https://github.com/codeplaysoftware/tensorflow) - An implementation of TensorFlow using SYCL
 
 ## Tutorials
-* [SYCL Academy](https://github.com/codeplaysoftware/syclacademy) - a set of learning materials for SYCL heterogeneous programming
+* [SYCL Academy](https://github.com/codeplaysoftware/syclacademy) - a
+  set of learning materials for SYCL heterogeneous programming
+* [IWOCL/SYCLcon
+  2020](https://www.iwocl.org/iwocl-2020/sycl-tutorials/) - An
+  Introduction to SYCL and Application Development with SYCL
 * [SYCL Developer Guide](https://developer.codeplay.com/computecppce/latest/sycl-guide-introduction) – an introductory SYCL guide
 * [Get Started with SYCL and ComputeCpp](https://developer.codeplay.com/computecppce/latest/getting-started-guide)
 * [The anatomy of a ComputeCpp application](https://developer.codeplay.com/computecppce/latest/anatomy-of-a-computecpp-app)
@@ -37,6 +46,9 @@ We believe the true usefulness of SYCL goes beyond the spec itself; it is an eco
 * [SYCL for CUDA developers](https://developer.codeplay.com/computecppce/latest/sycl-for-cuda-developers)
 
 ## SYCL Talks
+* [IWOCL/SYCLcon
+  2020](https://www.iwocl.org/iwocl-2020/conference-program/):
+  conference with a lot of presentations on SYCL
 * [CppCon 2018 Talk](https://www.youtube.com/embed/miqZS6aS9K0): "A Modern C++ Programming Model for GPUs using Khronos SYCL"
 * [Embedded Vision Summit Talk](https://www.youtube.com/embed/H55cXqLeMLQ): "Intel Open Source SYCL Compiler Overview"
 * [Arm Research Summit 2018](https://www.youtube.com/embed/XXejyI4-WEI): "SYCL: C++ to the Rescue of SoC Programmability"

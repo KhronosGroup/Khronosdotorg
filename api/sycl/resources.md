@@ -33,7 +33,11 @@ contributed by the community.
 * [Tensorflow](https://github.com/codeplaysoftware/tensorflow) - An implementation of TensorFlow using SYCL
 
 ## Tutorials
-* [SYCL Academy](https://github.com/codeplaysoftware/syclacademy) - a set of learning materials for SYCL heterogeneous programming
+* [SYCL Academy](https://github.com/codeplaysoftware/syclacademy) - a
+  set of learning materials for SYCL heterogeneous programming
+* [IWOCL/SYCLcon
+  2020](https://www.iwocl.org/iwocl-2020/sycl-tutorials/) - An
+  Introduction to SYCL and Application Development with SYCL
 * [SYCL Developer Guide](https://developer.codeplay.com/computecppce/latest/sycl-guide-introduction) – an introductory SYCL guide
 * [Get Started with SYCL and ComputeCpp](https://developer.codeplay.com/computecppce/latest/getting-started-guide)
 * [The anatomy of a ComputeCpp application](https://developer.codeplay.com/computecppce/latest/anatomy-of-a-computecpp-app)
@@ -42,6 +46,9 @@ contributed by the community.
 * [SYCL for CUDA developers](https://developer.codeplay.com/computecppce/latest/sycl-for-cuda-developers)
 
 ## SYCL Talks
+* [IWOCL/SYCLcon
+  2020](https://www.iwocl.org/iwocl-2020/conference-program/):
+  conference with a lot of presentations on SYCL
 * [CppCon 2018 Talk](https://www.youtube.com/embed/miqZS6aS9K0): "A Modern C++ Programming Model for GPUs using Khronos SYCL"
 * [Embedded Vision Summit Talk](https://www.youtube.com/embed/H55cXqLeMLQ): "Intel Open Source SYCL Compiler Overview"
 * [Arm Research Summit 2018](https://www.youtube.com/embed/XXejyI4-WEI): "SYCL: C++ to the Rescue of SoC Programmability"

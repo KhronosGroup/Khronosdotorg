@@ -8,10 +8,10 @@ contributed by the community.
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/sycl/)
-* [SYCL Registry](https://www.khronos.org/registry/SYCL/)
+* [SYCL Registry](https://www.khronos.org/registry/SYCL/) with the
+  specifications and reference guides
 * [SYCL Forums](https://community.khronos.org/c/sycl)
 * [SYCL Slack Channel](https://khronosdevs.slack.com/messages/CE9UX4CHG)
-* [SYCL 1.2.1 Reference Guide](https://www.khronos.org/registry/SYCL/specs/sycl-1.2.1.pdf)
 
 ## SYCL News and Resources
 * The latest SYCL news, videos and projects can be found on [Khronos News](https://www.khronos.org/news/tags/tag/SYCL) and [sycl.tech](https://sycl.tech), the SYCL ecosystem website maintained by Codeplay Software.

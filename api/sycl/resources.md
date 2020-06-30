@@ -44,6 +44,7 @@ contributed by the community.
 * [SYCL sample code on GitHub](https://github.com/codeplaysoftware/computecpp-sdk)
 * [Integrating existing applications with ComputeCpp](https://developer.codeplay.com/computecppce/latest/integration-guide)
 * [SYCL for CUDA developers](https://developer.codeplay.com/computecppce/latest/sycl-for-cuda-developers)
+* [SYCL – Introduction and Best Practices](https://www.youtube.com/watch?v=TbkrODiVDQY) (webinar)
 
 ## SYCL Talks
 * [IWOCL/SYCLcon

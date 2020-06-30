@@ -11,7 +11,7 @@ contributed by the community.
 * [SYCL Registry](https://www.khronos.org/registry/SYCL/) with the
   specifications and reference guides
 * [SYCL Forums](https://community.khronos.org/c/sycl)
-* [SYCL Slack Channel](https://khronosdevs.slack.com/messages/CE9UX4CHG)
+* [SYCL Slack Channel](https://khr.io/slack)
 
 ## SYCL News and Resources
 * The latest SYCL news, videos and projects can be found on [Khronos News](https://www.khronos.org/news/tags/tag/SYCL) and [sycl.tech](https://sycl.tech), the SYCL ecosystem website maintained by Codeplay Software.

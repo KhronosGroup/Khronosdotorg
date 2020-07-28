@@ -7,7 +7,7 @@ A collection of OpenGL ES related tools, documentation, and resources contribute
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/opengles)
 * [Registry](https://www.khronos.org/registry/OpenGL/index_es.php) - contains specifications of the core API and shading language; specifications of Khronos- and vendor-approved OpenGL ES extensions; header files corresponding to the specifications; and other related documentation.
-* [Khronos OpenGL ES SDK](https://www.khronos.org/opengles/sdk/) - Documentation, Sample Code, Libaries and tools for creating OpenGL ES based applications
+* [Khronos OpenGL ES SDK](https://www.khronos.org/opengles/sdk/) - Documentation, Sample Code, Libraries and tools for creating OpenGL ES based applications
 * [Discussion forums](https://forums.khronos.org/forumdisplay.php/70-OpenGL-ES)
 * [OpenGL ES Issue tracker](https://github.com/KhronosGroup/OpenGL-Registry/issues) - report problems or suggest new material for the OpenGL ES SDK
 * Quick Reference Guides - [3.2](https://www.khronos.org/files/opengles32-quick-reference-card.pdf), [3.1](https://www.khronos.org/files/opengles31-quick-reference-card.pdf), [3.0](https://www.khronos.org/files/opengles3-quick-reference-card.pdf), [2.0](https://www.khronos.org/files/opengles20-reference-card.pdf)

@@ -15,6 +15,10 @@ The OpenCL Working Group also curates an [OpenCL Resource Guide](https://www.khr
 *   [TI OpenCL-DSP](http://software-dl.ti.com/mctools/esd/docs/opencl/index.html) - TI has an OpenCL 1.1 implementation for SoCs with C66x DSPs such as the AM572x
 *   [Portable OpenCL (pocl)](http://pocl.sourceforge.net) - Portable Computing Language (pocl) aims to become a MIT-licensed open source implementation of the OpenCL standard which can be easily adapted for new targets and devices, both for homogeneous CPU and heterogenous GPUs/accelerators
 
+### Development Tools
+
+* [CLtracer](https://www.cltracer.com/) - OpenCL profiling on all platforms and OS
+
 ### Language Bindings to OpenCL
 
 *   [NOpenCL](https://github.com/tunnelvisionlabs/NOpenCL) - .NET wrapper for OpenCL with abstraction

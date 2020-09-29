@@ -1,6 +1,6 @@
 ## The Khronos Data Format Specification at a glance
 
-The Khronos Data Format Specification was released on July 29, 2015.
+The Khronos Data Format Specification was first released on July 29, 2015 and is regularly updated.
 
 *   [The Khronos Data Format Specification and header files are available in the Khronos Registry](https://www.khronos.org/registry/DataFormat/)
 *   [Press Release](https://www.khronos.org/news/press/khronos-releases-standardized-data-format-specification)

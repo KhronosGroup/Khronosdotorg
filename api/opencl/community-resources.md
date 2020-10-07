@@ -46,6 +46,7 @@ The OpenCL Working Group also curates an [OpenCL Resource Guide](https://www.khr
 *   [CLBlast](https://github.com/CNugteren/CLBlast/) - CLBlast is a performant and tunable OpenCL BLAS library written in C++11
 *   [clBLAS library](https://github.com/clMathLibraries/clBLAS) - a software library containing FFT and BLAS functions written in OpenCL. clBLAS library is a software library containing BLAS functions written in OpenCL
 *   [CLFORTRAN](http://www.cass-hpc.com/solutions/libraries/clfortran-pure-fortran-interface-to-opencl) - Pure Fortran Interface to OpenCL
+*   [CLIJ](https://clij.github.io/) - OpenCL-accelerated image processing library for ImageJ/Fiji, Icy, Matlab and Java 
 *   [clMAGMA](http://icl.cs.utk.edu/magma/software/view.html?id=190) - clMAGMA 1.1 is an OpenCL port of MAGMA
 *   [clMath Library](https://github.com/clMathLibraries/clFFT) - clMath is a software library containing FFT and BLAS functions written in OpenCL
 *   [CLOGS](http://sourceforge.net/projects/clogs/) - C++ library for sorting and searching in OpenCL applications

@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Khronos Group Resources
+Upstream-Contact: The Khronos Group, Inc. <webservices@khronosgroup.org>
+Source: https://github.com/khronosgroup/khronosdotorg
+
+Files: *
+Copyright: 2020 The Khronos Group, Inc <webservices@khronosgroup.org>
+License: CC-BY-4.0

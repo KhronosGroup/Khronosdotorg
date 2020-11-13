@@ -46,9 +46,9 @@ contributed by the community.
 * [SYCL for CUDA developers](https://developer.codeplay.com/computecppce/latest/sycl-for-cuda-developers)
 * [SYCL – Introduction and Best Practices](https://www.youtube.com/watch?v=TbkrODiVDQY) (webinar)
 * SYCL for Safety Practitioners:
-  * [Part 1 - An Introduction](https://codeplay.com/portal/blogs/2020/07/13/sycl-safety-part-1.html) 
-  * [Part 2 - SYCL for Automotive AI and ADAS applications](https://www.codeplay.com/portal/blogs/2020/09/01/sycl-safety-part-2.html) 
-  * [Part 3 - SYCL ADAS Applications Topology Explained](https://codeplay.com/portal/blogs/2020/11/09/sycl-safety-part-3.html) 
+  * [Part 1 - An Introduction](https://codeplay.com/portal/blogs/2020/07/13/sycl-safety-part-1.html)
+  * [Part 2 - SYCL for Automotive AI and ADAS applications](https://www.codeplay.com/portal/blogs/2020/09/01/sycl-safety-part-2.html)
+  * [Part 3 - SYCL ADAS Applications Topology Explained](https://codeplay.com/portal/blogs/2020/11/09/sycl-safety-part-3.html)
 
 ## SYCL Talks
 * [IWOCL/SYCLcon

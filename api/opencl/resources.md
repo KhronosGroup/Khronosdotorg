@@ -23,11 +23,14 @@ Khronos also hosts an [OpenCL Community Resource Page](https://www.khronos.org/o
 
 ### OpenCL Kernel Language and SPIR-V Tools
 
+List of individual tools supporting OpenCL and SPIR-V:
 *   Clang is a compiler front-end for the C family of languages including OpenCL C. It is part of the [LLVM compiler infrastructure project](https://llvm.org/), and there is [information regarding OpenCL kernel language support and standard headers](https://clang.llvm.org/docs/UsersManual.html#opencl-features)
 *   [Libclc](https://github.com/llvm/llvm-project/tree/master/libclc) is a generic and portable implementation of OpenCL builtin function libraries for OpenCL 1.1 - and some functions from later versions of OpenCL can be found there too
 *   The [SPIRV-LLVM Translator](https://github.com/KhronosGroup/SPIRV-LLVM-Translator), is a library and tool for translating between LLVM IR and SPIR-V
 *   The open source [clspv compiler](https://github.com/google/clspv) and [clvk runtime layer](https://github.com/kpet/clvk) enable OpenCL applications to be executed on Vulkan
 *   [SPIR-V Tools](https://github.com/KhronosGroup/SPIRV-Tools) provide a set of utilities to process SPIR-V modules including an optimizer, linker, (dis-)assembler, and validator
+
+The following [blog](https://www.khronos.org/blog/offline-compilation-of-opencl-kernels-into-spir-v-using-open-source-tooling) contains detailed description of how to compile OpenCL kernels offline into SPIR-V using the available open source tools.
 
 ### OpenCL Development Tools
 

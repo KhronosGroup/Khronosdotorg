@@ -31,7 +31,7 @@ List of individual tools supporting OpenCL and SPIR-V:
 *   The open source [clspv compiler](https://github.com/google/clspv) and [clvk runtime layer](https://github.com/kpet/clvk) enable OpenCL applications to be executed on Vulkan
 *   [SPIR-V Tools](https://github.com/KhronosGroup/SPIRV-Tools) provide a set of utilities to process SPIR-V modules including an optimizer, linker, (dis-)assembler, and validator
 
-The following [blog](https://www.khronos.org/blog/offline-compilation-of-opencl-kernels-into-spir-v-using-open-source-tooling) contains detailed description of how to compile OpenCL kernels offline into SPIR-V using the available open source tools.
+This [blog](https://www.khronos.org/blog/offline-compilation-of-opencl-kernels-into-spir-v-using-open-source-tooling) contains detailed description of how to compile OpenCL kernels offline into SPIR-V using the available open source tools.
 
 ### OpenCL Development Tools
 

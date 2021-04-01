@@ -19,7 +19,7 @@ Khronos also hosts an [OpenCL Community Resource Page](https://www.khronos.org/o
 
 *   [OpenCL C Kernel Language](https://www.khronos.org/registry/OpenCL) is the Khronos-defined C99-based dialect
 *   [The OpenCL C Language Extensions Documentation](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/assets/OpenCL_LangExt.pdf) describes language features that can be supported by compilers in addition to standard OpenCL C
-*   [C++ for OpenCL Programming Language](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/assets/CXX_for_OpenCL.pdf) is a community-based C++ kernel language for OpenCL that combines full OpenCL C with most features of C++17, implemented in open source Clang and LLVM
+*   [C++ for OpenCL Programming Language](https://www.khronos.org/opencl/assets/CXX_for_OpenCL.html) is a community-based C++ kernel language for OpenCL that combines full OpenCL C with most features of C++17, implemented in open source Clang and LLVM
 
 ### OpenCL Kernel Language and SPIR-V Tools
 

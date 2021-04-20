@@ -8,6 +8,7 @@ We welcome PRs from the community for both bluebox.md and resources.md files. If
 * DataFormat - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/dataformat/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/dataformat/resources.md)
 * EGL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/egl/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/egl/resources.md)
 * glTF - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/gltf/bluebox.md), [Resources](https://github.com/KhronosGroup/glTF#gltf-tools)
+* KTX - [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/ktx/resources.md)
 * NNEF - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/nnef/bluebox.md), [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/nnef/resources.md)
 * OpenCL - [Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/resources.md), [Community Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/community-resources.md)
 * OpenGL - [Bluebox](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opengl/bluebox.md), [Resources on Community Wiki](https://www.khronos.org/opengl/wiki/)

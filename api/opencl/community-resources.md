@@ -101,7 +101,7 @@ The OpenCL Working Group also curates an [OpenCL Resource Guide](https://www.khr
 *   [RaijinCL](http://www.raijincl.org) - RaijinCL is a library for matrix operations for OpenCL
 *   [Rivertrail](https://github.com/rivertrail/rivertrail/wiki) - JavaScript which supports Data Parallelism via OpenCL
 *   [Rodinia](https://rodinia.cs.virginia.edu/doku.php) - designed for heterogeneous computing infrastructures with OpenMP, OpenCL and CUDA implementations
-*   [ROpenCL](http://repos.openanalytics.eu/html/ROpenCL.html) - Parallel Computing for R Using OpenCL
+*   [ROpenCL](https://rdrr.io/github/RyanHope/ROpenCL/man/ROpenCL-package.html) - Parallel Computing for R Using OpenCL
 *   [Rose Compiler](http://rosecompiler.org/) - Rose Compiler with OpenCL Support
 *   [Rust-OpenCL](https://github.com/luqmana/rust-opencl) - Rust-bindings for OpenCL
 *   [ScalaCL](https://github.com/ochafik/ScalaCL) - Scala support of OpenCL
@@ -171,7 +171,6 @@ The OpenCL Working Group also curates an [OpenCL Resource Guide](https://www.khr
 
 *   [Intel FPGA SDK for OpenCL Best Practices](https://www.intel.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/opencl-sdk/aocl_optimization_guide.pdf) - Optimisation Guide for OpenCL
 *   [AMD -  OpenCL Programming Guide](http://developer.amd.com/wordpress/media/2013/07/AMD_Accelerated_Parallel_Processing_OpenCL_Programming_Guide-rev-2.7.pdf) - AMD Accelerated Parallel Processing OpenCL Programming Guide
-*   [OpenCL cookbook](https://dhruba.wordpress.com/tag/opencl-cookbook/) - 10 tips for high performance kernels
 
 #### Courses
 

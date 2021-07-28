@@ -5,7 +5,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 **Get involved, submit your resources either with a pull requests on [Github](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md)** or email the webmaster at Khronos.org.
 
 ## Khronos Vulkan® Resources
-* [Vulkan Homepage](https://www.khronos.org/vulkan/)
+* [Vulkan Homepage](https://www.vulkan.org/)
 * Vulkan Portability Initiative and [Bringing Vulkan Applications to macOS/iOS](https://www.khronos.org/vulkan/portability-initiative)
 * [Specification and API Registry](https://www.khronos.org/registry/vulkan)
 * [Vulkan Discussion Forum](https://forums.khronos.org/forumdisplay.php/114-Vulkan)

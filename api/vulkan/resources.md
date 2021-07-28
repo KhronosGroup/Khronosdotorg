@@ -12,7 +12,7 @@ We believe the true usefulness of Vulkan goes beyond the spec itself; it is an e
 * [Reference Guides (PDF)](https://www.khronos.org/developers/reference-cards/)
 * [Adopters Process](https://www.khronos.org/vulkan/adopters/)
 * [Conformant Products](https://www.khronos.org/conformance/adopters/conformant-products/vulkan)
-* [Vulkan YouTube Playlist](https://www.youtube.com/playlist?list=PLYO7XTAX41FPp1AQbwr6wA-IUy4cAHLNN)
+* [Vulkan YouTube Playlists](https://www.youtube.com/c/vulkan)
 * [Vulkan Tutorials & Blog](https://www.khronos.org/blog/tags/tag/Vulkan) - Learn about Vulkan right from the source
 * Social Media - [Twitter](https://twitter.com/VulkanAPI)
 * Vulkan Merchandise [North America & Europe](https://www.khronos.org/store) - Get awesome Official Vulkan Merchandise

@@ -1,6 +1,6 @@
 # KHRONOS PRIVACY POLICY
 
-This privacy policy (the "Privacy Policy") describes how the Khronos™ Standards Group, Inc. and its affiliates ("Khronos", "we", "our" or "us") collect, process, use, and share information in connection with your ("user", "users”, "you" or "your") use of our websites, products and services (collectively, "Website" or "Websites"). Please read this Privacy Policy carefully. By accessing or using any part of the Websites, you acknowledge you have been informed of and consent to our practices with regard to your personal information and data ("Personal Information").
+This privacy policy (the "Privacy Policy") describes how the Khronos® Group, Inc. and its affiliates ("Khronos", "we", "our" or "us") collect, process, use, and share information in connection with your ("user", "users”, "you" or "your") use of our websites, products and services (collectively, "Website" or "Websites"). Please read this Privacy Policy carefully. By accessing or using any part of the Websites, you acknowledge you have been informed of and consent to our practices with regard to your personal information and data ("Personal Information").
 
 ## WHAT INFORMATION WE COLLECT
 
@@ -161,4 +161,4 @@ Beaverton, OR 97008-6018 USA
 
 Although most changes are likely to be minor, Khronos may change its privacy policy from time to time, and at the sole discretion of Khronos. We will provide notification of material changes to this Privacy Policy through our websites or by sending email to the email address you specify in your account. Khronos encourages visitors to frequently check this page for any minor changes to its Privacy Policy.
 
-This version of the privacy policy was last updated on July 25, 2018.
+This version of the privacy policy was last updated on August 4, 2021. This [Privacy Policy Changelog](https://github.com/KhronosGroup/Khronosdotorg/commits/main/legal/privacy-policy.md) is available on GitHub.

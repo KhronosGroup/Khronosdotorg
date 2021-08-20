@@ -84,7 +84,7 @@ The OpenCL Working Group also curates an [OpenCL Resource Guide](https://www.khr
 *   [Oclgrind](https://github.com/jrprice/Oclgrind) - OpenCL device simulator, debugger, and dynamic analysis platform
 *   [Open Fortran Parser](http://fortran-parser.sourceforge.net/) - ANTLR-based parsing tools that support the Fortran 2008 standard
 *   [OpenCL data parallel primitives library](http://code.google.com/p/clpp/) - clpp is an OpenCL Data Parallel Primitives Library
-*   [OpenCL for PLT Scheme](http://planet.plt-scheme.org/display.ss?package=opencl.plt&owner=jaymccarthy) - OpenCL FFI for PLT Scheme
+*   [OpenCL for Racket](https://docs.racket-lang.org/opencl/index.html) - binding for OpenCL based on the 1.0.48 revision
 *   [OpenCL for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=galarius.vscode-opencl) - OpenCL for Visual Studio Code
 *   [OpenCL Studio](http://www.opencldev.com) -  integrates OpenCL and OpenGL into a single development environment for high performance computing and visualization
 *   [OpenCLHelper](https://github.com/hughperkins/OpenCLHelper) - Easy to run kernels using OpenCL
@@ -160,7 +160,6 @@ The OpenCL Working Group also curates an [OpenCL Resource Guide](https://www.khr
 *   [AMD Dev Gurus](http://devgurus.amd.com/welcome)
 *   [ARM Connected Community](http://community.arm.com/welcome)
 *   [NXP the i.MX Community](https://community.nxp.com/community/imx)
-*   [Imagination Technologies Graphics Forums](https://community.imgtec.com/forums/cat/powervr-insider-graphics/)
 *   [Khronos OpenCL Forums](https://forums.khronos.org/forumdisplay.php/87-OpenCL)
 *   [NVIDIA Dev Talk](https://devtalk.nvidia.com/)
 *   [QUALCOMM Dev Forums](https://developer.qualcomm.com/forum)

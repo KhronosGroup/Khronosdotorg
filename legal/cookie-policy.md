@@ -59,7 +59,7 @@ Cookie Preferences
 
 You may at anytime, disallow or allow Cookies from our website but clicking on one of the following two buttons:
 
-[DISALLOW COOKIES](https://www.khronos.org/?ACT=157&RET=) | [ALLOW COOKIES](https://www.khronos.org/?ACT=158&RET=)
+[DISALLOW COOKIES](https://www.khronos.org/?ACT=162&RET=legal/privacy) | [ALLOW COOKIES](https://www.khronos.org/?ACT=163&RET=legal/privacy)
 
 Changes
 -------

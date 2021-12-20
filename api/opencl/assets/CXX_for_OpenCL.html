@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.10">
+<meta name="generator" content="Asciidoctor 2.0.16">
 <meta name="author" content="Khronos&#174; OpenCL Working Group">
-<title>The C++ for OpenCL 1.0 Programming Language Documentation</title>
+<title>The C++ for OpenCL 1.0 and 2021 Programming Language Documentation</title>
 <style>
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ========================================================================== HTML5 display definitions ========================================================================== */
@@ -141,7 +141,7 @@ meta.foundation-mq-large { font-family: "only screen and (min-width:1440px)"; wi
 
 html, body { font-size: 100%; }
 
-body { background: white; color: #222222; padding: 0; margin: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1; position: relative; cursor: auto; }
+body { background: #fff; color: #222; padding: 0; margin: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1; position: relative; cursor: auto; }
 
 a:hover { cursor: pointer; }
 
@@ -190,7 +190,7 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, #toctitle, .sidebarblock > .content > .
 
 /* Default Link Styles */
 a { color: #0068b0; text-decoration: none; line-height: inherit; }
-a:hover, a:focus { color: #333333; }
+a:hover, a:focus { color: #333; }
 a img { border: none; }
 
 /* Default paragraph styles */
@@ -213,7 +213,7 @@ h5 { font-size: 1.125em; }
 
 h6 { font-size: 1em; }
 
-hr { border: solid #dddddd; border-width: 1px 0 0; clear: both; margin: 1.25em 0 1.1875em; height: 0; }
+hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 1.25em 0 1.1875em; height: 0; }
 
 /* Helpful Typography Defaults */
 em, i { font-style: italic; line-height: inherit; }
@@ -246,20 +246,20 @@ dl dt { margin-bottom: 0.3em; font-weight: bold; }
 dl dd { margin-bottom: 0.75em; }
 
 /* Abbreviations */
-abbr, acronym { text-transform: uppercase; font-size: 90%; color: black; border-bottom: 1px dotted #dddddd; cursor: help; }
+abbr, acronym { text-transform: uppercase; font-size: 90%; color: black; border-bottom: 1px dotted #ddd; cursor: help; }
 
 abbr { text-transform: none; }
 
 /* Blockquotes */
-blockquote { margin: 0 0 0.75em; padding: 0.5625em 1.25em 0 1.1875em; border-left: 1px solid #dddddd; }
-blockquote cite { display: block; font-size: 0.8125em; color: #5e93b8; }
+blockquote { margin: 0 0 0.75em; padding: 0.5625em 1.25em 0 1.1875em; border-left: 1px solid #ddd; }
+blockquote cite { display: block; font-size: 0.8125em; color: #365E7A; }
 blockquote cite:before { content: "\2014 \0020"; }
-blockquote cite a, blockquote cite a:visited { color: #5e93b8; }
+blockquote cite a, blockquote cite a:visited { color: #365E7A; }
 
-blockquote, blockquote p { line-height: 1.6; color: #333333; }
+blockquote, blockquote p { line-height: 1.6; color: #333; }
 
 /* Microformats */
-.vcard { display: inline-block; margin: 0 0 1.25em 0; border: 1px solid #dddddd; padding: 0.625em 0.75em; }
+.vcard { display: inline-block; margin: 0 0 1.25em 0; border: 1px solid #ddd; padding: 0.625em 0.75em; }
 .vcard li { margin: 0; display: block; }
 .vcard .fn { font-weight: bold; font-size: 0.9375em; }
 
@@ -272,11 +272,11 @@ blockquote, blockquote p { line-height: 1.6; color: #333333; }
   h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.6875em; }
   h4 { font-size: 1.4375em; } }
 /* Tables */
-table { background: white; margin-bottom: 1.25em; border: solid 1px #d8d8ce; }
-table thead, table tfoot { background: -webkit-linear-gradient(top, #add386, #90b66a); font-weight: bold; }
-table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td { padding: 0.5em 0.625em 0.625em; font-size: inherit; color: white; text-align: left; }
+table { background: #fff; margin-bottom: 1.25em; border: solid 1px #d8d8ce; }
+table thead, table tfoot { background: #eee; font-weight: bold; }
+table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td { padding: 0.5em 0.625em 0.625em; font-size: inherit; color: #222; text-align: left; }
 table tr th, table tr td { padding: 0.5625em 0.625em; font-size: inherit; color: #6d6e71; }
-table tr.even, table tr.alt, table tr:nth-of-type(even) { background: #edf2f2; }
+table tr.even, table tr.alt, table tr:nth-of-type(even) { background: #f8f8f8; }
 table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td { display: table-cell; line-height: 1.4; }
 
 body { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; tab-size: 4; }
@@ -288,7 +288,7 @@ a:hover, a:focus { text-decoration: underline; }
 .clearfix:before, .clearfix:after, .float-group:before, .float-group:after { content: " "; display: table; }
 .clearfix:after, .float-group:after { clear: both; }
 
-*:not(pre) > code { font-size: inherit; font-style: normal !important; letter-spacing: 0; padding: 0; background-color: white; -webkit-border-radius: 0; border-radius: 0; line-height: inherit; word-wrap: break-word; }
+*:not(pre) > code { font-size: inherit; font-style: normal !important; letter-spacing: 0; padding: 0; background-color: transparent; -webkit-border-radius: 0; border-radius: 0; line-height: inherit; word-wrap: break-word; }
 *:not(pre) > code.nobreak { word-wrap: normal; }
 *:not(pre) > code.nowrap { white-space: nowrap; }
 
@@ -300,7 +300,7 @@ strong strong { font-weight: normal; }
 
 .keyseq { color: #333333; }
 
-kbd { font-family: Consolas, "Liberation Mono", Courier, monospace; display: inline-block; color: black; font-size: 0.65em; line-height: 1.45; background-color: #f7f7f7; border: 1px solid #ccc; -webkit-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; margin: 0 0.15em; padding: 0.2em 0.5em; vertical-align: middle; position: relative; top: -0.1em; white-space: nowrap; }
+kbd { font-family: Consolas, "Liberation Mono", Courier, monospace; display: inline-block; color: black; font-size: 0.65em; line-height: 1.45; background-color: #f7f7f7; border: 1px solid #ccc; -webkit-border-radius: 3px; border-radius: 3px; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.1em white inset; margin: 0 0.15em; padding: 0.2em 0.5em; vertical-align: middle; position: relative; top: -0.1em; white-space: nowrap; }
 
 .keyseq kbd:first-child { margin-left: 0; }
 
@@ -329,21 +329,21 @@ b.button:after { content: "]"; padding: 0 2px 0 3px; }
 #content:before { content: none; }
 
 #header > h1:first-child { color: black; margin-top: 2.25rem; margin-bottom: 0; }
-#header > h1:first-child + #toc { margin-top: 8px; border-top: 1px solid #dddddd; }
-#header > h1:only-child, body.toc2 #header > h1:nth-last-child(2) { border-bottom: 1px solid #dddddd; padding-bottom: 8px; }
-#header .details { border-bottom: 1px solid #dddddd; line-height: 1.45; padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 0.25em; color: #5e93b8; display: -ms-flexbox; display: -webkit-flex; display: flex; -ms-flex-flow: row wrap; -webkit-flex-flow: row wrap; flex-flow: row wrap; }
+#header > h1:first-child + #toc { margin-top: 8px; border-top: 1px solid #ddd; }
+#header > h1:only-child, body.toc2 #header > h1:nth-last-child(2) { border-bottom: 1px solid #ddd; padding-bottom: 8px; }
+#header .details { border-bottom: 1px solid #ddd; line-height: 1.45; padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 0.25em; color: #365E7A; display: -ms-flexbox; display: -webkit-flex; display: flex; -ms-flex-flow: row wrap; -webkit-flex-flow: row wrap; flex-flow: row wrap; }
 #header .details span:first-child { margin-left: -0.125em; }
-#header .details span.email a { color: #333333; }
+#header .details span.email a { color: #333; }
 #header .details br { display: none; }
 #header .details br + span:before { content: "\00a0\2013\00a0"; }
-#header .details br + span.author:before { content: "\00a0\22c5\00a0"; color: #333333; }
+#header .details br + span.author:before { content: "\00a0\22c5\00a0"; color: #333; }
 #header .details br + span#revremark:before { content: "\00a0|\00a0"; }
 #header #revnumber { text-transform: capitalize; }
 #header #revnumber:after { content: "\00a0"; }
 
-#content > h1:first-child:not([class]) { color: black; border-bottom: 1px solid #dddddd; padding-bottom: 8px; margin-top: 0; padding-top: 1rem; margin-bottom: 1.25rem; }
+#content > h1:first-child:not([class]) { color: black; border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-top: 0; padding-top: 1rem; margin-bottom: 1.25rem; }
 
-#toc { border-bottom: 0 solid #dddddd; padding-bottom: 0.5em; }
+#toc { border-bottom: 0 solid #ddd; padding-bottom: 0.5em; }
 #toc > ul { margin-left: 0.125em; }
 #toc ul.sectlevel0 > li > a { font-style: italic; }
 #toc ul.sectlevel0 ul.sectlevel1 { margin: 0.5em 0; }
@@ -356,20 +356,20 @@ b.button:after { content: "]"; padding: 0 2px 0 3px; }
 
 @media only screen and (min-width: 768px) { #toctitle { font-size: 1.375em; }
   body.toc2 { padding-left: 15em; padding-right: 0; }
-  #toc.toc2 { margin-top: 0 !important; background-color: white; position: fixed; width: 15em; left: 0; top: 0; border-right: 1px solid #dddddd; border-top-width: 0 !important; border-bottom-width: 0 !important; z-index: 1000; padding: 1.25em 1em; height: 100%; overflow: auto; }
+  #toc.toc2 { margin-top: 0 !important; background-color: #fff; position: fixed; width: 15em; left: 0; top: 0; border-right: 1px solid #ddd; border-top-width: 0 !important; border-bottom-width: 0 !important; z-index: 1000; padding: 1.25em 1em; height: 100%; overflow: auto; }
   #toc.toc2 #toctitle { margin-top: 0; margin-bottom: 0.8rem; font-size: 1.2em; }
   #toc.toc2 > ul { font-size: 0.9em; margin-bottom: 0; }
   #toc.toc2 ul ul { margin-left: 0; padding-left: 1em; }
   #toc.toc2 ul.sectlevel0 ul.sectlevel1 { padding-left: 0; margin-top: 0.5em; margin-bottom: 0.5em; }
   body.toc2.toc-right { padding-left: 0; padding-right: 15em; }
-  body.toc2.toc-right #toc.toc2 { border-right-width: 0; border-left: 1px solid #dddddd; left: auto; right: 0; } }
+  body.toc2.toc-right #toc.toc2 { border-right-width: 0; border-left: 1px solid #ddd; left: auto; right: 0; } }
 @media only screen and (min-width: 1280px) { body.toc2 { padding-left: 20em; padding-right: 0; }
   #toc.toc2 { width: 20em; }
   #toc.toc2 #toctitle { font-size: 1.375em; }
   #toc.toc2 > ul { font-size: 0.95em; }
   #toc.toc2 ul ul { padding-left: 1.25em; }
   body.toc2.toc-right { padding-left: 0; padding-right: 20em; } }
-#content #toc { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: white; -webkit-border-radius: 0; border-radius: 0; }
+#content #toc { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: #fff; -webkit-border-radius: 0; border-radius: 0; }
 #content #toc > :first-child { margin-top: 0; }
 #content #toc > :last-child { margin-bottom: 0; }
 
@@ -385,7 +385,7 @@ b.button:after { content: "]"; padding: 0 2px 0 3px; }
   .sect1 { padding-bottom: 1.25em; } }
 .sect1:last-child { padding-bottom: 0; }
 
-.sect1 + .sect1 { border-top: 0 solid #dddddd; }
+.sect1 + .sect1 { border-top: 0 solid #ddd; }
 
 #content h1 > a.anchor, h2 > a.anchor, h3 > a.anchor, #toctitle > a.anchor, .sidebarblock > .content > .title > a.anchor, h4 > a.anchor, h5 > a.anchor, h6 > a.anchor { position: absolute; z-index: 1001; width: 1.5ex; margin-left: -1.5ex; display: block; text-decoration: none !important; visibility: hidden; text-align: center; font-weight: normal; }
 #content h1 > a.anchor:before, h2 > a.anchor:before, h3 > a.anchor:before, #toctitle > a.anchor:before, .sidebarblock > .content > .title > a.anchor:before, h4 > a.anchor:before, h5 > a.anchor:before, h6 > a.anchor:before { content: "\00A7"; font-size: 0.85em; display: block; padding-top: 0.1em; }
@@ -407,29 +407,29 @@ table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p { font-si
 .admonitionblock > table td.icon { text-align: center; width: 80px; }
 .admonitionblock > table td.icon img { max-width: initial; }
 .admonitionblock > table td.icon .title { font-weight: bold; font-family: Noto, sans-serif; text-transform: uppercase; }
-.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #dddddd; color: #5e93b8; }
+.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #ddd; color: #365E7A; }
 .admonitionblock > table td.content > :last-child > :last-child { margin-bottom: 0; }
 
-.exampleblock > .content { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: white; -webkit-border-radius: 0; border-radius: 0; }
+.exampleblock > .content { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: #fff; -webkit-border-radius: 0; border-radius: 0; }
 .exampleblock > .content > :first-child { margin-top: 0; }
 .exampleblock > .content > :last-child { margin-bottom: 0; }
 
-.sidebarblock { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: white; -webkit-border-radius: 0; border-radius: 0; }
+.sidebarblock { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: #fff; -webkit-border-radius: 0; border-radius: 0; }
 .sidebarblock > :first-child { margin-top: 0; }
 .sidebarblock > :last-child { margin-bottom: 0; }
 .sidebarblock > .content > .title { color: black; margin-top: 0; }
 
 .exampleblock > .content > :last-child > :last-child, .exampleblock > .content .olist > ol > li:last-child > :last-child, .exampleblock > .content .ulist > ul > li:last-child > :last-child, .exampleblock > .content .qlist > ol > li:last-child > :last-child, .sidebarblock > .content > :last-child > :last-child, .sidebarblock > .content .olist > ol > li:last-child > :last-child, .sidebarblock > .content .ulist > ul > li:last-child > :last-child, .sidebarblock > .content .qlist > ol > li:last-child > :last-child { margin-bottom: 0; }
 
-.literalblock pre, .listingblock pre:not(.highlight), .listingblock pre[class="highlight"], .listingblock pre[class^="highlight "], .listingblock pre.CodeRay, .listingblock pre.prettyprint { background: #eeeeee; }
+.literalblock pre, .listingblock pre:not(.highlight), .listingblock pre[class="highlight"], .listingblock pre[class^="highlight "], .listingblock pre.CodeRay, .listingblock pre.prettyprint { background: #eee; }
 .sidebarblock .literalblock pre, .sidebarblock .listingblock pre:not(.highlight), .sidebarblock .listingblock pre[class="highlight"], .sidebarblock .listingblock pre[class^="highlight "], .sidebarblock .listingblock pre.CodeRay, .sidebarblock .listingblock pre.prettyprint { background: #f2f1f1; }
 
-.literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] { border: 1px hidden #666666; -webkit-border-radius: 0; border-radius: 0; word-wrap: break-word; padding: 1.25em 1.5625em 1.125em 1.5625em; font-size: 0.8125em; }
+.literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] { border: 1px hidden #666; -webkit-border-radius: 0; border-radius: 0; word-wrap: break-word; padding: 1.25em 1.5625em 1.125em 1.5625em; font-size: 0.8125em; }
 .literalblock pre.nowrap, .literalblock pre[class].nowrap, .listingblock pre.nowrap, .listingblock pre[class].nowrap { overflow-x: auto; white-space: pre; word-wrap: normal; }
 @media only screen and (min-width: 768px) { .literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] { font-size: 0.90625em; } }
 @media only screen and (min-width: 1280px) { .literalblock pre, .literalblock pre[class], .listingblock pre, .listingblock pre[class] { font-size: 1em; } }
 
-.literalblock.output pre { color: #eeeeee; background-color: #264357; }
+.literalblock.output pre { color: #eee; background-color: #264357; }
 
 .listingblock pre.highlightjs { padding: 0; }
 .listingblock pre.highlightjs > code { padding: 1.25em 1.5625em 1.125em 1.5625em; -webkit-border-radius: 0; border-radius: 0; }
@@ -450,7 +450,7 @@ table.pyhltable td { vertical-align: top; padding-top: 0; padding-bottom: 0; lin
 
 table.pyhltable td.code { padding-left: .75em; padding-right: 0; }
 
-pre.pygments .lineno, table.pyhltable td:not(.code) { color: #999; padding-left: 0; padding-right: .5em; border-right: 1px solid #dddddd; }
+pre.pygments .lineno, table.pyhltable td:not(.code) { color: #999; padding-left: 0; padding-right: .5em; border-right: 1px solid #ddd; }
 
 pre.pygments .lineno { display: inline-block; margin-right: .25em; }
 
@@ -458,23 +458,23 @@ table.pyhltable .linenodiv { background: none !important; padding-right: 0 !impo
 
 .quoteblock { margin: 0 1em 0.75em 1.5em; display: table; }
 .quoteblock > .title { margin-left: -1.5em; margin-bottom: 0.75em; }
-.quoteblock blockquote, .quoteblock blockquote p { color: #333333; font-size: 1.15rem; line-height: 1.75; word-spacing: 0.1em; letter-spacing: 0; font-style: italic; text-align: justify; }
+.quoteblock blockquote, .quoteblock blockquote p { color: #333; font-size: 1.15rem; line-height: 1.75; word-spacing: 0.1em; letter-spacing: 0; font-style: italic; text-align: justify; }
 .quoteblock blockquote { margin: 0; padding: 0; border: 0; }
 .quoteblock blockquote:before { content: "\201c"; float: left; font-size: 2.75em; font-weight: bold; line-height: 0.6em; margin-left: -0.6em; color: black; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
 .quoteblock blockquote > .paragraph:last-child p { margin-bottom: 0; }
 .quoteblock .attribution { margin-top: 0.5em; margin-right: 0.5ex; text-align: right; }
-.quoteblock .quoteblock { margin-left: 0; margin-right: 0; padding: 0.5em 0; border-left: 3px solid #5e93b8; }
+.quoteblock .quoteblock { margin-left: 0; margin-right: 0; padding: 0.5em 0; border-left: 3px solid #365E7A; }
 .quoteblock .quoteblock blockquote { padding: 0 0 0 0.75em; }
 .quoteblock .quoteblock blockquote:before { display: none; }
 
 .verseblock { margin: 0 1em 0.75em 1em; }
-.verseblock pre { font-family: "Open Sans", "DejaVu Sans", sans; font-size: 1.15rem; color: #333333; font-weight: 300; text-rendering: optimizeLegibility; }
+.verseblock pre { font-family: "Open Sans", "DejaVu Sans", sans; font-size: 1.15rem; color: #333; font-weight: 300; text-rendering: optimizeLegibility; }
 .verseblock pre strong { font-weight: 400; }
 .verseblock .attribution { margin-top: 1.25rem; margin-left: 0.5ex; }
 
 .quoteblock .attribution, .verseblock .attribution { font-size: 0.8125em; line-height: 1.45; font-style: italic; }
 .quoteblock .attribution br, .verseblock .attribution br { display: none; }
-.quoteblock .attribution cite, .verseblock .attribution cite { display: block; letter-spacing: -0.025em; color: #5e93b8; }
+.quoteblock .attribution cite, .verseblock .attribution cite { display: block; letter-spacing: -0.025em; color: #365E7A; }
 
 .quoteblock.abstract { margin: 0 0 0.75em 0; display: block; }
 .quoteblock.abstract blockquote, .quoteblock.abstract blockquote p { text-align: left; word-spacing: 0; }
@@ -519,9 +519,9 @@ th.valign-middle, td.valign-middle { vertical-align: middle; }
 
 table thead th, table tfoot th { font-weight: bold; }
 
-tbody tr th { display: table-cell; line-height: 1.4; background: -webkit-linear-gradient(top, #add386, #90b66a); }
+tbody tr th { display: table-cell; line-height: 1.4; background: #eee; }
 
-tbody tr th, tbody tr th p, tfoot tr th, tfoot tr th p { color: white; font-weight: bold; }
+tbody tr th, tbody tr th p, tfoot tr th, tfoot tr th p { color: #222; font-weight: bold; }
 
 p.tableblock > code:only-child { background: none; padding: 0; }
 
@@ -584,7 +584,7 @@ td.hdlist1 { font-weight: bold; padding-bottom: 0.75em; }
 .colist > table tr > td:first-of-type img { max-width: initial; }
 .colist > table tr > td:last-of-type { padding: 0.25em 0; }
 
-.thumb, .th { line-height: 0; display: inline-block; border: solid 4px white; -webkit-box-shadow: 0 0 0 1px #dddddd; box-shadow: 0 0 0 1px #dddddd; }
+.thumb, .th { line-height: 0; display: inline-block; border: solid 4px #fff; -webkit-box-shadow: 0 0 0 1px #ddd; box-shadow: 0 0 0 1px #ddd; }
 
 .imageblock.left, .imageblock[style*="float: left"] { margin: 0.25em 0.625em 1.25em 0; }
 .imageblock.right, .imageblock[style*="float: right"] { margin: 0.25em 0 1.25em 0.625em; }
@@ -709,7 +709,7 @@ b.conum * { color: inherit !important; }
 
 .conum:not([data-value]):empty { display: none; }
 
-h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { border-bottom: 1px solid #dddddd; }
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { border-bottom: 1px solid #ddd; }
 
 .sect1 { padding-bottom: 0; }
 
@@ -721,1133 +721,28 @@ code { -webkit-border-radius: 4px; border-radius: 4px; }
 
 p.tableblock.header { color: #6d6e71; }
 
-.literalblock pre, .listingblock pre { background: #eeeeee; }
+.literalblock pre, .listingblock pre { background: #eee; }
+
+/* From https://github.com/KhronosGroup/Vulkan-Docs/pull/901 */
+a code { color: inherit; }
+
+/* From https://github.com/KhronosGroup/Vulkan-Docs/pull/1157 */
+/* Make VUID anchor handles*/
+li > p > a[id^="VUID-"] { visibility: hidden; position: absolute; z-index: 1001; width: 2.2ex; margin-left: -2.2ex; display: block; text-decoration: none !important; text-align: center; font-weight: normal; }
+
+li > p > a[id^="VUID-"]:before { content: "\00A7"; font-size: 1em; display: block; padding-top: 0em; background: #fff; }
+
+li > p:hover > a[id^="VUID-"], li > p > a[id^="VUID-"]:hover { visibility: visible; }
+
+li > p > a[id^="VUID-"].link { color: black; text-decoration: none; }
+
+/* TODO: not quite sure what these two do */
+li > p > a[id^="VUID-"].link:hover { color: black; }
+
+.vuid { color: #4d4d4d; font-family: monospace; }
 
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="../katex/katex.min.css">
-<script src="../katex/katex.min.js"></script>
-<script src="../katex/contrib/auto-render.min.js"></script>
-    <!-- Use KaTeX to render math once document is loaded, see
-         https://github.com/Khan/KaTeX/tree/master/contrib/auto-render -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        renderMathInElement(
-            document.body,
-            {
-                delimiters: [
-                    { left: "$$", right: "$$", display: true},
-                    { left: "\\[", right: "\\]", display: true},
-                    { left: "$", right: "$", display: false},
-                    { left: "\\(", right: "\\)", display: false}
-                ]
-            }
-        );
-    });
-</script></head>
-<body class="book toc2 toc-left" style="max-width: 100;">
-<div id="header">
-<h1>The C++ for OpenCL 1.0 Programming Language Documentation</h1>
-<div class="details">
-<span id="author" class="author">Khronos<sup>&#174;</sup> OpenCL Working Group</span><br>
-<span id="revdate">Mon, 08 Nov 2021 15:19:29 +0000</span>
-<br><span id="revremark">from git branch:  commit: cc22b57164f3eb2c272f602b807c40b0850a67c9</span>
-</div>
-<div id="toc" class="toc2">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#intro">1. Introduction</a></li>
-<li><a href="#_the_c_for_opencl_programming_language">2. The C++ for OpenCL Programming Language</a>
-<ul class="sectlevel2">
-<li><a href="#diff2cxx">2.1. Difference to C++</a>
-<ul class="sectlevel3">
-<li><a href="#_restrictions_to_c_features">2.1.1. Restrictions to C++ features</a></li>
-</ul>
-</li>
-<li><a href="#diff2openclc">2.2. Difference to OpenCL C</a>
-<ul class="sectlevel3">
-<li><a href="#_c_related_differences">2.2.1. C++ related differences</a>
-<ul class="sectlevel4">
-<li><a href="#_implicit_conversions">2.2.1.1. Implicit conversions</a></li>
-<li><a href="#null_literal">2.2.1.2. Null pointer constant</a></li>
-<li><a href="#_use_of_restrict">2.2.1.3. Use of restrict</a></li>
-<li><a href="#_limitations_of_goto_statements">2.2.1.4. Limitations of goto statements</a></li>
-<li><a href="#_ternary_selection_operator">2.2.1.5. Ternary Selection Operator</a></li>
-</ul>
-</li>
-<li><a href="#_opencl_specific_difference">2.2.2. OpenCL specific difference</a>
-<ul class="sectlevel4">
-<li><a href="#_variadic_macros">2.2.2.1. Variadic macros</a></li>
-<li><a href="#_predefined_macros">2.2.2.2. Predefined macros</a></li>
-<li><a href="#_atomic_operations">2.2.2.3. Atomic operations</a></li>
-<li><a href="#_use_of_blocks">2.2.2.4. Use of Blocks</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#address_space">2.3. Address spaces</a>
-<ul class="sectlevel3">
-<li><a href="#_casts">2.3.1. Casts</a></li>
-<li><a href="#references">2.3.2. References</a></li>
-<li><a href="#addrspace-deduction">2.3.3. Deduction &amp; Default address space</a></li>
-<li><a href="#addrspace-member-function-qualifiers">2.3.4. Member function qualifier</a></li>
-<li><a href="#_lambda_function">2.3.5. Lambda function</a></li>
-<li><a href="#_implicit_special_members">2.3.6. Implicit special members</a></li>
-<li><a href="#_builtin_operators">2.3.7. Builtin operators</a></li>
-<li><a href="#_templates">2.3.8. Templates</a></li>
-<li><a href="#_temporary_materialization">2.3.9. Temporary materialization</a></li>
-<li><a href="#_construction_initialization_and_destruction">2.3.10. Construction, initialization and destruction</a></li>
-<li><a href="#_nested_pointers">2.3.11. Nested pointers</a></li>
-</ul>
-</li>
-<li><a href="#cxxcasts">2.4. C++ casts</a>
-<ul class="sectlevel3">
-<li><a href="#_vectors_and_scalars">2.4.1. Vectors and scalars</a></li>
-<li><a href="#_opencl_types">2.4.2. OpenCL types</a></li>
-</ul>
-</li>
-<li><a href="#kernel_function">2.5. Kernel functions</a></li>
-</ul>
-</li>
-<li><a href="#_normative_references">3. Normative References</a></li>
-</ul>
-</div>
-</div>
-<div id="content">
-<div id="preamble">
-<div class="sectionbody">
-<div style="page-break-after: always;"></div>
-<div class="paragraph">
-<p>Copyright 2019-2021 The Khronos Group.</p>
-</div>
-<div class="paragraph">
-<p>Khronos licenses this file to you under the Creative Commons Attribution 4.0
-International (CC BY 4.0) License (the "License"); you may not use this file
-except in compliance with the License.  You may obtain a copy of the License
-at <a href="https://creativecommons.org/licenses/by/4.0/" class="bare">https://creativecommons.org/licenses/by/4.0/</a></p>
-</div>
-<div class="paragraph">
-<p>Unless required by applicable law or agreed to in writing, material distributed
-under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-CONDITIONS OF ANY KIND, either express or implied. If all or a portion of this
-material is re-used, notice substantially similar to the following must be included:</p>
-</div>
-<div class="paragraph">
-<p>This documentation includes material developed at The Khronos Group
-(<a href="http://www.khronos.org/" class="bare">http://www.khronos.org/</a>). Khronos supplied such material on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, under
-the terms of the Creative Commons Attribution 4.0 International (CC BY 4.0)
-License (the "License"), available at <a href="https://creativecommons.org/licenses/by/4.0/" class="bare">https://creativecommons.org/licenses/by/4.0/</a>.
-All use of such material is governed by the term of the License. Khronos bears
-no responsibility whatsoever for additions or modifications to its material.</p>
-</div>
-<div class="paragraph">
-<p>Khronos is a registered trademark, and OpenCL is a trademark of Apple Inc.
-and used under license by Khronos. All other product names, trademarks, and/or
-company names are used solely for identification and belong to their respective
-owners.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="intro"><a class="anchor" href="#intro"></a>1. Introduction</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>This language is built on top of OpenCL C v2.0 and C++17 enabling
-most of regular C++ features in OpenCL kernel code. Most functionality
-from C++ and OpenCL C is inherited. Since both OpenCL C and C++ are
-derived from C and moreover C++ is almost fully backward compatible with C,
-the main design principle of C++ for OpenCL is to reapply existing OpenCL
-concepts to C++. Therefore, it is important to refer to
-<a href="#opencl-spec">The OpenCL Specification, Version 2.0</a> <code>section
-3.2</code> and <code>section 3.3</code> detailing fundamental differences of OpenCL execution
-and memory models from the conventional C and C++ view.</p>
-</div>
-<div class="paragraph">
-<p>This document describes the programming language in details. It is not
-structured as a standalone document, but rather as an addition to OpenCL C
-v2.0 defined in <a href="#openclc-spec">The OpenCL C Specification, Version 2.0</a>
-and C++17 defined in <a href="#cpp17-spec">The C++17 Specification</a>. Where necessary
-this document refers to the specifications of those languages accordingly.
-A full understanding of C++ for OpenCL requires familiarity with the
-specifications or other documentation of both languages that C++ for OpenCL
-is built upon.</p>
-</div>
-<div class="paragraph">
-<p>The description of C++ for OpenCL starts from highlighting <a href="#diff2openclc"><em>the differences to OpenCL C</em></a> and <a href="#diff2cxx"><em>the differences to C++</em></a>.</p>
-</div>
-<div class="paragraph">
-<p>The majority of content covers the behavior that is not documented in
-the OpenCL C v2.0 <code>section 6</code> and C++17 specifications. This is mainly
-related to interactions between OpenCL and C++ language features.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_the_c_for_opencl_programming_language"><a class="anchor" href="#_the_c_for_opencl_programming_language"></a>2. The C++ for OpenCL Programming Language</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>This programming language inherits features from <code>OpenCL C v2.0,
-s6</code> as well as C++17. Detailed aspects of OpenCL and C++ are not
-described in this document as they can be found in their official
-specifications.</p>
-</div>
-<div class="paragraph">
-<p>This section documents various language features of C++ for OpenCL that are
-not covered in either OpenCL or C++ specifications, in particular:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>any behavior that deviates from C++17;</p>
-</li>
-<li>
-<p>any behavior that deviates from OpenCL C v2.0;</p>
-</li>
-<li>
-<p>any behavior that is not governed by OpenCL C and C++.</p>
-</li>
-</ul>
-</div>
-<div style="page-break-after: always;"></div>
-<div class="sect2">
-<h3 id="diff2cxx"><a class="anchor" href="#diff2cxx"></a>2.1. Difference to C++</h3>
-<div class="paragraph">
-<p>C++ for OpenCL supports the majority of standard C++17 features,
-however, there are some differences that are documented in this section.</p>
-</div>
-<div class="sect3">
-<h4 id="_restrictions_to_c_features"><a class="anchor" href="#_restrictions_to_c_features"></a>2.1.1. Restrictions to C++ features</h4>
-<div class="paragraph">
-<p>The following C++ language features are not supported:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Virtual functions (C++17 <code>[class.virtual]</code>);</p>
-</li>
-<li>
-<p>References to functions (C++17 <code>[class.mfct]</code>);</p>
-</li>
-<li>
-<p>Pointers to class member functions (in addition to the regular non-member
-functions that are already restricted in OpenCL C);</p>
-</li>
-<li>
-<p>Exceptions (C++17 <code>[except]</code>);</p>
-</li>
-<li>
-<p><code>dynamic_cast</code> operator (C++17 <code>[expr.dynamic.cast]</code>);</p>
-</li>
-<li>
-<p>Non-placement <code>new</code>/<code>delete</code> operators (C++17
-<code>[expr.new]</code>/<code>[expr.delete]</code>);</p>
-</li>
-<li>
-<p><code>thread_local</code> storage class specifier (C++17 <code>[basic.stc.thread]</code>);</p>
-</li>
-<li>
-<p>Standard C++ libraries (C++17 <code>[library]</code>).</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Simultaneous initialization of static local objects performed by
-different work-items is not guaranteed to be free from race-conditions.
-Whether an implementation provides such a guarantee is indicated by the
-presence of the <code>__cpp_threadsafe_static_init</code> feature test
-macro<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup>.</p>
-</div>
-<div class="paragraph">
-<p>The list above only contains extra restrictions that are not detailed in OpenCL
-C. As OpenCL restricts a number of C features, the same restrictions are
-inherited by C++ for OpenCL. The detailed list of C feature restrictions
-is provided in <code>OpenCL C v2.0 section 6.9</code>.</p>
-</div>
-<div style="page-break-after: always;"></div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="diff2openclc"><a class="anchor" href="#diff2openclc"></a>2.2. Difference to OpenCL C</h3>
-<div class="paragraph">
-<p>C++ for OpenCL provides backwards compatibility with OpenCL C
-for the majority of features. However, there are a number of
-exceptions that are described in this section. Some of them come
-from the nature of C++ but others are due to improvements in OpenCL
-features. Most of such improvements do not invalidate old code,
-but simply provide extra functionality.</p>
-</div>
-<div class="sect3">
-<h4 id="_c_related_differences"><a class="anchor" href="#_c_related_differences"></a>2.2.1. C++ related differences</h4>
-<div class="paragraph">
-<p>C++ for OpenCL is a different language to OpenCL C and it is derived
-from C++ inheriting C++'s fundamental design principles. Hence
-C++ for OpenCL deviates from OpenCL C in the same areas where
-C++ deviates from C. This results in a more helpful language for
-developers and facilitates improvements in compilation tools without
-substantially increasing their complexity.</p>
-</div>
-<div class="sect4">
-<h5 id="_implicit_conversions"><a class="anchor" href="#_implicit_conversions"></a>2.2.1.1. Implicit conversions</h5>
-<div class="paragraph">
-<p>C++ is much stricter about conversions between types,
-especially those that are performed implicitly by the compiler.
-For example it is not possible to convert a <code>const</code> object
-to non-<code>const</code> implicitly. For details please refer to C++17 <code>[conv]</code>.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="c"><span class="directive">void</span> foo(){
-  <span class="directive">const</span> <span class="predefined-type">int</span> *ptrconst;
-  <span class="predefined-type">int</span> *ptr = ptrconst; <span class="comment">// invalid initialization discards const qualifier</span>
-}</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>The same applies to narrowing conversions in
-initialization lists (C++17 <code>[dcl.init.list]</code>).</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="c"><span class="keyword">struct</span> mytype {
- <span class="predefined-type">int</span> i;
-};
-<span class="directive">void</span> foo(uint par){
-  mytype var = {
-    .i = par <span class="comment">// narrowing from uint to int is disallowed</span>
-  };
-}</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Some compilers allow silencing this error using a flag
-(e.g. in Clang <code>-Wno-error=c++11-narrowing</code> can be used).</p>
-</div>
-<div class="paragraph">
-<p>Among other common conversions that will not be compiled in C++
-mode there are pointer to integer or integer to pointer
-type conversions.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="c"><span class="directive">void</span> foo(){
-  <span class="predefined-type">int</span> *ptr;
-  <span class="predefined-type">int</span> i = ptr; <span class="comment">// incompatible pointer to integer conversion</span>
-}</code></pre>
-</div>
-</div>
-</div>
-<div class="sect4">
-<h5 id="null_literal"><a class="anchor" href="#null_literal"></a>2.2.1.2. Null pointer constant</h5>
-<div class="paragraph">
-<p>In C and OpenCL C the null pointer constant is defined using other
-language features as it is not represented explicitly i.e.
-commonly it is defined as</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="c"><span class="preprocessor">#define</span> <span class="predefined-constant">NULL</span> ((<span class="directive">void</span>*)<span class="integer">0</span>)</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>In C++17 there is an explicit builtin pointer literal <code>nullptr</code> that should
-be used instead (C++17 <code>[lex.nullptr]</code>).</p>
-</div>
-<div class="paragraph">
-<p><code>NULL</code> macro definition in C++ for OpenCL follows C++17
-<code>[support.types.nullptr]</code> where it is an implementation defined macro and it
-is not guaranteed to be the same as in OpenCL C. Reusing the definition of
-<code>NULL</code> from OpenCL C does not guarantee that any code with NULL is legal in
-C++ for OpenCL even if it is legal in OpenCL C.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="c"><span class="preprocessor">#define</span> <span class="predefined-constant">NULL</span> ((<span class="directive">void</span>*)<span class="integer">0</span>)
-<span class="directive">void</span> foo(){
- <span class="predefined-type">int</span> *ptr = <span class="predefined-constant">NULL</span>; <span class="comment">// invalid initialization of int* with void*</span>
-}</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>To improve code portability and compatibility, implementations are
-encouraged to define <code>NULL</code> as an alias to pointer literal <code>nullptr</code>.</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_use_of_restrict"><a class="anchor" href="#_use_of_restrict"></a>2.2.1.3. Use of restrict</h5>
-<div class="paragraph">
-<p>C++17 does not support <code>restrict</code> and therefore C++ for OpenCL
-can not support it either. Some compilers might provide extensions
-with some functionality of <code>restrict</code> in C++, e.g. <code>__restrict</code>
-in Clang.</p>
-</div>
-<div class="paragraph">
-<p>This feature only affects optimizations and the source
-code can be modified by removing it. As a workaround to avoid manual
-modifications, macro substitutions can be used to either remove the
-keyword during the preprocessing by defining <code>restrict</code> as an empty
-macro or mapping it to another similar compiler features, e.g.
-<code>__restrict</code> in Clang. This can be done in headers or using <code>-D</code>
-compilation flag.</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_limitations_of_goto_statements"><a class="anchor" href="#_limitations_of_goto_statements"></a>2.2.1.4. Limitations of goto statements</h5>
-<div class="paragraph">
-<p>C++ is more restrictive with respect to entering the scope of
-variables than C. It is not possible to jump forward over a variable
-declaration statement apart from some exceptions detailed in C++17
-<code>[stmt.dcl]</code>.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="c"><span class="keyword">if</span> (cond)
-  <span class="keyword">goto</span> label;
-<span class="predefined-type">int</span> n = foo();
-<span class="label">label:</span>  <span class="comment">// invalid: jumping forward over declaration of n</span>
-   <span class="comment">// ...</span></code></pre>
-</div>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_ternary_selection_operator"><a class="anchor" href="#_ternary_selection_operator"></a>2.2.1.5. Ternary Selection Operator</h5>
-<div class="paragraph">
-<p>The ternary selection operator (<code>?:</code>) inherits its behaviour from both
-C++ and OpenCL C. It operates on three expressions
-<code>(exp1 ? exp2 : exp3)</code>. If all three expressions are scalar values,
-the C++17 rules for ternary operator are followed. If the result is
-a vector value, then this is equivalent to calling
-<code>select(exp3, exp2, exp1)</code> as described in <code>OpenCL C v2.0 s6.13.6</code>.
-The rules from OpenCL C impose limitation that <code>exp1</code> cannot be a
-vector of float values. However, <code>exp1</code> can be evaluated to a scalar
-float as it is contextually convertible to bool in C++.</p>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_opencl_specific_difference"><a class="anchor" href="#_opencl_specific_difference"></a>2.2.2. OpenCL specific difference</h4>
-<div class="paragraph">
-<p>This section describes where C++ for OpenCL differs from OpenCL C
-in OpenCL specific behavior.</p>
-</div>
-<div class="sect4">
-<h5 id="_variadic_macros"><a class="anchor" href="#_variadic_macros"></a>2.2.2.1. Variadic macros</h5>
-<div class="paragraph">
-<p>C++ for OpenCL eliminates the restriction on variadic macros from
-<code>OpenCL C v2.0 s6.9.e</code>.
-Variadic macros can be used normally as per C++17 <code>[cpp.replace]</code>.</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_predefined_macros"><a class="anchor" href="#_predefined_macros"></a>2.2.2.2. Predefined macros</h5>
-<div class="paragraph">
-<p>The macro <code>__OPENCL_C_VERSION__</code> described in <code>OpenCL C v2.0 s6.10</code>,
-is not defined.</p>
-</div>
-<div class="paragraph">
-<p>The following new predefined macros are added in C++ for OpenCL:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><code>__OPENCL_CPP_VERSION__</code> set to value <code>100</code>.</p>
-</li>
-<li>
-<p><code>__CL_CPP_VERSION_1_0__</code> also set to <code>100</code> and can be used for
-convenience instead of a literal.</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_atomic_operations"><a class="anchor" href="#_atomic_operations"></a>2.2.2.3. Atomic operations</h5>
-<div class="paragraph">
-<p>C++ for OpenCL relaxes restriction from <code>OpenCL C v2.0 s6.13.11</code> to
-atomic types allowing them to be used by builtin operators, and not
-only by builtin functions.</p>
-</div>
-<div class="paragraph">
-<p>Operators on atomic types behave as described in C++17
-sections <code>[atomics.types.int]</code> <code>[atomics.types.pointer]</code>
-<code>[atomics.types.float]</code>.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="c">atomic_int acnt;
-acnt++; <span class="comment">// equivalent to atomic_fetch_add(&amp;acnt, 1);</span></code></pre>
-</div>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_use_of_blocks"><a class="anchor" href="#_use_of_blocks"></a>2.2.2.4. Use of Blocks</h5>
-<div class="paragraph">
-<p>Blocks that are defined in <code>OpenCL C v2.0 s6.12</code> are not supported
-and their use can be replaced by lambdas (C++17 <code>[expr.prim.lambda]</code>).</p>
-</div>
-<div class="paragraph">
-<p>The above implies that builtin functions using blocks, such as <code>enqueue_kernel</code>,
-are not supported in C++ for OpenCL.</p>
-</div>
-<div style="page-break-after: always;"></div>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="address_space"><a class="anchor" href="#address_space"></a>2.3. Address spaces</h3>
-<div class="paragraph">
-<p>C++ for OpenCL inherits address space behavior from <code>OpenCL C v2.0 s6.5</code>.</p>
-</div>
-<div class="paragraph">
-<p>This section only documents behavior related to C++ features. For example
-conversion rules are extended from the qualification conversion C++17
-<code>[conv.qual]</code> but the compatibility is determined using notation of sets and
-overlapping of address spaces from <code>section 5.1.3</code> of <a href="#embedded-c-spec">The Embedded C Specification</a>. For OpenCL it means that implicit
-conversions are allowed from a named address space (except for <code>__constant</code>)
-to generic (<code>OpenCL C v2.0 6.5.5</code>). The reverse conversion is only allowed
-explicitly. The <code>__constant</code> address space does not overlap with any other
-and therefore no valid conversion between <code>__constant</code> and any other address
-space exists. Most of the rules follow this logic.</p>
-</div>
-<div class="sect3">
-<h4 id="_casts"><a class="anchor" href="#_casts"></a>2.3.1. Casts</h4>
-<div class="paragraph">
-<p>C-style casts follow rules of <code>OpenCL C v2.0 s6.5.5</code>. Conversions of
-pointers and references to the generic address space can be done by any C++ cast
-operator (as an implicit conversion); converting from generic to named address
-space can only be done using the dedicated <code>addrspace_cast</code> operator. The
-<code>addrspace_cast</code> operator can only convert between address spaces for pointers and references
-and no other conversions are allowed to occur. Note that conversions between
-<code>__constant</code> and any other other address space are disallowed.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="predefined-type">int</span> * genptr;
-__private <span class="predefined-type">float</span> * ptrfloat = <span class="keyword">reinterpret_cast</span>&lt;__private <span class="predefined-type">float</span>*&gt;(genptr); <span class="comment">// illegal.</span>
-__private <span class="predefined-type">float</span> * ptrfloat = addrspace_cast&lt;__private <span class="predefined-type">float</span>*&gt;(genptr); <span class="comment">// illegal.</span>
-__private <span class="predefined-type">int</span> * ptr = addrspace_cast&lt;__private <span class="predefined-type">int</span>*&gt;(genptr); <span class="comment">// legal.</span>
-<span class="predefined-type">float</span> * genptrfloat = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">float</span>*&gt;(ptr); <span class="comment">// legal.</span>
-__constant <span class="predefined-type">int</span> * constptr = addrspace_cast&lt;__constant <span class="predefined-type">int</span>*&gt;(genptr); <span class="comment">// illegal.</span></code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="references"><a class="anchor" href="#references"></a>2.3.2. References</h4>
-<div class="paragraph">
-<p>Reference types can be qualified with an address space.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp">__private <span class="predefined-type">int</span> &amp; ref = ...; <span class="comment">// references int in __private address space.</span></code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>By default references refer to generic address space objects, except
-for dependent types that are not template specializations (see
-<a href="#addrspace-deduction"><em>Deduction</em></a>). Address space compatibility checks
-are performed when references are bound to values. The logic follows the
-rules from address space pointer conversion (<code>OpenCL v2.0 s6.5.5</code>).</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="addrspace-deduction"><a class="anchor" href="#addrspace-deduction"></a>2.3.3. Deduction &amp; Default address space</h4>
-<div class="paragraph">
-<p>This section details what happens if address spaces for types are not
-provided in the source code explicitly. Most of the logic for address space
-deduction (i.e. default address space) follows rules from <code>OpenCL v2.0 s6.5</code>.</p>
-</div>
-<div class="paragraph">
-<p>References inherit rules from pointers and therefore refer to generic
-address space objects by default (see <a href="#references"><em>References</em></a>).</p>
-</div>
-<div class="paragraph">
-<p>Class static data members are deduced to <code>__global</code> address space.</p>
-</div>
-<div class="paragraph">
-<p>All non-static member functions take an implicit object parameter <code>this</code>
-that is a pointer type. By default the <code>this</code> pointer parameter is in the
-generic address space. All concrete objects passed as an argument to the
-implicit <code>this</code> parameter will be converted to the generic address
-space first if such conversion is valid. Therefore programs using objects
-in the <code>__constant</code> address space will not be compiled unless the address
-space is explicitly specified using address space qualifiers on member
-functions (see <a href="#addrspace-member-function-qualifiers"><em>Member function qualifier</em></a>) as the conversion between <code>__constant</code>
-and generic is disallowed. Member function qualifiers can also be used
-in case conversion to the generic address space is undesirable (even if
-it is legal). For example, a method can be implemented to exploit memory
-access coalescing for segments with memory bank. This not only applies
-to regular member functions but to constructors and destructors too.</p>
-</div>
-<div class="paragraph">
-<p>Address spaces are not deduced for:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>non-pointer/non-reference template parameters except for template
-specializations or non-type type based template parameters.</p>
-</li>
-<li>
-<p>non-pointer/non-reference class members except for static data members
-that are deduced to <code>__global</code> address space.</p>
-</li>
-<li>
-<p>non-pointer/non-reference type alias declarations.</p>
-</li>
-<li>
-<p>decltype expressions.</p>
-</li>
-</ul>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;
-<span class="directive">void</span> foo() {
-  T m; <span class="comment">// address space of 'm' will be known at template instantiation time.</span>
-  T * ptr; <span class="comment">// 'ptr' points to generic address space object.</span>
-  T &amp; ref = ...; <span class="comment">// 'ref' references an object in generic address space.</span>
-};
-
-<span class="keyword">template</span> &lt;<span class="predefined-type">int</span> N&gt;
-<span class="keyword">struct</span> S {
-  <span class="predefined-type">int</span> i; <span class="comment">// 'i' has no address space.</span>
-  <span class="directive">static</span> <span class="predefined-type">int</span> ii; <span class="comment">// 'ii' is in global address space.</span>
-  <span class="predefined-type">int</span> * ptr; <span class="comment">// 'ptr' points to int in generic address space.</span>
-  <span class="predefined-type">int</span> &amp; ref = ...; <span class="comment">// 'ref' references int in generic address space.</span>
-};
-
-<span class="keyword">template</span> &lt;<span class="predefined-type">int</span> N&gt;
-<span class="directive">void</span> bar()
-{
-  S&lt;N&gt; s; <span class="comment">// 's' is in __private address space.</span>
-}</code></pre>
-</div>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">struct</span> c1 {};
-<span class="directive">using</span> alias_c1 = c1; <span class="comment">// 'alias_c1' is 'c1'.</span>
-<span class="directive">using</span> alias_c1_ptr = c1 *; <span class="comment">// 'alias_c1_ptr' is a generic address space pointer to 'c1'.</span></code></pre>
-</div>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp">__kernel <span class="directive">void</span> foo()
-{
-  __local <span class="predefined-type">int</span> i;
-  <span class="directive">decltype</span>(i)* ii; <span class="comment">// type of 'ii' is '__local int *__private'.</span>
-}</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>For the placeholder type specifier <code>auto</code> an address space of the outer type is
-deduced as if it would be any other regular type. However if <code>auto</code> is used in a
-reference or pointer type, the address space of a pointee is taken from the type
-of the initialization expression. The logic follows rules for <code>const</code> and
-<code>volatile</code> qualifiers.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp">__kernel <span class="directive">void</span> foo()
-{
-  __local <span class="predefined-type">int</span> i;
-  <span class="directive">constexpr</span> <span class="predefined-type">int</span> c = <span class="integer">1</span>;
-
-  __constant <span class="directive">auto</span> cai = c; <span class="comment">// type of 'cai' is '__constant int' (no deduction).</span>
-
-  <span class="directive">auto</span> aii = cai; <span class="comment">// type of 'aii' is '__private int' (regular deduction).</span>
-
-  <span class="directive">auto</span> *ptr = &amp;i; <span class="comment">// type of 'ptr' is '__local int * __private'</span>
-                  <span class="comment">// (addr space of a pointer is deduced regularly,</span>
-                  <span class="comment">// addr space of its pointee is taken from 'i').</span>
-
-  <span class="directive">auto</span> *&amp;refptr = ptr; <span class="comment">// type of 'refptr' is '__local int * generic &amp; __private'</span>
-                       <span class="comment">// (addr space of a reference and type of referencing object</span>
-                       <span class="comment">// is deduced regularly,</span>
-                       <span class="comment">// addr space of a pointee is taken from the pointee of 'ptr').</span>
-}</code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="addrspace-member-function-qualifiers"><a class="anchor" href="#addrspace-member-function-qualifiers"></a>2.3.4. Member function qualifier</h4>
-<div class="paragraph">
-<p>C++ for OpenCL allows specifying an address space qualifier on member
-functions to signal that they are to be used with objects constructed
-in a specific address space. This works just the same as qualifying
-member functions with <code>const</code> or any other qualifiers. The overloading
-resolution will select the candidate with the most specific address
-space if multiple candidates are provided. If there is no conversion
-to an address space among candidates, compilation will fail with a
-diagnostic.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">struct</span> C {
-  <span class="directive">void</span> foo() __local;
-  <span class="directive">void</span> foo();
-};
-
-__kernel <span class="directive">void</span> bar() {
-  __local C c1;
-  __private C c2;
-  __constant C c3;
-  c1.foo(); <span class="comment">// will resolve to the first 'foo'.</span>
-  c2.foo(); <span class="comment">// will resolve to the second 'foo'.</span>
-  c3.foo(); <span class="comment">// error due to mismatching address spaces - can't convert to</span>
-            <span class="comment">// '__local' or generic addr spaces.</span>
-}</code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_lambda_function"><a class="anchor" href="#_lambda_function"></a>2.3.5. Lambda function</h4>
-<div class="paragraph">
-<p>The address space qualifier can be optionally added for lambda
-expressions after the attributes. Similar to method qualifiers,
-they will alter the default address space of lambda call operator
-that has generic address space by default.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp">__kernel <span class="directive">void</span> foo() {
-  <span class="directive">auto</span> priv1 = []() __private {};
-  priv1();
-  <span class="directive">auto</span> priv2 = []() __global {};
-  priv2(); <span class="comment">// error: lambda object and its expression have mismatching address space.</span>
-  __constant <span class="directive">auto</span> const3 = []() __constant{};
-  const3();
-
-  [&amp;] () __global {} (); <span class="comment">// error: lambda temporary is in __private address space.</span>
-
-  [&amp;] () <span class="directive">mutable</span> __private {} ();
-  [&amp;] () __private <span class="directive">mutable</span> {} (); <span class="comment">// error: mutable specifier should precede address space.</span>
-}</code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_implicit_special_members"><a class="anchor" href="#_implicit_special_members"></a>2.3.6. Implicit special members</h4>
-<div class="paragraph">
-<p>The prototype for implicit special members (default, copy or move constructor,
-copy or move assignment, destructor) has the generic address space for an implicit
-object pointer and reference parameters (see also
-<a href="#addrspace-member-function-qualifiers"><em>Member function qualifier</em></a>).</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">class</span> <span class="class">C</span> {
-  <span class="comment">// Has the following implicitly defined member functions.</span>
-
-  <span class="comment">// void C(); /* implicit 'this' parameter is a pointer to */</span>
-               <span class="comment">/* object in generic address space. */</span>
-
-  <span class="comment">// void C(const C &amp; par); /* 'this'/'par' is a pointer/reference to */</span>
-                            <span class="comment">/*  object in generic address space. */</span>
-
-  <span class="comment">// void C(C &amp;&amp; par); /* 'this'/'par' is a pointer/r-val reference to */</span>
-                       <span class="comment">/* object in generic address space. */</span>
-
-  <span class="comment">// operator= C &amp;(const C &amp; par); /* 'this'/'par'/return value is */</span>
-                                   <span class="comment">/* a pointer/reference/reference to */</span>
-                                   <span class="comment">/* object in generic address space. */</span>
-
-  <span class="comment">// operator= C &amp;(C &amp;&amp; par)'; /* 'this'/'par'/return value is */</span>
-                               <span class="comment">/* a pointer/r-val reference/reference to */</span>
-                               <span class="comment">/* object in generic address space. */</span>
-};</code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_builtin_operators"><a class="anchor" href="#_builtin_operators"></a>2.3.7. Builtin operators</h4>
-<div class="paragraph">
-<p>All builtin operators are available in the specific named address spaces, thus
-no conversion to generic address space is performed.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_templates"><a class="anchor" href="#_templates"></a>2.3.8. Templates</h4>
-<div class="paragraph">
-<p>There is no deduction of address spaces in non-pointer/non-reference
-template parameters and dependent types (see <a href="#addrspace-deduction"><em>Deduction</em></a>). The address space of a template parameter is deduced
-during type deduction if it is not explicitly provided in the
-instantiation.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;
-<span class="directive">void</span> foo(T* i){
-  T var;
- }
-
- __global <span class="predefined-type">int</span> g;
-<span class="directive">void</span> bar(){
-  foo(&amp;g); <span class="comment">// error: template instantiation failed as function scope variable 'var'</span>
-           <span class="comment">// appears to be declared in __global address space (see line 3).</span>
-}</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>It is not legal to specify multiple different address spaces between
-template definition and instantiation. If multiple different address
-spaces are specified in a template definition and instantiation,
-compilation of such a program will fail with a diagnostic.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;
-<span class="directive">void</span> foo() {
-  __private T var;
-}
-
-<span class="directive">void</span> bar() {
-  foo&lt;__global <span class="predefined-type">int</span>&gt;(); <span class="comment">// error: conflicting address space qualifiers are provided</span>
-                       <span class="comment">// for 'var', '__global' and '__private'.</span>
-}</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Once a template has been instantiated, regular restrictions for
-address spaces will apply.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;
-<span class="directive">void</span> foo(){
-  T var;
-}
-
-<span class="directive">void</span> bar(){
-  foo&lt;__global <span class="predefined-type">int</span>&gt;(); <span class="comment">// error: function scope variable 'var' cannot be declared</span>
-                       <span class="comment">// in '__global' address space.</span>
-}</code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_temporary_materialization"><a class="anchor" href="#_temporary_materialization"></a>2.3.9. Temporary materialization</h4>
-<div class="paragraph">
-<p>All temporaries are materialized in <code>__private</code> address space. If a reference
-with another address space is bound to them, a conversion will be generated
-in case it is valid, otherwise compilation will fail with a diagnostic.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="predefined-type">int</span> bar(<span class="directive">const</span> <span class="predefined-type">unsigned</span> <span class="predefined-type">int</span> &amp;i);
-
-<span class="directive">void</span> foo() {
-  bar(<span class="integer">1</span>); <span class="comment">// temporary is created in __private address space but converted</span>
-          <span class="comment">// to generic address space of parameter reference.</span>
-}
-
-__global <span class="directive">const</span> <span class="predefined-type">int</span>&amp; f(__global <span class="predefined-type">float</span> &amp;ref) {
-  <span class="keyword">return</span> ref; <span class="comment">// error: address space mismatch between temporary object</span>
-              <span class="comment">// created to hold value converted float-&gt;int and return</span>
-              <span class="comment">// value type (can't convert from __private to __global).</span>
-}</code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_construction_initialization_and_destruction"><a class="anchor" href="#_construction_initialization_and_destruction"></a>2.3.10. Construction, initialization and destruction</h4>
-<div class="paragraph">
-<p>Construction, initialization and destruction of objects in <code>__private</code>
-and <code>__global</code> address space follow the general principles of C++. For
-program scope objects or static objects in the function scope with non-trivial
-constructors and destructors, the implementation defines an ABI format for
-runtime initialization and destruction of global objects before/after all
-kernels are enqueued.</p>
-</div>
-<div class="paragraph">
-<p>Non-trivial destructors for global objects are not required to be supported
-by all implementations. The macro <code>__opencl_cpp_global_destructor</code>,
-which is defined if and only if such destructors are supported by the implementation,
-can be used to check whether this functionality is available when compiling kernel code.</p>
-</div>
-<div class="paragraph">
-<p>Objects in <code>__local</code> address space can not have initializers in
-declarations and therefore a constructor can not be called. All objects
-created in the local address space have undefined state at the point of
-their declaration. Developers are free to define a special member function
-that can initialize local address space objects after their declaration. Any
-default values provided for the initialization of members in a class
-declaration are ignored when creating the local address space objects. Since
-the initialization is performed after the variable declaration, special handling
-is required for classes with data members that are references because their values
-can not be overwritten trivially. Destructors of local address space objects
-are not invoked automatically. They can be called manually.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">class</span> <span class="class">C</span> {
-  <span class="predefined-type">int</span> m;
-};
-
-kernel <span class="directive">void</span> foo() {
-  __local C locobj{}; <span class="comment">// error: local address space objects can't be initialized</span>
-  __local C locobj; <span class="comment">// uninitialised object</span>
-  locobj = {}; <span class="comment">// calling copy assignment operator is allowed</span>
-  locobj.~C(); <span class="comment">// local address space object destructors are not invoked automatically.</span>
-}</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>User defined constructors are not allowed to construct objects in <code>__constant</code>
-address space. Such objects can be initialized using literals and
-initialization lists if they do not require any user defined conversions.</p>
-</div>
-<div class="paragraph">
-<p>Objects in <code>__constant</code> address space can be initialized using:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Literal expressions;</p>
-</li>
-<li>
-<p>Uniform initialization syntax <code>{}</code>;</p>
-</li>
-<li>
-<p>Using implicit constructors.</p>
-</li>
-</ul>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">struct</span> C1 {
-  <span class="predefined-type">int</span> m;
-};
-
-<span class="keyword">struct</span> C2 {
-  <span class="predefined-type">int</span> m;
-  C2(<span class="predefined-type">int</span> init) __constant {};
-};
-
-kernel <span class="directive">void</span> k() {
-  __constant C1 cobj1 = {<span class="integer">1</span>};
-  __constant C1 cobj2 = C1();
-  __constant C2 cobj3 = {<span class="integer">1</span>}; <span class="comment">// error: user defined constructor can't be used</span>
-}</code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_nested_pointers"><a class="anchor" href="#_nested_pointers"></a>2.3.11. Nested pointers</h4>
-<div class="paragraph">
-<p>C++ for OpenCL does not allow implicit address space conversions in nested
-pointers even with compatible address spaces. The following rules apply
-when converting between address spaces in nested pointers:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Implicit conversions of address spaces in nested pointers are disallowed.</p>
-</li>
-<li>
-<p>Any address space conversion in nested pointers with safe casts (e.g.
-<code>const_cast</code>, <code>static_cast</code>, <code>addrspace_cast</code>) is disallowed.</p>
-</li>
-<li>
-<p>Any address space conversion in nested pointers can be done using low level
-C-style or <code>reinterpret_cast</code>. No compatibility check is performed for
-address spaces in nested pointers.</p>
-</li>
-</ul>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp">local <span class="predefined-type">int</span> * * locgenptr;
-constant <span class="predefined-type">int</span> * * cnstgenptr;
-<span class="predefined-type">int</span> * * gengenptr;
-gengenptr = <span class="keyword">const_cast</span>&lt;<span class="predefined-type">int</span>**&gt;(locgenptr); <span class="comment">// illegal.</span>
-gengenptr = <span class="keyword">static_cast</span>&lt;<span class="predefined-type">int</span>**&gt;(cnstgenptr); <span class="comment">// illegal.</span>
-gengenptr = addrspace_cast&lt;<span class="predefined-type">int</span>**&gt;(cnstgenptr); <span class="comment">// illegal.</span>
-gengenptr = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">int</span>**&gt;(locgenptr); <span class="comment">// legal.</span>
-gengenptr = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">int</span>**&gt;(cnstgenptr); <span class="comment">// legal.</span></code></pre>
-</div>
-</div>
-<div style="page-break-after: always;"></div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="cxxcasts"><a class="anchor" href="#cxxcasts"></a>2.4. C++ casts</h3>
-<div class="paragraph">
-<p>C++ has 3 casts in addition to C-style casts. <code>static_cast</code> and <code>const_cast</code>
-function the same way as in C++, but <code>reinterpret_cast</code> has some additional
-functionality:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Conversion between vectors and scalars are allowed.</p>
-</li>
-<li>
-<p>Conversion between OpenCL types are disallowed.</p>
-</li>
-</ul>
-</div>
-<div class="sect3">
-<h4 id="_vectors_and_scalars"><a class="anchor" href="#_vectors_and_scalars"></a>2.4.1. Vectors and scalars</h4>
-<div class="paragraph">
-<p><code>reinterpret_cast</code> reinterprets between integral types like integers and
-pointers. In C++ for openCL this also includes vector types, and so using
-<code>reinterpret_cast</code> between vectors and scalars is also possible, as long as the
-size of the vectors are the same.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp"><span class="predefined-type">int</span> i;
-short2 s2 = <span class="keyword">reinterpret_cast</span>&lt;short2&gt;(i); <span class="comment">// legal.</span>
-int2 i2 = <span class="keyword">reinterpret_cast</span>&lt;int2&gt;(i); <span class="comment">// illegal.</span>
-
-short8 s8;
-int4 i4 = <span class="keyword">reinterpret_cast</span>&lt;int4&gt;(s8); <span class="comment">// legal.</span>
-<span class="predefined-type">long</span> l4 = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">long</span>&gt;(s8); <span class="comment">// illegal.</span></code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_opencl_types"><a class="anchor" href="#_opencl_types"></a>2.4.2. OpenCL types</h4>
-<div class="paragraph">
-<p>Some of the OpenCL types are the same size as integers, or can be implemented as
-integers, but since they are not conceptually integral, they can not be used
-with <code>reinterpret_cast</code>. Therefore these are all illegal conversions:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="cpp">reserve_id_t id;
-reserve_id_t id2 = <span class="keyword">reinterpret_cast</span>&lt;reserve_id_t&gt;(id); <span class="comment">// illegal.</span>
-<span class="predefined-type">int</span> i = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">int</span>&gt;(r); <span class="comment">// illegal.</span>
-<span class="predefined-type">long</span> l = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">long</span>&gt;(r); <span class="comment">// illegal.</span></code></pre>
-</div>
-</div>
-<div style="page-break-after: always;"></div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="kernel_function"><a class="anchor" href="#kernel_function"></a>2.5. Kernel functions</h3>
-<div class="paragraph">
-<p>Kernel functions have implicit C linkage (C++17 <code>[dcl.link]</code>) which
-means that C++ specific features are not supported. Therefore, the kernel
-functions:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Can not be class members (C++17 <code>[class.mfct]</code>);</p>
-</li>
-<li>
-<p>Can not be overloaded (C++17 <code>[over]</code>);</p>
-</li>
-<li>
-<p>Can not be function templates (C++17 <code>[temp.fct]</code>).</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Moreover the types used in parameters of the kernel functions must be:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Trivial and standard-layout types C++17 <code>[basic.types]</code> (plain old data
-types) for parameters passed by value;</p>
-</li>
-<li>
-<p>Standard layout types for pointer parameters. The same applies to
-references<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> if an implementation supports them in kernel
-parameters.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>These are additional restrictions to the list detailed in <code>OpenCL C v2.0
-section 6.9</code>.</p>
-</div>
-<div style="page-break-after: always;"></div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_normative_references"><a class="anchor" href="#_normative_references"></a>3. Normative References</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a id="opencl-spec"></a> &#8220;The OpenCL Specification, Version 2.0&#8221;,
-<a href="https://www.khronos.org/registry/OpenCL/" class="bare">https://www.khronos.org/registry/OpenCL/</a>.</p>
-</li>
-<li>
-<p><a id="openclc-spec"></a> &#8220;The OpenCL C Specification, Version 2.0&#8221;,
-<a href="https://www.khronos.org/registry/OpenCL/" class="bare">https://www.khronos.org/registry/OpenCL/</a>.</p>
-</li>
-<li>
-<p><a id="cpp17-spec"></a> &#8220;ISO/IEC 14882:2017 - Programming languages — C++&#8221;,
-<a href="https://www.iso.org/standard/68564.html" class="bare">https://www.iso.org/standard/68564.html</a>.
-References are to sections of this specific version, referred to as the
-&#8220;The C++17 Specification&#8221;, although other versions exist.</p>
-</li>
-<li>
-<p><a id="embedded-c-spec"></a> &#8220;ISO/IEC TR 18037:2008 Programming languages -
-C - Extensions to support embedded processors&#8221;,
-<a href="https://www.iso.org/standard/51126.html" class="bare">https://www.iso.org/standard/51126.html</a>.
-References are to sections of this specific version, referred to as the
-&#8220;The Embedded C Specification&#8221;, although other versions exist.</p>
-</li>
-</ol>
-</div>
-<div style="page-break-after: always;"></div>
-<h2 id="acknowledgements" class="float">Acknowledgements</h2>
-<div class="paragraph">
-<p>The C++ for OpenCL documentation is the result of the contributions of
-many people. Following is a partial list of the contributors, including
-the company that they represented at the time of their contribution:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Anastasia Stulova, Arm</p>
-</li>
-<li>
-<p>Neil Hickey, Arm</p>
-</li>
-<li>
-<p>Sven van Haastregt, Arm</p>
-</li>
-<li>
-<p>Marco Antognini, Arm</p>
-</li>
-<li>
-<p>Kevin Petit, Arm</p>
-</li>
-<li>
-<p>Stuart Brady, Arm</p>
-</li>
-<li>
-<p>Ole Strøhm, Arm</p>
-</li>
-<li>
-<p>Justas Janickas, Arm</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div id="footnotes">
-<hr>
-<div class="footnote" id="_footnotedef_1">
-<a href="#_footnoteref_1">1</a>. The macro belongs to the list of C++20&#8217;s feature test macros.
-</div>
-<div class="footnote" id="_footnotedef_2">
-<a href="#_footnoteref_2">2</a>. Whether C++ features (e.g references) can be used in functions with C linkage is implementation-defined (C++17 [dcl.link]).
-</div>
-</div>
-<div id="footer">
-<div id="footer-text">
-Last updated 2021-09-09 13:38:25 +0100
-</div>
-</div>
 <style>
 /* Stylesheet for CodeRay to match GitHub theme | MIT License | http://foundation.zurb.com */
 pre.CodeRay{background:#f7f7f8}
@@ -1937,7 +832,1413 @@ table.CodeRay td.code{padding:0 0 0 .75em}
 .CodeRay .change .change{color:#66f}
 .CodeRay .head .head{color:#f4f}
 </style>
+<link rel="stylesheet" href="../katex/katex.min.css">
+<script src="../katex/katex.min.js"></script>
+<script src="../katex/contrib/auto-render.min.js"></script>
+    <!-- Use KaTeX to render math once document is loaded, see
+         https://github.com/Khan/KaTeX/tree/master/contrib/auto-render -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        renderMathInElement(
+            document.body,
+            {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true},
+                    { left: "\\[", right: "\\]", display: true},
+                    { left: "$", right: "$", display: false},
+                    { left: "\\(", right: "\\)", display: false}
+                ]
+            }
+        );
+    });
+</script></head>
+<body class="book toc2 toc-left">
+<div id="header" style="max-width: 100;">
+<h1>The C++ for OpenCL 1.0 and 2021 Programming Language Documentation</h1>
+<div class="details">
+<span id="author" class="author">Khronos<sup>&#174;</sup> OpenCL Working Group</span><br>
+<span id="revnumber">version DocRev2021.12,</span>
+<span id="revdate">Mon, 20 Dec 2021 15:54:44 +0000</span>
+<br><span id="revremark">from git branch:  commit: 3d36d9309228ef507d87b850a81e02d801fa7b05 tag: cxxforopencl-docrev2021.12</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#intro">1. Introduction</a></li>
+<li><a href="#_version_differences">2. Version differences</a></li>
+<li><a href="#_the_c_for_opencl_programming_language">3. The C++ for OpenCL Programming Language</a>
+<ul class="sectlevel2">
+<li><a href="#diff2cxx">3.1. Difference to C++</a>
+<ul class="sectlevel3">
+<li><a href="#_restrictions_to_c_features">3.1.1. Restrictions to C++ features</a></li>
+</ul>
+</li>
+<li><a href="#diff2openclc">3.2. Difference to OpenCL C</a>
+<ul class="sectlevel3">
+<li><a href="#_c_related_differences">3.2.1. C++ related differences</a>
+<ul class="sectlevel4">
+<li><a href="#_implicit_conversions">3.2.1.1. Implicit conversions</a></li>
+<li><a href="#null_literal">3.2.1.2. Null pointer constant</a></li>
+<li><a href="#_use_of_restrict">3.2.1.3. Use of restrict</a></li>
+<li><a href="#_limitations_of_goto_statements">3.2.1.4. Limitations of goto statements</a></li>
+<li><a href="#_ternary_selection_operator">3.2.1.5. Ternary selection operator</a></li>
+</ul>
+</li>
+<li><a href="#_opencl_specific_difference">3.2.2. OpenCL specific difference</a>
+<ul class="sectlevel4">
+<li><a href="#_variadic_macros">3.2.2.1. Variadic macros</a></li>
+<li><a href="#_predefined_macros">3.2.2.2. Predefined macros</a></li>
+<li><a href="#_atomic_operations">3.2.2.3. Atomic operations</a></li>
+<li><a href="#_use_of_blocks">3.2.2.4. Use of Blocks</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#address_space">3.3. Address spaces</a>
+<ul class="sectlevel3">
+<li><a href="#address_space_casts">3.3.1. Casts</a></li>
+<li><a href="#references">3.3.2. References</a></li>
+<li><a href="#addrspace-deduction">3.3.3. Address space inference</a></li>
+<li><a href="#addrspace-member-function-qualifiers">3.3.4. Member function qualifier</a></li>
+<li><a href="#_lambda_function">3.3.5. Lambda function</a></li>
+<li><a href="#_implicit_special_members">3.3.6. Implicit special members</a></li>
+<li><a href="#_builtin_operators">3.3.7. Builtin operators</a></li>
+<li><a href="#_templates">3.3.8. Templates</a></li>
+<li><a href="#_temporary_materialization">3.3.9. Temporary materialization</a></li>
+<li><a href="#_construction_initialization_and_destruction">3.3.10. Construction, initialization and destruction</a></li>
+<li><a href="#_nested_pointers">3.3.11. Nested pointers</a></li>
+<li><a href="#remove-addrspace">3.3.12. Address space removal type trait</a></li>
+</ul>
+</li>
+<li><a href="#cxxcasts">3.4. C++ casts</a>
+<ul class="sectlevel3">
+<li><a href="#_vectors_and_scalars">3.4.1. Vectors and scalars</a></li>
+<li><a href="#_opencl_types">3.4.2. OpenCL types</a></li>
+</ul>
+</li>
+<li><a href="#kernel_function">3.5. Kernel functions</a></li>
+</ul>
+</li>
+<li><a href="#_normative_references">4. Normative References</a></li>
+</ul>
+</div>
+</div>
+<div id="content" style="max-width: 100;">
+<div id="preamble">
+<div class="sectionbody">
+<div style="page-break-after: always;"></div>
+<div class="paragraph">
+<p>Copyright 2019-2021 The Khronos Group.</p>
+</div>
+<div class="paragraph">
+<p>Khronos licenses this file to you under the Creative Commons Attribution 4.0
+International (CC BY 4.0) License (the "License"); you may not use this file
+except in compliance with the License.  You may obtain a copy of the License
+at <a href="https://creativecommons.org/licenses/by/4.0/" class="bare">https://creativecommons.org/licenses/by/4.0/</a></p>
+</div>
+<div class="paragraph">
+<p>Unless required by applicable law or agreed to in writing, material distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. If all or a portion of this
+material is re-used, notice substantially similar to the following must be included:</p>
+</div>
+<div class="paragraph">
+<p>This documentation includes material developed at The Khronos Group
+(<a href="http://www.khronos.org/" class="bare">http://www.khronos.org/</a>). Khronos supplied such material on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, under
+the terms of the Creative Commons Attribution 4.0 International (CC BY 4.0)
+License (the "License"), available at <a href="https://creativecommons.org/licenses/by/4.0/" class="bare">https://creativecommons.org/licenses/by/4.0/</a>.
+All use of such material is governed by the term of the License. Khronos bears
+no responsibility whatsoever for additions or modifications to its material.</p>
+</div>
+<div class="paragraph">
+<p>Khronos is a registered trademark, and OpenCL is a trademark of Apple Inc.
+and used under license by Khronos. All other product names, trademarks, and/or
+company names are used solely for identification and belong to their respective
+owners.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="intro"><a class="anchor" href="#intro"></a>1. Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This language is built on top of OpenCL C 3.0 unified and C++17 enabling
+most of regular C++ features in OpenCL kernel code. Most functionality
+from C++ and OpenCL C is inherited. Since both OpenCL C and C++ are
+derived from C and moreover C++ is almost fully backward compatible with C,
+the main design principle of C++ for OpenCL is to reapply existing OpenCL
+concepts to C++. Therefore, it is important to refer to
+<a href="#opencl-spec">The OpenCL Specification, Version 3.0</a> <code>section
+3.2</code> and <code>section 3.3</code> detailing fundamental differences of OpenCL execution
+and memory models from the conventional C and C++ view.</p>
+</div>
+<div class="paragraph">
+<p>This document describes the programming language in detail. It is not
+structured as a standalone document, but rather as an addition to OpenCL C
+3.0 unified specification defined in <a href="#openclc-spec">The OpenCL C Specification,
+Version 3.0</a> and C++17 defined in <a href="#cpp17-spec">The C++17 Specification</a>.
+Where necessary this document refers to the specifications of those languages
+accordingly. A full understanding of C++ for OpenCL requires familiarity with
+the specifications or other documentation of both languages that C++ for OpenCL
+is built upon.</p>
+</div>
+<div class="paragraph">
+<p>The description of C++ for OpenCL starts from highlighting <a href="#diff2openclc"><em>the differences to OpenCL C</em></a> and <a href="#diff2cxx"><em>the differences to C++</em></a>.</p>
+</div>
+<div class="paragraph">
+<p>The majority of content covers the behavior that is not documented in
+the <code>OpenCL C 3.0 s6</code> and C++17 specifications. This is mainly
+related to interactions between OpenCL and C++ language features.</p>
+</div>
+<div class="paragraph">
+<p>This document describes C++ for OpenCL language</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>version 1.0 that is backward compatible with OpenCL 2.0; and</p>
+</li>
+<li>
+<p>version 2021 that is backward compatible with OpenCL 3.0.</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>C++ for OpenCL 2021 is described in this document as a provisional language
+version. While no large changes are envisioned in the future, some minor
+aspects might not remain identical in its final release.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_version_differences"><a class="anchor" href="#_version_differences"></a>2. Version differences</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The main difference between C++ for OpenCL version 1.0 and version 2021
+comes from the difference between OpenCL 2.0 and OpenCL 3.0 with which they
+are respectively compatible. Support for some features of C++ for OpenCL 1.0
+has become optional as described in <code>OpenCL 3.0 s6.2.1</code>. Predefined feature
+macros from OpenCL C 3.0 can be used to detect which optional features are present.</p>
+</div>
+<div class="paragraph">
+<p>This impacts some C++ specific semantics mainly due to optionality of the
+generic address space (i.e. <code>__opencl_c_generic_address_space</code> feature) or
+program scope variables (i.e. <code>__opencl_c_program_scope_global_variables</code>
+feature).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_c_for_opencl_programming_language"><a class="anchor" href="#_the_c_for_opencl_programming_language"></a>3. The C++ for OpenCL Programming Language</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This programming language inherits features from <code>OpenCL C 3.0 s6</code> as well
+as C++17. Detailed aspects of OpenCL and C++ are not described in this
+document as they can be found in their official specifications.</p>
+</div>
+<div class="paragraph">
+<p>This section documents various language features of C++ for OpenCL that are
+not covered in neither OpenCL nor C++ specifications, in particular:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>any behavior that deviates from C++17;</p>
+</li>
+<li>
+<p>any behavior that deviates from OpenCL C 2.0 or 3.0;</p>
+</li>
+<li>
+<p>any behavior that is not governed by OpenCL C and C++.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>All language extensions to OpenCL C are applicable to C++ for OpenCL.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Extensions to OpenCL C 2.0 or earlier versions apply to C++ for OpenCL
+version 1.0.</p>
+</li>
+<li>
+<p>Extensions to OpenCL C 3.0 or earlier versions except for OpenCL C 2.0,
+apply to C++ for OpenCL 2021.</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="sect2">
+<h3 id="diff2cxx"><a class="anchor" href="#diff2cxx"></a>3.1. Difference to C++</h3>
+<div class="paragraph">
+<p>C++ for OpenCL supports the majority of standard C++17 features,
+however, there are some differences that are documented in this section.</p>
+</div>
+<div class="sect3">
+<h4 id="_restrictions_to_c_features"><a class="anchor" href="#_restrictions_to_c_features"></a>3.1.1. Restrictions to C++ features</h4>
+<div class="paragraph">
+<p>The following C++ language features are not supported:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Virtual functions (C++17 <code>[class.virtual]</code>);</p>
+</li>
+<li>
+<p>References to functions (C++17 <code>[class.mfct]</code>);</p>
+</li>
+<li>
+<p>Pointers to class member functions (in addition to the regular non-member
+functions that are already restricted in OpenCL C);</p>
+</li>
+<li>
+<p>Exceptions (C++17 <code>[except]</code>);</p>
+</li>
+<li>
+<p><code>dynamic_cast</code> operator (C++17 <code>[expr.dynamic.cast]</code>);</p>
+</li>
+<li>
+<p>Non-placement <code>new</code>/<code>delete</code> operators (C++17
+<code>[expr.new]</code>/<code>[expr.delete]</code>);</p>
+</li>
+<li>
+<p><code>thread_local</code> storage class specifier (C++17 <code>[basic.stc.thread]</code>);</p>
+</li>
+<li>
+<p>Standard C++ libraries (C++17 <code>[library]</code>).</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Simultaneous initialization of static local objects performed by
+different work-items is not guaranteed to be free from race-conditions.
+Whether an implementation provides such a guarantee is indicated by the
+presence of the <code>__cpp_threadsafe_static_init</code> feature test
+macro<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup>.</p>
+</div>
+<div class="paragraph">
+<p>The list above only contains extra restrictions that are not detailed in OpenCL
+C specification. As OpenCL restricts a number of C features, the same restrictions
+are inherited by C++ for OpenCL. The detailed list of C feature restrictions
+is provided in <code>OpenCL C 3.0 s6.11</code>.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="diff2openclc"><a class="anchor" href="#diff2openclc"></a>3.2. Difference to OpenCL C</h3>
+<div class="paragraph">
+<p>C++ for OpenCL provides backwards compatibility with OpenCL C
+for the majority of features. However, there are a number of
+exceptions that are described in this section. Some of them come
+from the nature of C++ but others are due to improvements in OpenCL
+features. Most of such improvements do not invalidate code written in
+OpenCL C, but simply provide extra functionality.</p>
+</div>
+<div class="sect3">
+<h4 id="_c_related_differences"><a class="anchor" href="#_c_related_differences"></a>3.2.1. C++ related differences</h4>
+<div class="paragraph">
+<p>C++ for OpenCL is a different language to OpenCL C and it is derived
+from C++ inheriting C++'s fundamental design principles. Hence
+C++ for OpenCL deviates from OpenCL C in the same areas where
+C++ deviates from C. This results in a more helpful language for
+developers and facilitates improvements in compilation tools without
+substantially increasing their complexity.</p>
+</div>
+<div class="sect4">
+<h5 id="_implicit_conversions"><a class="anchor" href="#_implicit_conversions"></a>3.2.1.1. Implicit conversions</h5>
+<div class="paragraph">
+<p>C++ is much stricter about conversions between types,
+especially those that are performed implicitly by the compiler.
+For example it is not possible to convert a <code>const</code> object
+to non-<code>const</code> implicitly. For details please refer to C++17 <code>[conv]</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="c"><span class="directive">void</span> foo(){
+  <span class="directive">const</span> <span class="predefined-type">int</span> *ptrconst;
+  <span class="predefined-type">int</span> *ptr = ptrconst; <span class="comment">// invalid initialization discards const qualifier.</span>
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The same applies to narrowing conversions in
+initialization lists (C++17 <code>[dcl.init.list]</code>).</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="c"><span class="keyword">struct</span> mytype {
+ <span class="predefined-type">int</span> i;
+};
+<span class="directive">void</span> foo(uint par){
+  mytype var = {
+    .i = par <span class="comment">// narrowing from uint to int is disallowed.</span>
+  };
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Some compilers allow silencing this error using a flag
+(e.g. in Clang <code>-Wno-error=c++11-narrowing</code> can be used).</p>
+</div>
+<div class="paragraph">
+<p>Among other common conversions that will not be compiled in C++
+mode there are pointer to integer or integer to pointer
+type conversions.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="c"><span class="directive">void</span> foo(){
+  <span class="predefined-type">int</span> *ptr;
+  <span class="predefined-type">int</span> i = ptr; <span class="comment">// incompatible pointer to integer conversion.</span>
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="null_literal"><a class="anchor" href="#null_literal"></a>3.2.1.2. Null pointer constant</h5>
+<div class="paragraph">
+<p>In C and OpenCL C the null pointer constant is defined using other
+language features as it is not represented explicitly i.e.
+commonly it is defined as</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="c"><span class="preprocessor">#define</span> <span class="predefined-constant">NULL</span> ((<span class="directive">void</span>*)<span class="integer">0</span>)</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In C++17 there is an explicit builtin pointer literal <code>nullptr</code> that should
+be used instead (C++17 <code>[lex.nullptr]</code>).</p>
+</div>
+<div class="paragraph">
+<p><code>NULL</code> macro definition in C++ for OpenCL follows C++17
+<code>[support.types.nullptr]</code> where it is an implementation defined macro and it
+is not guaranteed to be the same as in OpenCL C. Reusing the definition of
+<code>NULL</code> from OpenCL C does not guarantee that any code with NULL is legal in
+C++ for OpenCL even if it is legal in OpenCL C.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="c"><span class="preprocessor">#define</span> <span class="predefined-constant">NULL</span> ((<span class="directive">void</span>*)<span class="integer">0</span>)
+<span class="directive">void</span> foo(){
+ <span class="predefined-type">int</span> *ptr = <span class="predefined-constant">NULL</span>; <span class="comment">// invalid initialization of int* with void*.</span>
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To improve code portability and compatibility, implementations are
+encouraged to define <code>NULL</code> as an alias to pointer literal <code>nullptr</code>.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_use_of_restrict"><a class="anchor" href="#_use_of_restrict"></a>3.2.1.3. Use of restrict</h5>
+<div class="paragraph">
+<p>C++17 does not support <code>restrict</code> and therefore C++ for OpenCL
+can not support it either. Some compilers might provide extensions
+with some functionality of <code>restrict</code> in C++, e.g. <code>__restrict</code>
+in Clang.</p>
+</div>
+<div class="paragraph">
+<p>This feature only affects optimizations and the source
+code can be modified by removing it. As a workaround to avoid manual
+modifications, macro substitutions can be used to either remove the
+keyword during the preprocessing by defining <code>restrict</code> as an empty
+macro or mapping it to another similar compiler features, e.g.
+<code>__restrict</code> in Clang. This can be done in headers or using <code>-D</code>
+compilation flag.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_limitations_of_goto_statements"><a class="anchor" href="#_limitations_of_goto_statements"></a>3.2.1.4. Limitations of goto statements</h5>
+<div class="paragraph">
+<p>C++ is more restrictive with respect to entering the scope of
+variables than C. It is not possible to jump forward over a variable
+declaration statement apart from some exceptions detailed in C++17
+<code>[stmt.dcl]</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="c"><span class="keyword">if</span> (cond)
+  <span class="keyword">goto</span> label;
+<span class="predefined-type">int</span> n = foo();
+<span class="label">label:</span>  <span class="comment">// invalid: jumping forward over declaration of n.</span>
+   <span class="comment">// ...</span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_ternary_selection_operator"><a class="anchor" href="#_ternary_selection_operator"></a>3.2.1.5. Ternary selection operator</h5>
+<div class="paragraph">
+<p>The ternary selection operator (<code>?:</code>) inherits its behaviour from both
+C++ and OpenCL C. It operates on three expressions
+<code>(exp1 ? exp2 : exp3)</code>. If all three expressions are scalar values,
+the C++17 rules for ternary operator are followed. If the result is
+a vector value, then this is equivalent to calling
+<code>select(exp3, exp2, exp1)</code> as described in <code>OpenCL C 3.0 s6.15.6</code>.
+The rules from OpenCL C impose limitation that <code>exp1</code> cannot be a
+vector of float values. However, <code>exp1</code> can be evaluated to a scalar
+float as it is contextually convertible to bool in C++.</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_opencl_specific_difference"><a class="anchor" href="#_opencl_specific_difference"></a>3.2.2. OpenCL specific difference</h4>
+<div class="paragraph">
+<p>This section describes where C++ for OpenCL differs from OpenCL C
+in OpenCL specific behavior.</p>
+</div>
+<div class="sect4">
+<h5 id="_variadic_macros"><a class="anchor" href="#_variadic_macros"></a>3.2.2.1. Variadic macros</h5>
+<div class="paragraph">
+<p>C++ for OpenCL eliminates the restriction on variadic macros from
+<code>OpenCL C 3.0 s6.11.f</code>.
+Variadic macros can be used normally as per C++17 <code>[cpp.replace]</code>.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_predefined_macros"><a class="anchor" href="#_predefined_macros"></a>3.2.2.2. Predefined macros</h5>
+<div class="paragraph">
+<p>The macro <code>__OPENCL_C_VERSION__</code> described in <code>OpenCL C 3.0 s6.12</code>,
+is not defined.</p>
+</div>
+<div class="paragraph">
+<p>The following new predefined macros are added in C++ for OpenCL:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>__OPENCL_CPP_VERSION__</code> set to integer value reflecting the C++
+for OpenCL version the translation unit is compiled for. The value
+<code>100</code> corresponds to the language version 1.0 and <code>202100</code> corresponds
+to the version 2021.</p>
+</li>
+<li>
+<p><code>__CL_CPP_VERSION_1_0__</code> set to <code>100</code> and can be used for
+convenience instead of a literal.</p>
+</li>
+<li>
+<p><code>__CL_CPP_VERSION_2021__</code> set to <code>202100</code> and can be used for
+convenience instead of a literal.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_atomic_operations"><a class="anchor" href="#_atomic_operations"></a>3.2.2.3. Atomic operations</h5>
+<div class="paragraph">
+<p>C++ for OpenCL relaxes restriction from <code>OpenCL C 3.0 s6.15.12</code> to
+atomic types allowing them to be used by builtin operators, and not
+only by builtin functions. This relaxation does not apply to
+C++ for OpenCL version 2021 if the sequential consistency memory model
+(i.e. <code>__opencl_c_atomic_order_seq_cst</code> feature) is not supported.</p>
+</div>
+<div class="paragraph">
+<p>Operators on atomic types behave as described in C++17
+sections <code>[atomics.types.int]</code> <code>[atomics.types.pointer]</code>
+<code>[atomics.types.float]</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="c"><span class="comment">// Assumes support of sequential consistency memory model.</span>
+atomic_int acnt;
+acnt++; <span class="comment">// equivalent to atomic_fetch_add(&amp;acnt, 1);</span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_use_of_blocks"><a class="anchor" href="#_use_of_blocks"></a>3.2.2.4. Use of Blocks</h5>
+<div class="paragraph">
+<p>Blocks that are defined in <code>OpenCL C 3.0 s6.14</code> are not supported
+and their use might be replaced by lambdas (C++17 <code>[expr.prim.lambda]</code>)
+in future versions.</p>
+</div>
+<div class="paragraph">
+<p>The above implies that builtin functions using blocks, such as <code>enqueue_kernel</code>,
+are not supported in C++ for OpenCL.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="address_space"><a class="anchor" href="#address_space"></a>3.3. Address spaces</h3>
+<div class="paragraph">
+<p>C++ for OpenCL inherits address space behavior from <code>OpenCL C 3.0 s6.7</code>.</p>
+</div>
+<div class="paragraph">
+<p>This section only documents behavior related to C++ features. For example,
+conversion rules are extended from the qualification conversion in C++17
+<code>[conv.qual]</code> but the compatibility is determined using notation of sets and
+overlapping of address spaces from <code>section 5.1.3</code> of <a href="#embedded-c-spec">The Embedded C Specification</a>. For OpenCL kernel languages there are two
+main semantics depending on whether generic address space (<code>OpenCL C 3.0 s6.7.5</code>)
+is supported on not. The generic address space is always supported for</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>C++ for OpenCL 1.0;</p>
+</li>
+<li>
+<p>C++ for OpenCL 2021 with the presence of <code>__opencl_c_generic_address_space</code>
+feature as explained in <code>OpenCL C 3.0 s6.2.1</code>.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If generic address space is not supported, qualification conversions with pointer
+type where address spaces differ are not allowed. If generic address space is
+supported, implicit conversions are allowed from a named address space (except for
+<code>__constant</code>) to generic address space. The reverse conversion is only allowed
+explicitly. The <code>__constant</code> address space does not overlap with any other,
+therefore, no valid conversion between <code>__constant</code> and any other address space
+exists. This is aligned with rules from <code>OpenCL C 3.0 s6.7.9</code> and this logic
+regulates semantics described in this section.</p>
+</div>
+<div class="sect3">
+<h4 id="address_space_casts"><a class="anchor" href="#address_space_casts"></a>3.3.1. Casts</h4>
+<div class="paragraph">
+<p>C-style casts follow rules of <code>OpenCL C 3.0 s6.7.9</code>. Conversions of
+references and pointers to the generic address space can be done by any C++ cast
+operator (as an implicit conversion); converting from generic to named address
+space can only be done using the dedicated <code>addrspace_cast</code> operator. The
+<code>addrspace_cast</code> operator can only convert between address spaces for pointers and
+references and no other conversions are allowed to occur. Note that conversions
+between <code>__constant</code> and any other other address space are disallowed.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="comment">// Example assumes generic address space support.</span>
+<span class="predefined-type">int</span> * genptr; <span class="comment">// points to generic address space.</span>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+<span class="comment">// generic -&gt; named address space conversions.</span>
+__private <span class="predefined-type">float</span> * ptrfloat = <span class="keyword">reinterpret_cast</span>&lt;__private <span class="predefined-type">float</span>*&gt;(genptr); <span class="comment">// illegal.</span>
+__private <span class="predefined-type">float</span> * ptrfloat = addrspace_cast&lt;__private <span class="predefined-type">float</span>*&gt;(genptr); <span class="comment">// illegal.</span>
+__private <span class="predefined-type">int</span> * ptr = addrspace_cast&lt;__private <span class="predefined-type">int</span>*&gt;(genptr); <span class="comment">// legal.</span>
+
+<span class="comment">// named -&gt; generic address space conversion.</span>
+<span class="predefined-type">float</span> * genptrfloat = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">float</span>*&gt;(ptr); <span class="comment">// legal.</span>
+
+<span class="comment">// disjoint address space conversion.</span>
+__constant <span class="predefined-type">int</span> * constptr = addrspace_cast&lt;__constant <span class="predefined-type">int</span>*&gt;(genptr); <span class="comment">// illegal.</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If generic address space is not supported, any conversion of references/pointers
+pointing to different address spaces is illegal.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="comment">// Example without generic address space support.</span>
+<span class="predefined-type">int</span> * privptr; <span class="comment">// points to private address space.</span>
+
+<span class="comment">// The same address space conversions.</span>
+__private <span class="predefined-type">float</span> * ptrfloat = <span class="keyword">reinterpret_cast</span>&lt;__private <span class="predefined-type">float</span>*&gt;(privptr); <span class="comment">// legal.</span>
+__private <span class="predefined-type">float</span> * ptrfloat = addrspace_cast&lt;__private <span class="predefined-type">float</span>*&gt;(privptr); <span class="comment">// illegal.</span>
+__private <span class="predefined-type">int</span> * ptr = addrspace_cast&lt;__private <span class="predefined-type">int</span>*&gt;(privptr); <span class="comment">// legal, no op.</span>
+<span class="predefined-type">float</span> * privptrfloat = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">float</span>*&gt;(ptr); <span class="comment">// legal.</span>
+
+<span class="comment">// disjoint address space conversion.</span>
+__constant <span class="predefined-type">int</span> * constptr = addrspace_cast&lt;__constant <span class="predefined-type">int</span>*&gt;(privptr); <span class="comment">// illegal.</span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="references"><a class="anchor" href="#references"></a>3.3.2. References</h4>
+<div class="paragraph">
+<p>Reference types can be qualified with an address space.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp">__private <span class="predefined-type">int</span> &amp; ref = ...; <span class="comment">// references int in __private address space.</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>By default references refer to generic address space objects if generic
+address space is supported or private address space otherwise, except
+for dependent types that are not template specializations (see
+<a href="#addrspace-deduction"><em>Address space inference</em></a>).</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="predefined-type">int</span> &amp; ref = ...; <span class="comment">// references int in generic address space if it is</span>
+                 <span class="comment">// supported otherwise in __private address space.</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Address space compatibility checks are performed when references are
+bound to values. The logic follows the rules from address space pointer
+conversion (<code>OpenCL C 3.0 s6.7.9</code>).</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="directive">void</span> f(<span class="predefined-type">float</span> &amp;ref, __global <span class="predefined-type">float</span> &amp;globref) {
+  <span class="directive">const</span> <span class="predefined-type">int</span>&amp; tmp = ref; <span class="comment">// legal - reference to generic/__private address space object</span>
+                        <span class="comment">// can bind to a temporary object created in __private</span>
+                        <span class="comment">// address space.</span>
+
+  __global <span class="directive">const</span> <span class="predefined-type">int</span>&amp; globtmp = globref; <span class="comment">// error: reference to global address space</span>
+                                         <span class="comment">// object cannot bind to a temporary object</span>
+                                         <span class="comment">// created in __private  address space.</span>
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="addrspace-deduction"><a class="anchor" href="#addrspace-deduction"></a>3.3.3. Address space inference</h4>
+<div class="paragraph">
+<p>This section details what happens if address spaces for types are not
+provided in the source code explicitly. Most of the logic for address space
+inference (i.e. default address space) follows rules from <code>OpenCL C 3.0 s6.7.8</code>.</p>
+</div>
+<div class="paragraph">
+<p>References inherit rules from pointers and therefore refer to generic
+address space objects by default (see <a href="#references"><em>References</em></a>) if
+generic address space is supported, otherwise they refer to private
+address space objects.</p>
+</div>
+<div class="paragraph">
+<p>Class static data members are deduced to <code>__global</code> address space. Note,
+that if the C++ for OpenCL 2021 implementation does not support program
+scope variables (i.e. <code>__opencl_c_program_scope_global_variables</code> feature
+from <code>OpenCL C 3.0 s6.1</code> is unsupported) the address space qualifier must be specified
+explicitly and it must be the <code>__constant</code> address space.</p>
+</div>
+<div class="paragraph">
+<p>All non-static member functions take an implicit object parameter <code>this</code>
+that is a pointer type. By default the <code>this</code> pointer parameter is in the
+generic address space if it is supported and in the private address space
+otherwise. All concrete objects passed as an argument to the
+implicit <code>this</code> parameter will be converted to this default (generic or private)
+address space first if such conversion is valid. Therefore, when member functions
+are called with objects created in disjoint address spaces from the default one,
+the compilation must fail. To prevent the failure the address space on implicit
+object parameter <code>this</code> must be specified using address space qualifiers
+on member functions (see <a href="#addrspace-member-function-qualifiers"><em>Member function qualifier</em></a>). For example, use of member functions with
+objects in <code>__constant</code> address space will always require a <code>__constant</code>
+member function qualifier as <code>__constant</code> address space is disjoint with any
+other.</p>
+</div>
+<div class="paragraph">
+<p>Member function qualifiers can also be used in case address space conversions
+are undesirable for example for performance reasons. For example, a method can
+be implemented to exploit memory access coalescing for segments with memory bank.</p>
+</div>
+<div class="paragraph">
+<p>Address spaces are not deduced for:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>non-pointer/non-reference template parameters except for template
+specializations or non-type based template parameters.</p>
+</li>
+<li>
+<p>non-pointer/non-reference class members except for static data members
+that are deduced to the <code>__global</code> address space for C++ for OpenCL 1.0
+or C++ for OpenCL 2021 with the
+<code>__opencl_c_program_scope_global_variables</code> feature.</p>
+</li>
+<li>
+<p>non-pointer/non-reference type alias declarations.</p>
+</li>
+<li>
+<p>decltype expressions.</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;
+<span class="directive">void</span> foo() {
+  T m; <span class="comment">// address space of 'm' will be known at template instantiation time.</span>
+  T * ptr; <span class="comment">// 'ptr' points to generic address space object when it is</span>
+           <span class="comment">// supported otherwise to __private address space.</span>
+  T &amp; ref = ...; <span class="comment">// 'ref' references an object in generic address space when</span>
+                 <span class="comment">// it is supported otherwise in __private address space.</span>
+};
+
+<span class="keyword">template</span> &lt;<span class="predefined-type">int</span> N&gt;
+<span class="keyword">struct</span> S {
+  <span class="predefined-type">int</span> i; <span class="comment">// 'i' has no address space.</span>
+  <span class="directive">static</span> <span class="predefined-type">int</span> ii; <span class="comment">// 'ii' is in global address space if program scope variables</span>
+                 <span class="comment">// are supported; otherwise this statement is not legal.</span>
+  <span class="predefined-type">int</span> * ptr; <span class="comment">// 'ptr' points to int in generic address space if it is supported;</span>
+             <span class="comment">// otherwise to __private address space.</span>
+  <span class="predefined-type">int</span> &amp; ref = ...; <span class="comment">// 'ref' references int in generic address space if it is</span>
+                   <span class="comment">// supported; otherwise in __private address space.</span>
+};
+
+<span class="keyword">template</span> &lt;<span class="predefined-type">int</span> N&gt;
+<span class="directive">void</span> bar()
+{
+  S&lt;N&gt; s; <span class="comment">// 's' is in __private address space.</span>
+}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">struct</span> c1 {};
+<span class="directive">using</span> alias_c1 = c1; <span class="comment">// 'alias_c1' is 'c1'.</span>
+<span class="directive">using</span> alias_c1_ptr = c1 *; <span class="comment">// 'alias_c1_ptr' is a generic address space pointer to</span>
+                           <span class="comment">// 'c1' when generic address space is supported; otherwise</span>
+                           <span class="comment">// it points to 'c1' located in __private address space.</span></code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp">__kernel <span class="directive">void</span> foo()
+{
+  __local <span class="predefined-type">int</span> i;
+  decltype(i)* ii; <span class="comment">// type of 'ii' is '__local int *__private'.</span>
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For the placeholder type specifier <code>auto</code> an address space of the outer type is
+deduced as if it would be any other regular type. However if <code>auto</code> is used in a
+reference or pointer type, the address space of a pointee is taken from the type
+of the initialization expression. The logic follows rules for <code>const</code> and
+<code>volatile</code> qualifiers.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="comment">// This example assumes that generic address space is supported.</span>
+__kernel <span class="directive">void</span> foo()
+{
+  __local <span class="predefined-type">int</span> i;
+  constexpr <span class="predefined-type">int</span> c = <span class="integer">1</span>;
+
+  __constant <span class="directive">auto</span> cai = c; <span class="comment">// type of 'cai' is '__constant int' (no deduction).</span>
+
+  <span class="directive">auto</span> aii = cai; <span class="comment">// type of 'aii' is '__private int' (regular deduction).</span>
+
+  <span class="directive">auto</span> *ptr = &amp;i; <span class="comment">// type of 'ptr' is '__local int * __private'</span>
+                  <span class="comment">// (addr space of a pointer is deduced regularly,</span>
+                  <span class="comment">// addr space of its pointee is taken from 'i').</span>
+
+  <span class="directive">auto</span> *&amp;refptr = ptr; <span class="comment">// type of 'refptr' is '__local int * generic &amp; __private'</span>
+                       <span class="comment">// (addr space of a reference and type of referencing object</span>
+                       <span class="comment">// is deduced regularly,</span>
+                       <span class="comment">// addr space of a pointee is taken from the pointee of 'ptr').</span>
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="addrspace-member-function-qualifiers"><a class="anchor" href="#addrspace-member-function-qualifiers"></a>3.3.4. Member function qualifier</h4>
+<div class="paragraph">
+<p>C++ for OpenCL allows specifying an address space qualifier on member
+functions to signal that they are to be used with objects constructed
+in a specific address space. This works just the same as qualifying
+member functions with <code>const</code> or any other qualifiers. The overloading
+resolution will select the candidate with the most specific address
+space if multiple candidates are provided. If there is no conversion
+to an address space among candidates, compilation will fail with a
+diagnostic.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">struct</span> C {
+  C() __local {};
+  C() __private {};
+  constexpr C() __constant {};
+
+  <span class="directive">void</span> foo() __local;
+  <span class="directive">void</span> foo(); <span class="comment">// This is implicitly qualified by generic address space</span>
+              <span class="comment">// if it is supported otherwise by '__private'.</span>
+};
+
+__kernel <span class="directive">void</span> bar() {
+  __local C c1;      <span class="comment">// will resolve to the first constructor overload.</span>
+  __private C c2;    <span class="comment">// will resolve to the second constructor overload.</span>
+  __constant C c3{}; <span class="comment">// will resolve to the third constructor overload.</span>
+  c1.foo(); <span class="comment">// will resolve to the first 'foo'.</span>
+  c2.foo(); <span class="comment">// will resolve to the second 'foo'.</span>
+  c3.foo(); <span class="comment">// error due to mismatching address spaces - can't convert to</span>
+            <span class="comment">// '__local' or generic/'__private' address spaces.</span>
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>All member functions can be qualified by an address space qualifier including
+constructors and destructors.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_lambda_function"><a class="anchor" href="#_lambda_function"></a>3.3.5. Lambda function</h4>
+<div class="paragraph">
+<p>The address space qualifier can be optionally added for lambda
+expressions after the attributes. Similar to method qualifiers,
+they will alter the default address space of lambda call operator
+that has generic address space by default if it is supported otherwise
+private address space.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp">__kernel <span class="directive">void</span> foo() {
+  <span class="directive">auto</span> priv1 = []() __private {};
+  priv1();
+  <span class="directive">auto</span> priv2 = []() __global {};
+  priv2(); <span class="comment">// error: lambda object and its expression have mismatching address space.</span>
+  __constant <span class="directive">auto</span> const3 = []() __constant{};
+  const3();
+
+  [&amp;] () __global {} (); <span class="comment">// error: lambda temporary is in __private address space.</span>
+
+  [&amp;] () <span class="directive">mutable</span> __private {} ();
+  [&amp;] () __private <span class="directive">mutable</span> {} (); <span class="comment">// error: mutable specifier should precede address</span>
+                                  <span class="comment">// space.</span>
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_implicit_special_members"><a class="anchor" href="#_implicit_special_members"></a>3.3.6. Implicit special members</h4>
+<div class="paragraph">
+<p>The prototype for implicit special members (default, copy or move constructor,
+copy or move assignment, destructor) has the default address space for an implicit
+object pointer and reference parameters (see also
+<a href="#addrspace-member-function-qualifiers"><em>Member function qualifier</em></a>). This default
+address space is generic if it is supported or private otherwise.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">class</span> <span class="class">C</span> {
+  <span class="comment">// Has the following implicitly defined member functions.</span>
+
+  <span class="comment">// C(); /* implicit 'this' parameter is a pointer to */</span>
+          <span class="comment">/* object in generic address space if supported, or */</span>
+          <span class="comment">/* in private address space otherwise. */</span>
+
+  <span class="comment">// C(const C &amp; par); /* 'this'/'par' is a pointer/reference to */</span>
+                       <span class="comment">/*  object in generic address space */</span>
+                       <span class="comment">/*  if supported, or */</span>
+                       <span class="comment">/* in private address space otherwise. */</span>
+
+  <span class="comment">// C(C &amp;&amp; par); /* 'this'/'par' is a pointer/r-val reference to */</span>
+                  <span class="comment">/* object in generic address space if supported, or */</span>
+                  <span class="comment">/* in private address space otherwise. */</span>
+
+  <span class="comment">// C &amp; operator=(const C &amp; par); /* 'this'/'par'/return value is */</span>
+                                   <span class="comment">/* a pointer/reference/reference to */</span>
+                                   <span class="comment">/* object in generic address space */</span>
+                                   <span class="comment">/* if supported, or */</span>
+                                   <span class="comment">/* in private address space otherwise. */</span>
+
+  <span class="comment">// C &amp; operator=(C &amp;&amp; par)'; /* 'this'/'par'/return value is */</span>
+                               <span class="comment">/* a pointer/r-val reference/reference to */</span>
+                               <span class="comment">/* object in generic address space, */</span>
+                               <span class="comment">/* if supported, or */</span>
+                               <span class="comment">/* in private address space otherwise. */</span>
+};</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_builtin_operators"><a class="anchor" href="#_builtin_operators"></a>3.3.7. Builtin operators</h4>
+<div class="paragraph">
+<p>All builtin operators are available with the specific address spaces, thus
+no address space conversions (i.e. to generic address space) are performed.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_templates"><a class="anchor" href="#_templates"></a>3.3.8. Templates</h4>
+<div class="paragraph">
+<p>There is no deduction of address spaces in non-pointer/non-reference
+template parameters and dependent types (see <a href="#addrspace-deduction"><em>Address space inference</em></a>). The address space of a template parameter is deduced
+during type deduction if it is not explicitly provided in the
+instantiation.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="integer">1</span>  <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;
+<span class="integer">2</span>  <span class="directive">void</span> foo(T* i){
+<span class="integer">3</span>    T var;
+<span class="integer">4</span>  }
+<span class="integer">5</span>
+<span class="integer">6</span>  __global <span class="predefined-type">int</span> g;
+<span class="integer">7</span>  <span class="directive">void</span> bar(){
+<span class="integer">8</span>    foo(&amp;g); <span class="comment">// error: template instantiation failed as function scope variable 'var'</span>
+<span class="integer">9</span>             <span class="comment">// appears to be declared in __global address space (see line 3).</span>
+<span class="integer">10</span> }</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>It is not legal to specify multiple different address spaces between
+template definition and instantiation. If multiple different address
+spaces are specified in a template definition and instantiation,
+compilation of such a program will fail with a diagnostic. This
+restriction immediately follows from <code>OpenCL C 3.0 s6.7</code> that
+disallows multiple address space qualifiers on a type.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;
+<span class="directive">void</span> foo() {
+  __private T var;
+}
+
+<span class="directive">void</span> bar() {
+  foo&lt;__global <span class="predefined-type">int</span>&gt;(); <span class="comment">// error: conflicting address space qualifiers are provided</span>
+                       <span class="comment">// for 'var', '__global' and '__private'.</span>
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Once a template has been instantiated, regular restrictions for
+address spaces will apply as described in <code>OpenCL C 3.0 s6.7</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;
+<span class="directive">void</span> foo(){
+  T var;
+}
+
+<span class="directive">void</span> bar(){
+  foo&lt;__global <span class="predefined-type">int</span>&gt;(); <span class="comment">// error: function scope variable 'var' cannot be declared</span>
+                       <span class="comment">// in '__global' address space.</span>
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_temporary_materialization"><a class="anchor" href="#_temporary_materialization"></a>3.3.9. Temporary materialization</h4>
+<div class="paragraph">
+<p>All temporaries are materialized in <code>__private</code> address space. If a reference
+with another address space is bound to them, a conversion will be generated
+in case it is valid, otherwise compilation will fail with a diagnostic.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="predefined-type">int</span> bar(<span class="directive">const</span> <span class="predefined-type">unsigned</span> <span class="predefined-type">int</span> &amp;i); <span class="comment">// references generic address space object</span>
+                                <span class="comment">// if generic address space is supported</span>
+                                <span class="comment">// otherwise private address space object.</span>
+
+<span class="directive">void</span> foo() {
+  bar(<span class="integer">1</span>); <span class="comment">// temporary is created in __private address space but (if generic</span>
+          <span class="comment">// address space is supported) converted to generic address space</span>
+          <span class="comment">// of parameter reference.</span>
+}
+
+<span class="directive">void</span> f(__global <span class="predefined-type">float</span> &amp;ref) {
+  __global <span class="directive">const</span> <span class="predefined-type">int</span>&amp; newref = ref; <span class="comment">// error: address space mismatch between</span>
+                                    <span class="comment">// temporary object created to hold value</span>
+                                    <span class="comment">// converted float-&gt;int and local variable</span>
+                                    <span class="comment">// (can't convert from __private to __global).</span>
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_construction_initialization_and_destruction"><a class="anchor" href="#_construction_initialization_and_destruction"></a>3.3.10. Construction, initialization and destruction</h4>
+<div class="paragraph">
+<p>Construction, initialization and destruction of objects in <code>__private</code>
+and <code>__global</code> address space follow the general principles of C++. For
+program scope objects or static objects in the function scope with non-trivial
+constructors and destructors, the implementation defines an ABI format for
+runtime initialization and destruction of global objects before/after all
+kernels are enqueued.</p>
+</div>
+<div class="paragraph">
+<p>Objects in <code>__local</code> address space can not have initializers in
+declarations and therefore a constructor can not be called. All objects
+created in the local address space have undefined state at the point of
+their declaration. Developers are free to define a special member function
+that can initialize local address space objects after their declaration. Any
+default values provided for the initialization of members in a class
+declaration are ignored when creating the local address space objects. Since
+the initialization is performed after the variable declaration, special handling
+is required for classes with data members that are references because their values
+can not be overwritten trivially. Destructors of local address space objects
+are not invoked automatically. They can be called manually.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">class</span> <span class="class">C</span> {
+  <span class="predefined-type">int</span> m;
+<span class="comment">// If generic address space is not supported or for performance optimization</span>
+<span class="comment">// purposes the following members might be required.</span>
+<span class="directive">public</span>:
+  __local C &amp; <span class="directive">operator</span>=(<span class="directive">const</span> C &amp; par) __local;
+  ~C() __local;
+};
+__kernel <span class="directive">void</span> foo() {
+  __local C locobj{}; <span class="comment">// error: local address space objects can't be initialized</span>
+  __local C locobj; <span class="comment">// uninitialised object.</span>
+  locobj = {}; <span class="comment">// calling copy assignment operator is allowed.</span>
+  locobj.~C(); <span class="comment">// local address space object destructors are not invoked</span>
+               <span class="comment">// automatically.</span>
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>User defined constructors in <code>__constant</code> address space must be <code>constexpr</code>.
+Such objects can be initialized using literals and initialization lists if they
+do not require any user defined conversions.</p>
+</div>
+<div class="paragraph">
+<p>Objects in <code>__constant</code> address space can be initialized using:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Literal expressions;</p>
+</li>
+<li>
+<p>Uniform initialization syntax <code>{}</code>;</p>
+</li>
+<li>
+<p>Using implicit constructors.</p>
+</li>
+<li>
+<p>Using <code>constexpr</code> constructors.</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">struct</span> C1 {
+  <span class="predefined-type">int</span> m;
+};
+
+<span class="keyword">struct</span> C2 {
+  <span class="predefined-type">int</span> m;
+  constexpr C2(<span class="predefined-type">int</span> init) __constant : m(init) {};
+};
+
+__constant C1 c1obj1 = {<span class="integer">1</span>};
+__constant C1 c1obj2 = C1();
+__constant C2 c2obj1(<span class="integer">1</span>);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Non-trivial destructors for objects in non-default address spaces (i.e. all
+other than generic address space when it is supported or <code>__private</code>
+otherwise) are not required to be supported by implementations.
+The macro <code>__opencl_cpp_destructor_with_address_spaces</code>,
+which is defined if and only if such destructors are supported by an
+implementation, can be used to check whether this functionality can be used
+in kernel sources. Additionally destructors with global objects might not be
+supported even if address spaces are supported with destructors in general.
+Such functionality is indicated by the presence of the
+<code>__opencl_cpp_global_destructor</code> macro. If the macro
+<code>__opencl_cpp_global_destructor</code> is defined then
+<code>__opencl_cpp_destructor_with_address_spaces</code> must also be defined.</p>
+</div>
+<div class="paragraph">
+<p>Note that the destruction of objects in named address spaces <code>__global</code>,
+<code>__local</code>, or <code>__private</code> can be performed using destructors with
+default address space (i.e. generic) by utilising address space conversions.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="integer">1</span>   <span class="comment">// Example assumes generic address space support.</span>
+<span class="integer">2</span>   <span class="keyword">class</span> <span class="class">C</span> {
+<span class="integer">3</span>   <span class="directive">public</span>:
+<span class="integer">4</span>   <span class="preprocessor">#ifdef</span> __opencl_cpp_destructor_with_address_spaces
+<span class="integer">5</span>     ~C() __local;
+<span class="integer">6</span>   <span class="preprocessor">#else</span>
+<span class="integer">7</span>     ~C();
+<span class="integer">8</span>   <span class="preprocessor">#endif</span>
+<span class="integer">9</span>   };
+<span class="integer">10</span>
+<span class="integer">11</span>  kernel <span class="directive">void</span> foo() {
+<span class="integer">12</span>    __local C locobj;
+<span class="integer">13</span>    locobj.~C();    <span class="comment">// uses destructor in local address space (on line 5)</span>
+<span class="integer">14</span>                    <span class="comment">// if such destructors are supported,</span>
+<span class="integer">15</span>                    <span class="comment">// otherwise uses generic address space destructor (on line 7)</span>
+<span class="integer">16</span>                    <span class="comment">// converting to generic address prior to call into destructor.</span>
+<span class="integer">17</span>  }</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>However, when generic address space feature is unsupported, absence of
+destructor support with address spaces results in a compilation failure
+when such destructors overloaded with non-default address spaces are
+encountered in the kernel code.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="comment">// Example assumes generic address space is not supported.</span>
+<span class="keyword">class</span> <span class="class">C</span> {
+<span class="directive">public</span>:
+  ~C();
+};
+
+kernel <span class="directive">void</span> foo() {
+  __local C locobj;
+  locobj.~C();    <span class="comment">// error due to illegal conversion of 'this' from __local</span>
+                  <span class="comment">// to __private address space pointer.</span>
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_nested_pointers"><a class="anchor" href="#_nested_pointers"></a>3.3.11. Nested pointers</h4>
+<div class="paragraph">
+<p>C++ for OpenCL does not allow implicit address space conversions in nested
+pointers even with compatible address spaces. The following rules apply
+when converting between address spaces in nested pointers:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Implicit conversions of address spaces in nested pointers are disallowed.</p>
+</li>
+<li>
+<p>Any address space conversion in nested pointers with safe casts (e.g.
+<code>const_cast</code>, <code>static_cast</code>, <code>addrspace_cast</code>) is disallowed.</p>
+</li>
+<li>
+<p>Any address space conversion in nested pointers can be done using low level
+C-style or <code>reinterpret_cast</code>. No compatibility check is performed for
+address spaces in nested pointers.</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp">local <span class="predefined-type">int</span> * * locdefptr;
+constant <span class="predefined-type">int</span> * * cnstdefptr;
+<span class="predefined-type">int</span> * * defdefptr;
+defdefptr = <span class="keyword">const_cast</span>&lt;<span class="predefined-type">int</span> * *&gt;(locdefptr); <span class="comment">// illegal.</span>
+defdefptr = <span class="keyword">static_cast</span>&lt;<span class="predefined-type">int</span> * *&gt;(cnstdefptr); <span class="comment">// illegal.</span>
+defdefptr = addrspace_cast&lt;<span class="predefined-type">int</span> * *&gt;(cnstdefptr); <span class="comment">// illegal.</span>
+defdefptr = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">int</span> * *&gt;(locdefptr); <span class="comment">// legal.</span>
+defdefptr = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">int</span> * *&gt;(cnstdefptr); <span class="comment">// legal.</span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="remove-addrspace"><a class="anchor" href="#remove-addrspace"></a>3.3.12. Address space removal type trait</h4>
+<div class="paragraph">
+<p><code>template&lt;class T&gt; struct __remove_address_space;</code></p>
+</div>
+<div class="paragraph">
+<p>C++ for OpenCL 2021 supports the type trait <code>__remove_address_space</code>
+that provides the member <code>typedef type</code> which is the same as <code>T</code>, except
+that its topmost address space qualifier is removed. Its effect is analogous
+to <code>remove_const</code> and other similar type traits in C++17 <code>[meta.trans]</code>.
+The trait only removes an address space qualifier from a given type, therefore,
+all other type qualifiers such as <code>const</code> or <code>volatile</code> remain unchanged.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;
+<span class="directive">void</span> foo(T *par) {
+  T var1; <span class="comment">// error: function scope variable cannot be declared in global</span>
+          <span class="comment">// address space.</span>
+  __private T var2; <span class="comment">// error: conflicting address space qualifiers are provided</span>
+                    <span class="comment">// between types '__private T' and '__global int'.</span>
+  __private __remove_address_space&lt;T&gt;::type var3; <span class="comment">// type of var3 is __private int.</span>
+}
+
+<span class="directive">void</span> bar() {
+  __global <span class="predefined-type">int</span>* ptr;
+  foo(ptr);
+}</code></pre>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="cxxcasts"><a class="anchor" href="#cxxcasts"></a>3.4. C++ casts</h3>
+<div class="paragraph">
+<p>C++ has three cast operators in addition to C-style casts. Additional
+logic specific to address spaces are applied to all casts as detailed in
+<a href="#address_space_casts"><em>conversions with address spaces</em></a>.
+<code>reinterpret_cast</code> has some additional functionality:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Conversion between vectors and scalars are allowed.</p>
+</li>
+<li>
+<p>Conversion between OpenCL types are disallowed.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_vectors_and_scalars"><a class="anchor" href="#_vectors_and_scalars"></a>3.4.1. Vectors and scalars</h4>
+<div class="paragraph">
+<p><code>reinterpret_cast</code> reinterprets between integral types like integers and
+pointers. In C++ for openCL this also includes vector types, and so using
+<code>reinterpret_cast</code> between vectors and scalars is also possible, as long as the
+size of the vectors are the same.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp"><span class="predefined-type">int</span> i;
+short2 s2 = <span class="keyword">reinterpret_cast</span>&lt;short2&gt;(i); <span class="comment">// legal.</span>
+int2 i2 = <span class="keyword">reinterpret_cast</span>&lt;int2&gt;(i); <span class="comment">// illegal.</span>
+
+short8 s8;
+int4 i4 = <span class="keyword">reinterpret_cast</span>&lt;int4&gt;(s8); <span class="comment">// legal.</span>
+<span class="predefined-type">long</span> l4 = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">long</span>&gt;(s8); <span class="comment">// illegal.</span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_opencl_types"><a class="anchor" href="#_opencl_types"></a>3.4.2. OpenCL types</h4>
+<div class="paragraph">
+<p>Some of the OpenCL-specific types, defined as "Other Built-in Data Types" in
+<code>OpenCL C 3.0 s6.3.3</code>, are convertible to integer literals, but since they
+are not conceptually integral, they can not be used with <code>reinterpret_cast</code>.
+Therefore conversions of an OpenCL-specific type to any distinct type are
+illegal.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="cpp">queue_t q;
+reserve_id_t id = <span class="keyword">reinterpret_cast</span>&lt;reserve_id_t&gt;(q); <span class="comment">// illegal.</span>
+<span class="predefined-type">int</span> i = <span class="keyword">reinterpret_cast</span>&lt;<span class="predefined-type">int</span>&gt;(id); <span class="comment">// illegal.</span></code></pre>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kernel_function"><a class="anchor" href="#kernel_function"></a>3.5. Kernel functions</h3>
+<div class="paragraph">
+<p>Kernel functions have implicit C linkage (C++17 <code>[dcl.link]</code>) which
+means that C++ specific features are not supported. Therefore, the kernel
+functions:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Can not be class members (C++17 <code>[class.mfct]</code>);</p>
+</li>
+<li>
+<p>Can not be overloaded (C++17 <code>[over]</code>);</p>
+</li>
+<li>
+<p>Can not be function templates (C++17 <code>[temp.fct]</code>).</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Moreover the types used in parameters of the kernel functions must be:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Trivial and standard-layout types C++17 <code>[basic.types]</code> (plain old data
+types) for parameters passed by value;</p>
+</li>
+<li>
+<p>Standard-layout types for pointer parameters. The same applies to
+references<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> if an implementation supports them in kernel
+parameters.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>These are additional restrictions to the list detailed in <code>OpenCL C 3.0 s6.11</code>.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_normative_references"><a class="anchor" href="#_normative_references"></a>4. Normative References</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a id="opencl-spec"></a> &#8220;The OpenCL Specification, Version 3.0&#8221;,
+<a href="https://www.khronos.org/registry/OpenCL/" class="bare">https://www.khronos.org/registry/OpenCL/</a>.</p>
+</li>
+<li>
+<p><a id="openclc-spec"></a> &#8220;The OpenCL C Specification, Version 3.0&#8221;,
+<a href="https://www.khronos.org/registry/OpenCL/" class="bare">https://www.khronos.org/registry/OpenCL/</a>.</p>
+</li>
+<li>
+<p><a id="cpp17-spec"></a> &#8220;ISO/IEC 14882:2017 - Programming languages — C++&#8221;,
+<a href="https://www.iso.org/standard/68564.html" class="bare">https://www.iso.org/standard/68564.html</a>.
+References are to sections of this specific version, referred to as the
+&#8220;The C++17 Specification&#8221;, although other versions exist.</p>
+</li>
+<li>
+<p><a id="embedded-c-spec"></a> &#8220;ISO/IEC TR 18037:2008 Programming languages -
+C - Extensions to support embedded processors&#8221;,
+<a href="https://www.iso.org/standard/51126.html" class="bare">https://www.iso.org/standard/51126.html</a>.
+References are to sections of this specific version, referred to as the
+&#8220;The Embedded C Specification&#8221;, although other versions exist.</p>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+<h2 id="acknowledgements" class="float">Acknowledgements</h2>
+<div class="paragraph">
+<p>The C++ for OpenCL documentation is the result of the contributions of
+many people. Following is a partial list of the contributors, including
+the company that they represented at the time of their contribution:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Anastasia Stulova, Arm</p>
+</li>
+<li>
+<p>Neil Hickey, Arm</p>
+</li>
+<li>
+<p>Sven van Haastregt, Arm</p>
+</li>
+<li>
+<p>Marco Antognini, Arm</p>
+</li>
+<li>
+<p>Kevin Petit, Arm</p>
+</li>
+<li>
+<p>Stuart Brady, Arm</p>
+</li>
+<li>
+<p>Ole Strøhm, Arm</p>
+</li>
+<li>
+<p>Justas Janickas, Arm</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes" style="max-width: 100;">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. The macro belongs to the list of C++20&#8217;s feature test macros.
+</div>
+<div class="footnote" id="_footnotedef_2">
+<a href="#_footnoteref_2">2</a>. Whether C++ features (e.g references) can be used in functions with C linkage is implementation-defined (C++17 [dcl.link]).
+</div>
+</div>
+<div id="footer" style="max-width: 100;">
+<div id="footer-text">
+Version DocRev2021.12<br>
+Last updated 2021-12-15 13:00:53 UTC
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 </body>
 </html>

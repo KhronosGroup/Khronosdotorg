@@ -162,4 +162,4 @@ Beaverton, OR 97008-6018 USA
 
 Although most changes are likely to be minor, Khronos may change its privacy policy from time to time, and at the sole discretion of Khronos. We will provide notification of material changes to this Privacy Policy through our websites or by sending email to the email address you specify in your account. Khronos encourages visitors to frequently check this page for any minor changes to its Privacy Policy.
 
-This version of the privacy policy was last updated on June 8, 2022. This [Privacy Policy Changelog](https://github.com/KhronosGroup/Khronosdotorg/commits/main/legal/privacy-policy.md) is available on GitHub.
+This version of the privacy policy was last updated on April 18, 2023. This [Privacy Policy Changelog](https://github.com/KhronosGroup/Khronosdotorg/commits/main/legal/privacy-policy.md) is available on GitHub.

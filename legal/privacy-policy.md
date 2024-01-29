@@ -74,7 +74,7 @@ We will only use your Personal Information as permitted by law. Most commonly, w
 
 We use various third-party services to allow us to improve user, member and adopter experience on our Websites and as part of our legitimate business interests.
 
-*   **Analytics**: We use internal and third-party analytics tools, including [Google Analytics](https://support.google.com/analytics/answer/6004245).
+*   **Analytics**: We use internal and third-party analytics tools, including [Google Analytics](https://support.google.com/analytics/answer/6004245), and self-hosted [Matamo Analytics](https://matomo.org).
 *   **App Stores**: We use the Apple App Store to allow download of our iOS and macOS apps and the Google Play Store to allow download of our Android apps. Our Apps do not share data with any third parties. Our Apps have no embedded analytics, do not use any advertising networks, and do not use third-party SDKs that collect any of your data. 
 *   **Communications**: We use third-party tools for comments on our blog with [Disqus](https://help.disqus.com/terms-and-policies/disqus-privacy-policy), chat rooms with [Gitter](https://gitter.zendesk.com/hc/en-us/articles/200876472-Privacy-policy), sending newsletter with [Mailchimp](https://mailchimp.com/legal/privacy/), handling email with [MS365](https://privacy.microsoft.com/) and receiving responses in surveys with [SurveyMonkey](https://www.surveymonkey.com/mp/legal/privacy-policy/).
 *   **Financial Transactions**: We use third-party payment processors including [QuickBooks Online](https://security.intuit.com/index.php/privacy), [PayPal](https://www.PayPal.com/ca/webapps/mpp/ua/privacy-full) and [Stripe](https://stripe.com/legal/privacy-center).

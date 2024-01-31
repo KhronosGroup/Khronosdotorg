@@ -21,8 +21,7 @@ contributed by the community.
 * [Intel LLVM SYCL oneAPI
   DPC++](https://github.com/intel/llvm/tree/sycl) - an open source
   implementation of SYCL that is being contributed to the LLVM project
-* [hipSYCL](https://github.com/illuhad/hipSYCL) - an open source
-  implementation of SYCL over NVIDIA CUDA and AMD HIP
+* [AdaptiveCpp](https://github.com/AdaptiveCpp/AdaptiveCpp) (formerly hipSYCL) - Multi-backend implementation of SYCL for CPUs and GPUs from all major vendors
 * [triSYCL](https://github.com/triSYCL/triSYCL) - an open-source implementation led by Xilinx
 
 ## Libraries and Frameworks Supporting SYCL

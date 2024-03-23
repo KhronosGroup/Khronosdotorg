@@ -30,7 +30,7 @@ SPIR-V specification in json format
 * [Lisp Specification](https://github.com/cbaggers/spir-v) Lisp readable SPIR-V specification; Basis for data driven Lisp tools
 * [SPIR-V json specification](https://github.com/Philip-Trettner/SpirvSpecToJson) Conversion of HTML SPIR-V specification to json format; Basis for future data driven tools
 * [vim-spirv](https://github.com/kbenzie/vim-spirv) is a plugin for vim providing automatic (dis)assembly and editing of `.spv` files, syntax highlighting, current ID highlighting and error highlighting
-* [SPIR-Q](https://github.com/PENGUINLIONG/spirq) SPIR-V reflection in Rust.
+* [spq](https://github.com/PENGUINLIONG/spq-rs) SPIR-V reflection and processing infrastructure in pure Rust.
 
 ## SPIR Resources
 

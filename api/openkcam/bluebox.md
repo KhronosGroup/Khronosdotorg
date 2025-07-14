@@ -1,2 +1,0 @@
-**Khronos welcomes new members to define and drive the OpenKCam API**
-If you are interested in joining the Khronos Group, please visit our [Member page](https://www.khronos.org/members/), or take a look at our [OpenKCam API Proposal](https://www.khronos.org/assets/uploads/developers/library/overview/camera-api-proposal.pdf) or our [SIGGRAPH presentation slides](https://www.khronos.org/assets/uploads/developers/library/2013-siggraph-camera-bof/Camera-BOF_SIGGRAPH-2013.pdf).

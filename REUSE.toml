@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "Khronos Group Resources"
+SPDX-PackageSupplier = "The Khronos Group, Inc. <webservices@khronosgroup.org>"
+SPDX-PackageDownloadLocation = "https://github.com/khronosgroup/khronosdotorg"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2020 The Khronos Group, Inc <webservices@khronosgroup.org>"
+SPDX-License-Identifier = "CC-BY-4.0"

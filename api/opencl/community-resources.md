@@ -4,7 +4,7 @@
 
 We believe the value of OpenCL goes far beyond the specification to encompass a vibrant ecosystem of tools, documentation, and resources created by the OpenCL community. Khronos hosts this page so that anyone can submit links to OpenCL resources for the benefit of OpenCL developers everywhere.
 
-**Get involved, submit your OpenCL resources either with a pull requests on [GitHub](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/community-resources.md)!** or by emailing the webmaster at Khronos.org.
+**Get involved, submit your OpenCL resources either with a pull requests on [GitHub](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/community-resources.md)!** or by emailing the webservices at khronosgroup.org.
 
 The OpenCL Working Group also curates an [OpenCL Resource Guide](https://www.khronos.org/opencl/resources) to assist computing specialists, developers and researchers of all skill levels find documentation and tools to start effectively harnessing the power of OpenCL.
 
@@ -51,6 +51,7 @@ The OpenCL Working Group also curates an [OpenCL Resource Guide](https://www.khr
 *   [clMath Library](https://github.com/clMathLibraries/clFFT) - clMath is a software library containing FFT and BLAS functions written in OpenCL
 *   [CLOGS](http://sourceforge.net/projects/clogs/) - C++ library for sorting and searching in OpenCL applications
 *   [Cloo](http://sourceforge.net/projects/cloo/) - .NET bindings for OpenCL 1.1. Used in OpenTK, which has good integration with OpenGL, OpenGL ES and OpenAL
+*   [ClooWrapperVBA](https://github.com/Excel-lent/ClooWrapperVBA) - Library that allows to run OpenCL code from VBA
 *   [CLyther](http://srossross.github.io/Clyther/) - CLyther is a Python tool similar to Cython and PyPy. CLyther is a just-in-time specialization engine for OpenCL. The main entry points for CLyther are its clyther.task and clyther.kernel decorators. Once a function is decorated with one of these the function will be compiled to OpenCL when called
 *   [Concord](https://github.com/IntelLabs/iHRC/) - C++ Hetrogenous Programing Framework ( Support OpenCL 1.2 ) TBB like 
 *   [COPRTHR](http://www.browndeertechnology.com/coprthr.htm)

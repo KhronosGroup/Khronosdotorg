@@ -18,7 +18,6 @@ Khronos also hosts an [OpenCL Community Resource Page](https://www.khronos.org/o
 ### OpenCL Kernel Languages
 
 *   [OpenCL C Kernel Language](https://www.khronos.org/registry/OpenCL) is the Khronos-defined C99-based dialect
-*   [The OpenCL C Language Extensions Documentation](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/opencl/assets/OpenCL_LangExt.pdf) describes language features that can be supported by compilers in addition to standard OpenCL C
 *   [C++ for OpenCL Programming Language](https://www.khronos.org/opencl/assets/CXX_for_OpenCL.html) is a community-based C++ kernel language for OpenCL that combines full OpenCL C with most features of C++17, implemented in open source Clang and LLVM
 
 ### OpenCL Kernel Language and SPIR-V Tools
@@ -54,7 +53,9 @@ List of individual tools supporting OpenCL and SPIR-V:
 *   [AMD ROCm](https://rocm.github.io/QuickStartOCL.html) is an open source based solution that includes [drivers](https://github.com/RadeonOpenCompute/ROCm-OpenCL-Runtime) and [compilers](https://github.com/RadeonOpenCompute/ROCm-CompilerSupport) with [installation information](https://rocm.github.io/ROCmInstall.html). Note that for Windows-based platforms OpenCL support is shipped in the [Adrenalin](https://community.amd.com/community/gaming/blog/2019/12/10/change-the-way-you-game-with-amd-radeon-software-adrenalin-2020-edition) driver
 *   [TI OpenCL-DSP](http://software-dl.ti.com/mctools/esd/docs/opencl/index.html) OpenCL 1.1 implementation for SoCs with C66x DSPs such as the AM572x
 *   [Portable Computing Language (POCL)](http://portablecl.org/) is an implementation framework for OpenCL platforms with diverse device types. It utilizes upstream Clang/LLVM as a kernel compilation backbone. The POCL master branch currently supports various CPUs, [open source TCE ASIPs](http://openasip.org/) , NVIDIA GPUs (via libcuda) among other devices in the same OpenCL context
+*   [Rusticl](https://docs.mesa3d.org/rusticl) is an open source implementation of OpenCL 3.0 written in Rust that is part of the [Mesa](http://www.mesa3d.org) project
 
-### OpenCL Support on Android Devices
+### OpenCL Support on Devices
 
-*   [OpenCL supported Android Devices](https://docs.google.com/spreadsheets/d/1yc7PusMEraMYEQHNA8G9gNMZUr9Hfw2sXBIFeyfnx14/edit#gid=0) - A collection of OpenCL supported Android Devices
+*   Details of what OpenCL features and extensions are supported on various
+    devices can be found on [gpuinfo.org](https://opencl.gpuinfo.org/)

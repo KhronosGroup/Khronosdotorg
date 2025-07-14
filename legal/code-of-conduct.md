@@ -4,21 +4,29 @@ In the interest of fostering an open and welcoming environment, we as contributo
 
 ### Our Standards
 
-Examples of behavior that contributes to creating a positive environment include:
+Examples of behavior that contributes to creating a positive environment include, but not limited to:
 
 * Using welcoming and inclusive language
 * Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
+* Accepting and respecting constructive criticism from the community
+* Prioritize our Diversity & Inclusion mission and values to make the best decisions
 * Showing empathy towards other community members
 
 Examples of unacceptable behavior by participants include:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
+* Non-verbal, verbal or written comments that reinforce social structures of domination related to nationality, gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion
+* Derogatory images in public spaces
+* Deliberate intimidation, stalking, or following
 * Trolling, insulting/derogatory comments, and personal or political attacks
 * Public or private harassment
-* Publishing others' private information, such as a physical or electronic address, without explicit permission
+* Harassing photography or recording
+* Sustained disruption of talks or other events
+* Inappropriate physical contact
+* Unwelcome sexual attention
+* Publishing others’ private information, such as a physical or electronic address, without explicit permission
+* Sending unsolicited communications, promotions or advertisements, or spam
 * Other conduct which could reasonably be considered inappropriate in a professional setting
+* Advocating for, or encouraging, any of the above behavior
 
 ### Our Responsibilities
 
@@ -34,6 +42,7 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [codeofconduct@khronos.org](mailto:codeofconduct@khronos.org). The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
+If you wish to submit an anonymous report, you can do so [here](https://docs.google.com/forms/d/e/1FAIpQLScqiwXBeHEcaO3QkTeJmvhppEFlVQVZr1jZuZUSpl3rhpQm0g/viewform).
 Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
 ### Attribution
